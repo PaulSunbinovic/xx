@@ -1,0 +1,84 @@
+[ 2015-01-18T12:56:52+08:00 ] 127.0.0.1 /geek/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.027633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.027791s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.014257s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.003792s ]
+SQL: SELECT * FROM `tb_athmd` LEFT JOIN tb_md ON f_athmd_mdid=mdid WHERE ( f_athmd_athid=1 AND q='y' )  [ RunTime:0.000505s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040071s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000892s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000849s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003688s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001004s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2015-01-18T12:56:54+08:00 ] 127.0.0.1 /geek/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+
+[ 2015-01-18T12:56:55+08:00 ] 127.0.0.1 /geek/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039103s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000850s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000893s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000711s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003752s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001020s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2015-01-18T16:20:21+08:00 ] 127.0.0.1 /geek/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007032s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065486s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003371s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009561s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007046s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025288s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009046s ]
+
+[ 2015-01-18T16:20:25+08:00 ] 127.0.0.1 /geek/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009697s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000702s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000857s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003385s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000911s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001033s ]
+

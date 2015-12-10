@@ -1,0 +1,17 @@
+[ 2015-10-06T05:09:20+08:00 ] 66.249.64.87 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007594s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061295s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007160s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007077s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006989s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028770s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007741s ]
+

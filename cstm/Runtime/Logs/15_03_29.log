@@ -1,0 +1,30 @@
+[ 2015-03-29T19:33:13+08:00 ] 192.168.1.111 /xx/cstm.php/Cstmusr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001088s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004301s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='admin' ) LIMIT 1   [ RunTime:0.000428s ]
+
+[ 2015-03-29T19:33:19+08:00 ] 192.168.1.111 /xx/cstm.php/Cstmusr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001173s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003505s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='admin' ) LIMIT 1   [ RunTime:0.000337s ]
+
+[ 2015-03-29T19:33:29+08:00 ] 192.168.1.111 /xx/cstm.php/Cstmusr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001083s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003635s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='admin' ) LIMIT 1   [ RunTime:0.000405s ]
+

@@ -1,0 +1,72 @@
+[ 2015-09-17T05:01:09+08:00 ] 66.249.65.8 /xx/cstm.php/Cstmusr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008044s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008205s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004391s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.007044s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.001897s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003681s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.002708s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid= AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000492s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cstmbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid= AND cstmbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid= AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000137s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cstmbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid= AND cstmbtnnm='bs' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  cstmusrnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 141 行.
+NOTIC: [8] Undefined index:  cstmusrpw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 168 行.
+NOTIC: [8] Undefined index:  cstmusrpw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 174 行.
+NOTIC: [8] Undefined index:  cstmusrnn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 180 行.
+NOTIC: [8] Undefined index:  cstmusrcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 208 行.
+NOTIC: [8] Undefined index:  cstmusrml D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 214 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063610s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004110s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003985s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006943s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022572s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007621s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007743s ]
+
+[ 2015-09-17T21:21:56+08:00 ] 157.55.39.123 /xx/cstm.php/Cstmusr/gtxpg/x/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008166s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007531s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003135s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000431s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.002547s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.002687s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid= AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000486s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cstmbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid= AND cstmbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid= AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000152s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cstmbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid= AND cstmbtnnm='bs' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061438s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007163s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007541s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006908s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029411s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007507s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007623s ]
+

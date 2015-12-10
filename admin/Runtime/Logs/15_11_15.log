@@ -1,0 +1,417 @@
+[ 2015-11-15T03:22:47+08:00 ] 66.249.74.72 /xx/admin.php/Usr/gtxpg/x/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008046s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008202s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007654s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.004183s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.001546s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_usrrl` [ RunTime:0.003764s ]
+SQL: SELECT * FROM `tb_usrrl` LEFT JOIN tb_usr ON f_usrrl_usrid=usrid LEFT JOIN tb_rl ON f_usrrl_rlid=rlid WHERE ( f_usrrl_usrid= )  [ RunTime:0.001445s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usrrl` LEFT JOIN tb_usr ON f_usrrl_usrid=usrid LEFT JOIN tb_rl ON f_usrrl_rlid=rlid WHERE ( f_usrrl_usrid= ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\SS\SSAction.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003530s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Usr' ) LIMIT 1   [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.002735s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid= AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000590s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND btnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_btn` WHERE ( f_btn_usrid= AND btnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid= )  [ RunTime:0.000138s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid= ) 
+SQL: SHOW COLUMNS FROM `tb_lb` [ RunTime:0.022843s ]
+SQL: SHOW COLUMNS FROM `tb_lbmd` [ RunTime:0.002896s ]
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.000566s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=1 )  [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.002756s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=) )  [ RunTime:0.000537s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=) )  [ RunTime:0.000140s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=3 AND (f_ath_rlid=) )  [ RunTime:0.000150s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=3 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=4 AND (f_ath_rlid=) )  [ RunTime:0.000134s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=4 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=5 AND (f_ath_rlid=) )  [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=5 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=) )  [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=7 AND (f_ath_rlid=) )  [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=7 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=8 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=8 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=9 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=9 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=11 AND (f_ath_rlid=) )  [ RunTime:0.000146s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=11 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=12 AND (f_ath_rlid=) )  [ RunTime:0.000135s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=12 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=13 AND (f_ath_rlid=) )  [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=13 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=14 AND (f_ath_rlid=) )  [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=14 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=24 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=24 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=2 )  [ RunTime:0.000133s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=17 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=17 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=18 AND (f_ath_rlid=) )  [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=18 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=19 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=19 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=20 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=20 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=21 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=21 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=22 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=22 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=23 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=23 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=3 )  [ RunTime:0.000134s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=25 AND (f_ath_rlid=) )  [ RunTime:0.000136s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=25 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=26 AND (f_ath_rlid=) )  [ RunTime:0.000138s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=26 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=27 AND (f_ath_rlid=) )  [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=27 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=28 AND (f_ath_rlid=) )  [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=28 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=29 AND (f_ath_rlid=) )  [ RunTime:0.000126s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=29 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=30 AND (f_ath_rlid=) )  [ RunTime:0.000126s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=30 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=31 AND (f_ath_rlid=) )  [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=31 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=32 AND (f_ath_rlid=) )  [ RunTime:0.000134s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=32 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=33 AND (f_ath_rlid=) )  [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=33 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=34 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=34 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=35 AND (f_ath_rlid=) )  [ RunTime:0.000125s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=35 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=36 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=36 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=37 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=37 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=38 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=38 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=39 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=39 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=40 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=40 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=41 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=41 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=42 AND (f_ath_rlid=) )  [ RunTime:0.000143s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=42 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=43 AND (f_ath_rlid=) )  [ RunTime:0.000134s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=43 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=44 AND (f_ath_rlid=) )  [ RunTime:0.000133s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=44 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=49 AND (f_ath_rlid=) )  [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=49 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=61 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=61 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=4 )  [ RunTime:0.000128s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=45 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=45 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=50 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=50 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=51 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=51 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=62 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=62 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=63 AND (f_ath_rlid=) )  [ RunTime:0.000125s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=63 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=64 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=64 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=5 )  [ RunTime:0.000125s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=46 AND (f_ath_rlid=) )  [ RunTime:0.000126s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=46 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=47 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=47 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=48 AND (f_ath_rlid=) )  [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=48 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=6 )  [ RunTime:0.000137s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=52 AND (f_ath_rlid=) )  [ RunTime:0.000135s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=52 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=53 AND (f_ath_rlid=) )  [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=53 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=54 AND (f_ath_rlid=) )  [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=54 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=55 AND (f_ath_rlid=) )  [ RunTime:0.000193s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=55 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=56 AND (f_ath_rlid=) )  [ RunTime:0.000135s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=56 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=57 AND (f_ath_rlid=) )  [ RunTime:0.000131s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=57 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=58 AND (f_ath_rlid=) )  [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=58 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=59 AND (f_ath_rlid=) )  [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=59 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=60 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=60 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=67 AND (f_ath_rlid=) )  [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=67 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=7 )  [ RunTime:0.000129s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=65 AND (f_ath_rlid=) )  [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=65 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=66 AND (f_ath_rlid=) )  [ RunTime:0.000128s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=66 AND (f_ath_rlid=) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 62 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+NOTIC: [8] Undefined variable: athofn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\KZMB\KZMBAction.class.php 第 94 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061419s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007149s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007123s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006904s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029137s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007631s ]
+
+[ 2015-11-15T03:30:27+08:00 ] 66.249.74.68 /xx/admin.php/Usr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007849s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007458s ]
+ERR: 非法操作:index
+
+[ 2015-11-15T12:08:52+08:00 ] 66.249.74.72 /xx/admin.php/Usr/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008496s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007534s ]
+NOTIC: [8] Undefined index:  usrnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\Action\UsrAction.class.php 第 162 行.
+NOTIC: [8] Undefined index:  usrml D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\admin\Lib\Action\UsrAction.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003490s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrnm='' ) LIMIT 1   [ RunTime:0.000421s ]
+
+[ 2015-11-15T20:54:49+08:00 ] 124.205.63.29 /xx/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008746s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065092s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007469s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007267s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007523s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029797s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007957s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008082s ]
+

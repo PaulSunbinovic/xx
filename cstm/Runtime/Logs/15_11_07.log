@@ -1,0 +1,21 @@
+[ 2015-11-07T03:17:27+08:00 ] 66.249.65.61 /xx/cstm.php/Cstmusr/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008190s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007629s ]
+
+[ 2015-11-07T08:52:32+08:00 ] 66.249.65.64 /xx/cstm.php/Cstmusr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002798s ]
+NOTIC: [8] Undefined index:  cstmusrnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Lib\Action\CstmusrAction.class.php 第 9 行.
+NOTIC: [8] Undefined index:  cstmusrpw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Lib\Action\CstmusrAction.class.php 第 10 行.
+NOTIC: [8] Undefined index:  rmb D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Lib\Action\CstmusrAction.class.php 第 11 行.
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='' ) LIMIT 1   [ RunTime:0.000547s ]
+

@@ -1,0 +1,328 @@
+[ 2015-10-08T09:11:40+08:00 ] 219.82.10.249 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007618s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060967s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007244s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008163s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030124s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007769s ]
+
+[ 2015-10-08T09:12:19+08:00 ] 219.82.10.249 /xx/std.php/Std/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008077s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007501s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002538s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003387s ]
+SQL: SELECT * FROM `tb_2015_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `tb_2014_std` [ RunTime:0.003874s ]
+SQL: SELECT * FROM `tb_2014_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.003789s ]
+SQL: SHOW COLUMNS FROM `tb_2013_std` [ RunTime:0.004751s ]
+SQL: SELECT * FROM `tb_2013_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.001971s ]
+SQL: SHOW COLUMNS FROM `tb_2012_std` [ RunTime:0.003013s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_std`
+SQL: SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000559s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1  
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdno='15005313111' AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.002074s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdidcd='15005313111' ) LIMIT 1   [ RunTime:0.002020s ]
+
+[ 2015-10-08T09:12:30+08:00 ] 219.82.10.249 /xx/std.php/Std/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007886s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008045s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007633s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002279s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003528s ]
+SQL: SELECT * FROM `tb_2015_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tb_2014_std` [ RunTime:0.005190s ]
+SQL: SELECT * FROM `tb_2014_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `tb_2013_std` [ RunTime:0.003579s ]
+SQL: SELECT * FROM `tb_2013_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `tb_2012_std` [ RunTime:0.002931s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_std`
+SQL: SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000571s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1  
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdno='15005313111' AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdidcd='15005313111' ) LIMIT 1   [ RunTime:0.000159s ]
+
+[ 2015-10-08T09:12:39+08:00 ] 219.82.10.249 /xx/std.php/Std/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007878s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007476s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002297s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003380s ]
+SQL: SELECT * FROM `tb_2015_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `tb_2014_std` [ RunTime:0.003306s ]
+SQL: SELECT * FROM `tb_2014_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `tb_2013_std` [ RunTime:0.003455s ]
+SQL: SELECT * FROM `tb_2013_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `tb_2012_std` [ RunTime:0.003107s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_std`
+SQL: SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000579s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1  
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdno='15005313111' AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdidcd='15005313111' ) LIMIT 1   [ RunTime:0.000158s ]
+
+[ 2015-10-08T09:13:16+08:00 ] 219.82.10.249 /xx/std.php/Std/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007911s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008065s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007504s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002347s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003322s ]
+SQL: SELECT * FROM `tb_2015_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `tb_2014_std` [ RunTime:0.003325s ]
+SQL: SELECT * FROM `tb_2014_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `tb_2013_std` [ RunTime:0.003717s ]
+SQL: SELECT * FROM `tb_2013_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `tb_2012_std` [ RunTime:0.002933s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_std`
+SQL: SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000574s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1  
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdno='15005313111' AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdidcd='15005313111' ) LIMIT 1   [ RunTime:0.000173s ]
+
+[ 2015-10-08T09:13:20+08:00 ] 219.82.10.249 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007614s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058614s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007097s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006860s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029209s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007427s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007543s ]
+
+[ 2015-10-08T09:13:49+08:00 ] 219.82.10.249 /xx/std.php/Std/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007889s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008054s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007604s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002304s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003430s ]
+SQL: SELECT * FROM `tb_2015_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `tb_2014_std` [ RunTime:0.003338s ]
+SQL: SELECT * FROM `tb_2014_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `tb_2013_std` [ RunTime:0.003449s ]
+SQL: SELECT * FROM `tb_2013_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `tb_2012_std` [ RunTime:0.002904s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_std`
+SQL: SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000802s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1  
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdno='15005313111' AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdidcd='15005313111' ) LIMIT 1   [ RunTime:0.000162s ]
+
+[ 2015-10-08T09:20:39+08:00 ] 219.82.10.249 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007654s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047190s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004681s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004044s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006895s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020062s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007581s ]
+
+[ 2015-10-08T09:21:13+08:00 ] 219.82.10.249 /xx/std.php/Std/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008392s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008554s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005920s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002730s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003850s ]
+SQL: SELECT * FROM `tb_2015_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `tb_2014_std` [ RunTime:0.004058s ]
+SQL: SELECT * FROM `tb_2014_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `tb_2013_std` [ RunTime:0.003953s ]
+SQL: SELECT * FROM `tb_2013_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `tb_2012_std` [ RunTime:0.002865s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_std`
+SQL: SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000574s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1  
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdno='33028119960903251X' AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.002263s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdidcd='33028119960903251X' ) LIMIT 1   [ RunTime:0.001099s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdidcd='33028119960903251X' ) LIMIT 1   [ RunTime:0.000168s ]
+
+[ 2015-10-08T09:21:14+08:00 ] 219.82.10.249 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005996s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002504s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003786s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid=160 ) LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002574s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000536s ]
+SQL: SELECT * FROM `tb_2015_std` inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid=160 ) LIMIT 1   [ RunTime:0.009284s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\IndexAction.class.php on line 23 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `tb_2015_stdbtn` [ RunTime:0.002934s ]
+SQL: SELECT * FROM `tb_2015_stdbtn` WHERE ( f_stdbtn_stdid=160 AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000727s ]
+SQL: SELECT * FROM `tb_2015_stdbtn` WHERE ( f_stdbtn_stdid=160 AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 61 行.
+NOTIC: [8] Undefined index:  stdnn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 84 行.
+NOTIC: [8] Undefined variable: cxcjcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 156 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044030s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002448s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000826s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005323s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011452s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008054s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008173s ]
+
+[ 2015-10-08T09:21:33+08:00 ] 219.82.10.249 /xx/std.php/Cjzx/cxbxqcj
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006491s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006077s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.003443s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003498s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid=160 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002050s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000601s ]
+SQL: SELECT * FROM `tb_2015_std` inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid=160 ) LIMIT 1   [ RunTime:0.000276s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php on line 14 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `tb_2015_stdbtn` [ RunTime:0.002212s ]
+SQL: SELECT * FROM `tb_2015_stdbtn` WHERE ( f_stdbtn_stdid=160 AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: SELECT * FROM `tb_2015_stdbtn` WHERE ( f_stdbtn_stdid=160 AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cjzx` [ RunTime:0.002865s ]
+ERR: 1146:Table 'db_xx.tb_2015_cjzx' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2015_cjzx`
+SQL: SELECT * FROM `tb_2015_cjzx` LEFT JOIN tb_2015_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_grdid=4 AND f_cjzx_stdid=160 AND f_cjzx_xqid=3 ) ORDER BY pkzkkm ASC,kcnm ASC  [ RunTime:0.000587s ]
+ERR: 1146:Table 'db_xx.tb_2015_cjzx' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2015_cjzx` LEFT JOIN tb_2015_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_grdid=4 AND f_cjzx_stdid=160 AND f_cjzx_xqid=3 ) ORDER BY pkzkkm ASC,kcnm ASC 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\68168f11e33e9bc593b86b7881014cb3.php 第 61 行.
+NOTIC: [8] Undefined index:  stdnn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\68168f11e33e9bc593b86b7881014cb3.php 第 84 行.
+NOTIC: [8] Undefined variable: cxcjcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\68168f11e33e9bc593b86b7881014cb3.php 第 156 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047645s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002471s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000826s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005310s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011456s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007705s ]
+
+[ 2015-10-08T09:21:40+08:00 ] 219.82.10.249 /xx/std.php/Stdbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006369s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005930s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002359s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `tb_2015_stdbtn` [ RunTime:0.002292s ]
+SQL: SELECT * FROM `tb_2015_stdbtn` WHERE ( f_stdbtn_grdid=4 AND f_stdbtn_stdid=160 AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.001454s ]
+SQL: INSERT INTO `tb_2015_stdbtn` (`f_stdbtn_grdid`,`f_stdbtn_stdid`,`stdbtnnm`,`stdbtnvl`) VALUES (4,160,'bs','glyphicon glyphicon-triangle-bottom') [ RunTime:0.011935s ]
+
+[ 2015-10-08T10:33:03+08:00 ] 219.82.10.249 /xx/std.php/Std/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008043s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007724s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002718s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.004194s ]
+SQL: SELECT * FROM `tb_2015_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `tb_2014_std` [ RunTime:0.003833s ]
+SQL: SELECT * FROM `tb_2014_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tb_2013_std` [ RunTime:0.004061s ]
+SQL: SELECT * FROM `tb_2013_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `tb_2012_std` [ RunTime:0.002967s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_std`
+SQL: SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1   [ RunTime:0.000575s ]
+ERR: 1146:Table 'db_xx.tb_2012_std' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_std` LEFT JOIN tb_grd ON f_std_grdid=grdid WHERE ( stdnm='方钿钿' ) LIMIT 1  
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdno='15005313111' AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='方钿钿' AND stdidcd='15005313111' ) LIMIT 1   [ RunTime:0.000160s ]
+
+[ 2015-10-08T18:27:05+08:00 ] 42.156.138.44 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005990s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040696s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002492s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000823s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011553s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008541s ]
+

@@ -1,0 +1,483 @@
+[ 2015-10-09T18:08:10+08:00 ] 124.90.146.47 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008122s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.003153s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000433s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002488s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `tb_std` [ RunTime:0.002884s ]
+ERR: 1146:Table 'db_xx.tb_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_std`
+SQL: SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1   [ RunTime:0.000280s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1  
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\IndexAction.class.php on line 23 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000215s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_stdbtn` [ RunTime:0.002951s ]
+ERR: 1146:Table 'db_xx.tb_stdbtn' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_stdbtn`
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000140s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000131s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cxcjcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 156 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064473s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007191s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007078s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007547s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029389s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008009s ]
+
+[ 2015-10-09T18:08:18+08:00 ] 124.90.146.47 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007545s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002282s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000481s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002057s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `tb_std` [ RunTime:0.007279s ]
+ERR: 1146:Table 'db_xx.tb_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_std`
+SQL: SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1   [ RunTime:0.000421s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1  
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\IndexAction.class.php on line 23 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000190s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_stdbtn` [ RunTime:0.003050s ]
+ERR: 1146:Table 'db_xx.tb_stdbtn' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_stdbtn`
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000144s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000131s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cxcjcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 156 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063811s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007158s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007065s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006848s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028939s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007585s ]
+
+[ 2015-10-09T18:08:36+08:00 ] 124.90.146.47 /xx/std.php/Cjzx/cxlncj
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012091s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012264s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008948s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002275s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000420s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002035s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `tb_std` [ RunTime:0.003497s ]
+ERR: 1146:Table 'db_xx.tb_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_std`
+SQL: SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1   [ RunTime:0.000327s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1  
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php on line 53 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000152s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_stdbtn` [ RunTime:0.002971s ]
+ERR: 1146:Table 'db_xx.tb_stdbtn' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_stdbtn`
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000143s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000132s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1  
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000127s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_cjzx` [ RunTime:0.003409s ]
+ERR: 1146:Table 'db_xx.tb_cjzx' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_cjzx`
+SQL: SELECT * FROM `tb_cjzx` LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb__pk ON f_cjzx_pkid=pkid LEFT JOIN tb__kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_grdid= AND f_cjzx_stdid= ) ORDER BY xqnm ASC,pkzkkm ASC,kcnm ASC  [ RunTime:0.000192s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f_cjzx_stdid= ) ORDER BY xqnm ASC,pkzkkm ASC,kcnm ASC' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cjzx` LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb__pk ON f_cjzx_pkid=pkid LEFT JOIN tb__kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_grdid= AND f_cjzx_stdid= ) ORDER BY xqnm ASC,pkzkkm ASC,kcnm ASC 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cxcjcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\3c9201cb49d6fb696888bdc9b0f62315.php 第 156 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064861s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007098s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003949s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003782s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022726s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007657s ]
+
+[ 2015-10-09T18:08:52+08:00 ] 124.90.146.47 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007509s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002274s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000489s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002083s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `tb_std` [ RunTime:0.002896s ]
+ERR: 1146:Table 'db_xx.tb_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_std`
+SQL: SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1   [ RunTime:0.000283s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1  
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\IndexAction.class.php on line 23 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000176s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_stdbtn` [ RunTime:0.002947s ]
+ERR: 1146:Table 'db_xx.tb_stdbtn' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_stdbtn`
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000140s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cxcjcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 156 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063732s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007054s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007467s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029195s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007630s ]
+
+[ 2015-10-09T18:08:55+08:00 ] 124.90.146.47 /xx/std.php/Cjzx/cxbxqcj
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007985s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008144s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007468s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002264s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000481s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002050s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `tb_std` [ RunTime:0.002950s ]
+ERR: 1146:Table 'db_xx.tb_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_std`
+SQL: SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1   [ RunTime:0.000285s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1  
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php on line 14 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000155s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_stdbtn` [ RunTime:0.002881s ]
+ERR: 1146:Table 'db_xx.tb_stdbtn' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_stdbtn`
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000139s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000658s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1  
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000152s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `tb_cjzx` [ RunTime:0.003285s ]
+ERR: 1146:Table 'db_xx.tb_cjzx' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_cjzx`
+SQL: SELECT * FROM `tb_cjzx` LEFT JOIN tb__pk ON f_cjzx_pkid=pkid LEFT JOIN tb__kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_grdid= AND f_cjzx_stdid= AND f_cjzx_xqid=3 ) ORDER BY pkzkkm ASC,kcnm ASC  [ RunTime:0.000176s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f_cjzx_stdid= AND f_cjzx_xqid=3 ) ORDER BY pkzkkm ASC,kcnm ASC' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cjzx` LEFT JOIN tb__pk ON f_cjzx_pkid=pkid LEFT JOIN tb__kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_grdid= AND f_cjzx_stdid= AND f_cjzx_xqid=3 ) ORDER BY pkzkkm ASC,kcnm ASC 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cxcjcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\68168f11e33e9bc593b86b7881014cb3.php 第 156 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065678s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007204s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007069s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006916s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028715s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008219s ]
+
+[ 2015-10-09T18:08:57+08:00 ] 124.90.146.47 /xx/std.php/Cjzx/cxbxqcj
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008038s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008195s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007967s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002353s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000401s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002042s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `tb_std` [ RunTime:0.002907s ]
+ERR: 1146:Table 'db_xx.tb_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_std`
+SQL: SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1   [ RunTime:0.000282s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1  
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php on line 14 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000174s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_stdbtn` [ RunTime:0.002923s ]
+ERR: 1146:Table 'db_xx.tb_stdbtn' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_stdbtn`
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000139s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000131s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1  
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000125s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `tb_cjzx` [ RunTime:0.002884s ]
+ERR: 1146:Table 'db_xx.tb_cjzx' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_cjzx`
+SQL: SELECT * FROM `tb_cjzx` LEFT JOIN tb__pk ON f_cjzx_pkid=pkid LEFT JOIN tb__kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_grdid= AND f_cjzx_stdid= AND f_cjzx_xqid=3 ) ORDER BY pkzkkm ASC,kcnm ASC  [ RunTime:0.000162s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f_cjzx_stdid= AND f_cjzx_xqid=3 ) ORDER BY pkzkkm ASC,kcnm ASC' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cjzx` LEFT JOIN tb__pk ON f_cjzx_pkid=pkid LEFT JOIN tb__kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_grdid= AND f_cjzx_stdid= AND f_cjzx_xqid=3 ) ORDER BY pkzkkm ASC,kcnm ASC 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cxcjcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\68168f11e33e9bc593b86b7881014cb3.php 第 156 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066237s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007141s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007150s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006844s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028716s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007566s ]
+
+[ 2015-10-09T18:09:00+08:00 ] 124.90.146.47 /xx/std.php/Cjzx/cxcj
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008036s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007440s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002301s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000461s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002056s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `tb_std` [ RunTime:0.002914s ]
+ERR: 1146:Table 'db_xx.tb_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_std`
+SQL: SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1   [ RunTime:0.000281s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1  
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php on line 89 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000187s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_stdbtn` [ RunTime:0.002911s ]
+ERR: 1146:Table 'db_xx.tb_stdbtn' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_stdbtn`
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000140s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1  
+NOTIC: [8] Undefined index:  xqid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php 第 93 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000125s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_cjzx` [ RunTime:0.002877s ]
+ERR: 1146:Table 'db_xx.tb_cjzx' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_cjzx`
+SQL: SELECT * FROM `tb_cjzx` LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb__pk ON f_cjzx_pkid=pkid LEFT JOIN tb__kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_grdid= AND f_cjzx_stdid= ) ORDER BY xqnm ASC,pkzkkm ASC,kcnm ASC  [ RunTime:0.000165s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f_cjzx_stdid= ) ORDER BY xqnm ASC,pkzkkm ASC,kcnm ASC' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cjzx` LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb__pk ON f_cjzx_pkid=pkid LEFT JOIN tb__kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_grdid= AND f_cjzx_stdid= ) ORDER BY xqnm ASC,pkzkkm ASC,kcnm ASC 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php 第 116 行.
+SQL: SELECT * FROM `tb_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000168s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_sttintxq` [ RunTime:0.002885s ]
+ERR: 1146:Table 'db_xx.tb_sttintxq' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_sttintxq`
+SQL: SELECT * FROM `tb_sttintxq` WHERE ( f_sttintxq_sttid= ) LIMIT 1   [ RunTime:0.000140s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_sttintxq` WHERE ( f_sttintxq_sttid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>= ) ORDER BY xqid ASC LIMIT 0,10   [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY xqid ASC LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_xq` WHERE ( xqid>= ) ORDER BY xqid ASC LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070055s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008662s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008126s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007814s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032603s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007464s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007578s ]
+
+[ 2015-10-09T18:09:03+08:00 ] 124.90.146.47 /xx/std.php/Cjzx/cxcj/xqid/0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007869s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008025s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007582s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002296s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000488s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002051s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `tb_std` [ RunTime:0.003137s ]
+ERR: 1146:Table 'db_xx.tb_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_std`
+SQL: SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1   [ RunTime:0.000297s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1  
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php on line 89 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000146s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_stdbtn` [ RunTime:0.002906s ]
+ERR: 1146:Table 'db_xx.tb_stdbtn' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_stdbtn`
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000141s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000132s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1  
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000126s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_cjzx` [ RunTime:0.003081s ]
+ERR: 1146:Table 'db_xx.tb_cjzx' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_cjzx`
+SQL: SELECT * FROM `tb_cjzx` LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb__pk ON f_cjzx_pkid=pkid LEFT JOIN tb__kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_grdid= AND f_cjzx_stdid= ) ORDER BY xqnm ASC,pkzkkm ASC,kcnm ASC  [ RunTime:0.000175s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f_cjzx_stdid= ) ORDER BY xqnm ASC,pkzkkm ASC,kcnm ASC' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cjzx` LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb__pk ON f_cjzx_pkid=pkid LEFT JOIN tb__kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_grdid= AND f_cjzx_stdid= ) ORDER BY xqnm ASC,pkzkkm ASC,kcnm ASC 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\CjzxAction.class.php 第 116 行.
+SQL: SELECT * FROM `tb_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000137s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_sttintxq` [ RunTime:0.002870s ]
+ERR: 1146:Table 'db_xx.tb_sttintxq' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_sttintxq`
+SQL: SELECT * FROM `tb_sttintxq` WHERE ( f_sttintxq_sttid= ) LIMIT 1   [ RunTime:0.000139s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_sttintxq` WHERE ( f_sttintxq_sttid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>= ) ORDER BY xqid ASC LIMIT 0,10   [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY xqid ASC LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_xq` WHERE ( xqid>= ) ORDER BY xqid ASC LIMIT 0,10  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066177s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007126s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006843s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028908s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007419s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007532s ]
+
+[ 2015-10-09T18:11:49+08:00 ] 124.90.146.47 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007541s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002280s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000467s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002079s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `tb_std` [ RunTime:0.002905s ]
+ERR: 1146:Table 'db_xx.tb_std' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_std`
+SQL: SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1   [ RunTime:0.000281s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_std` inner join tb__stdxqdm ON stdid=f_stdxqdm_stdid inner join tb__stdxqcls ON stdid=f_stdxqcls_stdid inner join tb__stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb__mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb__cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid= ) LIMIT 1  
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\Action\IndexAction.class.php on line 23 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1   [ RunTime:0.000153s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_grd` WHERE ( grdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_stdbtn` [ RunTime:0.002906s ]
+ERR: 1146:Table 'db_xx.tb_stdbtn' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_stdbtn`
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000140s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND stdbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid= AND stdbtnnm='bs' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cxcjcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 156 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063769s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007116s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007070s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007333s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029081s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007736s ]
+

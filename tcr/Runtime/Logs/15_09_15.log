@@ -1,0 +1,99 @@
+[ 2015-09-15T13:42:20+08:00 ] 42.62.37.15 /xx/tcr.php/Tcr/gtxpg/x/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007246s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004708s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.003533s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid= ) LIMIT 1   [ RunTime:0.000427s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_tcr` WHERE ( tcrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.015758s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Tcr' ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.004009s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000193s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND tcrbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000155s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND tcrbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='bs' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053517s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004056s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004643s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003802s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020181s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007555s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007674s ]
+
+[ 2015-09-15T13:42:20+08:00 ] 42.62.37.15 /xx/tcr.php/Tcr/gtxpg/x/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001661s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001817s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002884s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid= ) LIMIT 1   [ RunTime:0.000298s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_tcr` WHERE ( tcrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.002085s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Tcr' ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.077706s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.001831s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND tcrbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000338s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND tcrbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='bs' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040555s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002581s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000828s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011661s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007504s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007620s ]
+
+[ 2015-09-15T19:29:55+08:00 ] 42.156.136.107 /xx/tcr.php/Tcr/gtxpg/x/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008747s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008983s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008458s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.003297s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid= ) LIMIT 1   [ RunTime:0.000294s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_tcr` WHERE ( tcrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.002097s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Tcr' ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002661s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000526s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND tcrbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000147s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND tcrbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='bs' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065006s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007331s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007051s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007089s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029054s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007906s ]
+

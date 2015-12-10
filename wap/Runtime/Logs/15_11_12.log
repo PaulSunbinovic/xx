@@ -1,0 +1,64 @@
+[ 2015-11-12T23:05:37+08:00 ] 66.249.74.68 /xx/wap.php/Cstmusr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008778s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007488s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003237s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.002876s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  cstmusrnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Runtime\Cache\773ff4a7a74fb64c7f4d50869d6d078b.php 第 73 行.
+NOTIC: [8] Undefined index:  cstmusrpw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Runtime\Cache\773ff4a7a74fb64c7f4d50869d6d078b.php 第 100 行.
+NOTIC: [8] Undefined index:  cstmusrpw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Runtime\Cache\773ff4a7a74fb64c7f4d50869d6d078b.php 第 106 行.
+NOTIC: [8] Undefined index:  cstmusrnn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Runtime\Cache\773ff4a7a74fb64c7f4d50869d6d078b.php 第 112 行.
+NOTIC: [8] Undefined index:  cstmusrcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Runtime\Cache\773ff4a7a74fb64c7f4d50869d6d078b.php 第 162 行.
+NOTIC: [8] Undefined index:  cstmusrml D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Runtime\Cache\773ff4a7a74fb64c7f4d50869d6d078b.php 第 168 行.
+NOTIC: [8] Undefined variable: cstmusross D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Runtime\Cache\773ff4a7a74fb64c7f4d50869d6d078b.php 第 199 行.
+NOTIC: [8] Undefined variable: wxusross D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Runtime\Cache\773ff4a7a74fb64c7f4d50869d6d078b.php 第 209 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068337s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007238s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006890s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028882s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007484s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007599s ]
+
+[ 2015-11-12T23:09:26+08:00 ] 66.249.74.68 /xx/wap.php/Hupldf/upload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008031s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007474s ]
+
+[ 2015-11-12T23:13:11+08:00 ] 66.249.74.68 /xx/wap.php/Cstmusr/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008042s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007494s ]
+NOTIC: [8] Undefined index:  cstmusrid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002832s ]
+NOTIC: [8] Undefined index:  cstmusrnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 155 行.
+NOTIC: [8] Undefined index:  cstmusrnn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 156 行.
+NOTIC: [8] Undefined index:  cstmusrpw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 157 行.
+NOTIC: [8] Undefined index:  cstmusrpt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 158 行.
+NOTIC: [8] Undefined index:  cstmusrcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 161 行.
+NOTIC: [8] Undefined index:  cstmusrml D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 162 行.
+NOTIC: [8] Undefined index:  cstmusrps D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 163 行.
+NOTIC: [8] Undefined index:  cstmusrvw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 164 行.
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='' ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: INSERT INTO `tb_cstmusr` (`cstmusrnm`,`cstmusrnn`,`cstmusrpw`,`cstmusrpt`,`cstmusraddtm`,`cstmusrmdftm`,`cstmusrcp`,`cstmusrml`,`cstmusrps`,`cstmusrvw`) VALUES (null,null,'d41d8cd98f00b204e9800998ecf8427e',null,'2015-11-12 23:13:11','2015-11-12 23:13:11',null,null,null,null) [ RunTime:0.020064s ]
+SQL: SELECT * FROM `tb_cstmusr` ORDER BY cstmusrid DESC LIMIT 1   [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusrcstmgrp` [ RunTime:0.004304s ]
+SQL: INSERT INTO `tb_cstmusrcstmgrp` (`f_cstmusrcstmgrp_cstmusrid`,`f_cstmusrcstmgrp_cstmgrpid`) VALUES (9,1) [ RunTime:0.011680s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusrcstmrl` [ RunTime:0.002849s ]
+SQL: INSERT INTO `tb_cstmusrcstmrl` (`f_cstmusrcstmrl_cstmusrid`,`f_cstmusrcstmrl_cstmrlid`) VALUES (9,1) [ RunTime:0.014276s ]
+

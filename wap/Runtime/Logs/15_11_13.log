@@ -1,0 +1,8 @@
+[ 2015-11-13T11:34:49+08:00 ] 66.249.74.72 /xx/wap.php/Hupldf/showphoto
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008181s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007523s ]
+

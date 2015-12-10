@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/wap/cm.js'></script>
+<link href="__PUBLIC__/CSS/wap/cm.css" rel="stylesheet">
+<!-- 移动设备 -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+
+<script type='text/javascript' src='__PUBLIC__/JS/wap/cstmusr.js'></script>
+<script type='text/javascript'>
+url_path='__URL__';
+</script>
+
+
+
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/CSS/wap/demo.css" />
+
+<!--必要样式-->
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/CSS/wap/jquery.mmenu.css" />
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/CSS/wap/jquery.mmenu.dragopen.css" />
+
+
+<script type="text/javascript" src="__PUBLIC__/JS/wap/jquery.mmenu.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/JS/wap/jquery.mmenu.dragopen.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/JS/wap/jquery.mmenu.fixedelements.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/JS/wap/mn.js"></script>
+</head>
+<body>
+<div id="page">
+	<include file='Pblc:head'/>
+	<div class="content" id="content">
+		<div style='margin-bottom:5px'>
+			<div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
+		      <ol class="carousel-indicators">
+		      	<volist name="atcfcsls" id="vo">
+		      		<li class="{$vo['class']}" data-target="#carousel-example-captions" data-slide-to="{$i-1}"></li>
+		      	</volist>
+		      </ol>
+		      <div class="carousel-inner" role="listbox">
+		      	<volist name="atcfcsls" id="vo">
+			      	<div class="item {$vo['class']}">
+				        <a href="__APP__/Atc/view/atcid/{$vo['atcid']}"><img  src="{$vo['atccv']}" style='width:100%' data-src="holder.js/900x500/auto/#777:#777" alt="{$vo['atctpc']}"></a>
+				        <div class="carousel-caption">
+					        <h3></h3>
+					        <p><a href="__APP__/Atc/view/atcid/{$vo['atcid']}" style='font-size:18px;color:#fff;text-decoration:none'>{$vo['atctpcsrk']}</a></p>
+				        </div>
+			        </div>
+		      	</volist>
+		      </div>
+		      <a class="left carousel-control" href="#carousel-example-captions" role="button" data-slide="prev">
+		        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		        <span class="sr-only">Previous</span>
+		      </a>
+		      <a class="right carousel-control" href="#carousel-example-captions" role="button" data-slide="next">
+		        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		        <span class="sr-only">Next</span>
+		      </a>
+			</div>
+		</div>
+		<div style='margin-bottom:5px'>
+			<div class="btn-group btn-group-justified" role="group" aria-label="Justified button group">
+		      <a href="__APP__/Atc/query" class="btn btn-primary" role="button">全部文章</a>
+		      <a href="#" class="btn btn-success" role="button">其他东东</a>
+		      
+		    </div>
+		</div>
+		<div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class='pull-left'><i class='glyphicon glyphicon-volume-up'></i> 通知公告</h4>
+                    <a class='pull-right' href="__APP__/Atc/query/atcanc/1" style='margin:10px 0px;color:#aaa'>更多</a>
+	                <div class='clearfix'></div>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-unstyled">
+					<volist name="atclsanc" id='vo'>
+					<li><span><a href="__APP__/Atc/view/atcid/{$vo['atcid']}" class='pull-left' style="color:#000; {$vo['atcstyle']}"><i class="{$vo['atcflag']}"></i> {$vo['atctpc']}</a></span><span class='tag pull-right' style='color:#ccc'>{$vo['atcmdftm']}</span></li>
+					<li class='clearfix' style='border-bottom:1px dashed #eee;margin:20px 0px;'></li>
+					</volist>
+					</ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class='pull-left'><i class='glyphicon glyphicon-align-left'></i> 动态</h4>
+                    <a class='pull-right' href="__APP__/Atc/query/atcdnmc/1" style='margin:10px 0px;color:#aaa'>更多</a>
+	                <div class='clearfix'></div>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-unstyled">
+					<volist name="atclsdnmc" id='vo'>
+					<li><span><a href="__APP__/Atc/view/atcid/{$vo['atcid']}" class='pull-left' style="color:#000; {$vo['atcstyle']}"><i class="{$vo['atcflag']}"></i> {$vo['atctpc']}</a></span><span class='tag pull-right' style='color:#ccc'>{$vo['atcmdftm']}</span></li>
+					<li class='clearfix' style='border-bottom:1px dashed #eee;margin:20px 0px;'></li>
+					</volist>
+					</ul>
+                </div>
+            </div>
+        </div>
+        <volist name='bdlsnog' id='vo'>
+		<div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class='pull-left'>{$vo['bdnm']}</h4>
+                    <a class='tag pull-right' href="__APP__/Atc/query/bdid/{$vo['bdid']}" style='margin:10px 0px;color:#aaa'>更多</a>
+                    <div class='clearfix'></div>
+                </div>
+                <div class="panel-body" style='height:300px'>
+                    <ul class="list-unstyled">
+					<volist name="vo['atcls']" id='voII'>
+					<li><span><a href="__APP__/Atc/view/atcid/{$voII['atcid']}" class='pull-left' style="color:#000; {$voII['atcstyle']}"><i class="{$voII['atcflag']}"></i> {$voII['atctpcsrk']}</a></span><span class='tag pull-right' style='color:#ccc'>{$voII['atcmdftm']}</span></li>
+					<li class='clearfix' style='border-bottom:1px dashed #eee;margin:20px 0px;'></li>
+					</volist>
+					</ul>
+                </div>
+            </div>
+        </div>
+        </volist> 
+	</div>
+	<include file='Pblc:foot'/>
+	 <include file='Pblc:side'/>
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: $('#slg').height()+$('header').height(),//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+
+</script>
+</div>
+</body>
+</html>

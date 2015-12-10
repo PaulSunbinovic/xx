@@ -1,0 +1,1651 @@
+[ 2015-03-12T00:02:34+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+
+[ 2015-03-12T00:03:24+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001635s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004816s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000260s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003607s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000444s ]
+
+[ 2015-03-12T00:08:07+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001121s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004319s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000247s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003503s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020862s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000893s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000890s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000702s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003678s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000934s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2015-03-12T00:10:24+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004319s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000157s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003447s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009535s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000691s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000697s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003107s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000866s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2015-03-12T00:12:03+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004484s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000211s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+
+[ 2015-03-12T00:13:43+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001123s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004810s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000277s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003739s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000372s ]
+
+[ 2015-03-12T00:13:52+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.049377s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000250s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003749s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./cstm/Tpl/Pblc/head.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory C:\wamp\www\geek\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+NOTIC: [2] file_get_contents(./cstm/Tpl/Pblc/foot.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory C:\wamp\www\geek\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+NOTIC: [8] Undefined index: cstmusrnm C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 51 行.
+NOTIC: [8] Undefined index: cstmusrpw C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 78 行.
+NOTIC: [8] Undefined index: cstmusrpw C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 84 行.
+NOTIC: [8] Undefined index: cstmusrnn C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 90 行.
+NOTIC: [8] Undefined index: cstmusrcp C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 119 行.
+NOTIC: [8] Undefined index: cstmusrml C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 125 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027948s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000785s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000716s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003208s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000906s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2015-03-12T00:15:22+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004051s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000237s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003603s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000320s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 61 行.
+NOTIC: [8] Undefined variable: usross C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 83 行.
+NOTIC: [8] Undefined variable: usross C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 83 行.
+NOTIC: [8] Undefined index: cstmusrnm C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 142 行.
+NOTIC: [8] Undefined index: cstmusrpw C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 169 行.
+NOTIC: [8] Undefined index: cstmusrpw C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 175 行.
+NOTIC: [8] Undefined index: cstmusrnn C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 181 行.
+NOTIC: [8] Undefined index: cstmusrcp C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 210 行.
+NOTIC: [8] Undefined index: cstmusrml C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 216 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017543s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001066s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001002s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004480s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001072s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2015-03-12T00:17:26+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001014s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003959s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000205s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.004921s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cstmusrnm C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 142 行.
+NOTIC: [8] Undefined index: cstmusrpw C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 169 行.
+NOTIC: [8] Undefined index: cstmusrpw C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 175 行.
+NOTIC: [8] Undefined index: cstmusrnn C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 181 行.
+NOTIC: [8] Undefined index: cstmusrcp C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 210 行.
+NOTIC: [8] Undefined index: cstmusrml C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 216 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014729s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000620s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000580s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000394s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002586s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2015-03-12T00:18:33+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.005121s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000161s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003603s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cstmusrnm C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 142 行.
+NOTIC: [8] Undefined index: cstmusrpw C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 169 行.
+NOTIC: [8] Undefined index: cstmusrpw C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 175 行.
+NOTIC: [8] Undefined index: cstmusrnn C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 181 行.
+NOTIC: [8] Undefined index: cstmusrcp C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 210 行.
+NOTIC: [8] Undefined index: cstmusrml C:\wamp\www\geek\cstm\Runtime\Cache\709b8ebc680da4f35d358f203f754d50.php 第 216 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013252s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000559s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000490s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002304s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000638s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2015-03-12T00:20:40+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000860s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003992s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000167s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003353s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012811s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000602s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000512s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002417s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2015-03-12T00:34:08+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001015s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004375s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='li' ) LIMIT 1   [ RunTime:0.010751s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='li' AND cstmusrpw='11111111' ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='li' AND cstmusrpw='11111111' ) LIMIT 1   [ RunTime:0.000247s ]
+
+[ 2015-03-12T00:43:12+08:00 ] 127.0.0.1 /geek/cstm.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002060s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\geek\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\geek\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000687s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000663s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003030s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001128s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2015-03-12T00:43:18+08:00 ] 127.0.0.1 /geek/cstm.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001535s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\geek\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\geek\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000673s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000657s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002884s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000754s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2015-03-12T00:43:34+08:00 ] 127.0.0.1 /geek/cstm.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001469s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\geek\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\geek\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000670s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000723s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003022s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000774s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2015-03-12T00:46:42+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+
+[ 2015-03-12T00:46:52+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001046s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004127s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='li' ) LIMIT 1   [ RunTime:0.000430s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='li' AND cstmusrpw='11111111' ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='li' AND cstmusrpw='11111111' ) LIMIT 1   [ RunTime:0.000301s ]
+
+[ 2015-03-12T00:47:55+08:00 ] 127.0.0.1 /geek/cstm.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002275s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\geek\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\geek\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001220s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000953s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004222s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001131s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2015-03-12T00:49:26+08:00 ] 127.0.0.1 /geek/cstm.php/Usr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+ERR: 无法加载模块:Usr
+
+[ 2015-03-12T00:50:11+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001568s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001856s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.064816s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.005718s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000544s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Undefined variable: lftcls C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 129 行.
+NOTIC: [8] Undefined variable: lblskzmb C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 141 行.
+NOTIC: [8] Undefined variable: rgtcls C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 156 行.
+NOTIC: [8] Undefined variable: lftbtncls C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 159 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 169 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021944s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000828s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000946s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000986s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005025s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2015-03-12T00:50:17+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004269s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.004939s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 60 行.
+NOTIC: [8] Undefined variable: lftcls C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 129 行.
+NOTIC: [8] Undefined variable: bscls C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 145 行.
+NOTIC: [8] Undefined variable: bsbdcls C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 149 行.
+NOTIC: [8] Undefined variable: mdlsfn C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 150 行.
+NOTIC: [8] Undefined variable: rgtcls C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 156 行.
+NOTIC: [8] Undefined variable: lftbtncls C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 159 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017142s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000831s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000765s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003388s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001035s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2015-03-12T07:32:55+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003857s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.004135s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003720s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000413s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `tb_usrrl` [ RunTime:0.003419s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `tb_lb` [ RunTime:0.003747s ]
+SQL: SHOW COLUMNS FROM `tb_lbmd` [ RunTime:0.003673s ]
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.000415s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=1 )  [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.003709s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=1) )  [ RunTime:0.000375s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000347s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=3 AND (f_ath_rlid=1) )  [ RunTime:0.000296s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=4 AND (f_ath_rlid=1) )  [ RunTime:0.000349s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=5 AND (f_ath_rlid=1) )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=7 AND (f_ath_rlid=1) )  [ RunTime:0.000349s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=8 AND (f_ath_rlid=1) )  [ RunTime:0.000315s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=9 AND (f_ath_rlid=1) )  [ RunTime:0.000302s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=11 AND (f_ath_rlid=1) )  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=12 AND (f_ath_rlid=1) )  [ RunTime:0.000303s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=13 AND (f_ath_rlid=1) )  [ RunTime:0.000294s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=14 AND (f_ath_rlid=1) )  [ RunTime:0.000288s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=1) )  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=2 )  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000306s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=17 AND (f_ath_rlid=1) )  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=18 AND (f_ath_rlid=1) )  [ RunTime:0.000306s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=19 AND (f_ath_rlid=1) )  [ RunTime:0.000295s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=20 AND (f_ath_rlid=1) )  [ RunTime:0.000295s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=21 AND (f_ath_rlid=1) )  [ RunTime:0.000299s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=22 AND (f_ath_rlid=1) )  [ RunTime:0.000313s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000284s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 169 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020206s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000775s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000740s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003208s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000940s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2015-03-12T07:33:50+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001009s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.058516s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003514s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003590s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `tb_usrrl` [ RunTime:0.003665s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `tb_lb` [ RunTime:0.003544s ]
+SQL: SHOW COLUMNS FROM `tb_lbmd` [ RunTime:0.003343s ]
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=1 )  [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.003543s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=1) )  [ RunTime:0.000401s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000343s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=3 AND (f_ath_rlid=1) )  [ RunTime:0.000311s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=4 AND (f_ath_rlid=1) )  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=5 AND (f_ath_rlid=1) )  [ RunTime:0.000298s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000301s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=7 AND (f_ath_rlid=1) )  [ RunTime:0.000297s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=8 AND (f_ath_rlid=1) )  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=9 AND (f_ath_rlid=1) )  [ RunTime:0.000295s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=11 AND (f_ath_rlid=1) )  [ RunTime:0.000292s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=12 AND (f_ath_rlid=1) )  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=13 AND (f_ath_rlid=1) )  [ RunTime:0.000301s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=14 AND (f_ath_rlid=1) )  [ RunTime:0.000298s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=1) )  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=2 )  [ RunTime:0.000343s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=17 AND (f_ath_rlid=1) )  [ RunTime:0.000294s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=18 AND (f_ath_rlid=1) )  [ RunTime:0.000302s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=19 AND (f_ath_rlid=1) )  [ RunTime:0.000293s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=20 AND (f_ath_rlid=1) )  [ RunTime:0.000292s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=21 AND (f_ath_rlid=1) )  [ RunTime:0.000264s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=22 AND (f_ath_rlid=1) )  [ RunTime:0.000293s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 169 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018363s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001016s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000701s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003444s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000837s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2015-03-12T07:41:21+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001094s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.052975s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003663s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003500s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 149 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 149 行.
+NOTIC: [8] Undefined variable: voII C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 151 行.
+NOTIC: [8] Undefined variable: voII C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 151 行.
+NOTIC: [8] Undefined variable: voII C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 151 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 173 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016786s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000984s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000747s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003494s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2015-03-12T07:42:09+08:00 ] 127.0.0.1 /geek/cstm.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000961s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载模块:Btn
+
+[ 2015-03-12T07:42:10+08:00 ] 127.0.0.1 /geek/cstm.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+ERR: 无法加载模块:Btn
+
+[ 2015-03-12T08:59:24+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003796s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.004071s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003571s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 173 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030307s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000592s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000550s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002519s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000757s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2015-03-12T08:59:31+08:00 ] 127.0.0.1 /geek/cstm.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+ERR: 无法加载模块:Btn
+
+[ 2015-03-12T08:59:33+08:00 ] 127.0.0.1 /geek/cstm.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000768s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:Btn
+
+[ 2015-03-12T09:06:12+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.013847s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003811s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003435s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 173 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014240s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000586s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000545s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002697s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001075s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2015-03-12T09:06:14+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000768s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003744s ]
+NOTIC: [8] Undefined index: cstmbtnnm C:\wamp\www\geek\cstm\Lib\Action\CstmbtnAction.class.php 第 11 行.
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='' ) LIMIT 1   [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: cstmbtnvl C:\wamp\www\geek\cstm\Lib\Action\CstmbtnAction.class.php 第 29 行.
+SQL: INSERT INTO `tb_cstmbtn` (`f_cstmbtn_cstmusrid`,`cstmbtnnm`,`cstmbtnvl`) VALUES (1,null,null) [ RunTime:0.175047s ]
+
+[ 2015-03-12T09:06:24+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003319s ]
+NOTIC: [8] Undefined index: cstmbtnnm C:\wamp\www\geek\cstm\Lib\Action\CstmbtnAction.class.php 第 11 行.
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='' ) LIMIT 1   [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: cstmbtnvl C:\wamp\www\geek\cstm\Lib\Action\CstmbtnAction.class.php 第 29 行.
+SQL: INSERT INTO `tb_cstmbtn` (`f_cstmbtn_cstmusrid`,`cstmbtnnm`,`cstmbtnvl`) VALUES (1,null,null) [ RunTime:0.158170s ]
+
+[ 2015-03-12T09:09:38+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001086s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003935s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003540s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003956s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000387s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 173 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014084s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000599s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000550s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000412s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2015-03-12T09:09:39+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.005124s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000468s ]
+SQL: INSERT INTO `tb_cstmbtn` (`f_cstmbtn_cstmusrid`,`cstmbtnnm`,`cstmbtnvl`) VALUES (1,'bs','glyphicon glyphicon-triangle-top') [ RunTime:0.112752s ]
+
+[ 2015-03-12T09:09:49+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003844s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: UPDATE `tb_cstmbtn` SET `cstmbtnvl`='glyphicon glyphicon-triangle-bottom' WHERE ( cstmbtnid=3 ) [ RunTime:0.155141s ]
+
+[ 2015-03-12T09:10:11+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001079s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003641s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003351s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.004079s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 173 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013641s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000510s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002209s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000614s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2015-03-12T09:12:16+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001150s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.053029s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003682s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.004133s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 173 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014526s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000599s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000549s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002520s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-03-12T09:12:17+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000779s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003749s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000449s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: UPDATE `tb_cstmbtn` SET `cstmbtnvl`='glyphicon glyphicon-triangle-top' WHERE ( cstmbtnid=3 ) [ RunTime:0.170835s ]
+
+[ 2015-03-12T09:12:19+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003642s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: INSERT INTO `tb_cstmbtn` (`f_cstmbtn_cstmusrid`,`cstmbtnnm`,`cstmbtnvl`) VALUES (1,'lft','none') [ RunTime:0.281839s ]
+
+[ 2015-03-12T09:12:26+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003350s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: UPDATE `tb_cstmbtn` SET `cstmbtnvl`='block' WHERE ( cstmbtnid=4 ) [ RunTime:0.123249s ]
+
+[ 2015-03-12T09:12:29+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003703s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: UPDATE `tb_cstmbtn` SET `cstmbtnvl`='none' WHERE ( cstmbtnid=4 ) [ RunTime:0.136961s ]
+
+[ 2015-03-12T09:12:30+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004109s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003671s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003521s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 173 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013821s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000510s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000573s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002499s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2015-03-12T09:12:32+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.050291s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: UPDATE `tb_cstmbtn` SET `cstmbtnvl`='block' WHERE ( cstmbtnid=4 ) [ RunTime:0.331303s ]
+
+[ 2015-03-12T09:13:02+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000768s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004179s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003512s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003531s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 60 行.
+NOTIC: [8] Undefined variable: mdlsfn C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 150 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079040s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000477s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002240s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2015-03-12T09:13:05+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000814s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.014818s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003581s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003676s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000552s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 60 行.
+NOTIC: [8] Undefined variable: lblskzmb C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 141 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000477s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002224s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001348s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001570s ]
+
+[ 2015-03-12T09:13:15+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.015493s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003899s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003508s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 173 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013424s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000472s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002201s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2015-03-12T09:15:03+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000982s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003915s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003415s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003413s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 145 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 173 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014469s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000598s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000551s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002526s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-03-12T09:20:12+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.005283s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003532s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003445s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000404s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 145 行.
+NOTIC: [8] Undefined variable: cstmbtnvl C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 200 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014229s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000655s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000556s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002602s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000696s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2015-03-12T09:21:05+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000769s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004158s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003421s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003379s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 145 行.
+NOTIC: [8] Undefined variable: cstmbtnvl C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 200 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013793s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000521s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000495s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002249s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2015-03-12T09:22:01+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001145s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004002s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003523s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003588s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000389s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 145 行.
+NOTIC: [8] Undefined variable: cstmbtnvl C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 200 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014740s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000478s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002261s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2015-03-12T09:22:46+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004020s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003481s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003676s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000399s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000314s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\1711f7a21746ceaf403e1fd557d0cc52.php 第 145 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030480s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000693s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000558s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002647s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-03-12T09:29:12+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003749s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003499s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.004150s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000419s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 145 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 145 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027438s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000592s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000555s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002523s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2015-03-12T17:00:19+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000894s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.005041s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003724s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003731s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 139 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 140 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 140 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072536s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000480s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002267s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2015-03-12T17:00:25+08:00 ] 127.0.0.1 /geek/cstm.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004269s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000454s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000279s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in C:\wamp\www\geek\cstm\Lib\Action\IndexAction.class.php on line 29 and defined C:\wamp\www\geek\cstm\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003647s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000200s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 58 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 137 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 138 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 138 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026826s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000638s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000692s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002898s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000750s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2015-03-12T17:00:28+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003602s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: UPDATE `tb_cstmbtn` SET `cstmbtnvl`='none' WHERE ( cstmbtnid=4 ) [ RunTime:0.110496s ]
+
+[ 2015-03-12T17:01:17+08:00 ] 127.0.0.1 /geek/cstm.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003845s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000467s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000306s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in C:\wamp\www\geek\cstm\Lib\Action\IndexAction.class.php on line 29 and defined C:\wamp\www\geek\cstm\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003667s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000372s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 58 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 137 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 138 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 138 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012532s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000750s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002881s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2015-03-12T17:01:19+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003859s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000404s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: UPDATE `tb_cstmbtn` SET `cstmbtnvl`='block' WHERE ( cstmbtnid=4 ) [ RunTime:0.233368s ]
+
+[ 2015-03-12T17:01:21+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003618s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: UPDATE `tb_cstmbtn` SET `cstmbtnvl`='none' WHERE ( cstmbtnid=4 ) [ RunTime:0.178101s ]
+
+[ 2015-03-12T17:01:22+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003614s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: UPDATE `tb_cstmbtn` SET `cstmbtnvl`='block' WHERE ( cstmbtnid=4 ) [ RunTime:0.173139s ]
+
+[ 2015-03-12T17:01:27+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003883s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003755s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003630s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 139 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 140 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 140 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 168 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034803s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000722s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000728s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003202s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000770s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2015-03-12T17:01:29+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000912s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003613s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: UPDATE `tb_cstmbtn` SET `cstmbtnvl`='none' WHERE ( cstmbtnid=4 ) [ RunTime:0.205368s ]
+
+[ 2015-03-12T17:01:30+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003559s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: UPDATE `tb_cstmbtn` SET `cstmbtnvl`='block' WHERE ( cstmbtnid=4 ) [ RunTime:0.171740s ]
+
+[ 2015-03-12T17:01:33+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001305s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004360s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.004431s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003653s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 139 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 140 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 140 行.
+NOTIC: [8] Undefined index: athnm C:\wamp\www\geek\cstm\Runtime\Cache\133d2c5ddb79d2361f243e80f1ef49bd.php 第 168 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014189s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000728s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000790s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003451s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2015-03-12T17:01:34+08:00 ] 127.0.0.1 /geek/cstm.php/Cstmusr/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000797s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003653s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003532s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.004109s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 60 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 139 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 140 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\796324dec94a095f134dc7ca0acc995d.php 第 140 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012818s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000695s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000609s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002834s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000759s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2015-03-12T17:02:35+08:00 ] 127.0.0.1 /geek/cstm.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004384s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000413s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in C:\wamp\www\geek\cstm\Lib\Action\IndexAction.class.php on line 29 and defined C:\wamp\www\geek\cstm\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.005119s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000418s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 58 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 137 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 138 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 138 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016390s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000914s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000964s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000711s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004176s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000911s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2015-03-12T17:04:20+08:00 ] 127.0.0.1 /geek/cstm.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004638s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000428s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in C:\wamp\www\geek\cstm\Lib\Action\IndexAction.class.php on line 29 and defined C:\wamp\www\geek\cstm\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003594s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 58 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 137 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 138 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 138 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013431s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000656s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000626s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002942s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2015-03-12T17:05:02+08:00 ] 127.0.0.1 /geek/cstm.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003780s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000364s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in C:\wamp\www\geek\cstm\Lib\Action\IndexAction.class.php on line 29 and defined C:\wamp\www\geek\cstm\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003525s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 58 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 137 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 138 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 138 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012294s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000602s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000548s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002685s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000718s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2015-03-12T20:18:58+08:00 ] 127.0.0.1 /geek/cstm.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004133s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000230s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in C:\wamp\www\geek\cstm\Lib\Action\IndexAction.class.php on line 29 and defined C:\wamp\www\geek\cstm\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.003525s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid=1 AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 58 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 137 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 138 行.
+NOTIC: [8] Undefined variable: vo C:\wamp\www\geek\cstm\Runtime\Cache\8f8f76c10e944b3097515d5ad6933a6c.php 第 138 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012666s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000643s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000579s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002635s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000717s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000840s ]
+

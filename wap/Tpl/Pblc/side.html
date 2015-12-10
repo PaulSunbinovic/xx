@@ -1,0 +1,36 @@
+<script type='text/javascript' src='__PUBLIC__/JS/wap/cstmusrhd.js'></script>
+<script type='text/javascript' src='__PUBLIC__/JS/wap/wxusrhd.js'></script>
+<script>var hdlcstmlgot='__APP__/Cstmusr/loginout';</script>
+<script>var hdlwxlgot='__APP__/Wxusr/loginout';</script>
+<script>var app_path='__APP__';</script>
+<nav id="menu" style='z-index:2000'>
+	<ul>
+	<?php if($cstmusross){ ?>
+		<li>
+		<a href='__APP__/Cstmusr/gtxpg/x/center'><img src="{$cstmusross['cstmusrpt']}" class='img-circle' style='width:30px;height:30px' />&nbsp;&nbsp;{$cstmusross['cstmusrnn']}&nbsp;&nbsp;的个人中心</a>&nbsp;&nbsp;
+		</li>
+		<li>
+		<a href='__APP__/Atc/collect'><i class='glyphicon glyphicon-heart'></i> 我的收藏</a>
+		</li>
+		<li id='cstmusr_loginout'>
+		<a style='cursor:pointer'><i class='glyphicon glyphicon-off'></i> 退出</a>
+		</li>
+	<?php }else if($wxusross){ ?>	
+		<li>
+		<a href='__APP__/Wxusr/gtxpg/x/center'><img src="{$wxusross['wxusrpt']}" class='img-circle' style='width:30px;height:30px' />&nbsp;&nbsp;{$wxusross['wxusrnm']}&nbsp;&nbsp;的个人中心</a>&nbsp;&nbsp;
+		</li>
+		
+		<li id='wxusr_loginout'>
+		<a style='cursor:pointer'><i class='glyphicon glyphicon-off'></i> 退出</a>
+		</li>
+	<?php }else{ ?>	
+		<li>
+		<a href='__APP__/Cstmusr/gtxpg/x/select'><i class='glyphicon glyphicon-user'></i> 登录</a>
+		</li>
+	<?php } ?>	
+	<script>var hdlatcsrc='__APP__/Atc/query/atckw/';</script>
+	<script type="text/javascript" src='__PUBLIC__/JS/wap/atchd.js'></script>
+	<li><a><input style='background-color:#333;border:1px;border-bottom-style:solid;border-top-style:none;border-left-style:none;border-right-style:none;' id='atckw' /> <i class='glyphicon glyphicon-search' id='atc_search'></i></a></li>
+	<li><a href='__APP__'><i class='glyphicon glyphicon-home'></i> 首页</a></li>
+	</ul>
+</nav>

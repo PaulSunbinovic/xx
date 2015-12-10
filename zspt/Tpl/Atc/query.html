@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/index/cm.js'></script>
+<link href="__PUBLIC__/CSS/index/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+
+<script type='text/javascript' src='__PUBLIC__/JS/index/cstmusr.js'></script>
+<script type='text/javascript'>
+var app_path='__APP__';
+</script>
+</head>
+
+<body>
+<include file='Pblc:head'/>
+
+
+    <!-- Docs page layout -->
+    
+    <div class="container bs-docs-container">
+		
+    
+    
+      <div>
+      	
+        <div class="col-md-12" role="main">
+	        <div>
+			    {$bdo['bdnm']}
+			</div>
+			
+			<div>
+				<ul class="list-unstyled col-md-10">
+				<volist name="atcls" id='vo'>
+				<li><span><a href="__APP__/Atc/view/atcid/{$vo['atcid']}" class='pull-left' style="color:#000; {$vo['atcstyle']}"><i class="{$vo['atcflag']}"></i> {$vo['atctpcsrk']}</a></span><span class='tag pull-right' style='color:#ccc'>{$vo['atcmdftm']}</span></li>
+				<li class='clearfix' style='border-bottom:1px dashed #eee;margin:20px 0px;'></li>
+				</volist>
+				</ul>
+	         
+	        </div>
+        	
+        	<div class='clearfix'></div>
+          	<div>{$show}</div>
+        </div>
+        
+        
+        
+     </div>
+	<div class='clearfix'></div>
+    <include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: 100,//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+[ 2015-11-14T03:20:59+08:00 ] 66.249.74.68 /xx/cstm.php/Cstmusr/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008088s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008256s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007998s ]
+NOTIC: [8] Undefined index:  cstmusrid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Lib\Action\CstmusrAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003348s ]
+NOTIC: [8] Undefined index:  cstmusrnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Lib\Action\CstmusrAction.class.php 第 68 行.
+NOTIC: [8] Undefined index:  cstmusrnn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Lib\Action\CstmusrAction.class.php 第 69 行.
+NOTIC: [8] Undefined index:  cstmusrpw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Lib\Action\CstmusrAction.class.php 第 70 行.
+NOTIC: [8] Undefined index:  cstmusrpt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Lib\Action\CstmusrAction.class.php 第 71 行.
+NOTIC: [8] Undefined index:  cstmusrcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Lib\Action\CstmusrAction.class.php 第 74 行.
+NOTIC: [8] Undefined index:  cstmusrml D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Lib\Action\CstmusrAction.class.php 第 75 行.
+NOTIC: [8] Undefined index:  cstmusrps D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Lib\Action\CstmusrAction.class.php 第 76 行.
+NOTIC: [8] Undefined index:  cstmusrvw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\cstm\Lib\Action\CstmusrAction.class.php 第 77 行.
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='' ) LIMIT 1   [ RunTime:0.000416s ]
+SQL: INSERT INTO `tb_cstmusr` (`cstmusrnm`,`cstmusrnn`,`cstmusrpw`,`cstmusrpt`,`cstmusraddtm`,`cstmusrmdftm`,`cstmusrcp`,`cstmusrml`,`cstmusrps`,`cstmusrvw`) VALUES (null,null,'d41d8cd98f00b204e9800998ecf8427e',null,'2015-11-14 03:20:59','2015-11-14 03:20:59',null,null,null,null) [ RunTime:0.015637s ]
+SQL: SELECT * FROM `tb_cstmusr` ORDER BY cstmusrid DESC LIMIT 1   [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusrcstmgrp` [ RunTime:0.002587s ]
+SQL: INSERT INTO `tb_cstmusrcstmgrp` (`f_cstmusrcstmgrp_cstmusrid`,`f_cstmusrcstmgrp_cstmgrpid`) VALUES (10,1) [ RunTime:0.014239s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusrcstmrl` [ RunTime:0.002464s ]
+SQL: INSERT INTO `tb_cstmusrcstmrl` (`f_cstmusrcstmrl_cstmusrid`,`f_cstmusrcstmrl_cstmrlid`) VALUES (10,1) [ RunTime:0.015045s ]
+
+[ 2015-11-14T03:24:46+08:00 ] 66.249.74.72 /xx/cstm.php/FileUpload/upload/issml/y/wjj/cstmusr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008611s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012825s ]
+

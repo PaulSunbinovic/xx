@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/admin/cm.js'></script>
+<link href="__PUBLIC__/CSS/admin/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+
+<script type='text/javascript' src='__PUBLIC__/JS/admin/atc.js'></script>
+<script type='text/javascript'>
+var app_path='__APP__';
+</script>
+</head>
+
+<body>
+<include file='Pblc:head'/>
+<div class='container' >
+	<div class='col-md-2' id='lft' class='pull-left' style='display:{$lftcls};'>
+			<script>
+			var hdlbtn='__APP__/Btn/update';
+			</script>
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <div class='pull-left'><i class="glyphicon glyphicon-cog"></i> 控制面板</div>
+			    <div class='pull-right'><a href="javascript:leftright()"><i class="glyphicon glyphicon-triangle-left"></i></a></div>
+			    <div class='clearfix'></div>
+			  </div>
+			  <div class="panel-body">
+			  
+		  	<volist name='lblskzmb' id='vo'>  
+			  	<div class="panel panel-info">
+				  <!-- Default panel contents -->
+				  <div class="panel-heading">
+				  	<div class='pull-left'><i class="glyphicon glyphicon-signal"></i> {$vo['lbnm']}</div>
+					<div class='pull-right'><a href="javascript:updown('bs{$vo[lbid]}')"><i class="{$vo['bscls']}" id="bs{$vo['lbid']}"></i></a></div>
+					<div class='clearfix'></div>
+				  </div>
+				<!-- List group -->
+				  <ul class="nav nav-pills nav-stacked" style="display:{$vo['bsbdcls']}" id="bs{$vo['lbid']}bd">
+				    <volist name="vo['mdlskzmb']" id='voII'>
+						<li class="{$voII['actvcls']}"><a href="__APP__/{$voII['mdmk']}/query">{$voII['mdnm']}</a></li>
+					</volist>
+				  </ul>
+				</div>
+			</volist>
+		    </div>
+			</div>
+		</div>
+		<div class='{$rgtcls}' id='rgt' >
+		<div class="panel panel-default">
+			<div class="panel-heading">
+			  <a href='javascript:leftright()' id='btn-lft' style='display:{$lftbtncls}'><i class="glyphicon glyphicon-triangle-right"></i></a><i class="glyphicon glyphicon-th-list"></i> {$theme}
+			</div>
+			<div class="panel-body">
+
+				<!-- NB 开始 -->
+					<script type="text/javascript">var hdlNB='__URL__/query'</script>
+					
+					
+					<div id='NBsrcUpart'>
+					<!-- 起始 -->
+					<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingOne">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+				          条件筛选
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+				      <div class="panel-body">
+				      	<?php 
+						if($usross['f_usr_athid']==1){
+	 					?>
+						<div id='NBsrcMpart'>
+							<form>
+							SELECT * FROM tb_atc LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE atctpc LIKE '%XX%' AND f_atc_bdid=1 ORDER BY atcmdftm DESC LIMIT 0,10
+								<input id='NBsqlstc' name='NBsqlstc' style='width:1000px' value="{$sqlstc}"/>
+								<br/><input type='button' id='NBsrcM' value='管理员查询' class='btn btn-primary btn-sm'/>
+							</form>
+						</div>
+						<?php } ?>
+				      <!-- 暂时结束 -->
+						<div id='flddv'>
+							字段：<!-- uid必须有且不用看见 -->
+							<input type="checkbox" id='atcidfld' value='atcid' style='display:none' checked=checked/>
+							<input type="checkbox" id='bdnmfld' value='bdnm'/>板块名称&nbsp;&nbsp;
+							<input type="checkbox" id='atctpcfld' value='atctpc'/>文章标题&nbsp;&nbsp;
+							<input type="checkbox" id='atcathfld' value='atcath'/>作者&nbsp;&nbsp;
+							<input type="checkbox" id='atcaddtmfld' value='atcaddtm'/>添加时间&nbsp;&nbsp;
+							<input type="checkbox" id='atcmdftmfld' value='atcmdftm'/>修改时间&nbsp;&nbsp;
+							<input type="checkbox" id='atctpfld' value='atctp'/>置顶情况&nbsp;&nbsp;
+							<input type="checkbox" id='atcpsfld' value='atcps' style='display:none'/>
+							<input type="checkbox" id='atcancfld' value='atcanc'/>是否通知&nbsp;&nbsp;
+							<input type="checkbox" id='atcdnmcfld' value='atcdnmc'/>是否动态&nbsp;&nbsp;
+							<input type="checkbox" id='atccntfld' value='atccnt'/>浏览计数&nbsp;&nbsp;
+							<input type="checkbox" id='atcnwfld' value='atcnw'/>是否内网&nbsp;&nbsp;
+							<input type="checkbox" id='atcznfld' value='atczn'/>赞&nbsp;&nbsp;
+							<input type="checkbox" id='atctcfld' value='atctc'/>吐槽&nbsp;&nbsp;
+							<input type="checkbox" id='atczsfld' value='atczs'/>招生文&nbsp;&nbsp;
+							<input type="checkbox" id='atcvwfld' value='atcvw' style='display:none'/>
+						</div>
+						<div id='cdtdv'>
+							条件：
+							板块名称
+							<select  name='f_atc_bdid' id='f_atc_bdidcdt' >
+							<option value=''>无</option>
+							{$tree}
+							</select>
+							&nbsp;&nbsp;
+							文章标题<input type="text" name='atctpc' id='atctpccdt' />&nbsp;&nbsp;
+							作者<input type="text" name='atcath' id='atcathcdt' />&nbsp;&nbsp;
+							<script language="javascript" type="text/javascript" src="__PUBLIC__/pblc/DatePicker/My97DatePicker/WdatePicker.js"></script>
+							添加时间<input type="text" name='atcaddtm' id='atcaddtmcdt' onclick="WdatePicker()" readonly />&nbsp;&nbsp;
+							修改时间<input type="text" name='atcmdftm' id='atcmdftmcdt' onclick="WdatePicker()" readonly />&nbsp;&nbsp;
+							置顶情况
+							<select name='atctp' id='atctpcdt' >
+							<option value=''>无</option>
+							<option value="1">置顶</option>
+							<option value="0">不置顶</option>
+							</select>
+							&nbsp;&nbsp;
+							<?php if($aths==1){ ?>
+								审核情况
+								<select name='atcps' id='atcpscdt' >
+								<option value=''>无</option>
+								<option value="1">通过</option>
+								<option value="0">不通过</option>
+								</select>
+								&nbsp;&nbsp;
+								是否查看
+								<select name='atcvw' id='atcvwcdt' >
+								<option value=''>无</option>
+								<option value="1">是</option>
+								<option value="0">否</option>
+								</select>
+								&nbsp;&nbsp;
+							<?php }else{ ?>
+								<input type='hidden' name='atcps' id='atcpscdt' />
+								<input type='hidden' name='atcvw' id='atcvwcdt' />
+							<?php } ?>
+							是否通知
+							<select name='atcanc' id='atcanccdt' >
+							<option value=''>无</option>
+							<option value="1">是</option>
+							<option value="0">否</option>
+							</select>
+							&nbsp;&nbsp;
+							是否动态
+							<select name='atcdnmc' id='atcdnmccdt' >
+							<option value=''>无</option>
+							<option value="1">是</option>
+							<option value="0">否</option>
+							</select>
+							&nbsp;&nbsp;
+							浏览计数<input type="text" name='atccnt' id='atccntcdt' />&nbsp;&nbsp;
+							是否内网
+							<select name='atcnw' id='atcnwcdt' >
+							<option value=''>无</option>
+							<option value="1">是</option>
+							<option value="0">否</option>
+							</select>
+							&nbsp;&nbsp;
+							赞<input type="text" name='atczn' id='atczncdt' />&nbsp;&nbsp;
+							吐槽<input type="text" name='atctc' id='atctccdt' />&nbsp;&nbsp;
+							是否动态
+							<select name='atczs' id='atczscdt' >
+							<option value=''>无</option>
+							<option value="1">是</option>
+							<option value="0">否</option>
+							</select>
+							&nbsp;&nbsp;
+						</div>
+						<div id='spccdtdv'>
+						</div>
+						<div id='odrdv'>
+							顺序：
+							<select style='display:none'>
+							<option value='atctp DESC'>先置顶后普通</option>
+							</select>
+							<select >
+							<option value=''>无</option>
+							<option value='atcaddtm DESC'>添加时间降序</option>
+							<option value='atcaddtm ASC'>添加时间升序</option>
+							<option value='atcmdftm DESC'>修改时间降序</option>
+							<option value='atcmdftm ASC'>修改时间升序</option>
+							</select>
+							<select >
+							<option value=''>无</option>
+							<option value='atcaddtm DESC'>添加时间降序</option>
+							<option value='atcaddtm ASC'>添加时间升序</option>
+							<option value='atcmdftm DESC'>修改时间降序</option>
+							<option value='atcmdftm ASC'>修改时间升序</option>
+							</select>
+						</div>
+						<div>
+							<form>
+							<input type='hidden' name='fld' id='fld' value='{$fld}'/>
+							<input type='hidden' name='cdt' value='{$cdt}'/>
+							<input type='hidden' name='spccdt' value='{$spccdt}'/>
+							<input type='hidden' name='odr' value='{$odr}'/>
+							<!-- 每页：<input type='text' name='lmt' value='{$lmt}'/>  -->
+							每页：<select id='lmt' name='lmt' class='input-mini'> 
+								<option value='10'>10</option><option value='20'>20</option><option value='30'>30</option><option value='40'>40</option><option value='50'>50</option>
+								</select>
+								<script>$('#lmt').val('{$lmt}')</script>
+							<input type='button' value='查询' id='NBsrcU' class='btn btn-primary btn-sm'/>
+							</form>
+						</div>
+						<!-- 暂时开启 -->
+				       </div>
+				    </div>
+				  </div>
+					<!-- 完全结束 -->	
+						
+					</div>
+				
+				<!-- NB 结束-->
+				
+				<!-- 注意NB 的class 都要设置  开始-->
+				<script type="text/javascript">var hdldlt='__URL__/delete';var hdlstvw='__URL__/setview';var hdlstps='__URL__/setpass';var hdlstzs='__URL__/setzhaosheng';</script>
+				<div>
+				<div class="table-responsive">
+					<table id='NBtb' class='table table-striped table-bordered table-hover'>
+					<thead>
+					  <tr class='info'>
+					    <th class='odr'>序号</th>
+					    <th class='bdnm'>板块名称</th>
+					    <th class='atctpc'>标题</th>
+					    <th class='atcath'>作者</th>
+					    <th class='atcaddtm'>添加时间</th>
+					    <th class='atcmdftm'>修改时间</th>
+					    <th class='atctp'>置顶情况</th>
+					    <th class='atcps'>审核情况</th>
+					   	<th class='atcanc'>是否通知</th>
+					    <th class='atcdnmc'>是否动态</th>
+					    <th class='atccnt'>浏览计数</th>
+					    <th class='atcnw'>是否内网</th>
+					    <th class='atczn'>赞</th>
+					    <th class='atctc'>吐槽</th>
+					    <th class='atcvw'>是否查看</th>
+					    <th class='atczs'>招生文</th>
+					    <th class='oprt'>操作</th>
+					  </tr>
+					</thead>
+					
+					<tbody>
+					  <volist name="mls" id="vo">
+					  	<tr>
+					    <td class='odr'>{$fstrw+$i}</td>
+					    <td class='bdnm'>{$vo['bdnm']}</td>
+					    <td class='atctpc'>{$vo['atctpc']}</td>
+					    <td class='atcath'>{$vo['atcath']}</td>
+					    <td class='atcaddtm'>{$vo['atcaddtm']}</td>
+					    <td class='atcmdftm'>{$vo['atcmdftm']}</td>
+					    <td class='atctp'>{$vo['atctp']}</td>
+					    <td class='atcps'>{$vo['atcps']}</td>
+					    <td class='atcanc'>{$vo['atcanc']}</td>
+					    <td class='atcdnmc'>{$vo['atcdnmc']}</td>
+					    <td class='atccnt'>{$vo['atccnt']}</td>
+					    <td class='atcnw'>{$vo['atcnw']}</td>
+					    <td class='atczn'>{$vo['atczn']}</td>
+					    <td class='atctc'>{$vo['atctc']}</td>
+					    <td class='atcvw'>{$vo['atcvw']}</td>
+					    <td class='atczs'>{$vo['atczs']}</td>
+					    <td class='oprt'>
+					      <!-- Icons -->
+					      <?php if($athv==1){ ?><a href="__URL__/gtxpg/x/vw/atcid/{$vo['atcid']}">查看</a><?php } ?>
+					      <?php if($athm==1){ ?><a href="__URL__/gtxpg/x/updt/atcid/{$vo['atcid']}">修改</a><?php } ?>
+					      <?php if($athd==1){ ?><a href="javascript:dlt({$vo['atcid']})">删除</a><?php } ?>
+					      <?php if($aths==1){ if($vo['atcvw']=='是'){ ?><a href="javascript:stvw({$vo['atcid']},0)">设未查看</a><?php }else{ ?><a href="javascript:stvw({$vo['atcid']},1)">设已查看</a><?php } } ?>
+					      <?php if($aths==1){ if($vo['atcps']=='是'){ ?><a href="javascript:stps({$vo['atcid']},0)">设未通过</a><?php }else{ ?><a href="javascript:stps({$vo['atcid']},1)">设已通过</a><?php } } ?>
+					      <?php if($aths==1){ if($vo['atczs']=='是'){ ?><a href="javascript:stzs({$vo['atcid']},0)">设未招生</a><?php }else{ ?><a href="javascript:stzs({$vo['atcid']},1)">设已招生</a><?php } } ?>
+					    </td>
+					  </tr>  
+					  </volist>                        
+					</tbody>
+					</table>
+				</div>
+					<script type="text/javascript">$("#NBtb thead").smartFloatTB();</script>
+				<!-- 注意NB 的class 都要设置  结束-->
+				{$page_method}&nbsp;&nbsp;
+				
+				<?php if($atha==1){ ?><p><a href="__URL__/gtxpg/x/updt/atcid/0" class='btn btn-primary'>添加</a></p><?php } ?>
+				
+				
+				
+				<!-- NBjs 初始化 -->
+				<script type="text/javascript">
+				var fld='{$fld}';var cdt='{$cdt}';var odr='{$odr}';
+				</script>
+				<link rel="stylesheet" type="text/css" href="__PUBLIC__/pblc/NB/NBSearch.css" media="all"/>
+				<script type='text/javascript' src='__PUBLIC__/pblc/NB/NBSearch.js'></script>
+				<!-- NBjs 结束 -->
+				
+				
+				
+				</div>			
+			</div>
+		</div>
+	</div>
+	<div class='clearfix'></div>
+	
+	<include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: 100,//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+</script>
+
+</body>
+</html>

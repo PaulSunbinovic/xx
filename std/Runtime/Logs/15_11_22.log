@@ -1,0 +1,17 @@
+[ 2015-11-22T21:34:13+08:00 ] 42.81.42.17 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007704s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061661s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008019s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007080s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007188s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029844s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007714s ]
+

@@ -1,0 +1,1151 @@
+[ 2015-09-28T09:28:19+08:00 ] 10.50.10.204 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004636s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053367s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004016s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003992s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007327s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022920s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007909s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008032s ]
+
+[ 2015-09-28T09:32:52+08:00 ] 112.90.11.79 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004499s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052263s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004019s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003957s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006966s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022485s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008148s ]
+
+[ 2015-09-28T09:38:35+08:00 ] 68.180.228.176 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005325s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052762s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004070s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004006s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022796s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007542s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007660s ]
+
+[ 2015-09-28T09:54:41+08:00 ] 183.60.15.20 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007603s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058907s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007577s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003983s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006856s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026261s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007553s ]
+
+[ 2015-09-28T09:54:51+08:00 ] 10.162.1.65 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004415s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051026s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004159s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003964s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006870s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023438s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007543s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007664s ]
+
+[ 2015-09-28T09:55:08+08:00 ] 10.162.1.65 /xx/tcr.php/Tcr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012368s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007580s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.003227s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='liqiu' ) LIMIT 1   [ RunTime:0.000748s ]
+
+[ 2015-09-28T09:55:42+08:00 ] 10.162.1.65 /xx/tcr.php/Tcr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008038s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007550s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002768s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='李秋' ) LIMIT 1   [ RunTime:0.000924s ]
+
+[ 2015-09-28T09:55:54+08:00 ] 10.162.1.65 /xx/tcr.php/Tcr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008541s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008711s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007607s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002748s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='李秋' ) LIMIT 1   [ RunTime:0.000423s ]
+
+[ 2015-09-28T09:56:04+08:00 ] 10.162.1.65 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004422s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047477s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004011s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003958s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007066s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022576s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008603s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008777s ]
+
+[ 2015-09-28T09:56:17+08:00 ] 10.162.1.65 /xx/tcr.php/Tcr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007918s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007503s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002783s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='李秋' ) LIMIT 1   [ RunTime:0.000615s ]
+
+[ 2015-09-28T09:56:31+08:00 ] 10.162.1.65 /xx/tcr.php/Tcr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006346s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006498s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005887s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002887s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='liqiu' ) LIMIT 1   [ RunTime:0.000423s ]
+
+[ 2015-09-28T09:56:42+08:00 ] 10.162.1.65 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007557s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062927s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007303s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007066s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029194s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007542s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007661s ]
+
+[ 2015-09-28T09:56:57+08:00 ] 10.162.1.65 /xx/tcr.php/Tcr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006480s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005948s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002774s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='liqiu' ) LIMIT 1   [ RunTime:0.000451s ]
+
+[ 2015-09-28T09:58:06+08:00 ] 10.162.1.65 /xx/tcr.php/Tcr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006832s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005956s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002774s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='liqiu' ) LIMIT 1   [ RunTime:0.000410s ]
+
+[ 2015-09-28T09:59:29+08:00 ] 10.162.1.65 /xx/tcr.php/Tcr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008078s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004376s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002924s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='01A1807029' ) LIMIT 1   [ RunTime:0.000600s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='01A1807029' AND tcrpw='2201843b2746c60616442eccbd20511a' ) LIMIT 1   [ RunTime:0.000370s ]
+
+[ 2015-09-28T09:59:44+08:00 ] 10.162.1.65 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007541s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051473s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007319s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004003s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006928s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026025s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007560s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007675s ]
+
+[ 2015-09-28T09:59:58+08:00 ] 10.162.1.65 /xx/tcr.php/Tcr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004773s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004925s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004411s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002941s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='01A1807029' ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='01A1807029' AND tcrpw='2201843b2746c60616442eccbd20511a' ) LIMIT 1   [ RunTime:0.000140s ]
+
+[ 2015-09-28T10:00:07+08:00 ] 10.162.1.65 /xx/tcr.php/Tcr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001652s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002793s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='01A1807029' ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='01A1807029' AND tcrpw='1bbd886460827015e5d605ed44252251' ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='01A1807029' AND tcrpw='1bbd886460827015e5d605ed44252251' ) LIMIT 1   [ RunTime:0.000136s ]
+
+[ 2015-09-28T10:00:07+08:00 ] 10.162.1.65 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002776s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=1 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=1 ) LIMIT 1   [ RunTime:0.000144s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\IndexAction.class.php on line 29 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002843s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=1 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000747s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=1 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003143s ]
+SQL: SELECT * FROM `tb_atc` WHERE ( atcid=21 )  [ RunTime:0.000617s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\6f1d53a3c8454cf67e89dfe20c7b417a.php 第 61 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067277s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007142s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006858s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028870s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007466s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007578s ]
+
+[ 2015-09-28T10:00:13+08:00 ] 10.162.1.65 /xx/tcr.php/Bkcjzx/gtxpg/x/skxx
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001847s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002835s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=1 ) LIMIT 1   [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: mdo D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002317s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=1 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000563s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=1 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=1 ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002455s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002380s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `tb_2015_pk` [ RunTime:0.002834s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2015_pk`
+SQL: SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=1 )  [ RunTime:0.000567s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=1 ) 
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.002871s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=1 )  [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.002947s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=33 AND f_std_statid=5 )  [ RunTime:0.124429s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=33 AND f_stdxqcls_clsid=1 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) ) LIMIT 1   [ RunTime:0.005325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=33 AND f_stdxqcls_clsid=1 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.005610s ]
+SQL: SHOW COLUMNS FROM `tb_2013_pk` [ RunTime:0.003266s ]
+SQL: SELECT * FROM `tb_2013_pk` LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=2 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=1 )  [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `tb_2012_pk` [ RunTime:0.002933s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_pk`
+SQL: SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=1 )  [ RunTime:0.000562s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=1 ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\702cd0cbe7884771c0589013ab66f688.php 第 61 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075435s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007095s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007229s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029240s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007641s ]
+
+[ 2015-09-28T10:00:23+08:00 ] 10.162.1.65 /xx/tcr.php/Bkcjzx/query/grdid/3/sttid/1/clsid/1/pkid/33
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001646s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.005535s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=1 ) LIMIT 1   [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: mdo D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 273 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002847s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=1 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=1 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000317s ]
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 291 行.
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002472s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.002589s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002372s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `tb_2014_sttintxq` [ RunTime:0.002541s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_grdid=3 AND f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000555s ]
+NOTIC: [2] Missing argument 8 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [2] Missing argument 9 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined variable: tkpg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 140 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 141 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 143 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 146 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 148 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 151 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 153 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 156 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 158 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 161 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 163 行.
+NOTIC: [8] Undefined variable: odrpcd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 35 行.
+NOTIC: [8] Undefined variable: lsyon D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 187 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=1 AND f_cjzx_pkid=33 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 1   [ RunTime:0.012609s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 209 行.
+SQL: SELECT `cjzxid`,`f_cjzx_grdid`,`stdno`,`stdnm`,`sexnm`,`cjzxzf`,`cjzxqmf`,`cjzxpsf`,`cjzxxtf`,`cjzxbkf`,`cjzxsftj`,`cjzxxk`,`cjzxqk` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=1 AND f_cjzx_pkid=33 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 0,100   [ RunTime:0.027325s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 267 行.
+NOTIC: [8] Undefined variable: mlsforcount D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 276 行.
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.002589s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( pkid=33 ) LIMIT 1   [ RunTime:0.000695s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=33 AND f_stdxqcls_clsid=1 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `tb_stt` [ RunTime:0.002482s ]
+SQL: SELECT * FROM `tb_stt` WHERE ( sttid=1 )  [ RunTime:0.000526s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=1 ) ORDER BY xqid DESC LIMIT 0,10   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cls` [ RunTime:0.002343s ]
+SQL: SELECT * FROM `tb_2014_cls` LEFT JOIN tb_stt ON f_cls_sttid=sttid WHERE ( 1=1 AND f_cls_sttid=1 AND f_cls_grdid=3 AND clsactvt=1 ) ORDER BY clsnm ASC  [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdxqcls` [ RunTime:0.002194s ]
+SQL: SELECT * FROM `tb_2014_stdxqcls` LEFT JOIN tb_2014_std ON f_stdxqcls_stdid=stdid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqcls_clsid=1 AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.000586s ]
+SQL: SELECT * FROM `tb_2014_cjzx` LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_cjzx_stdid=41 )  [ RunTime:0.006800s ]
+SQL: SELECT * FROM `tb_2014_cls` WHERE ( clsid=1 ) LIMIT 1   [ RunTime:0.000134s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 75 行.
+NOTIC: [8] Undefined variable: spadm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 203 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.099418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099564s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007383s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007640s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006875s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029569s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007567s ]
+
+[ 2015-09-28T10:01:22+08:00 ] 10.162.1.65 /xx/tcr.php/Bkcjzx/tj
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007877s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008034s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007547s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002302s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.003918s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='67' WHERE ( cjzxid=3608 ) [ RunTime:0.010440s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='缺考' WHERE ( cjzxid=3620 ) [ RunTime:0.011248s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='缺考' WHERE ( cjzxid=3632 ) [ RunTime:0.011663s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='缺考' WHERE ( cjzxid=3644 ) [ RunTime:0.011764s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='缺考' WHERE ( cjzxid=3615 ) [ RunTime:0.011628s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='缺考' WHERE ( cjzxid=3639 ) [ RunTime:0.011763s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='缺考' WHERE ( cjzxid=3641 ) [ RunTime:0.012264s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='缺考' WHERE ( cjzxid=3643 ) [ RunTime:0.017242s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='缺考' WHERE ( cjzxid=3645 ) [ RunTime:0.011644s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='缺考' WHERE ( cjzxid=3660 ) [ RunTime:0.011647s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='缺考' WHERE ( cjzxid=3642 ) [ RunTime:0.011791s ]
+
+[ 2015-09-28T10:01:27+08:00 ] 10.162.1.65 /xx/tcr.php/Bkcjzx/query/grdid/3/sttid/1/clsid/1/pkid/33
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007992s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008148s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007450s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.003604s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=1 ) LIMIT 1   [ RunTime:0.000518s ]
+NOTIC: [8] Undefined variable: mdo D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 273 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002286s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=1 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=1 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 291 行.
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002045s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.002440s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002432s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `tb_2014_sttintxq` [ RunTime:0.002127s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_grdid=3 AND f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000544s ]
+NOTIC: [2] Missing argument 8 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [2] Missing argument 9 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined variable: tkpg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 140 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 141 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 143 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 146 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 148 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 151 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 153 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 156 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 158 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 161 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 163 行.
+NOTIC: [8] Undefined variable: odrpcd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 35 行.
+NOTIC: [8] Undefined variable: lsyon D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 187 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=1 AND f_cjzx_pkid=33 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 1   [ RunTime:0.012813s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 209 行.
+SQL: SELECT `cjzxid`,`f_cjzx_grdid`,`stdno`,`stdnm`,`sexnm`,`cjzxzf`,`cjzxqmf`,`cjzxpsf`,`cjzxxtf`,`cjzxbkf`,`cjzxsftj`,`cjzxxk`,`cjzxqk` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=1 AND f_cjzx_pkid=33 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 0,100   [ RunTime:0.027357s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 267 行.
+NOTIC: [8] Undefined variable: mlsforcount D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 276 行.
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.002710s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( pkid=33 ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=33 AND f_stdxqcls_clsid=1 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.005685s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000138s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `tb_stt` [ RunTime:0.002535s ]
+SQL: SELECT * FROM `tb_stt` WHERE ( sttid=1 )  [ RunTime:0.000518s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=1 ) ORDER BY xqid DESC LIMIT 0,10   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cls` [ RunTime:0.002492s ]
+SQL: SELECT * FROM `tb_2014_cls` LEFT JOIN tb_stt ON f_cls_sttid=sttid WHERE ( 1=1 AND f_cls_sttid=1 AND f_cls_grdid=3 AND clsactvt=1 ) ORDER BY clsnm ASC  [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdxqcls` [ RunTime:0.002146s ]
+SQL: SELECT * FROM `tb_2014_stdxqcls` LEFT JOIN tb_2014_std ON f_stdxqcls_stdid=stdid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqcls_clsid=1 AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.000588s ]
+SQL: SELECT * FROM `tb_2014_cjzx` LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_cjzx_stdid=41 )  [ RunTime:0.006914s ]
+SQL: SELECT * FROM `tb_2014_cls` WHERE ( clsid=1 ) LIMIT 1   [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 75 行.
+NOTIC: [8] Undefined variable: spadm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 203 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.099491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099637s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007601s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007448s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029721s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007605s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007723s ]
+
+[ 2015-09-28T12:54:27+08:00 ] 10.100.71.201 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004533s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004033s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004548s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006891s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023214s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007590s ]
+
+[ 2015-09-28T12:54:42+08:00 ] 10.100.71.201 /xx/tcr.php/Tcr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004992s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004422s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.003232s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='wuye' ) LIMIT 1   [ RunTime:0.000607s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='wuye' AND tcrpw='1bbd886460827015e5d605ed44252251' ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='wuye' AND tcrpw='1bbd886460827015e5d605ed44252251' ) LIMIT 1   [ RunTime:0.000136s ]
+
+[ 2015-09-28T12:54:42+08:00 ] 10.100.71.201 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002758s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000925s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000143s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\IndexAction.class.php on line 29 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002620s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000675s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003250s ]
+SQL: SELECT * FROM `tb_atc` WHERE ( atcid=21 )  [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\6f1d53a3c8454cf67e89dfe20c7b417a.php 第 61 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066767s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007685s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007120s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007139s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029589s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007663s ]
+
+[ 2015-09-28T12:54:45+08:00 ] 10.100.71.201 /xx/tcr.php/Bkcjzx/gtxpg/x/skxx
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002899s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000275s ]
+NOTIC: [8] Undefined variable: mdo D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002400s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000519s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002495s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002427s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `tb_2015_pk` [ RunTime:0.002838s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2015_pk`
+SQL: SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 )  [ RunTime:0.000567s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 ) 
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.003286s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 )  [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.003005s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=44 AND f_std_statid=5 )  [ RunTime:0.123930s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=4 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) ) LIMIT 1   [ RunTime:0.005295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=4 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.005679s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=5 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) ) LIMIT 1   [ RunTime:0.005170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=5 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.005519s ]
+SQL: SHOW COLUMNS FROM `tb_2013_pk` [ RunTime:0.003254s ]
+SQL: SELECT * FROM `tb_2013_pk` LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=2 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 )  [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `tb_2012_pk` [ RunTime:0.002873s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_pk`
+SQL: SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 )  [ RunTime:0.000563s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\702cd0cbe7884771c0589013ab66f688.php 第 61 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074996s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007160s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007183s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006859s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028860s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007457s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007570s ]
+
+[ 2015-09-28T12:54:50+08:00 ] 10.100.71.201 /xx/tcr.php/Bkcjzx/query/grdid/3/sttid/1/clsid/4/pkid/44
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001651s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002765s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: mdo D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 273 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002279s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 291 行.
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.001989s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.002904s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002371s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `tb_2014_sttintxq` [ RunTime:0.002610s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_grdid=3 AND f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000556s ]
+NOTIC: [2] Missing argument 8 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [2] Missing argument 9 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined variable: tkpg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 140 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 141 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 143 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 146 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 148 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 151 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 153 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 156 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 158 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 161 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 163 行.
+NOTIC: [8] Undefined variable: odrpcd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 35 行.
+NOTIC: [8] Undefined variable: lsyon D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 187 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=4 AND f_cjzx_pkid=44 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 1   [ RunTime:0.011845s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 209 行.
+SQL: SELECT `cjzxid`,`f_cjzx_grdid`,`stdno`,`stdnm`,`sexnm`,`cjzxzf`,`cjzxqmf`,`cjzxpsf`,`cjzxxtf`,`cjzxbkf`,`cjzxsftj`,`cjzxxk`,`cjzxqk` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=4 AND f_cjzx_pkid=44 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 0,100   [ RunTime:0.021230s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 267 行.
+NOTIC: [8] Undefined variable: mlsforcount D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 276 行.
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.003131s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( pkid=44 ) LIMIT 1   [ RunTime:0.000649s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=4 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `tb_stt` [ RunTime:0.002479s ]
+SQL: SELECT * FROM `tb_stt` WHERE ( sttid=1 )  [ RunTime:0.000528s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=1 ) ORDER BY xqid DESC LIMIT 0,10   [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cls` [ RunTime:0.002412s ]
+SQL: SELECT * FROM `tb_2014_cls` LEFT JOIN tb_stt ON f_cls_sttid=sttid WHERE ( 1=1 AND f_cls_sttid=1 AND f_cls_grdid=3 AND clsactvt=1 ) ORDER BY clsnm ASC  [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdxqcls` [ RunTime:0.002153s ]
+SQL: SELECT * FROM `tb_2014_stdxqcls` LEFT JOIN tb_2014_std ON f_stdxqcls_stdid=stdid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqcls_clsid=4 AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.000580s ]
+SQL: SELECT * FROM `tb_2014_cjzx` LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_cjzx_stdid=27 )  [ RunTime:0.006642s ]
+SQL: SELECT * FROM `tb_2014_cls` WHERE ( clsid=4 ) LIMIT 1   [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 75 行.
+NOTIC: [8] Undefined variable: spadm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 203 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.101437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007418s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006910s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028995s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007939s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008072s ]
+
+[ 2015-09-28T12:56:02+08:00 ] 10.100.71.201 /xx/tcr.php/Bkcjzx/tj
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007893s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008053s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008150s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002352s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.002518s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='20' WHERE ( cjzxid=4393 ) [ RunTime:0.014054s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='37' WHERE ( cjzxid=4388 ) [ RunTime:0.011541s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='41' WHERE ( cjzxid=4408 ) [ RunTime:0.011793s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='0' WHERE ( cjzxid=4389 ) [ RunTime:0.011681s ]
+
+[ 2015-09-28T12:56:03+08:00 ] 10.100.71.201 /xx/tcr.php/Bkcjzx/query/grdid/3/sttid/1/clsid/4/pkid/44
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007865s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007485s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002700s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000281s ]
+NOTIC: [8] Undefined variable: mdo D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 273 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002253s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000508s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 291 行.
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.001994s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.002419s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002382s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `tb_2014_sttintxq` [ RunTime:0.002565s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_grdid=3 AND f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000516s ]
+NOTIC: [2] Missing argument 8 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [2] Missing argument 9 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined variable: tkpg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 140 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 141 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 143 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 146 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 148 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 151 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 153 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 156 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 158 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 161 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 163 行.
+NOTIC: [8] Undefined variable: odrpcd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 35 行.
+NOTIC: [8] Undefined variable: lsyon D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 187 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=4 AND f_cjzx_pkid=44 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 1   [ RunTime:0.011591s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 209 行.
+SQL: SELECT `cjzxid`,`f_cjzx_grdid`,`stdno`,`stdnm`,`sexnm`,`cjzxzf`,`cjzxqmf`,`cjzxpsf`,`cjzxxtf`,`cjzxbkf`,`cjzxsftj`,`cjzxxk`,`cjzxqk` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=4 AND f_cjzx_pkid=44 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 0,100   [ RunTime:0.021402s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 267 行.
+NOTIC: [8] Undefined variable: mlsforcount D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 276 行.
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.002750s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( pkid=44 ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=4 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.005652s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `tb_stt` [ RunTime:0.002515s ]
+SQL: SELECT * FROM `tb_stt` WHERE ( sttid=1 )  [ RunTime:0.000542s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=1 ) ORDER BY xqid DESC LIMIT 0,10   [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cls` [ RunTime:0.003021s ]
+SQL: SELECT * FROM `tb_2014_cls` LEFT JOIN tb_stt ON f_cls_sttid=sttid WHERE ( 1=1 AND f_cls_sttid=1 AND f_cls_grdid=3 AND clsactvt=1 ) ORDER BY clsnm ASC  [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdxqcls` [ RunTime:0.002217s ]
+SQL: SELECT * FROM `tb_2014_stdxqcls` LEFT JOIN tb_2014_std ON f_stdxqcls_stdid=stdid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqcls_clsid=4 AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.000621s ]
+SQL: SELECT * FROM `tb_2014_cjzx` LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_cjzx_stdid=27 )  [ RunTime:0.006625s ]
+SQL: SELECT * FROM `tb_2014_cls` WHERE ( clsid=4 ) LIMIT 1   [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 75 行.
+NOTIC: [8] Undefined variable: spadm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 203 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.096382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096529s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007427s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003975s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006866s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025859s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007568s ]
+
+[ 2015-09-28T12:56:06+08:00 ] 10.100.71.201 /xx/tcr.php/Bkcjzx/gtxpg/x/skxx
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008145s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008311s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008625s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.003036s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: mdo D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002239s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000570s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002456s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002003s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `tb_2015_pk` [ RunTime:0.002855s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2015_pk`
+SQL: SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 )  [ RunTime:0.000577s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 ) 
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.002387s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 )  [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.003658s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=44 AND f_std_statid=5 )  [ RunTime:0.119631s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=4 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) ) LIMIT 1   [ RunTime:0.005629s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=4 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.000151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=5 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) ) LIMIT 1   [ RunTime:0.005230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=5 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.005570s ]
+SQL: SHOW COLUMNS FROM `tb_2013_pk` [ RunTime:0.002890s ]
+SQL: SELECT * FROM `tb_2013_pk` LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=2 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 )  [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `tb_2012_pk` [ RunTime:0.002906s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_pk`
+SQL: SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 )  [ RunTime:0.000571s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\702cd0cbe7884771c0589013ab66f688.php 第 61 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068947s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007128s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007401s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007432s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029794s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007569s ]
+
+[ 2015-09-28T12:56:08+08:00 ] 10.100.71.201 /xx/tcr.php/Bkcjzx/query/grdid/3/sttid/1/clsid/5/pkid/44
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008022s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007453s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002892s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000276s ]
+NOTIC: [8] Undefined variable: mdo D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 273 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002814s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.001540s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000155s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000223s ]
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 291 行.
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002153s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.002591s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002436s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `tb_2014_sttintxq` [ RunTime:0.002776s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_grdid=3 AND f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000500s ]
+NOTIC: [2] Missing argument 8 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [2] Missing argument 9 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined variable: tkpg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 140 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 141 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 143 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 146 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 148 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 151 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 153 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 156 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 158 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 161 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 163 行.
+NOTIC: [8] Undefined variable: odrpcd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 35 行.
+NOTIC: [8] Undefined variable: lsyon D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 187 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=5 AND f_cjzx_pkid=44 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 1   [ RunTime:0.011521s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 209 行.
+SQL: SELECT `cjzxid`,`f_cjzx_grdid`,`stdno`,`stdnm`,`sexnm`,`cjzxzf`,`cjzxqmf`,`cjzxpsf`,`cjzxxtf`,`cjzxbkf`,`cjzxsftj`,`cjzxxk`,`cjzxqk` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=5 AND f_cjzx_pkid=44 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 0,100   [ RunTime:0.020218s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 267 行.
+NOTIC: [8] Undefined variable: mlsforcount D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 276 行.
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.002705s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( pkid=44 ) LIMIT 1   [ RunTime:0.000445s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=5 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000730s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `tb_stt` [ RunTime:0.002544s ]
+SQL: SELECT * FROM `tb_stt` WHERE ( sttid=1 )  [ RunTime:0.000535s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=1 ) ORDER BY xqid DESC LIMIT 0,10   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cls` [ RunTime:0.002375s ]
+SQL: SELECT * FROM `tb_2014_cls` LEFT JOIN tb_stt ON f_cls_sttid=sttid WHERE ( 1=1 AND f_cls_sttid=1 AND f_cls_grdid=3 AND clsactvt=1 ) ORDER BY clsnm ASC  [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdxqcls` [ RunTime:0.002154s ]
+SQL: SELECT * FROM `tb_2014_stdxqcls` LEFT JOIN tb_2014_std ON f_stdxqcls_stdid=stdid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqcls_clsid=5 AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.000579s ]
+SQL: SELECT * FROM `tb_2014_cjzx` LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_cjzx_stdid=12 )  [ RunTime:0.006585s ]
+SQL: SELECT * FROM `tb_2014_cls` WHERE ( clsid=5 ) LIMIT 1   [ RunTime:0.000138s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 75 行.
+NOTIC: [8] Undefined variable: spadm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 203 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.097519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097665s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007368s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007109s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006860s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029117s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007555s ]
+
+[ 2015-09-28T12:57:02+08:00 ] 10.100.71.201 /xx/tcr.php/Bkcjzx/tj
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009430s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008677s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002313s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.002452s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='49' WHERE ( cjzxid=4434 ) [ RunTime:0.026785s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='23' WHERE ( cjzxid=4439 ) [ RunTime:0.011536s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='缺考' WHERE ( cjzxid=4418 ) [ RunTime:0.011746s ]
+SQL: UPDATE `tb_2014_cjzx` SET `cjzxbkf`='11' WHERE ( cjzxid=4429 ) [ RunTime:0.011682s ]
+
+[ 2015-09-28T12:57:03+08:00 ] 10.100.71.201 /xx/tcr.php/Bkcjzx/query/grdid/3/sttid/1/clsid/5/pkid/44
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008143s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008144s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002682s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000271s ]
+NOTIC: [8] Undefined variable: mdo D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 273 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002229s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 291 行.
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.001996s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.002406s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002458s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `tb_2014_sttintxq` [ RunTime:0.002108s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_grdid=3 AND f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000543s ]
+NOTIC: [2] Missing argument 8 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [2] Missing argument 9 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined variable: tkpg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 140 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 141 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 143 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 146 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 148 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 151 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 153 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 156 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 158 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 161 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 163 行.
+NOTIC: [8] Undefined variable: odrpcd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 35 行.
+NOTIC: [8] Undefined variable: lsyon D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 187 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=5 AND f_cjzx_pkid=44 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 1   [ RunTime:0.013677s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 209 行.
+SQL: SELECT `cjzxid`,`f_cjzx_grdid`,`stdno`,`stdnm`,`sexnm`,`cjzxzf`,`cjzxqmf`,`cjzxpsf`,`cjzxxtf`,`cjzxbkf`,`cjzxsftj`,`cjzxxk`,`cjzxqk` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=5 AND f_cjzx_pkid=44 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 0,100   [ RunTime:0.020264s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 267 行.
+NOTIC: [8] Undefined variable: mlsforcount D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 276 行.
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.002780s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( pkid=44 ) LIMIT 1   [ RunTime:0.000444s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=5 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.005619s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `tb_stt` [ RunTime:0.002518s ]
+SQL: SELECT * FROM `tb_stt` WHERE ( sttid=1 )  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=1 ) ORDER BY xqid DESC LIMIT 0,10   [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cls` [ RunTime:0.002391s ]
+SQL: SELECT * FROM `tb_2014_cls` LEFT JOIN tb_stt ON f_cls_sttid=sttid WHERE ( 1=1 AND f_cls_sttid=1 AND f_cls_grdid=3 AND clsactvt=1 ) ORDER BY clsnm ASC  [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdxqcls` [ RunTime:0.002159s ]
+SQL: SELECT * FROM `tb_2014_stdxqcls` LEFT JOIN tb_2014_std ON f_stdxqcls_stdid=stdid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqcls_clsid=5 AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.000575s ]
+SQL: SELECT * FROM `tb_2014_cjzx` LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_cjzx_stdid=12 )  [ RunTime:0.006560s ]
+SQL: SELECT * FROM `tb_2014_cls` WHERE ( clsid=5 ) LIMIT 1   [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 75 行.
+NOTIC: [8] Undefined variable: spadm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 203 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.090228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090373s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007381s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006858s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024590s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007606s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007746s ]
+
+[ 2015-09-28T12:57:09+08:00 ] 10.100.71.201 /xx/tcr.php/Bkcjzx/gtxpg/x/skxx
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008019s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008192s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007513s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.002907s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000276s ]
+NOTIC: [8] Undefined variable: mdo D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002278s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000559s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002047s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.001989s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `tb_2015_pk` [ RunTime:0.003130s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2015_pk`
+SQL: SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 )  [ RunTime:0.000588s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 ) 
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.002502s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 )  [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.002571s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=44 AND f_std_statid=5 )  [ RunTime:0.118272s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=4 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) ) LIMIT 1   [ RunTime:0.005270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=4 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.005529s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=5 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) ) LIMIT 1   [ RunTime:0.005379s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=5 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `tb_2013_pk` [ RunTime:0.002793s ]
+SQL: SELECT * FROM `tb_2013_pk` LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=2 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 )  [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `tb_2012_pk` [ RunTime:0.002931s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_pk`
+SQL: SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 )  [ RunTime:0.000576s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=34 ) 
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\702cd0cbe7884771c0589013ab66f688.php 第 61 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067564s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007582s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006921s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024452s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008331s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008459s ]
+
+[ 2015-09-28T12:57:11+08:00 ] 10.100.71.201 /xx/tcr.php/Bkcjzx/query/grdid/3/sttid/1/clsid/4/pkid/44
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008570s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008737s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007506s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.003036s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=34 ) LIMIT 1   [ RunTime:0.000409s ]
+NOTIC: [8] Undefined variable: mdo D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 273 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002305s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000560s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php 第 291 行.
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.003552s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002146s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `tb_2014_sttintxq` [ RunTime:0.002115s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_grdid=3 AND f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000547s ]
+NOTIC: [2] Missing argument 8 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [2] Missing argument 9 for NBAction::NB(), called in D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\Action\BkcjzxAction.class.php on line 322 and defined D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index:  NBsqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined variable: tkpg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 140 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 141 行.
+NOTIC: [8] Undefined index:  fld D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 143 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 146 行.
+NOTIC: [8] Undefined index:  cdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 148 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 151 行.
+NOTIC: [8] Undefined index:  spccdt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 153 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 156 行.
+NOTIC: [8] Undefined index:  odr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 158 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 161 行.
+NOTIC: [8] Undefined index:  lmt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 163 行.
+NOTIC: [8] Undefined variable: odrpcd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 35 行.
+NOTIC: [8] Undefined variable: lsyon D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 187 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=4 AND f_cjzx_pkid=44 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 1   [ RunTime:0.011635s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 209 行.
+SQL: SELECT `cjzxid`,`f_cjzx_grdid`,`stdno`,`stdnm`,`sexnm`,`cjzxzf`,`cjzxqmf`,`cjzxpsf`,`cjzxxtf`,`cjzxbkf`,`cjzxsftj`,`cjzxxk`,`cjzxqk` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( 1=1 AND f_cjzx_grdid=3 AND f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_std_grdid=3 AND f_std_sttid=1 AND f_std_statid=5 AND f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_stdxqcls_clsid=4 AND f_cjzx_pkid=44 AND (cjzxhk=1 OR (cjzxzf>30 AND cjzxzf<60)) ) ORDER BY f_mj_bxxsid ASC,clsid ASC,mjid ASC,stdno ASC LIMIT 0,100   [ RunTime:0.021336s ]
+NOTIC: [8] Undefined variable: sqlstc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 267 行.
+NOTIC: [8] Undefined variable: mlsforcount D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Lib\NB\NBAction.class.php 第 276 行.
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.002608s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( pkid=44 ) LIMIT 1   [ RunTime:0.000445s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_2014_cjzx` inner join tb_2014_stdxqcls ON f_cjzx_stdid=f_stdxqcls_stdid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_stdxqcls_xqid=2 AND f_cjzx_pkid=44 AND f_stdxqcls_clsid=4 AND (cjzxhk=1 OR(cjzxzf>30 AND cjzxzf<60)) AND (cjzxbkf='' OR cjzxbkf IS NULL) ) LIMIT 1   [ RunTime:0.000134s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `tb_stt` [ RunTime:0.002348s ]
+SQL: SELECT * FROM `tb_stt` WHERE ( sttid=1 )  [ RunTime:0.000482s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT * FROM `tb_2014_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=1 ) ORDER BY xqid DESC LIMIT 0,10   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cls` [ RunTime:0.002478s ]
+SQL: SELECT * FROM `tb_2014_cls` LEFT JOIN tb_stt ON f_cls_sttid=sttid WHERE ( 1=1 AND f_cls_sttid=1 AND f_cls_grdid=3 AND clsactvt=1 ) ORDER BY clsnm ASC  [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdxqcls` [ RunTime:0.002147s ]
+SQL: SELECT * FROM `tb_2014_stdxqcls` LEFT JOIN tb_2014_std ON f_stdxqcls_stdid=stdid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqcls_clsid=4 AND f_std_statid=5 ) LIMIT 1   [ RunTime:0.000572s ]
+SQL: SELECT * FROM `tb_2014_cjzx` LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid WHERE ( f_cjzx_sttid=1 AND f_cjzx_xqid=2 AND f_cjzx_stdid=27 )  [ RunTime:0.006754s ]
+SQL: SELECT * FROM `tb_2014_cls` WHERE ( clsid=4 ) LIMIT 1   [ RunTime:0.000144s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 75 行.
+NOTIC: [8] Undefined variable: spadm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\tcr\Runtime\Cache\e3c37b8fd418a9729ac896ff8df78d00.php 第 203 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.093555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093705s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007845s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002518s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006926s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024909s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008258s ]
+
+[ 2015-09-28T12:57:17+08:00 ] 10.100.71.201 /xx/tcr.php/Tcrbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008126s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007466s ]
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002466s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: UPDATE `tb_tcrbtn` SET `tcrbtnvl`='glyphicon glyphicon-triangle-bottom' WHERE ( tcrbtnid=9 ) [ RunTime:0.014565s ]
+
+[ 2015-09-28T12:57:18+08:00 ] 10.100.71.201 /xx/tcr.php/Tcrbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007899s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008061s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007486s ]
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002421s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000637s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: UPDATE `tb_tcrbtn` SET `tcrbtnvl`='glyphicon glyphicon-triangle-top' WHERE ( tcrbtnid=9 ) [ RunTime:0.016350s ]
+
+[ 2015-09-28T12:57:19+08:00 ] 10.100.71.201 /xx/tcr.php/Tcrbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007853s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008006s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008101s ]
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002426s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=34 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000703s ]
+SQL: INSERT INTO `tb_tcrbtn` (`f_tcrbtn_tcrid`,`tcrbtnnm`,`tcrbtnvl`) VALUES (34,'lft','none') [ RunTime:0.011003s ]
+

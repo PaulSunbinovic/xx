@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/admin/cm.js'></script>
+<link href="__PUBLIC__/CSS/admin/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+
+<script type='text/javascript' src='__PUBLIC__/JS/admin/mj.js'></script>
+<script type='text/javascript'>
+var hdlurl='__URL__/update';
+</script>
+</head>
+
+
+<body>
+
+<include file='Pblc:head'/>
+<div class='container' >
+	<div class='col-md-2' id='lft' class='pull-left' style='display:{$lftcls};'>
+		<script>
+		var hdlbtn='__APP__/Btn/update';
+		</script>
+		<div class="panel panel-default">
+		  <div class="panel-heading">
+		    <div class='pull-left'><i class="glyphicon glyphicon-cog"></i> 控制面板</div>
+		    <div class='pull-right'><a href="javascript:leftright()"><i class="glyphicon glyphicon-triangle-left"></i></a></div>
+		    <div class='clearfix'></div>
+		  </div>
+		  <div class="panel-body">
+		  
+	  	<volist name='lblskzmb' id='vo'>  
+			  	<div class="panel panel-info">
+				  <!-- Default panel contents -->
+				  <div class="panel-heading">
+				  	<div class='pull-left'><i class="glyphicon glyphicon-signal"></i> {$vo['lbnm']}</div>
+					<div class='pull-right'><a href="javascript:updown('bs{$vo[lbid]}')"><i class="{$vo['bscls']}" id="bs{$vo['lbid']}"></i></a></div>
+					<div class='clearfix'></div>
+				  </div>
+				<!-- List group -->
+				  <ul class="nav nav-pills nav-stacked" style="display:{$vo['bsbdcls']}" id="bs{$vo['lbid']}bd">
+				    <volist name="vo['mdlskzmb']" id='voII'>
+						<li class="{$voII['actvcls']}"><a href="__APP__/{$voII['mdmk']}/query">{$voII['mdnm']}</a></li>
+					</volist>
+				  </ul>
+				</div>
+			</volist>
+	    </div>
+		</div>
+	</div>
+	<div class='{$rgtcls}' id='rgt' >
+		<div class="panel panel-default">
+			<div class="panel-heading">
+			  <a href='javascript:leftright()' id='btn-lft' style='display:{$lftbtncls}'><i class="glyphicon glyphicon-triangle-right"></i></a><i class="glyphicon glyphicon-th-list"></i> {$theme}
+			</div>
+			<div class="panel-body">
+				<form>
+				<input type='hidden' name='mjid' value="{$mo['mjid']}" />
+				<table class='tb'>
+				
+				<tr><td>年级名称</td>
+				<td>
+				<select name='f_mj_grdid'>
+					<volist name="grdls" id='vo'>
+					<option value="{$vo['grdid']}">{$vo['grdnm']}</option>
+					</volist>
+				</select>
+				<script>$('select[name=f_mj_grdid]').val({$mo['f_mj_grdid']})</script>
+				</td>
+				</tr>
+				
+				<tr><td>办学形式名称</td>
+				<td>
+				<select name='f_mj_bxxsid'>
+					<option value='0'>无</option>
+					<volist name="bxxsls" id='vo'>
+					<option value="{$vo['bxxsid']}">{$vo['bxxsnm']}</option>
+					</volist>
+				</select>
+				<script>$('select[name=f_mj_bxxsid]').val({$mo['f_mj_bxxsid']})</script>
+				</td>
+				</tr>
+				
+				<tr><td>层次</td><td>
+				<select name='f_mj_ccid'>
+					<option value='0'>无</option>
+					<volist name='ccls' id='vo'>
+					<option value="{$vo['ccid']}">{$vo['ccnm']}</option>
+					</volist>
+				</select>
+				<script>$('select[name=f_mj_ccid]').val({$mo['f_mj_ccid']})</script>
+				</td></tr>
+				<tr><td>科类</td><td>
+				<select name='f_mj_klid'>
+					<option value='0'>无</option>
+					<volist name='klls' id='vo'>
+					<option value="{$vo['klid']}">{$vo['klnm']}</option>
+					</volist>
+				</select>
+				<script>$('select[name=f_mj_klid]').val({$mo['f_mj_klid']})</script>
+				</td></tr>
+				<tr><td>学习形式</td><td>
+				<select name='f_mj_xxxsid'>
+					<option value='0'>无</option>
+					<volist name='xxxsls' id='vo'>
+					<option value="{$vo['xxxsid']}">{$vo['xxxsnm']}</option>
+					</volist>
+				</select>
+				<script>$('select[name=f_mj_xxxsid]').val({$mo['f_mj_xxxsid']})</script>
+				</td></tr>
+				<tr><td>招生范围</td><td>
+				<select name='f_mj_zsfwid'>
+					<option value='0'>无</option>
+					<volist name='zsfwls' id='vo'>
+					<option value="{$vo['zsfwid']}">{$vo['zsfwnm']}</option>
+					</volist>
+				</select>
+				<script>$('select[name=f_mj_zsfwid]').val({$mo['f_mj_zsfwid']})</script>
+				</td></tr>
+				<tr><td>学制：</td><td>
+				<select name='f_mj_xzid'>
+					<option value='0'>无</option>
+					<volist name='xzls' id='vo'>
+					<option value="{$vo['xzid']}">{$vo['xznm']}</option>
+					</volist>
+				</select>
+				<script>$('select[name=f_mj_xzid]').val({$mo['f_mj_xzid']})</script>
+				</td></tr>
+				<tr><td>专业代码：</td><td><input type='text' name='mjdm' value="{$mo['mjdm']}" id='mjdm'/></td></tr>
+				<tr><td>专业名称：</td><td><input type='text' name='mjnm' value="{$mo['mjnm']}" id='mjnm'/></td></tr>
+				<tr><td>本部今年是否招生：</td><td>
+				<select name='mjbbzs'>
+					<option value='0'>否</option>
+					<option value="1">是</option>
+					
+				</select>
+				<script>$('select[name=mjbbzs]').val({$mo['mjbbzs']})</script>
+				</td></tr>
+				<tr><td>开设站点</td><td>
+				<input type='hidden' name='mjsttu' value="{$mo['mjsttu']}" />
+				<span id='mjsttuset'>
+				<volist name='sttlsub' id='vo'>
+					<div class="alert alert-warning alert-dismissible col-md-6" role="alert" id="myAlert_{$vo['sttid']}">
+				      <button type="button" class="close" aria-label="Close" id="cls_{$vo['sttid']}" onclick="gbmjsttu({$vo['sttid']})"><span aria-hidden="true">×</span></button>
+				      	{$vo['sttnm']}
+				    </div>
+				    
+			    </volist>
+			    
+			    </span>
+			    <!-- Small modal -->
+
+
+
+			   <span>
+			   <a href='#' data-toggle="modal" data-target=".bs-example-modal-sm">
+				   <div class="alert alert-info alert-dismissible col-md-1" role="alert">
+				      <i class='glyphicon glyphicon-plus'></i>
+				    </div>
+			    </a>
+			   
+			   </span>
+			   <div style="display: none;" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+			    <div class="modal-dialog modal-sm">
+			      <div class="modal-content">
+			
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal" aria-label="Close" id='mdlx'><span aria-hidden="true">×</span></button>
+			          <h4 class="modal-title" id="mySmallModalLabel">选择站点</h4>
+			        </div>
+			        <div class="modal-body">
+			          	<select id='sttnw'>
+				    	<option value=''></option>
+					      <volist name='sttls' id='vo'>
+					      	<option value="{$vo['sttid']}-{$vo['sttnm']}">{$vo['sttnm']}</option>
+					      </volist>
+					    </select>
+			        </div>
+			        <div class="modal-footer">
+				        <button type="button" class="btn btn-primary" id='addstt'>确认添加</button>
+				    </div>
+			      </div><!-- /.modal-content -->
+			    </div><!-- /.modal-dialog -->
+			  </div>
+			   
+				 
+				</td></tr>			
+				</table>
+				
+				<link rel="stylesheet" href="__PUBLIC__/pblc/ueditor/themes/default/ueditor.css"/>
+				<script type="text/javascript" src="__PUBLIC__/pblc/ueditor/editor_config.js"></script>
+				<script type="text/javascript" src="__PUBLIC__/pblc/ueditor/editor_all.js"></script>
+				<p>专业描述</p>
+				<div id="myEditor">
+				<script type="text/javascript">
+					var editor = new baidu.editor.ui.Editor({
+					    initialContent: '{$mo.mjdsc}'
+					});
+					editor.render("myEditor");
+				</script>
+				</div>
+				<textarea name='mjdsc' style='display:none'></textarea>
+
+				<input type='button' id='updt' value="{$btnvl}" class='btn btn-primary'/>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class='clearfix'></div>
+	
+	<div style="display: none;" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	    <div class="modal-dialog modal-sm">
+	      <div class="modal-content">
+	
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="mdlx"><span aria-hidden="true">×</span></button>
+	          <h4 class="modal-title" id="mySmallModalLabel">选择站点</h4>
+	        </div>
+	        <div class="modal-body">
+	          	<select id="sttnw">
+		    	<option value=""></option>
+			      <option value="1-本部">本部</option><option value="2-河北">河北</option>					    </select>
+	        </div>
+	        <div class="modal-footer">
+		        <button type="button" class="btn btn-primary" id="addstt">确认添加</button>
+		    </div>
+	      </div><!-- /.modal-content -->
+	    </div><!-- /.modal-dialog -->
+	  </div>
+	
+	<include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: 100,//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+</script>
+
+</body>
+</html>

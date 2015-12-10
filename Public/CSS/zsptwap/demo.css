@@ -1,0 +1,100 @@
+html, body
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-color: #fff;
+	
+	color: #666;
+	
+}
+body *
+{
+	text-shadow: none;
+}
+
+
+
+.header,
+
+.footer
+{
+	text-align: center;
+}
+.header,
+.footer
+{
+	background: #333;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 40px;
+
+
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	width: 100%;
+	height: 40px;
+	padding: 0 50px;
+}
+.header.fixed
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.footer.fixed
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.header #menu
+{
+	background: center center no-repeat transparent;
+	background-image: url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC );
+
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+.header #home
+{
+	background: center center no-repeat transparent;
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	color:#fff;
+	right: 10px;
+}
+.content
+{
+	padding: 40px 0px 50px 0px;
+}
+.header,
+.footer
+{
+	box-sizing: border-box;
+	width: 100%;
+	position: fixed;
+	z-index:1000;
+}
+.header
+{
+	top: 0;
+}
+.footer
+{
+	bottom: 0;
+}
+
+.slct{
+	padding-top:20px; padding-bottom:20px;
+}

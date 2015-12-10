@@ -1,0 +1,133 @@
+[ 2015-11-12T05:33:44+08:00 ] 66.249.74.70 /xx/zsptwap.php/Atc/appendatc/bdid/18
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008116s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007468s ]
+NOTIC: [8] Undefined index:  pg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 537 行.
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003713s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002931s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 548 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 553 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 558 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=18 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000139s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp`,`atccv`,`atczn`,`atctc`,`atccnt` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=18) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000406s ]
+SQL: SELECT * FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=18) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 10,1   [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: htmltxt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 659 行.
+
+[ 2015-11-12T05:37:32+08:00 ] 66.249.75.107 /xx/zsptwap.php/Atc/appendatc/bdid/20
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008028s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007541s ]
+NOTIC: [8] Undefined index:  pg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 537 行.
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003113s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002527s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 548 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 553 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 558 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=20 ) LIMIT 1   [ RunTime:0.000413s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000136s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp`,`atccv`,`atczn`,`atctc`,`atccnt` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=20) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000415s ]
+SQL: SELECT * FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=20) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 10,1   [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: htmltxt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 659 行.
+
+[ 2015-11-12T05:41:18+08:00 ] 66.249.74.72 /xx/zsptwap.php/Atc/appendatc/bdid/22
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007462s ]
+NOTIC: [8] Undefined index:  pg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 537 行.
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003077s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002441s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 548 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 553 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 558 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=22 ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000133s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp`,`atccv`,`atczn`,`atctc`,`atccnt` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=22) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000426s ]
+SQL: SELECT * FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=22) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 10,1   [ RunTime:0.000333s ]
+NOTIC: [8] Undefined variable: htmltxt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 659 行.
+
+[ 2015-11-12T23:17:02+08:00 ] 66.249.74.70 /xx/zsptwap.php/Atc/appendatc/bdid/16
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007461s ]
+NOTIC: [8] Undefined index:  pg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 537 行.
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004405s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003867s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 548 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 553 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 558 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=16 ) LIMIT 1   [ RunTime:0.000436s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000140s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp`,`atccv`,`atczn`,`atctc`,`atccnt` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=16) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000417s ]
+SQL: SELECT * FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=16) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 10,1   [ RunTime:0.000362s ]
+NOTIC: [8] Undefined variable: htmltxt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 659 行.
+
+[ 2015-11-12T23:20:48+08:00 ] 66.249.74.72 /xx/zsptwap.php/Atc/appendatc/bdid/17
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008041s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007471s ]
+NOTIC: [8] Undefined index:  pg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 537 行.
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003122s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002583s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 548 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 553 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 558 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=17 ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000137s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp`,`atccv`,`atczn`,`atctc`,`atccnt` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=17) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000411s ]
+SQL: SELECT * FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=17) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 10,1   [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: htmltxt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 659 行.
+
+[ 2015-11-12T23:24:37+08:00 ] 66.249.74.68 /xx/zsptwap.php/Atc/appendatc/bdid/19
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008108s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007454s ]
+NOTIC: [8] Undefined index:  pg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 537 行.
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003488s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002958s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 548 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 553 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 558 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=19 ) LIMIT 1   [ RunTime:0.000420s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000134s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp`,`atccv`,`atczn`,`atctc`,`atccnt` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=19) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000412s ]
+SQL: SELECT * FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=19) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 10,1   [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: htmltxt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 659 行.
+
+[ 2015-11-12T23:28:22+08:00 ] 66.249.74.70 /xx/zsptwap.php/Atc/appendatc/bdid/21
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007849s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008005s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007495s ]
+NOTIC: [8] Undefined index:  pg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 537 行.
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003061s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 548 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 553 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 558 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=21 ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000136s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp`,`atccv`,`atczn`,`atctc`,`atccnt` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=21) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000397s ]
+SQL: SELECT * FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=21) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 10,1   [ RunTime:0.000332s ]
+NOTIC: [8] Undefined variable: htmltxt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 659 行.
+

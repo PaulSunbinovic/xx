@@ -1,0 +1,44 @@
+[ 2015-09-25T09:58:06+08:00 ] 68.180.228.176 /xx/zsptwap.php/Atc/query/atcanc/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008429s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008608s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004381s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002934s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002119s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003794s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000180s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003256s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003045s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000527s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp`,`atccv`,`atczn`,`atctc`,`atccnt` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (atcanc=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `tb_cstmcmt` [ RunTime:0.002720s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmcmt` WHERE ( f_cstmcmt_atcid=20 ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp`,`atccv` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (atcanc=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 10,1   [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  actvcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\c31be9c2b88d6bec0856920cbdfb6caf.php 第 71 行.
+NOTIC: [8] Undefined index:  actvcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\c31be9c2b88d6bec0856920cbdfb6caf.php 第 71 行.
+NOTIC: [8] Undefined index:  actvcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\c31be9c2b88d6bec0856920cbdfb6caf.php 第 71 行.
+NOTIC: [8] Undefined index:  actvcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\c31be9c2b88d6bec0856920cbdfb6caf.php 第 71 行.
+NOTIC: [8] Undefined index:  actvcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\c31be9c2b88d6bec0856920cbdfb6caf.php 第 71 行.
+NOTIC: [8] Undefined index:  actvcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\c31be9c2b88d6bec0856920cbdfb6caf.php 第 71 行.
+NOTIC: [8] Undefined index:  actvcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\c31be9c2b88d6bec0856920cbdfb6caf.php 第 71 行.
+NOTIC: [8] Undefined index:  actvcls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\c31be9c2b88d6bec0856920cbdfb6caf.php 第 71 行.
+NOTIC: [8] Undefined variable: wxusross D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\c31be9c2b88d6bec0856920cbdfb6caf.php 第 168 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062942s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004098s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004229s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006883s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022989s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007457s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007570s ]
+

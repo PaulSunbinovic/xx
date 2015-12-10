@@ -1,0 +1,50 @@
+[ 2015-01-16T14:41:22+08:00 ] 127.0.0.1 /geek/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.094457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.094621s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.036146s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.051985s ]
+SQL: SELECT * FROM `tb_athmd` LEFT JOIN tb_md ON f_athmd_mdid=mdid WHERE ( f_athmd_athid=1 AND q='y' )  [ RunTime:0.001457s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029970s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001050s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000837s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003798s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000980s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2015-01-16T14:41:33+08:00 ] 127.0.0.1 /geek/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+
+[ 2015-01-16T14:41:34+08:00 ] 127.0.0.1 /geek/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027101s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000802s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000817s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003686s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001107s ]
+

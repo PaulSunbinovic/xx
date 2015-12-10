@@ -1,0 +1,90 @@
+[ 2015-03-06T01:17:41+08:00 ] 127.0.0.1 /geek/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.004312s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.035695s ]
+ERR: 1146:Table 'db_geek.tb_athmd' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_athmd`
+NOTIC: [8] Undefined index: f_usr_athid C:\wamp\www\geek\index\Lib\NTF\NTFAction.class.php 第 9 行.
+SQL: SELECT * FROM `tb_athmd` LEFT JOIN tb_md ON f_athmd_mdid=mdid WHERE ( f_athmd_athid= AND mdmk='Atc' ) LIMIT 1   [ RunTime:0.000294s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND mdmk='Atc' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_athmd` LEFT JOIN tb_md ON f_athmd_mdid=mdid WHERE ( f_athmd_athid= AND mdmk='Atc' ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003685s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000460s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004161s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND atcdnmc='y' AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.012533s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000508s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000405s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000374s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000408s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000348s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000380s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000315s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND atcanc='y' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000326s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND atcdnmc='y' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.004013s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068022s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000661s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000569s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002894s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-03-06T23:04:19+08:00 ] 127.0.0.1 /geek/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023055s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003525s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000449s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000615s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.002488s ]
+ERR: 1146:Table 'db_geek.tb_athmd' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_athmd`
+NOTIC: [8] Undefined index: f_usr_athid C:\wamp\www\geek\index\Lib\NTF\NTFAction.class.php 第 9 行.
+SQL: SELECT * FROM `tb_athmd` LEFT JOIN tb_md ON f_athmd_mdid=mdid WHERE ( f_athmd_athid= AND mdmk='Atc' ) LIMIT 1   [ RunTime:0.000214s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND mdmk='Atc' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_athmd` LEFT JOIN tb_md ON f_athmd_mdid=mdid WHERE ( f_athmd_athid= AND mdmk='Atc' ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002643s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000310s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003342s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND atcdnmc='y' AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000425s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000285s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000263s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000340s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000378s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000327s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000308s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000304s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND atcanc='y' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000293s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps='y' AND atcvw='y' AND atcnw='n' AND atcdnmc='y' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002800s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.124125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124274s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005143s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.020612s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006899s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.049023s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009195s ]
+

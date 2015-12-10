@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/zsptwap/cm.js'></script>
+<link href="__PUBLIC__/CSS/zsptwap/cm.css" rel="stylesheet">
+<!-- 移动设备 -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+
+<link rel="stylesheet" href="__PUBLIC__/CSS/zsptwap/std.css"/>
+<script type='text/javascript' src='__PUBLIC__/JS/zsptwap/std.js'></script>
+<script type='text/javascript'>
+url_path='__URL__';
+</script>
+
+
+
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/CSS/zsptwap/demo.css" />
+
+<!--必要样式-->
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/CSS/zsptwap/jquery.mmenu.css" />
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/CSS/zsptwap/jquery.mmenu.dragopen.css" />
+
+
+<script type="text/javascript" src="__PUBLIC__/JS/zsptwap/jquery.mmenu.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/JS/zsptwap/jquery.mmenu.dragopen.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/JS/zsptwap/jquery.mmenu.fixedelements.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/JS/zsptwap/mn.js"></script>
+</head>
+<body>
+<div id="page">
+	<include file='Pblc:head'/>
+	<div class="content" id="content" style='margin-top:20px'>
+		
+		<div class="col-md-12" >
+            <?php if($bmcg=='y'){ ?>
+			<div class="col-lg-12">
+	            <h1 class="page-header" style='color:#3c763d'>
+	                	报名成功
+	            </h1>
+	        </div>
+	        <?php } ?>
+	        <div class='clearfix'></div>
+			<div class='mingxi'>
+			<table class='tb'>
+			<tr>
+			<td>报名号：</td><td>{$mo['stdaplno']}</td>
+			</tr>
+			<tr>
+			<td>办学形式：</td><td>{$mo['bxxsnm']}</td>
+			</tr>
+			<tr>
+			<td>专业：</td><td>{$mo['mjnm']}（{$mo['mjdsc']}）</td>
+			</tr>
+			<tr>
+			<td>姓名：</td><td>{$mo['stdnm']}</td>
+			</tr>
+			<tr>
+			<td>性别：</td><td>{$mo['sexnm']}</td>
+			</tr>
+			<tr>
+			<td>民族：</td><td>{$mo['rcnm']}</td>
+			</tr>
+			<tr>
+			<td>手机号码：</td><td>{$mo['stdcp']}</td>
+			</tr>
+			<tr>
+			<td>身份证号码：</td><td>{$mo['stdidcd']}</td>
+			</tr>
+			<tr>
+			<td>家长关系：</td><td>{$mo['stdrlta']}</td>
+			</tr>
+			<tr>
+			<td>家长姓名：</td><td>{$mo['stdrltanm']}</td>
+			</tr>
+			<tr>
+			<td>家长手机号码：</td><td>{$mo['stdrltacp']}</td>
+			</tr>
+			<tr>
+			<td>姓名：</td><td>{$mo['stdnm']}</td>
+			</tr>
+			<tr>
+			<td>推荐人：</td><td>{$mo['stdrcmdnm']}</td>
+			</tr>
+			<tr>
+			<td>状态：</td><td>{$mo['statnm']}</td>
+			</tr>
+			</table>
+			</div>
+			
+			<a href="__APP__/Cw/gtxpg/x/vw" class='btn btn-success btn-lg btn-block' role='button'>查看缴费信息</a>
+				 	
+			
+        </div>
+       
+	</div>
+	<include file='Pblc:foot'/>
+	 <include file='Pblc:side'/>
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: $('#slg').height()+$('header').height(),//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+
+</script>
+</div>
+</body>
+</html>

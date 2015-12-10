@@ -1,0 +1,60 @@
+
+
+#login-content {
+	padding: 20px;
+	
+	background: #FFF;
+	
+	border: 1px solid #DDD;
+	
+	border-radius: 5px;
+	
+	box-shadow: 0 0 6px rgba(0,0,0,.10);
+}
+
+#login-content  .control-group input{
+	width: 96%;
+	padding: 2% 2%;
+}
+
+#login-content #remember-me {
+	margin-top: 3px;	
+}
+
+#login-content #remember-me input {
+	display: inline-block;
+	
+	width: auto;
+	padding: 0;
+}
+
+#login-content #remember-me label {
+	position: relative;
+	top: 2px;
+	
+	display: inline-block;
+	
+	margin-left: .5em;
+}
+
+
+
+/*------------------------------------------------------------------
+[4. Extra / #login-extra]
+*/
+
+#login-extra {
+	margin-top: 1.5em;
+	
+	text-align: center;
+}
+
+#login-extra p {
+	font-size: 12px;
+	
+	color: #888;
+}
+
+
+
+

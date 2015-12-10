@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/zspt/cm.js'></script>
+<link href="__PUBLIC__/CSS/zspt/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+<link rel="stylesheet" href="__PUBLIC__/CSS/zspt/std.css"/>
+<script type='text/javascript' src='__PUBLIC__/JS/zspt/std.js'></script>
+<script type='text/javascript'>
+url_path='__URL__';
+</script>
+</head>
+
+
+<body style='padding-top:70px;background-color:#eee;'>
+
+<include file='Pblc:head'/>
+<div class='container' >
+	
+		<div class='col-md-12'>
+			<div class="panel panel-success">
+				<div class="panel-heading">
+				  <i class="glyphicon glyphicon-th-list"></i> {$theme}
+				</div>
+				<div class="panel-body">
+					
+					<?php if($bmcg=='y'){ ?>
+					<div class="col-lg-12">
+			            <h1 class="page-header" style='color:#3c763d'>
+			                	报名成功
+			            </h1>
+			        </div>
+			        <?php } ?>
+			        <div class='clearfix'></div>
+					<div class='mingxi'>
+					<table>
+					<tr>
+					<td>报名号：</td><td>{$mo['stdaplno']}</td>
+					<!-- <td>学号：</td><td>{$mo['stdno']}</td> -->
+					</tr>
+					</table>
+					</div>
+					
+					
+					<div class='mingxi'>
+					专业信息：
+					<table>
+					<tr>
+					<td>
+					<input type='hidden' name='stdid' value="{$mo['stdid']}" />
+					办学形式：
+					</td>
+					<td>
+					{$mo['bxxsnm']}
+					</td>
+					<!-- 
+					<td>班级：</td>
+					<td colspan=9>
+					{$mo['clsnm']}</td>
+					 -->
+					<td><p style='color:#3c763d'>*专业：</p></td>
+					<td colspan=9>
+					{$mo['mjnm']}（{$mo['mjdsc']}）</td>
+					</tr>
+					</table>
+					</div>
+					
+					<div class='mingxi'>
+					基本信息：
+					<table>
+					<tr>
+					<td><p style='color:#3c763d'>*姓名：</p></td><td>{$mo['stdnm']}</td>
+					<td>
+					<p style='color:#3c763d'>*性别：</p>
+					</td>
+					<td>
+					{$mo['sexnm']}</td>
+					<td>
+					<p style='color:#3c763d'>*民族</p>
+					</td>
+					<td>
+					{$mo['rcnm']}</td>
+					<td>
+					<p style='color:#3c763d'>*政治面貌</p>
+					</td>
+					<td>
+					{$mo['zzmmnm']}</td>
+					<td rowspan=4>
+					<div>
+					<div>
+					<img src="{$mo['stdpt']}" alt=""  class='img-thumbnail'  style="width:100px;"  id='imgg'/>
+					</div>
+					</div>
+					</td>
+					</tr>
+					<tr>
+					<td><p style='color:#3c763d'>*籍贯：</p></td><td>{$mo['stdnp']}</td>
+					<td>文理科：</td>
+					<td>
+					{$mo['stdsol']}
+					</td>
+					<td>
+					学历
+					</td>
+					<td>
+					{$mo['xlnm']}
+					</td>
+					<td>高考成绩：</td><td>{$mo['stdcee']}</td>
+					</tr>
+					<tr>
+					<td>毕业学校：</td><td colspan=3>{$mo['stdsog']}</td>
+					<td><p style='color:#3c763d'>*手机号码：</p></td><td colspan=3>{$mo['stdcp']}</td>
+					</tr>
+					<tr>
+					<td><p style='color:#3c763d'>*身份证号码：</p></td><td>{$mo['stdidcd']}</td>
+					<td>固话：</td><td>{$mo['stdtlp']}</td>
+					<td><p style='color:#3c763d'>*出生日期：</p></td><td>{$mo['stdbtd']}</td>
+					<td>QQ：</td><td>{$mo['stdqq']}</td>
+					</tr>
+					<tr>
+					<td><p style='color:#3c763d'>*家长一关系：</p></td><td>{$mo['stdrlta']}</td>
+					<td><p style='color:#3c763d'>*家长一姓名：</p></td><td>{$mo['stdrltanm']}</td>
+					<td><p style='color:#3c763d'>*家长一单位：</p></td><td>{$mo['stdrltaocpt']}</td>
+					<td><p style='color:#3c763d'>*家长一手机号：</p></td><td colspan=2>{$mo['stdrltacp']}</td>
+					</tr>
+					<tr>
+					<td>家长二关系：</td><td>{$mo['stdrltb']}</td>
+					<td>家长二姓名：</td><td>{$mo['stdrltbnm']}</td>
+					<td>家长二单位：</td><td>{$mo['stdrltbocpt']}</td>
+					<td>家长二手机号：</td><td colspan=2>{$mo['stdrltbcp']}</td>
+					</tr>
+					<tr>
+					<td>爱好：</td><td>{$mo['stdhb']}</td>
+					<td>家庭地址：</td><td colspan=3>{$mo['stdads']}</td>
+					<td>邮件：</td><td colspan=2>{$mo['stdpst']}</td>
+					</tr>
+					<tr>
+					<td>是否有推荐人：</td>
+					<td>
+					{$ifrcmd}
+					</td>
+					<td>推荐人姓名：</td><td colspan=2>{$mo['stdrcmdnm']}</td>
+					<td>推荐人手机号：</td><td colspan=3>{$mo['stdrcmdcp']}</td>
+					</tr>
+					<tr>
+					<td>状态：</td>
+					<td colspan=8>
+					{$mo['statnm']}
+					</td>
+					</tr>
+					</table>
+					</div>
+					
+					
+					<div class='clearfix'></div>
+					
+					<!-- 
+					<?php if($mo['stdid']!=0){ ?>						
+					<div class='mingxi'>
+					<table>
+					<tr>
+					<td>工行卡号：</td><td><input type="text" name='stdicbc' value="{$mo['stdicbc']}" /></td>
+					<td>上传财务时间：</td><td><script type="text/javascript" src="__PUBLIC__/pblc/DatePicker/My97DatePickerHHmmss/WdatePicker.js"></script><input type="text" name='stdupfnctm' value="{$mo['stdupfnctm']}" onclick="WdatePicker()" readonly/></td>
+					<td>
+					寝室：
+					</td>
+					<td>
+					<select name='f_stdxqdm_dmid'>
+						<option value='0'>无</option>
+						<volist name='dmls' id='vo'>
+						<option value="{$vo['dmid']}">{$vo['dmnm']}</option>
+						</volist>
+					</select>
+					<script>$('select[name=f_stdxqdm_dmid]').val({$mo['f_stdxqdm_dmid']})</script>
+					</td>
+					<td>信息打印时间：</td><td><input type="text" name='stdpnttm' value="{$mo['stdpnttm']}" onclick="WdatePicker()" readonly/></td>
+					</tr>
+					<tr>
+					<td>添加时间：</td><td><input type="text" name='stdaddtm' value="{$mo['stdaddtm']}" onclick="WdatePicker()" readonly/></td>
+					<td>修改时间：</td><td><input type="text" name='stdmdftm' value="{$mo['stdmdftm']}" onclick="WdatePicker()" readonly/></td>
+					<td>预录取时间：</td><td><input type="text" name='stdpertm' value="{$mo['stdpertm']}" onclick="WdatePicker()" readonly/></td>
+					<td>录取时间：</td><td><input type="text" name='stdertm' value="{$mo['stdertm']}" onclick="WdatePicker()" readonly/></td>
+					</tr>
+					</table>
+					</div>
+					<?php } ?>	
+					 -->
+					<!-- <?php if($mo['stdid']!=0&&$aths==1){ ?><input type='button' id='updtjb' value='改基本信息' class='btn btn-success' /><?php } ?> -->
+					<div class='clearfix'></div>
+					<div class='clearfix'></div>
+					<br/>
+					<!--  
+					特殊情况:
+					<div class='clearfix'></div>
+					<table class="table table-striped">
+						<tr><th>时间</th><th>具体情况</th></tr>
+						<volist name='tsqkls' id='vo'>
+						<tr><td>{$vo['tsqktm']}</td><td>{$vo['tsqknr']}</td></tr>
+						</volist>
+					</table>
+					<a href="#"  class='btn btn-success'>前往特殊情况中心</a>
+					<div class='clearfix'></div>
+					-->	
+								
+					<a href="__APP__/Cw/gtxpg/x/vw/stdid/{$mo['stdid']}" class='btn btn-success btn-lg' role='button'>查看缴费信息</a>
+				 		
+					
+				
+			</div>
+		</div>
+	</div>
+	<div class='clearfix'></div>
+	
+	<include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: 100,//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+</script>
+
+</body>
+</html>

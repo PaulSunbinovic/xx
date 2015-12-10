@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/admin/cm.js'></script>
+<link href="__PUBLIC__/CSS/admin/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+
+
+<script type='text/javascript' src='__PUBLIC__/JS/admin/atc.js'></script>
+<link rel="stylesheet" href="__PUBLIC__/CSS/admin/atc.css"/>
+<script type='text/javascript'>
+url_path='__URL__';
+</script>
+</head>
+
+<body>
+
+<include file='Pblc:head'/>
+<div class='container' >
+	<div class='col-md-2' id='lft' class='pull-left' style='display:{$lftcls};'>
+		<script>
+		var hdlbtn='__APP__/Btn/update';
+		</script>
+		<div class="panel panel-default">
+		  <div class="panel-heading">
+		    <div class='pull-left'><i class="glyphicon glyphicon-cog"></i> 控制面板</div>
+		    <div class='pull-right'><a href="javascript:leftright()"><i class="glyphicon glyphicon-triangle-left"></i></a></div>
+		    <div class='clearfix'></div>
+		  </div>
+		  <div class="panel-body">
+		  
+	  		<volist name='lblskzmb' id='vo'>  
+			  	<div class="panel panel-info">
+				  <!-- Default panel contents -->
+				  <div class="panel-heading">
+				  	<div class='pull-left'><i class="glyphicon glyphicon-signal"></i> {$vo['lbnm']}</div>
+					<div class='pull-right'><a href="javascript:updown('bs{$vo[lbid]}')"><i class="{$vo['bscls']}" id="bs{$vo['lbid']}"></i></a></div>
+					<div class='clearfix'></div>
+				  </div>
+				<!-- List group -->
+				  <ul class="nav nav-pills nav-stacked" style="display:{$vo['bsbdcls']}" id="bs{$vo['lbid']}bd">
+				    <volist name="vo['mdlskzmb']" id='voII'>
+						<li class="{$voII['actvcls']}"><a href="__APP__/{$voII['mdmk']}/query">{$voII['mdnm']}</a></li>
+					</volist>
+				  </ul>
+				</div>
+			</volist>
+	    </div>
+		</div>
+	</div>
+	<div class='{$rgtcls}' id='rgt' >
+	<div class="panel panel-default">
+		<div class="panel-heading">
+		  <a href='javascript:leftright()' id='btn-lft' style='display:{$lftbtncls}'><i class="glyphicon glyphicon-triangle-right"></i></a><i class="glyphicon glyphicon-th-list"></i> {$theme}
+		</div>
+		<div class="panel-body">
+				
+				<script type="text/javascript">var hdlclct='__URL__/clct';var hdlzn='__URL__/zan';var hdltc='__URL__/tucao'</script>
+				
+				<ol class="breadcrumb">
+		        <li><a href="#">首页</a> </li>
+		        {$tree}
+		        </ol>		
+				<!-- 
+				<table class='tb'>
+				<tr><td>标题：</td><td>{$mo['atctpc']}</td></tr>
+				<tr><td>作者：</td><td>{$mo['atcath']}</td></tr>
+				<tr><td>添加时间：</td><td>{$mo['atcaddtm']}</td></tr>
+				<tr><td>修改时间：</td><td>{$mo['atcmdftm']}</td></tr>
+				<tr><td>置顶情况：</td><td>{$mo['atctp']}</td></tr>
+				<tr style='display:none'><td>审核情况：</td><td>{$mo['atcps']}</td></tr>
+				<tr><td>是否通知：</td><td>{$mo['atcanc']}</td></tr>
+				<tr><td>是否动态：</td><td>{$mo['atcdnmc']}</td></tr>
+				<tr><td>浏览计数</td><td>{$mo['atccnt']}</td></tr>
+				<tr><td>是否内网</td><td>{$mo['atcnw']}</td></tr>
+				<tr><td>赞</td><td>{$mo['atczn']}</td></tr>
+				<tr><td>吐槽</td><td>{$mo['atctc']}</td></tr>
+				<tr><td>是否查看</td><td>{$mo['atcvw']}</td></tr>
+				</table>
+				 -->
+				 <?php if($aths==1){ ?>
+				 <script>var hdlurl='__URL__/set';</script>
+				 <form>
+				<input type='hidden' name='atcid' value="{$mo['atcid']}" />
+				 审核情况：
+				<select name='atcps' class='form-control input-sm' style='display:inline;width:100px'>
+					<option value='0'>未通过</option>
+					<option value='1'>通过</option>
+				</select>
+				<script>$('select[name=atcps]').val("{$mo['atcps']}")</script>
+				是否浏览
+				<select name='atcvw' class='form-control input-sm' style='display:inline;width:100px'>
+					<option value='0'>否</option>
+					<option value='1'>是</option>
+				</select>
+				<script>$('select[name=atcvw]').val("{$mo['atcvw']}")</script>
+				<input type='button' id='st' value={$btnvl} class='btn btn-primary'/>
+				</form>
+				<?php } ?>
+				<div class='detail'>
+					<h1>{$mo['atctpc']}</h1>
+					<div class="intro">{$mo['atcsmr']}</div>
+					<div class="info">
+                    
+                   		 <div class="tag pull-right">
+	                        <span>{$mo['atcath']}</span>
+	                        <span>{$mo['atcmdftm']}</span>
+	                        <span><i class="glyphicon glyphicon-eye-open"></i> {$mo['atccnt']}</span>
+	                    </div>
+	                </div>
+					<div class='clearfix'></div>
+					<hr style='margin-top:0px'></hr>
+					<div class='front-cover'><img src="{$mo['atccv']}"  data-src="holder.js/300x200" alt="{$alt}" class='img-rounded'/></div>
+					
+					
+					<link rel="stylesheet" href="__PUBLIC__/pblc/baguettebox/baguettebox.min.css">
+					<script src="__PUBLIC__/pblc/baguettebox/baguettebox.min.js"></script>
+					<div class="baguetteBoxOne gallery">
+					{$mo['atcctt']}
+					</div>
+					<script type="text/javascript">
+					baguetteBox.run('.baguetteBoxOne', {
+					    animation: 'fadeIn',
+					});
+					</script>
+					<!-- 公办学校不需要评论，暂时隐藏起来
+					自留地 -->
+					<div id='zld'>
+					
+						<div class='share-group'>
+							<div class='pull-left'>
+								<div class='pull-left' style='margin-left:30px;padding-top:10px' id='schzysc'>{$schzysc}</div>
+								<div class='pull-left {$clctcss}'  style='margin-left:5px;' id='clctdv'><a href="javascript:clct({$mo['atcid']})" class="share {$heartcss}" id='clcta'></a></div>
+								<!-- 
+								<div class='btn btn-success btn-lg pull-left' style='margin-left:30px' onclick="zn({$mo['atcid']})" id='dvzn'><i class='glyphicon glyphicon-thumbs-up'></i> <a style='color:#fff' id='zn'>{$mo['atczn']}</a></div>
+								<div  class='btn btn-warning btn-lg pull-left' style='margin-left:30px'  onclick="tc({$mo['atcid']})" id='dvtc'><i class='glyphicon glyphicon-thumbs-down'></i> <a style='color:#fff' id='tc'>{$mo['atctc']}</a></div>
+					        	 -->
+					        </div>
+					        <div class='pull-right'>
+					        	<div class='pull-left' style='margin-right:30px;padding-top:10px'>分享到：</div>
+					        	<div class='pull-left'  style='margin-right:30px'><a href="http://v.t.sina.com.cn/share/share.php?title={$mo['atctpc']}&amp;url={$url}" class="share share-weibo" target="_blank"></a></div>
+					        	<div class='pull-left'  style='margin-right:30px'><a href="#" class="share share-wechat" target="_blank" id='ppov' data-container="body" data-toggle="popover" data-placement="top" data-content="<img src='{$qr}' />"></a></div>
+					        </div>
+					       
+					        <div class='clearfix'></div>
+					    </div>
+				   </div>
+				   <script type="text/javascript">$(".share-group").width($('#rgt').width()-30);$(".share-group").smartFloatSR();</script>
+					
+				</div>
+				<div class='clearfix'></div>
+				<?php if($athm==1){ ?><a href="__URL__/gtxpg/x/updt/atcid/{$mo['atcid']}" class='btn btn-primary'>前往修改信息</a><?php } ?>
+				<!-- 
+				<div class='section detail'>
+					<script>var hdlcmt='__URL__/comment';</script>
+					<div class='section'>
+						<textarea style='resize: none' class='form-control' placeholder="不能超过200个字符" id='cmtctt'></textarea>
+					</div>
+					<div class='section'>
+						<a href="javascript:cmt({$mo['atcid']})" class='btn btn-primary pull-right'>提交评论</a>
+					</div>
+					<div class='clearfix'></div>
+					<div class='section'><script>var cmtcnt={$cmtcnt};var hdlcmtzn='__URL__/commentzan';var hdlcmttc='__URL__/commenttucao'</script>
+						<div class="page-header">
+		                	<a href='__APP__/Cmt/query' class='btn btn-primary' id='vwcmt'>查看所有评论（{$cmtcnt}）</a>
+		            	</div>
+					</div>
+					<div class='section  info' id='cmtarea'>
+						<volist name='cmtls' id='vo'>
+							<div class="page-header">
+			                	<div><div class='pull-left mglft'><div><img src="{$vo['usrpt']}" class='img-circle' style='width:40px;' /></div><div class='tag'><span>{$vo['usrnn']}</span></div></div><div class='pull-left mglft' >{$vo['cmtctt']}</div></div>
+			                	<div class='clearfix'></div>
+			                	<div class='pull-right tag'><span onclick="cmtzn({$vo['cmtid']})" style='cursor:pointer' id="cmtzn{$vo['cmtid']}"><i class='glyphicon glyphicon-thumbs-up'></i>{$vo['cmtzn']}</span><span onclick="cmttc({$vo['cmtid']})" style='cursor:pointer' id="cmttc{$vo['cmtid']}"><i class='glyphicon glyphicon-thumbs-down' ></i>{$vo['cmttc']}</span><span>{$vo['cmttm']}</span></div>
+			            		<div class='clearfix'></div>
+			            	</div>
+		            	</volist>
+		    		</div>
+					
+					下拉加载评论模块 
+	                 <script>var hdlpldnld="__URL__/append/atcid/{$mo['atcid']}";</script>
+					AUTOCOMPLETE 保证了刷新后，原来的数据不会留下，那么query来的数据就不会被清洗，而js中的executing保证了不会在各种情况下不会触发js中的if
+					<input type='hidden' id='executing' value='{$executing}' AUTOCOMPLETE="off" />
+					<input type='hidden' id='hsnxt' value='{$hsnxt}' AUTOCOMPLETE="off" />
+					<input type='hidden' id='pg' value='{$pg}' AUTOCOMPLETE="off" />
+					<script src="__PUBLIC__/JS/admin/pldnld.js"></script>
+					<div class='clearfix'></div>
+					<div id='loading'><img src="__PUBLIC__/IMG/loading.gif" /></div>
+				</div>
+				-->
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class='clearfix'></div>
+	
+	
+	<include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+
+<!-- popover -->
+<script>
+$(function(){
+	$('#ppov').mouseenter(function(){
+		$('#ppov').popover('show');
+	})
+	$('#ppov').mouseleave(function(){
+		$('#ppov').popover('hide');
+	})
+})
+</script>
+
+
+<!-- share -->
+<div id='bds'></div>
+<script>
+//$('#zld').height(150);//测出来的--!
+//alert($(scroll).height());
+//$('#bds').parent().append("<style>.bs-docs-sidebar.affix {position: fixed;top:"+($(window).height()-$('#myAffix').height()-40)+"px;}</style>");//重写样式//日后维持的高度
+</script>
+<script>
+/*
+$('#myAffix').width($('#rgt').width()-40);//因为有两个padding15 左右一加就是60了
+$('#myAffix').css('background-color','#fff');
+$('#myAffix').affix({
+  offset: {
+    top: 200,//数字自定义
+    bottom: function () {
+    	$('#myAffix').css('top',$(window).height()-$('#myAffix').height()-40);//自定义//最后一个减多少是个补差，具体是一次次实验出来的--!//一开始下来时的高度
+        return (this.bottom = $(scroll).height()-$('#zld').offset().top)//哪儿松开算哪儿了
+    	//注意这里被return了，那么所有之后的初始化都没的搞，特别是$(function(){alert();})//所以有初始化的就往前面放
+    }
+  }
+})
+*/
+</script>
+
+
+</body>
+</html>

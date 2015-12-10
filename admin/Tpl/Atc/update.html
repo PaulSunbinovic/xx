@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/admin/cm.js'></script>
+<link href="__PUBLIC__/CSS/admin/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+
+<script type='text/javascript' src='__PUBLIC__/JS/admin/atc.js'></script>
+<script type='text/javascript'>
+var hdlurl='__URL__/update';
+</script>
+</head>
+
+
+<body>
+
+<include file='Pblc:head'/>
+<div class='container' >
+	<div class='col-md-2' id='lft' class='pull-left' style='display:{$lftcls};'>
+			<script>
+			var hdlbtn='__APP__/Btn/update';
+			</script>
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <div class='pull-left'><i class="glyphicon glyphicon-cog"></i> 控制面板</div>
+			    <div class='pull-right'><a href="javascript:leftright()"><i class="glyphicon glyphicon-triangle-left"></i></a></div>
+			    <div class='clearfix'></div>
+			  </div>
+			  <div class="panel-body">
+			  
+		  	<volist name='lblskzmb' id='vo'>  
+			  	<div class="panel panel-info">
+				  <!-- Default panel contents -->
+				  <div class="panel-heading">
+				  	<div class='pull-left'><i class="glyphicon glyphicon-signal"></i> {$vo['lbnm']}</div>
+					<div class='pull-right'><a href="javascript:updown('bs{$vo[lbid]}')"><i class="{$vo['bscls']}" id="bs{$vo['lbid']}"></i></a></div>
+					<div class='clearfix'></div>
+				  </div>
+				<!-- List group -->
+				  <ul class="nav nav-pills nav-stacked" style="display:{$vo['bsbdcls']}" id="bs{$vo['lbid']}bd">
+				    <volist name="vo['mdlskzmb']" id='voII'>
+						<li class="{$voII['actvcls']}"><a href="__APP__/{$voII['mdmk']}/query">{$voII['mdnm']}</a></li>
+					</volist>
+				  </ul>
+				</div>
+			</volist>
+		    </div>
+			</div>
+		</div>
+		<div class='{$rgtcls}' id='rgt' >
+		<div class="panel panel-default">
+			<div class="panel-heading">
+			  <i class="glyphicon glyphicon-th-list"></i> {$theme}
+			</div>
+			<div class="panel-body">	
+				<form>
+				<input type='hidden' name='atcid' value="{$mo['atcid']}" />
+				<table class='tb'>
+				
+				<tr><td>板块名称</td>
+				<td>
+				<select name='f_atc_bdid' class='form-control input-sm'>
+					<option value='0'>无</option>
+					{$tree}
+				</select>
+				<script>$('select[name=f_atc_bdid]').val({$mo['f_atc_bdid']})</script>
+				</td>
+				</tr>
+				<tr><td>标题：</td><td><input type='text' name='atctpc' value="{$mo['atctpc']}" id='atctpc' class='form-control input-sm'/></td></tr>
+				<tr><td>作者：</td><td><input type='text' name='atcath' value="{$mo['atcath']}" id='atcath' class='form-control input-sm'/></td></tr>
+				<script type="text/javascript" src="__PUBLIC__/pblc/DatePicker/My97DatePickerHHmmss/WdatePicker.js"></script>
+				<tr><td>添加时间：</td><td><input type="text" name='atcaddtm' value="{$mo['atcaddtm']}" onclick="WdatePicker()" readonly style='cursor:auto' class='form-control input-sm'/></td></tr>
+				<tr><td>修改时间：</td><td><input type="text" name='atcmdftm' value="{$mo['atcmdftm']}" onclick="WdatePicker()" readonly style='cursor:auto' class='form-control input-sm'/>{$mo['atcmdftmorg']}</td></tr>
+				<tr><td>置顶情况</td>
+				<td>
+				<select name='atctp' class='form-control input-sm'>
+					<option value='0'>未置顶</option>
+					<option value='1'>置顶</option>
+				</select>
+				<script>$('select[name=atctp]').val({$mo['atctp']})</script>
+				</td>
+				</tr>
+				
+				<tr><td>审核情况</td>
+				<td>
+				<select name='atcps' class='form-control input-sm'>
+					<option value='0'>未通过</option>
+					<option value='1'>通过</option>
+				</select>
+				<script>$('select[name=atcps]').val({$mo['atcps']})</script>
+				</td>
+				</tr>
+				
+				<tr><td>是否通知</td>
+				<td>
+				<select name='atcanc' class='form-control input-sm'>
+					<option value='0'>否</option>
+					<option value='1'>是</option>
+					
+				</select>
+				<script>$('select[name=atcanc]').val({$mo['atcanc']})</script>
+				</td>
+				</tr>
+				
+				<tr><td>是否动态</td>
+				<td>
+				<select name='atcdnmc' class='form-control input-sm'>
+					<option value='0'>否</option>
+					<option value='1'>是</option>
+					
+				</select>
+				<script>$('select[name=atcdnmc]').val({$mo['atcdnmc']})</script>
+				</td>
+				</tr>
+				
+				<tr><td>浏览计数：</td><td><input type='text' name='atccnt' value="{$mo['atccnt']}" id='atccnt' class='form-control input-sm'/></td></tr>
+				
+				<tr><td>是否内网</td>
+				<td>
+				<select name='atcnw' class='form-control input-sm'>
+					<option value='0'>否</option>
+					<option value='1'>是</option>
+					
+				</select>
+				<script>$('select[name=atcnw]').val({$mo['atcnw']})</script>
+				</td>
+				</tr>
+				
+				<tr><td>赞：</td><td><input type='text' name='atczn' value="{$mo['atczn']}" id='atczn' class='form-control input-sm'/></td></tr>
+				<tr><td>吐槽：</td><td><input type='text' name='atctc' value="{$mo['atctc']}" id='atctc' class='form-control input-sm'/></td></tr>
+				
+				<tr><td>是否查看</td>
+				<td>
+				<select name='atcvw' class='form-control input-sm'>
+					<option value='0'>否</option>
+					<option value='1'>是</option>
+					
+				</select>
+				<script>$('select[name=atcvw]').val({$mo['atcvw']})</script>
+				</td>
+				</tr>
+				
+				<tr><td>是否招生</td>
+				<td>
+				<select name='atczs' class='form-control input-sm'>
+					<option value='0'>否</option>
+					<option value='1'>是</option>
+					
+				</select>
+				<script>$('select[name=atczs]').val({$mo['atczs']})</script>
+				</td>
+				</tr>
+				
+				</table>
+				<div>封面：</div>
+				<div>
+		            <ul id="myTab" class="nav nav-tabs">
+		              <li class="active"><a href="#ntv" data-toggle="tab">本地上传</a></li>
+		              <li class=""><a href="#net" data-toggle="tab">网络图片</a></li>
+		             
+		            </ul>
+		            <div id="myTabContent" class="tab-content">
+		              <div class="tab-pane fade active in" id="ntv">
+		                <!-- file start -->
+						 <link rel="stylesheet" href="__PUBLIC__/pblc/FileUpload/uploadify/uploadify.css">
+						 <script type="text/javascript" src='__PUBLIC__/pblc/FileUpload/uploadify/uploadify.js'></script>
+						<script type="text/javascript" src="__PUBLIC__/pblc/FileUpload/uploadify/swfobject.js"></script>
+						<script type="text/javascript">
+						var file_path='__PUBLIC__/pblc/FileUpload';
+						var hdlupload='__APP__/FileUpload/upload/issml/n/wjj/atc';////注意
+						var upload_path='__ROOT__/Uploads/atc';
+						
+						</script>
+						<script type="text/javascript" src='__PUBLIC__/pblc/FileUpload/int.js'></script>
+						<div>
+						<img src="{$mo['atccvII']}" alt="{$alt}"  class='img-polaroid' id='imgg'/>
+						</div>
+						<div style="width:80px; height:26px; overflow:hidden;"><input type="file"  name="photo1" id="uploadify"/></div>
+						<!-- 隐藏系统所需的用户upt -->
+						<input type='hidden' name='atccv' value="{$mo['atccv']}" id='pt'/>
+						<!-- file over -->
+		              </div>
+		              <div class="tab-pane fade" id="net">
+		              	  <img src="{$mo['atccvII']}" alt="{$alt}"  class='img-polaroid'  id='atccvdip'/><br/>
+		              	  向对话框里贴入URL：<input  type='text' id='netpic' value='' class='span6' class='form-control input-sm'/>
+		              </div>
+		              
+		            </div>
+		        </div>
+				<div>摘要：<br/><textarea name='atcsmr' class='col-md-10' class='form-control'>{$mo['atcsmr']}</textarea></div>
+				<div class='clearfix'></div>
+				<link rel="stylesheet" href="__PUBLIC__/pblc/ueditor/themes/default/ueditor.css"/>
+				<script type="text/javascript" src="__PUBLIC__/pblc/ueditor/editor_config.js"></script>
+				<script type="text/javascript" src="__PUBLIC__/pblc/ueditor/editor_all.js"></script>
+				<div>
+				<p>文章内容</p>
+				  <div id="myEditor">
+					<script type="text/javascript">
+						var editor = new baidu.editor.ui.Editor({
+						    initialContent: '{$mo.atcctt}'
+						});
+						editor.render("myEditor");
+					</script>
+					</div>
+				</div>
+				<textarea name='atcctt' style='display:none'></textarea>
+				<input type='button' id='updt' value={$btnvl} class='btn btn-primary'/>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class='clearfix'></div>
+	
+	<include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: 100,//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+</script>
+
+</body>
+</html>

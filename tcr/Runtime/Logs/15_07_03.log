@@ -1,0 +1,261 @@
+[ 2015-07-03T17:17:24+08:00 ] 127.0.0.1 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030202s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000632s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000633s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002677s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2015-07-03T17:18:18+08:00 ] 127.0.0.1 /xx/tcr.php/Tcr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.003935s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='wuyongsheng' ) LIMIT 1   [ RunTime:0.000457s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='wuyongsheng' AND tcrpw='1bbd886460827015e5d605ed44252251' ) LIMIT 1   [ RunTime:0.000391s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrnm='wuyongsheng' AND tcrpw='1bbd886460827015e5d605ed44252251' ) LIMIT 1   [ RunTime:0.000384s ]
+
+[ 2015-07-03T17:18:19+08:00 ] 127.0.0.1 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.004168s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=30 ) LIMIT 1   [ RunTime:0.000416s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=30 ) LIMIT 1   [ RunTime:0.000273s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in C:\wamp\www\xx\tcr\Lib\Action\IndexAction.class.php on line 29 and defined C:\wamp\www\xx\tcr\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.003710s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=30 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=30 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003928s ]
+SQL: SELECT * FROM `tb_atc` WHERE ( atcid=21 )  [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\xx\tcr\Runtime\Cache\6f1d53a3c8454cf67e89dfe20c7b417a.php 第 61 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032848s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000646s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002552s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2015-07-03T17:18:21+08:00 ] 127.0.0.1 /xx/tcr.php/Cjzx/gtxpg/x/skxx
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000878s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.003961s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=30 ) LIMIT 1   [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: mdo C:\wamp\www\xx\tcr\Lib\Action\CjzxAction.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.003863s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=30 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=30 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=30 ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.003537s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.003355s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cjzx` [ RunTime:0.003287s ]
+ERR: 1146:Table 'db_xx.tb_2015_cjzx' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2015_cjzx`
+SQL: SHOW COLUMNS FROM `tb_2015_pk` [ RunTime:0.002968s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2015_pk`
+SQL: SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000335s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\xx\tcr\Lib\Action\CjzxAction.class.php 第 203 行.
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.003548s ]
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.003543s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000440s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_std_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=39 AND f_std_statid=5 )  [ RunTime:0.025823s ]
+SQL: SHOW COLUMNS FROM `tb_2013_cjzx` [ RunTime:0.003983s ]
+SQL: SHOW COLUMNS FROM `tb_2013_pk` [ RunTime:0.003829s ]
+SQL: SELECT * FROM `tb_2013_pk` LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=2 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000596s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2013_cjzx` LEFT JOIN tb_2013_std ON f_cjzx_stdid=stdid inner join tb_2013_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2013_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2013_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2013_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2013_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_std_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=14 AND f_std_statid=5 )  [ RunTime:0.007905s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2013_cjzx` WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=23 AND f_std_statid=5 )  [ RunTime:0.000214s ]
+ERR: 1054:Unknown column 'clsid' in 'field list'
+ [ SQL语句 ] : SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2013_cjzx` WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=23 AND f_std_statid=5 ) 
+SQL: SHOW COLUMNS FROM `tb_2012_cjzx` [ RunTime:0.003908s ]
+ERR: 1146:Table 'db_xx.tb_2012_cjzx' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_cjzx`
+SQL: SHOW COLUMNS FROM `tb_2012_pk` [ RunTime:0.003089s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_pk`
+SQL: SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000372s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\xx\tcr\Lib\Action\CjzxAction.class.php 第 203 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\xx\tcr\Runtime\Cache\5a27c2ce8432d6d874fb1cbe314ffadb.php 第 61 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040887s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001620s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000851s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003941s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2015-07-03T17:26:24+08:00 ] 127.0.0.1 /xx/tcr.php/Cjzx/gtxpg/x/skxx
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.004104s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=30 ) LIMIT 1   [ RunTime:0.000417s ]
+NOTIC: [8] Undefined variable: mdo C:\wamp\www\xx\tcr\Lib\Action\CjzxAction.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.003574s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=30 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=30 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=30 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.003611s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.003581s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cjzx` [ RunTime:0.003166s ]
+ERR: 1146:Table 'db_xx.tb_2015_cjzx' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2015_cjzx`
+SQL: SHOW COLUMNS FROM `tb_2015_pk` [ RunTime:0.002939s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2015_pk`
+SQL: SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000353s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\xx\tcr\Lib\Action\CjzxAction.class.php 第 203 行.
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.003575s ]
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.003749s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000436s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_std_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=39 AND f_std_statid=5 )  [ RunTime:0.025323s ]
+SQL: SHOW COLUMNS FROM `tb_2013_cjzx` [ RunTime:0.004396s ]
+SQL: SHOW COLUMNS FROM `tb_2013_pk` [ RunTime:0.003873s ]
+SQL: SELECT * FROM `tb_2013_pk` LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=2 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000495s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2013_cjzx` LEFT JOIN tb_2013_std ON f_cjzx_stdid=stdid inner join tb_2013_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2013_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2013_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2013_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2013_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_std_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=14 AND f_std_statid=5 )  [ RunTime:0.008066s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2013_cjzx` WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=23 AND f_std_statid=5 )  [ RunTime:0.000226s ]
+ERR: 1054:Unknown column 'clsid' in 'field list'
+ [ SQL语句 ] : SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2013_cjzx` WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=23 AND f_std_statid=5 ) 
+SQL: SHOW COLUMNS FROM `tb_2012_cjzx` [ RunTime:0.003216s ]
+ERR: 1146:Table 'db_xx.tb_2012_cjzx' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_cjzx`
+SQL: SHOW COLUMNS FROM `tb_2012_pk` [ RunTime:0.003374s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_pk`
+SQL: SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000379s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\xx\tcr\Lib\Action\CjzxAction.class.php 第 203 行.
+
+[ 2015-07-03T17:26:31+08:00 ] 127.0.0.1 /xx/tcr.php/Cjzx/gtxpg/x/skxx
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.003598s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=30 ) LIMIT 1   [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: mdo C:\wamp\www\xx\tcr\Lib\Action\CjzxAction.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.003333s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=30 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=30 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=30 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.003380s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.003148s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cjzx` [ RunTime:0.003187s ]
+ERR: 1146:Table 'db_xx.tb_2015_cjzx' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2015_cjzx`
+SQL: SHOW COLUMNS FROM `tb_2015_pk` [ RunTime:0.002887s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2015_pk`
+SQL: SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000443s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\xx\tcr\Lib\Action\CjzxAction.class.php 第 203 行.
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.003773s ]
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.003596s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000420s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_std_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=39 AND f_std_statid=5 )  [ RunTime:0.026230s ]
+SQL: SHOW COLUMNS FROM `tb_2013_cjzx` [ RunTime:0.004241s ]
+SQL: SHOW COLUMNS FROM `tb_2013_pk` [ RunTime:0.003604s ]
+SQL: SELECT * FROM `tb_2013_pk` LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=2 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000454s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2013_cjzx` LEFT JOIN tb_2013_std ON f_cjzx_stdid=stdid inner join tb_2013_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2013_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2013_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2013_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2013_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_std_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=14 AND f_std_statid=5 )  [ RunTime:0.007605s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2013_cjzx` WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=23 AND f_std_statid=5 )  [ RunTime:0.000235s ]
+ERR: 1054:Unknown column 'clsid' in 'field list'
+ [ SQL语句 ] : SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2013_cjzx` WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=23 AND f_std_statid=5 ) 
+SQL: SHOW COLUMNS FROM `tb_2012_cjzx` [ RunTime:0.003369s ]
+ERR: 1146:Table 'db_xx.tb_2012_cjzx' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_cjzx`
+SQL: SHOW COLUMNS FROM `tb_2012_pk` [ RunTime:0.003024s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_pk`
+SQL: SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000311s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\xx\tcr\Lib\Action\CjzxAction.class.php 第 203 行.
+
+[ 2015-07-03T23:57:15+08:00 ] 127.0.0.1 /xx/tcr.php/Cjzx/gtxpg/x/skxx
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.004193s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=30 ) LIMIT 1   [ RunTime:0.000505s ]
+NOTIC: [8] Undefined variable: mdo C:\wamp\www\xx\tcr\Lib\Action\CjzxAction.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.003991s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=30 AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid=30 AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid=30 ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.003352s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.003338s ]
+SQL: SELECT * FROM `tb_grd` ORDER BY grdnm DESC  [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `tb_2015_pk` [ RunTime:0.007611s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2015_pk`
+SQL: SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000298s ]
+ERR: 1146:Table 'db_xx.tb_2015_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2015_pk` LEFT JOIN tb_2015_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=4 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\xx\tcr\Lib\Action\CjzxAction.class.php 第 196 行.
+SQL: SHOW COLUMNS FROM `tb_2014_pk` [ RunTime:0.003623s ]
+SQL: SELECT * FROM `tb_2014_pk` LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=3 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `tb_2014_cjzx` [ RunTime:0.003797s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2014_cjzx` LEFT JOIN tb_2014_std ON f_cjzx_stdid=stdid inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2014_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2014_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_std_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=39 AND f_std_statid=5 )  [ RunTime:0.026354s ]
+SQL: SHOW COLUMNS FROM `tb_2013_pk` [ RunTime:0.003863s ]
+SQL: SELECT * FROM `tb_2013_pk` LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=2 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `tb_2013_cjzx` [ RunTime:0.004131s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2013_cjzx` LEFT JOIN tb_2013_std ON f_cjzx_stdid=stdid inner join tb_2013_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2013_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2013_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2013_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2013_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_std_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=14 AND f_std_statid=5 )  [ RunTime:0.007567s ]
+SQL: SELECT DISTINCT  `clsid`,`clsnm`,`cjzxsftj` FROM `tb_2013_cjzx` LEFT JOIN tb_2013_std ON f_cjzx_stdid=stdid inner join tb_2013_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2013_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_2013_pk ON f_cjzx_pkid=pkid LEFT JOIN tb_stt ON f_cjzx_sttid=sttid LEFT JOIN tb_grd ON f_cjzx_grdid=grdid LEFT JOIN tb_2013_kc ON f_pk_kcid=kcid LEFT JOIN tb_tcr ON f_pk_tcrid=tcrid LEFT JOIN tb_xq ON f_cjzx_xqid=xqid LEFT JOIN tb_2013_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2013_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_std_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND f_cjzx_pkid=23 AND f_std_statid=5 )  [ RunTime:0.007571s ]
+SQL: SHOW COLUMNS FROM `tb_2012_pk` [ RunTime:0.003252s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_2012_pk`
+SQL: SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 )  [ RunTime:0.000458s ]
+ERR: 1146:Table 'db_xx.tb_2012_pk' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tb_2012_pk` LEFT JOIN tb_2012_kc ON f_pk_kcid=kcid WHERE ( f_pk_grdid=1 AND f_pk_sttid=1 AND f_pk_xqid=2 AND f_pk_tcrid=30 ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\xx\tcr\Lib\Action\CjzxAction.class.php 第 196 行.
+

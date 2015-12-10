@@ -1,0 +1,1114 @@
+[ 2015-03-13T00:01:59+08:00 ] 192.168.1.100 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.014952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015126s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.018785s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000164s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.017518s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.021755s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000468s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000278s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000266s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000280s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000358s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000371s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.003923s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000357s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000294s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.017348s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\wap\Runtime\Cache\7c1b5953f9b834df2d9539012de126ca.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.177389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177542s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005298s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009584s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006799s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027029s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008927s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009062s ]
+
+[ 2015-03-13T00:02:44+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004117s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000279s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003795s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004096s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000541s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000407s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000319s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.012437s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000477s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000373s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000317s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.001309s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000386s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003694s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\wap\Runtime\Cache\7c1b5953f9b834df2d9539012de126ca.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030151s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000706s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000613s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003019s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001092s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2015-03-13T00:02:50+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004483s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000207s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003792s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004286s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.041211s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000362s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000299s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000303s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000291s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000283s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000327s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000331s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000373s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.004124s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\wap\Runtime\Cache\7c1b5953f9b834df2d9539012de126ca.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022742s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000528s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002421s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2015-03-13T00:03:15+08:00 ] 192.168.1.100 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004255s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000209s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003605s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003920s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000451s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.046588s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000394s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000351s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000308s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000297s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.018160s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000418s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000367s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003724s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\wap\Runtime\Cache\7c1b5953f9b834df2d9539012de126ca.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019978s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000557s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000483s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002334s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000773s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2015-03-13T00:04:04+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004178s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000292s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003690s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003964s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000526s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000378s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000371s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.008596s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000374s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000297s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000300s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000296s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000290s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.004200s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\wap\Runtime\Cache\7c1b5953f9b834df2d9539012de126ca.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035387s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000645s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000578s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002649s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2015-03-13T00:04:10+08:00 ] 192.168.1.100 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.005168s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000232s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.004446s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.005209s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000570s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000334s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000390s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000444s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000358s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000343s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000357s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000375s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.004079s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000279s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\wap\Runtime\Cache\7c1b5953f9b834df2d9539012de126ca.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000572s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000513s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002360s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000663s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2015-03-13T00:04:59+08:00 ] 192.168.1.100 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004097s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000180s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003663s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004104s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000464s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000377s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000362s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000385s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000450s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000353s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000361s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000330s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000290s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003782s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\wap\Runtime\Cache\7c1b5953f9b834df2d9539012de126ca.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020265s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000666s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000689s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002797s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000704s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2015-03-13T00:05:46+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003969s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000138s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003629s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004808s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000620s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000348s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000313s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000318s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000351s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000289s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000276s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000289s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000281s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003883s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\wap\Runtime\Cache\7c1b5953f9b834df2d9539012de126ca.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020448s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000743s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000658s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000416s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002901s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2015-03-13T00:11:35+08:00 ] 192.168.1.101 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003948s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.048833s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.019721s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003999s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000551s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000378s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000318s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000305s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000323s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000422s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000365s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000304s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000297s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003636s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000279s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\wap\Runtime\Cache\7c1b5953f9b834df2d9539012de126ca.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020052s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000754s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000699s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003121s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000833s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2015-03-13T00:12:33+08:00 ] 192.168.1.101 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004118s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000275s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003524s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004199s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000577s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000352s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000334s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000352s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000303s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000291s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000280s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000293s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000277s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003453s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\wap\Runtime\Cache\7c1b5953f9b834df2d9539012de126ca.php 第 62 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019688s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000761s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000703s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003132s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000836s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2015-03-13T10:51:00+08:00 ] 127.0.0.1 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004142s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000157s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003241s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004197s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000444s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000237s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000217s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000239s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000350s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000265s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000224s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000228s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000222s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003391s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010353s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000736s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000711s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000548s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003201s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000882s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2015-03-13T11:04:04+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003813s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000207s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003667s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004503s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000528s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000299s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000273s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000316s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000337s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000299s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000310s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000383s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000356s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003572s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009465s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000558s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000590s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002521s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000692s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2015-03-13T11:07:34+08:00 ] 192.168.1.105 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004113s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000246s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003656s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004406s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000538s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000389s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000306s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000315s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000331s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000288s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000281s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000296s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000282s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003484s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008824s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000551s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000548s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002472s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2015-03-13T11:08:31+08:00 ] 192.168.1.105 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004184s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000276s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003732s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003779s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000542s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000386s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000362s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000332s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.009007s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000314s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000290s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000315s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000293s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003732s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000245s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009382s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000576s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000561s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002544s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000706s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2015-03-13T11:10:24+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004137s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000267s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.004308s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004013s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000591s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000368s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000364s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000332s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000366s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000378s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000318s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000255s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000290s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003604s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009274s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000560s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000556s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002492s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2015-03-13T11:10:29+08:00 ] 192.168.1.105 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003772s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000234s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003582s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004357s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000500s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000301s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000277s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000302s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000320s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000287s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000279s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000297s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000282s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003448s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000254s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056864s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000575s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000554s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000394s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002509s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000698s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2015-03-13T11:11:35+08:00 ] 192.168.1.105 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004057s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000245s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003634s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003922s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000488s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000318s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.007266s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000325s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000337s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000303s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000491s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000294s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000286s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003610s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000254s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009659s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000619s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000643s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002784s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000753s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2015-03-13T11:27:05+08:00 ] 192.168.1.105 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003884s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000262s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003651s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.003911s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003986s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000434s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000298s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000293s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.012899s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000334s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000270s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000250s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000269s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000536s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003656s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009852s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000715s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000691s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003079s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000837s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2015-03-13T14:04:05+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017998s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.007693s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000222s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003770s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.018052s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003993s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000348s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000317s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000319s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.012449s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000389s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000314s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000311s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.007848s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000378s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058887s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008214s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009516s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007013s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029968s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009173s ]
+
+[ 2015-03-13T14:04:57+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000226s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004511s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003459s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000377s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000364s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000293s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000373s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000335s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000291s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000322s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000298s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003630s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009176s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000486s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000479s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002254s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000655s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2015-03-13T14:07:09+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004050s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000236s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003822s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.004186s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000418s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000618s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000387s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000438s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000306s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000374s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000360s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000302s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003576s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010347s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000681s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000616s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002861s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2015-03-13T14:08:00+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003809s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000190s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004024s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.073165s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003773s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000291s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000294s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000321s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000386s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000342s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000349s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000344s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000316s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003617s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010593s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000560s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000574s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002538s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2015-03-13T14:08:20+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004205s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000260s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004121s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003567s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000341s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000309s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000313s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000343s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000299s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000262s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000328s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000333s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003569s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009051s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000512s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000474s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002374s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2015-03-13T14:08:28+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004819s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000222s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004176s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003979s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000362s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000311s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000367s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000418s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000371s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000262s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000289s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000312s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003771s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009026s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000554s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000546s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002520s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-03-13T14:09:25+08:00 ] 192.168.1.105 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004029s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000203s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003928s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003624s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000357s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000310s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000318s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000337s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000294s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000300s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000290s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000317s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003437s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000196s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009450s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000620s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000608s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002725s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-03-13T14:09:35+08:00 ] 192.168.1.105 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003953s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.047322s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004571s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003452s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000337s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000312s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000320s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000332s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000293s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000257s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000316s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000312s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003535s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009922s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001056s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000824s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000796s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003946s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2015-03-13T14:10:36+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003881s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000205s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003884s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003462s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000426s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000386s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000363s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000299s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000259s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000289s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000306s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003592s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000200s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011279s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000785s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000702s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003204s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000853s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-03-13T14:10:42+08:00 ] 192.168.1.105 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003613s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000144s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004085s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003664s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000313s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000314s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000333s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000290s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000288s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000318s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000294s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003603s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009303s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000561s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000549s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000426s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002544s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000698s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2015-03-13T14:34:28+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004216s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000146s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003954s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003462s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000383s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000335s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000366s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000361s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000434s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000328s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.013350s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000417s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003879s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010226s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000576s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000546s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000425s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002533s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2015-03-13T14:34:52+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003944s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000201s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.005249s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003728s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000401s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000372s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000333s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000376s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000695s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000364s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000388s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000431s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003734s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000315s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008967s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000502s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000479s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002683s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000668s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2015-03-13T14:59:05+08:00 ] 192.168.1.111 /geek/wap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003808s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000202s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004457s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.004203s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000429s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000414s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000401s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000382s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000324s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000272s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000294s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000285s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.004108s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011112s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000851s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000701s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000568s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003376s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000908s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001030s ]
+

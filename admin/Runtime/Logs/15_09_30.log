@@ -1,0 +1,17 @@
+[ 2015-09-30T02:05:37+08:00 ] 66.249.79.222 /xx/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007749s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061939s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007129s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007315s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006913s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028900s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007584s ]
+

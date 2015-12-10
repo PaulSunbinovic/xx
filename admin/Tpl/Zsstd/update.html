@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/admin/cm.js'></script>
+<link href="__PUBLIC__/CSS/admin/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+<link rel="stylesheet" href="__PUBLIC__/CSS/admin/std.css"/>
+<script type='text/javascript' src='__PUBLIC__/JS/admin/zsstd.js'></script>
+<script type='text/javascript'>
+var hdlurl='__URL__/update';
+var hdlcrtu='__URL__/createAlways';
+</script>
+</head>
+
+
+<body style='padding-top:70px;background-color:#eee;'>
+
+<include file='Pblc:head'/>
+<div class='container' >
+	<div class='col-md-2' id='lft' class='pull-left' style='display:{$lftcls}'>
+			<script>
+			var hdlbtn='__APP__/Btn/update';
+			</script>
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <div class='pull-left'><i class="glyphicon glyphicon-cog"></i> 控制面板</div>
+			    <div class='pull-right'><a href="javascript:leftright()"><i class="glyphicon glyphicon-triangle-left"></i></a></div>
+			    <div class='clearfix'></div>
+			  </div>
+			  <div class="panel-body">
+			  
+		  	<volist name='lblskzmb' id='vo'>  
+			  	<div class="panel panel-info">
+				  <!-- Default panel contents -->
+				  <div class="panel-heading">
+				  	<div class='pull-left'><i class="glyphicon glyphicon-signal"></i> {$vo['lbnm']}</div>
+					<div class='pull-right'><a href="javascript:updown('bs{$vo[lbid]}')"><i class="{$vo['bscls']}" id="bs{$vo['lbid']}"></i></a></div>
+					<div class='clearfix'></div>
+				  </div>
+				<!-- List group -->
+				  <ul class="nav nav-pills nav-stacked" style="display:{$vo['bsbdcls']}" id="bs{$vo['lbid']}bd">
+				    <volist name="vo['mdlskzmb']" id='voII'>
+						<li class="{$voII['actvcls']}"><a href="__APP__/{$voII['mdmk']}/query">{$voII['mdnm']}</a></li>
+					</volist>
+				  </ul>
+				</div>
+			</volist>
+		    </div>
+			</div>
+		</div>
+		<div class='{$rgtcls}' id='rgt'>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				  <a href='javascript:leftright()' id='btn-lft' style='display:{$lftbtncls}'><i class="glyphicon glyphicon-triangle-right"></i></a><i class="glyphicon glyphicon-th-list"></i> {$theme}
+				</div>
+				<div class="panel-body">
+					<form>
+						<input type='hidden' name='stdid' id='stdid' value="{$mo['stdid']}" />
+						<div>
+						<!-- file start -->
+						 <link rel="stylesheet" href="__PUBLIC__/pblc/FileUpload/uploadify/uploadify.css">
+						 <script type="text/javascript" src='__PUBLIC__/pblc/FileUpload/uploadify/uploadify.js'></script>
+						 <script type="text/javascript" src="__PUBLIC__/pblc/FileUpload/uploadify/swfobject.js"></script>
+						<script type="text/javascript">
+						var file_path='__PUBLIC__/pblc/FileUpload';
+						var hdlupload="__APP__/FileUpload/upload/issml/y/wjj/std-jn-tmp";////注意
+						var upload_path="__ROOT__/Uploads/std/tmp";
+						</script>
+						<script type="text/javascript" src='__PUBLIC__/pblc/FileUpload/int.js'></script>
+						<div>
+						<img src="{$mo['stdpt']}" alt=""  class='img-thumbnail'  style="width:100px;"  id='imgg'/>
+						</div>
+						<div style="width:80px; height:26px; overflow:hidden;"><input type="file"  name="photo1" id="uploadify"/></div>
+						<!-- 隐藏系统所需的用户upt -->
+						<input type='hidden' name='stdpt' value="{$mo['stdpt']}" id='pt'/>
+						<!-- file over -->
+						</div>
+						<div class='clearfix'></div>
+						<?php if($mo['stdid']==0){  ?>
+						<!-- 
+						<div class='mingxi'>
+						<?php if($mo['stdid']==0){  ?>
+						<script type="text/javascript" src="__PUBLIC__/pblc/password_strength/password_strength_plugin.js"></script> 
+						<link rel="stylesheet" type="text/css" href="__PUBLIC__/pblc/password_strength/password_streng.css"/> 
+						<table>
+						<tr><td>密码：</td><td><input type='text' name='stdpw' value="{$mo['stdpw']}" id='stdpw' /></td></tr>
+						<tr><td>再输入一次密码：</td><td><input type='text' name='stdpwag' value="{$mo['stdpw']}" id='stdpwag'/></td></tr>
+						</table>
+						<script> 
+						$(document).ready( function() { 
+						//BASIC 验证用户名密码重复
+						/*$(".password_test").passStrength({ 
+						userid: "#stdid" 
+						});*/ 
+						//ADVANCED 
+						$("#stdpw").passStrength({ 
+						//download by http://down.liehuo.net
+						shortPass: "top_shortPass", 
+						badPass: "top_badPass", 
+						goodPass: "top_goodPass", 
+						strongPass: "top_strongPass", 
+						baseStyle: "top_testresult", 
+						userid: "#user_id_adv", 
+						messageloc: 0 
+						}); 
+						}); 
+						</script> 
+						<?php }else{  ?>
+						<script>var hdlrstpw='__URL__/resetpassword';</script>
+						<input type='button' class='btn btn-warning' onclick="rstpw({$mo['stdid']})" value="重置密码" />
+						<?php }  ?>
+						</div>
+						<div class='clearfix'></div>
+						 -->
+						 <?php }else if($aths==1){  ?>
+						<script>var hdlrstpw='__URL__/resetpassword';</script>
+						<!-- <tr><td></td><td><input type='button' class='btn btn-warning' onclick="rstpw({$mo['stdid']},{$mo['f_std_grdid']})" value="重置密码" /></td></tr> -->
+						<?php }  ?>
+						<div class='mingxi'>
+						学籍信息：
+						<table>
+						<tr>
+						<td>
+						办学形式：
+						</td>
+						<td colspan=3>
+						<select name='f_mj_bxxsid'>
+							<option value='0'>无</option>
+							<volist name='bxxsls' id='vo'>
+							<option value="{$vo['bxxsid']}">{$vo['bxxsnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_mj_bxxsid]').val({$mo['f_mj_bxxsid']})</script>
+						</td>
+						<td>
+						站点：
+						</td>
+						<td>
+						<?php if($athm!=1){ ?><select name='f_std_sttid' disabled ><?php }else{ ?><select name='f_std_sttid' ><?php } ?>
+							<volist name='sttls' id='vo'>
+							<option value="{$vo['sttid']}">{$vo['sttnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_std_sttid]').val({$mo['f_std_sttid']})</script>
+						</td>
+						<td>
+						年级：
+						</td>
+						<td>
+						<?php if($athm!=1){ ?><select name='f_std_grdid' disabled ><?php }else{ ?><select name='f_std_grdid' ><?php } ?>
+							<volist name='grdls' id='vo'>
+							<option value="{$vo['grdid']}">{$vo['grdnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_std_grdid]').val({$mo['f_std_grdid']})</script>
+						</td>
+						<td>
+						学期
+						</td>
+						<td>
+						<?php if($athm!=1){ ?><select name='f_stdxqcls_xqid' id='f_stdxqcls_xqidcdt' disabled><?php }else{ ?><select name='f_stdxqcls_xqid' id='f_stdxqcls_xqidcdt'><?php } ?>
+						<volist name="xqls" id='vol'>
+						<option value="{$vol['xqid']}">{$vol['xqnm']}</option>
+						</volist>
+						</select>
+						<script>$('select[name=f_stdxqcls_xqid]').val({$mo['f_stdxqcls_xqid']})</script>
+						<select name='f_stdxqmj_xqid' id='f_stdxqmj_xqidcdt' style='display:none'>
+						<volist name="xqls" id='vol'>
+						<option value="{$vol['xqid']}">{$vol['xqnm']}</option>
+						</volist>
+						</select>
+						<script>$('select[name=f_stdxqmj_xqid]').val({$mo['f_stdxqmj_xqid']})</script>
+						</td>
+						
+						</tr>
+						<tr style='display:none'>
+						<td>
+						层次：
+						</td>
+						<td>
+						<?php if($athm!=1){ ?><select name='f_mj_ccid' disabled><?php }else{ ?><select name='f_mj_ccid'><?php } ?>
+							<option value='0'>无</option>
+							<volist name='ccls' id='vo'>
+							<option value="{$vo['ccid']}">{$vo['ccnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_mj_ccid]').val({$mo['f_mj_ccid']})</script>
+						</td>
+						<td>
+						科类：
+						</td>
+						<td>
+						<?php if($athm!=1){ ?><select name='f_mj_klid' disabled><?php }else{ ?><select name='f_mj_klid'><?php } ?>
+							<option value='0'>无</option>
+							<volist name='klls' id='vo'>
+							<option value="{$vo['klid']}">{$vo['klnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_mj_klid]').val({$mo['f_mj_klid']})</script>
+						</td>
+						<td>
+						学习形式：
+						</td>
+						<td>
+						<?php if($athm!=1){ ?><select name='f_mj_xxxsid' disabled><?php }else{ ?><select name='f_mj_xxxsid'><?php } ?>
+							<option value='0'>无</option>
+							<volist name='xxxsls' id='vo'>
+							<option value="{$vo['xxxsid']}">{$vo['xxxsnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_mj_xxxsid]').val({$mo['f_mj_xxxsid']})</script></td>
+						<td>
+						招生范围：
+						</td>
+						<td>
+						<?php if($athm!=1){ ?><select name='f_mj_zsfwid' disabled><?php }else{ ?><select name='f_mj_zsfwid'><?php } ?>
+							<option value='0'>无</option>
+							<volist name='zsfwls' id='vo'>
+							<option value="{$vo['zsfwid']}">{$vo['zsfwnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_mj_zsfwid]').val({$mo['f_mj_zsfwid']})</script>
+						</td>
+						<td>
+						学制：
+						</td>
+						<td>
+						<?php if($athm!=1){ ?><select name='f_mj_xzid' disabled><?php }else{ ?><select name='f_mj_xzid'><?php } ?>
+							<option value='0'>无</option>
+							<volist name='xzls' id='vo'>
+							<option value="{$vo['xzid']}">{$vo['xznm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_mj_xzid]').val({$mo['f_mj_xzid']})</script>
+						</td>
+						</tr>
+						<tr>
+						<script type="text/javascript">
+						var hdlclswithstdno='__URL__/hdlclswithstdno'
+						</script>
+						<td>班级：</td>
+						<td colspan=9>
+						<?php if($athm!=1){ ?><select name='f_stdxqcls_clsid' disabled><?php }else{ ?><select name='f_stdxqcls_clsid'><?php } ?>
+							<option value='0'>无</option>
+							<volist name='clsls' id='vo'>
+							<option value="{$vo['clsid']}">[{$vo['sttnm']}]{$vo['clsnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_stdxqcls_clsid]').val({$mo['f_stdxqcls_clsid']})</script>
+						</td>
+						</tr>
+						<tr>
+						<td>专业：</td>
+						<td colspan=9>
+						<select name='f_stdxqmj_mjid'>
+							<option value='0'>无</option>
+							<volist name='mjls' id='vo'>
+							<option value="{$vo['mjid']}">[{$vo['bxxsnmst']}]{$vo['mjdm']}{$vo['mjnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_stdxqmj_mjid]').val({$mo['f_stdxqmj_mjid']})</script>
+						</td>
+						</tr>
+						</table>
+						</div>
+						<script>var hdlurlxj='__URL__/updatexj';</script>
+						<!-- <?php if($mo['stdid']!=0&&$athm==1){ ?><input type='button' id='updtxj' value='改学籍信息' class='btn btn-success' /><?php } ?> -->
+						<div class='clearfix'></div>
+						<div class='mingxi'>
+						基本信息：
+						<table>
+						
+						<tr>
+						<td>报名号：</td><td><?php if($athm!=1){ ?><input type='text' name='stdaplno' value="{$mo['stdaplno']}" disabled /><?php }else{ ?><input type='text' name='stdaplno' value="{$mo['stdaplno']}" /><?php } ?></td>
+						<td>学号：</td><td><?php if($athm!=1){ ?><input type='text' name='stdno' value="{$mo['stdno']}" disabled/><?php }else{ ?><input type='text' name='stdno' value="{$mo['stdno']}" /><?php } ?><input type='hidden' value="{$mo['stdno']}" id='stdnomk'></td>
+						<td>上传财务时间：</td><td><?php if($athm==1){ ?><script type="text/javascript" src="__PUBLIC__/pblc/DatePicker/My97DatePickerHHmmss/WdatePicker.js"></script><?php } ?><input type="text" name='stdupfnctm' value="{$mo['stdupfnctm']}" onclick="WdatePicker()" readonly/></td>
+						<td>
+						寝室：
+						</td>
+						<td>
+						<select name='f_stdxqdm_dmid'>
+							<option value='0'>无</option>
+							<volist name='dmls' id='vo'>
+							<option value="{$vo['dmid']}">{$vo['dmnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_stdxqdm_dmid]').val({$mo['f_stdxqdm_dmid']})</script>
+						</td>
+						</tr>
+											
+						<tr>
+						<td>姓名：</td><td><input type='text' name='stdnm' value="{$mo['stdnm']}" id='stdnm'/></td>
+						<td>
+						性别：
+						</td>
+						<td>
+						<select name='f_std_sexid'>
+							<option value='0'>无</option>
+							<volist name='sexls' id='vo'>
+							<option value="{$vo['sexid']}">{$vo['sexnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_std_sexid]').val({$mo['f_std_sexid']})</script>
+						</td>
+						<td>
+						民族
+						</td>
+						<td>
+						<select name='f_std_rcid'>
+							<option value='0'>无</option>
+							<volist name='rcls' id='vo'>
+							<option value="{$vo['rcid']}">{$vo['rcnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_std_rcid]').val({$mo['f_std_rcid']})</script>
+						</td>
+						<td>
+						政治面貌
+						</td>
+						<td>
+						<select name='f_std_zzmmid'>
+							<option value='0'>无</option>
+							<volist name='zzmmls' id='vo'>
+							<option value="{$vo['zzmmid']}">{$vo['zzmmnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_std_zzmmid]').val({$mo['f_std_zzmmid']})</script>
+						</td>
+						</tr>
+						<tr>
+						<td>籍贯：</td><td><input type='text' name='stdnp' value="{$mo['stdnp']}" id='stdnp'/></td>
+						<td>文理科：</td>
+						<td>
+						<select name='stdsol'>
+						<option value='无'>无</option>
+						<option value='文科'>文科</option>
+						<option value='理科'>理科</option>
+						</select>
+						<script>$('select[name=stdsol]').val("{$mo['stdsol']}")</script>
+						</td>
+						<td>
+						学历
+						</td>
+						<td>
+						<select name='f_std_xlid'>
+							<option value='0'>无</option>
+							<volist name='xlls' id='vo'>
+							<option value="{$vo['xlid']}">{$vo['xlnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_std_xlid]').val({$mo['f_std_xlid']})</script>
+						</td>
+						<td>高考成绩：</td><td><input type='text' name='stdcee' value="{$mo['stdcee']}" id='stdcee'/></td>
+						</tr>
+						<tr>
+						<td>毕业学校：</td><td colspan=3><input  type='text' name='stdsog' value="{$mo['stdsog']}" id='stdsog'/></td>
+						<td>手机号码：</td><td colspan=3><input  type='text' name='stdcp' value="{$mo['stdcp']}" id='stdcp'/></td>
+						</tr>
+						<tr>
+						<td>身份证号码：</td><td><input  type='text' name='stdidcd' value="{$mo['stdidcd']}" id='stdidcd'/></td>
+						<td>固话：</td><td><input  type='text' name='stdtlp' value="{$mo['stdtlp']}" /></td>
+						<td>出生日期：</td><td><?php if($aths==1){ ?><script type="text/javascript" src="__PUBLIC__/pblc/DTPK/jddate/adddate.js"></script><?php } ?><input type='text' name='stdbtd' value="{$mo['stdbtd']}" id='stdbtd' onclick="SelectDate(this,'yyyy-MM-dd')" readonly /></td>
+						<td>QQ：</td><td><input type='text' name='stdqq' value="{$mo['stdqq']}" id='stdqq'/></td>
+						</tr>
+						<tr>
+						<td>家长一：</td><td><input type='text' name='stdrlta' value="{$mo['stdrlta']}" id='stdrlta'/></td>
+						<td>家长一姓名：</td><td><input type='text' name='stdrltanm' value="{$mo['stdrltanm']}" id='stdrltanm'/></td>
+						<td>家长一单位：</td><td><input type='text' name='stdrltaocpt' value="{$mo['stdrltaocpt']}" id='stdrltaocpt'/></td>
+						<td>家长一手机号：</td><td><input type='text' name='stdrltacp' value="{$mo['stdrltacp']}" id='stdrltacp'/></td>
+						</tr>
+						<tr>
+						<td>家长二：</td><td><input type='text' name='stdrltb' value="{$mo['stdrltb']}" id='stdrltb'/></td>
+						<td>家长二姓名：</td><td><input type='text' name='stdrltbnm' value="{$mo['stdrltbnm']}" id='stdrltbnm'/></td>
+						<td>家长二单位：</td><td><input type='text' name='stdrltbocpt' value="{$mo['stdrltbocpt']}" id='stdrltbocpt'/></td>
+						<td>家长二手机号：</td><td><input type='text' name='stdrltbcp' value="{$mo['stdrltbcp']}" id='stdrltbcp'/></td>
+						</tr>
+						<tr>
+						<td>爱好：</td><td><input type='text' name='stdhb' value="{$mo['stdhb']}" id='stdhb'/></td>
+						<td>家庭地址：</td><td colspan=3><input type='text' name='stdads' value="{$mo['stdads']}" id='stdads'/></td>
+						<td>邮件：</td><td><input type='text' name='stdpst' value="{$mo['stdpst']}" id='stdpst'/></td>
+						</tr>
+						<tr>
+						<td>是否有推荐人：</td>
+						<td>
+						<?php if($athm!=1){ ?><select name='ifrcmd' disabled><?php }else{ ?><select name='ifrcmd'><?php } ?>
+							<option value='否'>否</option>
+							<option value="是">是</option>
+						</select>
+						<script>$('select[name=ifrcmd]').val("{$ifrcmd}")</script>
+						</td>
+						<td>推荐人姓名：</td><td colspan=2><?php if($athm!=1){ ?><input type='text' name='stdrcmdnm' value="{$mo['stdrcmdnm']}" id='stdrcmdnm' {$rcmdcls} disabled/><?php }else{ ?><input type='text' name='stdrcmdnm' value="{$mo['stdrcmdnm']}" id='stdrcmdnm' {$rcmdcls}/><?php } ?></td>
+						<td>推荐人手机号：</td><td colspan=2><?php if($athm!=1){ ?><input type='text' name='stdrcmdcp' value="{$mo['stdrcmdcp']}" id='stdrcmdcp' {$rcmdcls} disabled/><?php }else{ ?><input type='text' name='stdrcmdcp' value="{$mo['stdrcmdcp']}" id='stdrcmdcp' {$rcmdcls}/><?php } ?></td>
+						</tr>
+						
+						<tr>
+						<td>状态：</td>
+						<td colspan=7>
+						<select name='f_std_statid'>
+							<option value='0'>无</option>
+							<volist name='statls' id='vo'>
+							<option value="{$vo['statid']}">{$vo['statnm']}</option>
+							</volist>
+						</select>
+						<script>$('select[name=f_std_statid]').val({$mo['f_std_statid']})</script>
+						</td>
+						</tr>
+						
+						<tr>
+						<td>工行卡号：</td><td colspan=4><input type="text" name='stdicbc' value="{$mo['stdicbc']}" /></td>
+						<td>信息打印时间：</td><td colspan=2><input type="text" name='stdpnttm' value="{$mo['stdpnttm']}" onclick="WdatePicker()" readonly/></td>
+						</tr>
+						<tr>
+						<td>添加时间：</td><td><input type="text" name='stdaddtm' value="{$mo['stdaddtm']}" onclick="WdatePicker()" readonly/></td>
+						<td>修改时间：</td><td><input type="text" name='stdmdftm' value="{$mo['stdmdftm']}" onclick="WdatePicker()" readonly/></td>
+						<td>预录取时间：</td><td><input type="text" name='stdpertm' value="{$mo['stdpertm']}" onclick="WdatePicker()" readonly/></td>
+						<td>录取时间：</td><td><input type="text" name='stdertm' value="{$mo['stdertm']}" onclick="WdatePicker()" readonly/></td>
+						</tr>
+						</table>
+						</div>
+						<script>var hdlurljb='__URL__/updatejb'</script>
+						<!-- <?php if($mo['stdid']!=0&&$aths==1){ ?><input type='button' id='updtjb' value='改基本信息' class='btn btn-success' /><?php } ?> -->
+						<div class='clearfix'></div>
+						<input type='button' id='updt' value={$btnvl} class='btn btn-danger' />
+						<div class='clearfix'></div>
+						<br/>
+						<?php if($mo['stdid']!=0){  ?>
+						
+						特殊情况:
+						<div class='clearfix'></div>
+						<table class="table table-striped">
+							<tr><th>时间</th><th>具体情况</th></tr>
+							<volist name='tsqkls' id='vo'>
+							<tr><td>{$vo['tsqktm']}</td><td>{$vo['tsqknr']}</td></tr>
+							</volist>
+						</table>
+						<a href="#"  class='btn btn-success'>前往特殊情况中心</a>
+						<div class='clearfix'></div>
+						<?php }  ?>
+					</form>
+				</div>
+			</div>
+		</div>	
+	<div class='clearfix'></div>
+	
+	<include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: 100,//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+</script>
+
+
+</body>
+</html>

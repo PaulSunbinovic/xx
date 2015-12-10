@@ -1,0 +1,1108 @@
+[ 2015-09-15T00:07:22+08:00 ] 66.249.65.186 /xx/zspt.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007691s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.003021s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002469s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003952s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000187s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003166s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063851s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007155s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008183s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006899s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029883s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007568s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007680s ]
+
+[ 2015-09-15T03:10:57+08:00 ] 61.135.189.108 /xx/zspt.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008030s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002971s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002762s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.004027s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000187s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003204s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063835s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007134s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007108s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006858s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028841s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007562s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007678s ]
+
+[ 2015-09-15T03:25:18+08:00 ] 68.180.228.176 /xx/zspt.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007524s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002919s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002450s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003922s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000190s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003214s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067046s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007259s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007110s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006846s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030815s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007652s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007771s ]
+
+[ 2015-09-15T04:19:33+08:00 ] 66.249.69.124 /xx/zspt.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007768s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.003011s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002469s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003975s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000269s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003223s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062128s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007164s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007086s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006881s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029526s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007511s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007624s ]
+
+[ 2015-09-15T07:50:05+08:00 ] 221.204.7.183 /xx/zspt.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007861s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.003008s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002460s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.004181s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000213s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003204s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061731s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007715s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007101s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029399s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008112s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008233s ]
+
+[ 2015-09-15T08:35:17+08:00 ] 180.153.236.172 /xx/zspt.php/Atc/gtxpg/x/vw/atcid/20
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010132s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008117s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002945s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002452s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003933s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000197s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003161s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcid=20 ) LIMIT 1   [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002317s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000608s ]
+SQL: UPDATE `tb_atc` SET `atccnt`=339 WHERE ( atcid=20 ) [ RunTime:0.020400s ]
+NOTIC: [8] Undefined variable: alt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\AtcAction.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002735s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000623s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: schzysc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\35bee216c0dde56464e23249b341665f.php 第 154 行.
+NOTIC: [8] Undefined variable: clctcss D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\35bee216c0dde56464e23249b341665f.php 第 155 行.
+NOTIC: [8] Undefined variable: heartcss D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\35bee216c0dde56464e23249b341665f.php 第 155 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061879s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007146s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006864s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029318s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007470s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007604s ]
+
+[ 2015-09-15T14:05:23+08:00 ] 10.50.10.27 /xx/zspt.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004433s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.003007s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002444s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003964s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000194s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003167s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.002485s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.055077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055232s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005749s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007154s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007165s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027886s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007553s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007666s ]
+
+[ 2015-09-15T14:05:28+08:00 ] 10.50.10.27 /xx/zspt.php/Std/gtxpg/x/updt/stdid/0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008105s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002803s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002857s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002099s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003663s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000197s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000149s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cls` [ RunTime:0.002693s ]
+SQL: SELECT * FROM `tb_2015_cls` LEFT JOIN tb_stt ON f_cls_sttid=sttid WHERE ( 1=1 AND f_cls_sttid=1 AND f_cls_grdid=4 ) ORDER BY clsnm ASC  [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `tb_2015_mj` [ RunTime:0.002904s ]
+SQL: SELECT * FROM `tb_2015_mj`  [ RunTime:0.000537s ]
+SQL: SELECT * FROM `tb_2015_mj` LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_kl ON f_mj_klid=klid WHERE ( 1=1 AND mjbbzs=1 AND mjsttu LIKE '%-1-%' AND (1=2 OR f_mj_bxxsid=4) AND f_mj_grdid=4 ) ORDER BY f_mj_bxxsid ASC,mjdm ASC  [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `tb_bxxs` [ RunTime:0.002455s ]
+SQL: SELECT * FROM `tb_bxxs` WHERE ( 1=1 AND (1=2 OR bxxsid=4) )  [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tb_sex` [ RunTime:0.002404s ]
+SQL: SELECT * FROM `tb_sex`  [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `tb_rc` [ RunTime:0.002365s ]
+SQL: SELECT * FROM `tb_rc`  [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `tb_zzmm` [ RunTime:0.002602s ]
+SQL: SELECT * FROM `tb_zzmm`  [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `tb_xl` [ RunTime:0.002395s ]
+SQL: SELECT * FROM `tb_xl`  [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `tb_dm` [ RunTime:0.002398s ]
+SQL: SELECT * FROM `tb_dm`  [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `tb_stat` [ RunTime:0.002524s ]
+SQL: SELECT * FROM `tb_stat`  [ RunTime:0.000522s ]
+NOTIC: [8] Undefined index:  stdrcmdnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 346 行.
+NOTIC: [8] Undefined index:  stdrcmdcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 346 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  f_mj_bxxsid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 149 行.
+NOTIC: [8] Undefined index:  f_stdxqmj_mjid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 169 行.
+NOTIC: [8] Undefined index:  stdnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 179 行.
+NOTIC: [8] Undefined index:  f_std_sexid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 188 行.
+NOTIC: [8] Undefined index:  f_std_rcid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 198 行.
+NOTIC: [8] Undefined index:  f_std_zzmmid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 208 行.
+NOTIC: [8] Undefined index:  stdnp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 233 行.
+NOTIC: [8] Undefined index:  f_std_xlid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 251 行.
+NOTIC: [8] Undefined index:  stdcee D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 253 行.
+NOTIC: [8] Undefined index:  stdsog D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 256 行.
+NOTIC: [8] Undefined index:  stdcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 257 行.
+NOTIC: [8] Undefined index:  stdidcd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 260 行.
+NOTIC: [8] Undefined index:  stdtlp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 261 行.
+NOTIC: [8] Undefined index:  stdbtd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 262 行.
+NOTIC: [8] Undefined index:  stdqq D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 263 行.
+NOTIC: [8] Undefined index:  stdrlta D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 266 行.
+NOTIC: [8] Undefined index:  stdrltanm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 267 行.
+NOTIC: [8] Undefined index:  stdrltaocpt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 268 行.
+NOTIC: [8] Undefined index:  stdrltacp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 269 行.
+NOTIC: [8] Undefined index:  stdrltb D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 272 行.
+NOTIC: [8] Undefined index:  stdrltbnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 273 行.
+NOTIC: [8] Undefined index:  stdrltbocpt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 274 行.
+NOTIC: [8] Undefined index:  stdrltbcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 275 行.
+NOTIC: [8] Undefined index:  stdhb D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 278 行.
+NOTIC: [8] Undefined index:  stdads D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 279 行.
+NOTIC: [8] Undefined index:  stdpst D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 280 行.
+NOTIC: [8] Undefined index:  stdrcmdnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 291 行.
+NOTIC: [8] Undefined index:  stdrcmdcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 292 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.084369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084514s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002589s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006212s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006890s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021729s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007570s ]
+
+[ 2015-09-15T14:08:16+08:00 ] 10.50.10.27 /xx/zspt.php/Std/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004411s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002498s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002056s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003442s ]
+SQL: SHOW COLUMNS FROM `tb_bxxs` [ RunTime:0.002290s ]
+SQL: SELECT * FROM `tb_bxxs` WHERE ( bxxsid=4 ) LIMIT 1   [ RunTime:0.000526s ]
+NOTIC: [8] Undefined index:  stdaplno D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 808 行.
+SQL: SELECT * FROM `tb_bxxs` WHERE ( bxxsid=4 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT `stdaplno` FROM `tb_2015_std` WHERE ( stdaplno LIKE '%J2015%' ) ORDER BY stdaplno DESC  [ RunTime:0.001333s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdidcd='330522199703124716' ) LIMIT 1   [ RunTime:0.001980s ]
+SQL: INSERT INTO `tb_2015_std` (`f_std_sttid`,`f_std_grdid`,`stdaplno`,`stdno`,`stdupfnctm`,`stdnm`,`stdpw`,`stdpt`,`f_std_sexid`,`f_std_rcid`,`f_std_zzmmid`,`stdnp`,`stdbtd`,`stdsol`,`stdcee`,`stdsog`,`stdqq`,`f_std_xlid`,`stdidcd`,`stdcp`,`stdrlta`,`stdrltanm`,`stdrltaocpt`,`stdrltacp`,`stdrltb`,`stdrltbnm`,`stdrltbocpt`,`stdrltbcp`,`stdhb`,`f_std_statid`,`stdpst`,`stdads`,`stdmdftm`,`stdaddtm`,`stdtlp`,`stdpertm`,`stdertm`,`stdicbc`,`stdrcmdnm`,`stdrcmdcp`,`stdpnttm`) VALUES (1,4,'J20150359','','','陈嘉通','1bbd886460827015e5d605ed44252251','/xx/Public/IMG/default.jpg',1,1,3,'湖州长兴','1997-03-12','无','','','',0,'330522199703124716','18757203888','爸爸','陈哲敏','个体','13587278888','','','','','',1,'','浙江省长兴县水木花都天水苑9号搂202','2015-09-15 14:08:16','2015-09-15 14:08:16','','','','','','','') [ RunTime:0.018065s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdidcd='330522199703124716' ) LIMIT 1   [ RunTime:0.002042s ]
+SQL: SHOW COLUMNS FROM `tb_2015_stdxqcls` [ RunTime:0.002798s ]
+SQL: INSERT INTO `tb_2015_stdxqcls` (`f_stdxqcls_stdid`,`f_stdxqcls_xqid`,`f_stdxqcls_clsid`) VALUES (361,3,0) [ RunTime:0.018017s ]
+SQL: SHOW COLUMNS FROM `tb_2015_stdxqmj` [ RunTime:0.002664s ]
+SQL: INSERT INTO `tb_2015_stdxqmj` (`f_stdxqmj_stdid`,`f_stdxqmj_xqid`,`f_stdxqmj_mjid`) VALUES (361,3,3) [ RunTime:0.012482s ]
+SQL: SHOW COLUMNS FROM `tb_2015_stdxqdm` [ RunTime:0.002609s ]
+SQL: INSERT INTO `tb_2015_stdxqdm` (`f_stdxqdm_stdid`,`f_stdxqdm_xqid`,`f_stdxqdm_dmid`) VALUES (361,3,3) [ RunTime:0.016817s ]
+SQL: SHOW COLUMNS FROM `tb_2015_mj` [ RunTime:0.002630s ]
+SQL: SELECT * FROM `tb_2015_mj` WHERE ( mjid=3 ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `tb_2015_xf` [ RunTime:0.002801s ]
+SQL: SELECT * FROM `tb_2015_xf` WHERE ( f_xf_sttid=1 AND f_xf_bxxsid=4 AND f_xf_ccid=3 AND f_xf_klid=2 ) LIMIT 1   [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `tb_2015_zsf` [ RunTime:0.002551s ]
+SQL: SELECT * FROM `tb_2015_zsf` WHERE ( f_zsf_dmid=3 ) LIMIT 1   [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cw` [ RunTime:0.002802s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002878s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid=3 ) LIMIT 1   [ RunTime:0.000519s ]
+NOTIC: [8] Use of undefined constant xqnm - assumed 'xqnm' D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 978 行.
+SQL: SHOW COLUMNS FROM `tb_xn` [ RunTime:0.002434s ]
+SQL: SELECT * FROM `tb_xn` WHERE ( xnnm='2015' ) LIMIT 1   [ RunTime:0.000554s ]
+SQL: INSERT INTO `tb_2015_cw` (`f_cw_grdid`,`f_cw_xnid`,`cwzcxqid`,`f_cw_stdid`,`cwyjxfsm`,`cwyjjckwfsm`,`cwyjzsfsm`,`cwsjxfsm`,`cwsjjckwfsm`,`cwsjzsfsm`) VALUES (4,2,3,361,13900,1000,0,0,0,0) [ RunTime:0.013044s ]
+
+[ 2015-09-15T14:08:16+08:00 ] 10.50.10.27 /xx/zspt.php/Std/gtxpg/x/vw/stdid/361/bmcg/y
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006664s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006818s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002824s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002516s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002156s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003510s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000196s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000132s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT * FROM `tb_2015_std` inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid=361 ) LIMIT 1   [ RunTime:0.004634s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002205s ]
+SQL: SHOW COLUMNS FROM `tb_2015_sttintxq` [ RunTime:0.003153s ]
+SQL: SELECT * FROM `tb_2015_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000551s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=3 ) ORDER BY xqid ASC LIMIT 0,10   [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `tb_2015_tsqk` [ RunTime:0.002558s ]
+SQL: SELECT * FROM `tb_2015_tsqk` WHERE ( f_tsqk_stdid=361 ) ORDER BY tsqktm DESC  [ RunTime:0.001302s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: dmls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\48449d0f0d4b67d562a44de0bb93b3b1.php 第 264 行.
+NOTIC: [8] Undefined variable: aths D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\48449d0f0d4b67d562a44de0bb93b3b1.php 第 280 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072595s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004190s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007071s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007460s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026286s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007717s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007835s ]
+
+[ 2015-09-15T14:20:22+08:00 ] 10.50.10.149 /xx/zspt.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004441s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002540s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002210s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003524s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000202s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003197s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.055020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055173s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007134s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003957s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003802s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022415s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007753s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007874s ]
+
+[ 2015-09-15T14:20:28+08:00 ] 10.50.10.149 /xx/zspt.php/Std/gtxpg/x/updt/stdid/0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008498s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007896s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002485s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002016s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003427s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.002909s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cls` [ RunTime:0.002708s ]
+SQL: SELECT * FROM `tb_2015_cls` LEFT JOIN tb_stt ON f_cls_sttid=sttid WHERE ( 1=1 AND f_cls_sttid=1 AND f_cls_grdid=4 ) ORDER BY clsnm ASC  [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `tb_2015_mj` [ RunTime:0.002521s ]
+SQL: SELECT * FROM `tb_2015_mj`  [ RunTime:0.000485s ]
+SQL: SELECT * FROM `tb_2015_mj` LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_kl ON f_mj_klid=klid WHERE ( 1=1 AND mjbbzs=1 AND mjsttu LIKE '%-1-%' AND (1=2 OR f_mj_bxxsid=4) AND f_mj_grdid=4 ) ORDER BY f_mj_bxxsid ASC,mjdm ASC  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `tb_bxxs` [ RunTime:0.002415s ]
+SQL: SELECT * FROM `tb_bxxs` WHERE ( 1=1 AND (1=2 OR bxxsid=4) )  [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `tb_sex` [ RunTime:0.002026s ]
+SQL: SELECT * FROM `tb_sex`  [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `tb_rc` [ RunTime:0.002009s ]
+SQL: SELECT * FROM `tb_rc`  [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `tb_zzmm` [ RunTime:0.001979s ]
+SQL: SELECT * FROM `tb_zzmm`  [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `tb_xl` [ RunTime:0.001974s ]
+SQL: SELECT * FROM `tb_xl`  [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `tb_dm` [ RunTime:0.002100s ]
+SQL: SELECT * FROM `tb_dm`  [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `tb_stat` [ RunTime:0.002147s ]
+SQL: SELECT * FROM `tb_stat`  [ RunTime:0.000495s ]
+NOTIC: [8] Undefined index:  stdrcmdnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 346 行.
+NOTIC: [8] Undefined index:  stdrcmdcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 346 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  f_mj_bxxsid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 149 行.
+NOTIC: [8] Undefined index:  f_stdxqmj_mjid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 169 行.
+NOTIC: [8] Undefined index:  stdnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 179 行.
+NOTIC: [8] Undefined index:  f_std_sexid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 188 行.
+NOTIC: [8] Undefined index:  f_std_rcid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 198 行.
+NOTIC: [8] Undefined index:  f_std_zzmmid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 208 行.
+NOTIC: [8] Undefined index:  stdnp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 233 行.
+NOTIC: [8] Undefined index:  f_std_xlid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 251 行.
+NOTIC: [8] Undefined index:  stdcee D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 253 行.
+NOTIC: [8] Undefined index:  stdsog D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 256 行.
+NOTIC: [8] Undefined index:  stdcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 257 行.
+NOTIC: [8] Undefined index:  stdidcd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 260 行.
+NOTIC: [8] Undefined index:  stdtlp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 261 行.
+NOTIC: [8] Undefined index:  stdbtd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 262 行.
+NOTIC: [8] Undefined index:  stdqq D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 263 行.
+NOTIC: [8] Undefined index:  stdrlta D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 266 行.
+NOTIC: [8] Undefined index:  stdrltanm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 267 行.
+NOTIC: [8] Undefined index:  stdrltaocpt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 268 行.
+NOTIC: [8] Undefined index:  stdrltacp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 269 行.
+NOTIC: [8] Undefined index:  stdrltb D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 272 行.
+NOTIC: [8] Undefined index:  stdrltbnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 273 行.
+NOTIC: [8] Undefined index:  stdrltbocpt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 274 行.
+NOTIC: [8] Undefined index:  stdrltbcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 275 行.
+NOTIC: [8] Undefined index:  stdhb D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 278 行.
+NOTIC: [8] Undefined index:  stdads D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 279 行.
+NOTIC: [8] Undefined index:  stdpst D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 280 行.
+NOTIC: [8] Undefined index:  stdrcmdnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 291 行.
+NOTIC: [8] Undefined index:  stdrcmdcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 292 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.104380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104552s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008616s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007387s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006871s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007430s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007544s ]
+
+[ 2015-09-15T14:27:10+08:00 ] 10.50.10.149 /xx/zspt.php/Std/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004785s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004941s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004358s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002508s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002019s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003504s ]
+SQL: SHOW COLUMNS FROM `tb_bxxs` [ RunTime:0.002041s ]
+SQL: SELECT * FROM `tb_bxxs` WHERE ( bxxsid=4 ) LIMIT 1   [ RunTime:0.000556s ]
+NOTIC: [8] Undefined index:  stdaplno D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 808 行.
+SQL: SELECT * FROM `tb_bxxs` WHERE ( bxxsid=4 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT `stdaplno` FROM `tb_2015_std` WHERE ( stdaplno LIKE '%J2015%' ) ORDER BY stdaplno DESC  [ RunTime:0.001334s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdidcd='330302199509272815' ) LIMIT 1   [ RunTime:0.002008s ]
+SQL: INSERT INTO `tb_2015_std` (`f_std_sttid`,`f_std_grdid`,`stdaplno`,`stdno`,`stdupfnctm`,`stdnm`,`stdpw`,`stdpt`,`f_std_sexid`,`f_std_rcid`,`f_std_zzmmid`,`stdnp`,`stdbtd`,`stdsol`,`stdcee`,`stdsog`,`stdqq`,`f_std_xlid`,`stdidcd`,`stdcp`,`stdrlta`,`stdrltanm`,`stdrltaocpt`,`stdrltacp`,`stdrltb`,`stdrltbnm`,`stdrltbocpt`,`stdrltbcp`,`stdhb`,`f_std_statid`,`stdpst`,`stdads`,`stdmdftm`,`stdaddtm`,`stdtlp`,`stdpertm`,`stdertm`,`stdicbc`,`stdrcmdnm`,`stdrcmdcp`,`stdpnttm`) VALUES (1,4,'J20150360','','','徐京奥','1bbd886460827015e5d605ed44252251','/xx/Public/IMG/default.jpg',1,1,2,'浙江省温州市','1995-09-27','理科','','温州五十一中学','',1,'330302199509272815','15801025752','父亲','徐银松','经商','13634263806','','','','','',1,'','浙江省温州市百里西路百里大厦6栋804','2015-09-15 14:27:10','2015-09-15 14:27:10','','','','','王芝义罗','','') [ RunTime:0.013270s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdidcd='330302199509272815' ) LIMIT 1   [ RunTime:0.002051s ]
+SQL: SHOW COLUMNS FROM `tb_2015_stdxqcls` [ RunTime:0.002281s ]
+SQL: INSERT INTO `tb_2015_stdxqcls` (`f_stdxqcls_stdid`,`f_stdxqcls_xqid`,`f_stdxqcls_clsid`) VALUES (362,3,0) [ RunTime:0.012661s ]
+SQL: SHOW COLUMNS FROM `tb_2015_stdxqmj` [ RunTime:0.002248s ]
+SQL: INSERT INTO `tb_2015_stdxqmj` (`f_stdxqmj_stdid`,`f_stdxqmj_xqid`,`f_stdxqmj_mjid`) VALUES (362,3,3) [ RunTime:0.014997s ]
+SQL: SHOW COLUMNS FROM `tb_2015_stdxqdm` [ RunTime:0.002165s ]
+SQL: INSERT INTO `tb_2015_stdxqdm` (`f_stdxqdm_stdid`,`f_stdxqdm_xqid`,`f_stdxqdm_dmid`) VALUES (362,3,3) [ RunTime:0.021312s ]
+SQL: SHOW COLUMNS FROM `tb_2015_mj` [ RunTime:0.002746s ]
+SQL: SELECT * FROM `tb_2015_mj` WHERE ( mjid=3 ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `tb_2015_xf` [ RunTime:0.002768s ]
+SQL: SELECT * FROM `tb_2015_xf` WHERE ( f_xf_sttid=1 AND f_xf_bxxsid=4 AND f_xf_ccid=3 AND f_xf_klid=2 ) LIMIT 1   [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `tb_2015_zsf` [ RunTime:0.003519s ]
+SQL: SELECT * FROM `tb_2015_zsf` WHERE ( f_zsf_dmid=3 ) LIMIT 1   [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cw` [ RunTime:0.002947s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002462s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid=3 ) LIMIT 1   [ RunTime:0.000541s ]
+NOTIC: [8] Use of undefined constant xqnm - assumed 'xqnm' D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 978 行.
+SQL: SHOW COLUMNS FROM `tb_xn` [ RunTime:0.002411s ]
+SQL: SELECT * FROM `tb_xn` WHERE ( xnnm='2015' ) LIMIT 1   [ RunTime:0.000559s ]
+SQL: INSERT INTO `tb_2015_cw` (`f_cw_grdid`,`f_cw_xnid`,`cwzcxqid`,`f_cw_stdid`,`cwyjxfsm`,`cwyjjckwfsm`,`cwyjzsfsm`,`cwsjxfsm`,`cwsjjckwfsm`,`cwsjzsfsm`) VALUES (4,2,3,362,13900,1000,0,0,0,0) [ RunTime:0.017576s ]
+
+[ 2015-09-15T14:27:10+08:00 ] 10.50.10.149 /xx/zspt.php/Std/gtxpg/x/vw/stdid/362/bmcg/y
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002527s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002046s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003555s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000186s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SELECT * FROM `tb_2015_std` inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid=362 ) LIMIT 1   [ RunTime:0.002155s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002201s ]
+SQL: SHOW COLUMNS FROM `tb_2015_sttintxq` [ RunTime:0.003265s ]
+SQL: SELECT * FROM `tb_2015_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000493s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=3 ) ORDER BY xqid ASC LIMIT 0,10   [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `tb_2015_tsqk` [ RunTime:0.002538s ]
+SQL: SELECT * FROM `tb_2015_tsqk` WHERE ( f_tsqk_stdid=362 ) ORDER BY tsqktm DESC  [ RunTime:0.000933s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: dmls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\48449d0f0d4b67d562a44de0bb93b3b1.php 第 264 行.
+NOTIC: [8] Undefined variable: aths D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\48449d0f0d4b67d562a44de0bb93b3b1.php 第 280 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.083078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007777s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006897s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031653s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007833s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007952s ]
+
+[ 2015-09-15T14:27:18+08:00 ] 10.50.10.149 /xx/zspt.php/Cw/gtxpg/x/vw/stdid/362
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001654s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.003227s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002093s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003903s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000211s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002172s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid=3 ) LIMIT 1   [ RunTime:0.000540s ]
+NOTIC: [8] Use of undefined constant xqnm - assumed 'xqnm' D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\CwAction.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tb_xn` [ RunTime:0.002050s ]
+SQL: SELECT * FROM `tb_xn` WHERE ( xnnm='2015' ) LIMIT 1   [ RunTime:0.000578s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cw` [ RunTime:0.002501s ]
+SQL: SELECT * FROM `tb_2015_cw` WHERE ( f_cw_stdid=362 AND f_cw_xnid=2 ) LIMIT 1   [ RunTime:0.001088s ]
+SQL: SELECT * FROM `tb_2015_cw` LEFT JOIN tb_2015_std ON f_cw_stdid=stdid inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_xn ON f_cw_xnid=xnid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND cwid=360 ) LIMIT 1   [ RunTime:0.002502s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `tb_2015_sttintxq` [ RunTime:0.002367s ]
+SQL: SELECT * FROM `tb_2015_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000532s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=3 ) ORDER BY xqid ASC LIMIT 0,10   [ RunTime:0.000129s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066104s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007997s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007857s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007905s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031789s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008904s ]
+
+[ 2015-09-15T14:27:23+08:00 ] 10.50.10.149 /xx/zspt.php/Std/gtxpg/x/vw/stdid/362
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002622s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002048s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003503s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000200s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+NOTIC: [8] Undefined index:  bmcg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 69 行.
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000134s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SELECT * FROM `tb_2015_std` inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid=362 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002166s ]
+SQL: SHOW COLUMNS FROM `tb_2015_sttintxq` [ RunTime:0.002611s ]
+SQL: SELECT * FROM `tb_2015_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000522s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=3 ) ORDER BY xqid ASC LIMIT 0,10   [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `tb_2015_tsqk` [ RunTime:0.002169s ]
+SQL: SELECT * FROM `tb_2015_tsqk` WHERE ( f_tsqk_stdid=362 ) ORDER BY tsqktm DESC  [ RunTime:0.000516s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bmcg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\48449d0f0d4b67d562a44de0bb93b3b1.php 第 121 行.
+NOTIC: [8] Undefined variable: dmls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\48449d0f0d4b67d562a44de0bb93b3b1.php 第 264 行.
+NOTIC: [8] Undefined variable: aths D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\48449d0f0d4b67d562a44de0bb93b3b1.php 第 280 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.081395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081560s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007213s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007312s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006899s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029175s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007606s ]
+
+[ 2015-09-15T14:55:10+08:00 ] 223.104.3.170 /xx/zspt.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004535s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002638s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002030s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003558s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000191s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002753s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000617s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065914s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007179s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007202s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006855s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029698s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007591s ]
+
+[ 2015-09-15T14:55:15+08:00 ] 223.104.3.170 /xx/zspt.php/Std/gtxpg/x/updt/stdid/0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008024s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007509s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002482s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002089s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003542s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000178s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000134s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cls` [ RunTime:0.002226s ]
+SQL: SELECT * FROM `tb_2015_cls` LEFT JOIN tb_stt ON f_cls_sttid=sttid WHERE ( 1=1 AND f_cls_sttid=1 AND f_cls_grdid=4 ) ORDER BY clsnm ASC  [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `tb_2015_mj` [ RunTime:0.002551s ]
+SQL: SELECT * FROM `tb_2015_mj`  [ RunTime:0.000587s ]
+SQL: SELECT * FROM `tb_2015_mj` LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_kl ON f_mj_klid=klid WHERE ( 1=1 AND mjbbzs=1 AND mjsttu LIKE '%-1-%' AND (1=2 OR f_mj_bxxsid=4) AND f_mj_grdid=4 ) ORDER BY f_mj_bxxsid ASC,mjdm ASC  [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `tb_bxxs` [ RunTime:0.002065s ]
+SQL: SELECT * FROM `tb_bxxs` WHERE ( 1=1 AND (1=2 OR bxxsid=4) )  [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `tb_sex` [ RunTime:0.001969s ]
+SQL: SELECT * FROM `tb_sex`  [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `tb_rc` [ RunTime:0.002007s ]
+SQL: SELECT * FROM `tb_rc`  [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `tb_zzmm` [ RunTime:0.001981s ]
+SQL: SELECT * FROM `tb_zzmm`  [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `tb_xl` [ RunTime:0.002233s ]
+SQL: SELECT * FROM `tb_xl`  [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `tb_dm` [ RunTime:0.002006s ]
+SQL: SELECT * FROM `tb_dm`  [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `tb_stat` [ RunTime:0.002170s ]
+SQL: SELECT * FROM `tb_stat`  [ RunTime:0.000525s ]
+NOTIC: [8] Undefined index:  stdrcmdnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 346 行.
+NOTIC: [8] Undefined index:  stdrcmdcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 346 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  f_mj_bxxsid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 149 行.
+NOTIC: [8] Undefined index:  f_stdxqmj_mjid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 169 行.
+NOTIC: [8] Undefined index:  stdnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 179 行.
+NOTIC: [8] Undefined index:  f_std_sexid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 188 行.
+NOTIC: [8] Undefined index:  f_std_rcid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 198 行.
+NOTIC: [8] Undefined index:  f_std_zzmmid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 208 行.
+NOTIC: [8] Undefined index:  stdnp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 233 行.
+NOTIC: [8] Undefined index:  f_std_xlid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 251 行.
+NOTIC: [8] Undefined index:  stdcee D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 253 行.
+NOTIC: [8] Undefined index:  stdsog D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 256 行.
+NOTIC: [8] Undefined index:  stdcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 257 行.
+NOTIC: [8] Undefined index:  stdidcd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 260 行.
+NOTIC: [8] Undefined index:  stdtlp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 261 行.
+NOTIC: [8] Undefined index:  stdbtd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 262 行.
+NOTIC: [8] Undefined index:  stdqq D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 263 行.
+NOTIC: [8] Undefined index:  stdrlta D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 266 行.
+NOTIC: [8] Undefined index:  stdrltanm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 267 行.
+NOTIC: [8] Undefined index:  stdrltaocpt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 268 行.
+NOTIC: [8] Undefined index:  stdrltacp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 269 行.
+NOTIC: [8] Undefined index:  stdrltb D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 272 行.
+NOTIC: [8] Undefined index:  stdrltbnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 273 行.
+NOTIC: [8] Undefined index:  stdrltbocpt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 274 行.
+NOTIC: [8] Undefined index:  stdrltbcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 275 行.
+NOTIC: [8] Undefined index:  stdhb D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 278 行.
+NOTIC: [8] Undefined index:  stdads D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 279 行.
+NOTIC: [8] Undefined index:  stdpst D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 280 行.
+NOTIC: [8] Undefined index:  stdrcmdnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 291 行.
+NOTIC: [8] Undefined index:  stdrcmdcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 292 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.100076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100225s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007363s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007164s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006872s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028945s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008275s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008396s ]
+
+[ 2015-09-15T14:56:27+08:00 ] 223.104.3.170 /xx/zspt.php/Std/createAlways
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008375s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008137s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002977s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.001233s ]
+NOTIC: [8] Undefined index:  stdid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 1487 行.
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002093s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cls` [ RunTime:0.002243s ]
+SQL: SHOW COLUMNS FROM `tb_2015_mj` [ RunTime:0.002994s ]
+SQL: SELECT * FROM `tb_2015_cls` WHERE ( 1=1 AND f_cls_sttid=1 AND f_cls_grdid=4 )  [ RunTime:0.000440s ]
+SQL: SELECT * FROM `tb_2015_mj` LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_kl ON f_mj_klid=klid WHERE ( 1=1 AND mjsttu LIKE '%-1-%' AND f_mj_grdid=4 )  [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index:  f_std_sttid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 1533 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002132s ]
+SQL: SHOW COLUMNS FROM `tb_2015_sttintxq` [ RunTime:0.003070s ]
+SQL: SELECT * FROM `tb_2015_sttintxq` WHERE ( f_sttintxq_sttid= ) LIMIT 1   [ RunTime:0.000551s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_sttintxq` WHERE ( f_sttintxq_sttid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>= ) ORDER BY xqid ASC LIMIT 0,10   [ RunTime:0.000136s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY xqid ASC LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_xq` WHERE ( xqid>= ) ORDER BY xqid ASC LIMIT 0,10  
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index:  f_stdxqcls_xqid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 1576 行.
+SQL: SHOW COLUMNS FROM `tb_bxxs` [ RunTime:0.002037s ]
+SQL: SELECT * FROM `tb_bxxs` WHERE ( bxxsid= ) LIMIT 1   [ RunTime:0.000579s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_bxxs` WHERE ( bxxsid= ) LIMIT 1  
+
+[ 2015-09-15T14:57:15+08:00 ] 122.233.202.8 /xx/zspt.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004640s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002742s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002217s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003692s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.001250s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003334s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.001087s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067252s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007222s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007066s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006959s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028771s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008040s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008162s ]
+
+[ 2015-09-15T14:57:19+08:00 ] 122.233.202.8 /xx/zspt.php/Std/gtxpg/x/updt/stdid/0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008402s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004372s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002575s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002031s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003543s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000192s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cls` [ RunTime:0.002288s ]
+SQL: SELECT * FROM `tb_2015_cls` LEFT JOIN tb_stt ON f_cls_sttid=sttid WHERE ( 1=1 AND f_cls_sttid=1 AND f_cls_grdid=4 ) ORDER BY clsnm ASC  [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `tb_2015_mj` [ RunTime:0.002510s ]
+SQL: SELECT * FROM `tb_2015_mj`  [ RunTime:0.000536s ]
+SQL: SELECT * FROM `tb_2015_mj` LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_kl ON f_mj_klid=klid WHERE ( 1=1 AND mjbbzs=1 AND mjsttu LIKE '%-1-%' AND (1=2 OR f_mj_bxxsid=4) AND f_mj_grdid=4 ) ORDER BY f_mj_bxxsid ASC,mjdm ASC  [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `tb_bxxs` [ RunTime:0.002006s ]
+SQL: SELECT * FROM `tb_bxxs` WHERE ( 1=1 AND (1=2 OR bxxsid=4) )  [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `tb_sex` [ RunTime:0.001978s ]
+SQL: SELECT * FROM `tb_sex`  [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `tb_rc` [ RunTime:0.002051s ]
+SQL: SELECT * FROM `tb_rc`  [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `tb_zzmm` [ RunTime:0.002072s ]
+SQL: SELECT * FROM `tb_zzmm`  [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `tb_xl` [ RunTime:0.001964s ]
+SQL: SELECT * FROM `tb_xl`  [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `tb_dm` [ RunTime:0.001961s ]
+SQL: SELECT * FROM `tb_dm`  [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `tb_stat` [ RunTime:0.002086s ]
+SQL: SELECT * FROM `tb_stat`  [ RunTime:0.000528s ]
+NOTIC: [8] Undefined index:  stdrcmdnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 346 行.
+NOTIC: [8] Undefined index:  stdrcmdcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 346 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  f_mj_bxxsid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 149 行.
+NOTIC: [8] Undefined index:  f_stdxqmj_mjid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 169 行.
+NOTIC: [8] Undefined index:  stdnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 179 行.
+NOTIC: [8] Undefined index:  f_std_sexid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 188 行.
+NOTIC: [8] Undefined index:  f_std_rcid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 198 行.
+NOTIC: [8] Undefined index:  f_std_zzmmid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 208 行.
+NOTIC: [8] Undefined index:  stdnp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 233 行.
+NOTIC: [8] Undefined index:  f_std_xlid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 251 行.
+NOTIC: [8] Undefined index:  stdcee D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 253 行.
+NOTIC: [8] Undefined index:  stdsog D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 256 行.
+NOTIC: [8] Undefined index:  stdcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 257 行.
+NOTIC: [8] Undefined index:  stdidcd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 260 行.
+NOTIC: [8] Undefined index:  stdtlp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 261 行.
+NOTIC: [8] Undefined index:  stdbtd D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 262 行.
+NOTIC: [8] Undefined index:  stdqq D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 263 行.
+NOTIC: [8] Undefined index:  stdrlta D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 266 行.
+NOTIC: [8] Undefined index:  stdrltanm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 267 行.
+NOTIC: [8] Undefined index:  stdrltaocpt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 268 行.
+NOTIC: [8] Undefined index:  stdrltacp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 269 行.
+NOTIC: [8] Undefined index:  stdrltb D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 272 行.
+NOTIC: [8] Undefined index:  stdrltbnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 273 行.
+NOTIC: [8] Undefined index:  stdrltbocpt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 274 行.
+NOTIC: [8] Undefined index:  stdrltbcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 275 行.
+NOTIC: [8] Undefined index:  stdhb D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 278 行.
+NOTIC: [8] Undefined index:  stdads D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 279 行.
+NOTIC: [8] Undefined index:  stdpst D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 280 行.
+NOTIC: [8] Undefined index:  stdrcmdnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 291 行.
+NOTIC: [8] Undefined index:  stdrcmdcp D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\42792852baa95d2cf6b901abc6e0c59f.php 第 292 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.092405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092556s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007313s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003991s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005196s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024098s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007499s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007614s ]
+
+[ 2015-09-15T15:04:52+08:00 ] 122.233.202.8 /xx/zspt.php/Std/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007935s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008093s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007680s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002690s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002044s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003508s ]
+SQL: SHOW COLUMNS FROM `tb_bxxs` [ RunTime:0.002128s ]
+SQL: SELECT * FROM `tb_bxxs` WHERE ( bxxsid=4 ) LIMIT 1   [ RunTime:0.000547s ]
+NOTIC: [8] Undefined index:  stdaplno D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 808 行.
+SQL: SELECT * FROM `tb_bxxs` WHERE ( bxxsid=4 ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SELECT `stdaplno` FROM `tb_2015_std` WHERE ( stdaplno LIKE '%J2015%' ) ORDER BY stdaplno DESC  [ RunTime:0.001429s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdidcd='420521199603020042' ) LIMIT 1   [ RunTime:0.002024s ]
+SQL: INSERT INTO `tb_2015_std` (`f_std_sttid`,`f_std_grdid`,`stdaplno`,`stdno`,`stdupfnctm`,`stdnm`,`stdpw`,`stdpt`,`f_std_sexid`,`f_std_rcid`,`f_std_zzmmid`,`stdnp`,`stdbtd`,`stdsol`,`stdcee`,`stdsog`,`stdqq`,`f_std_xlid`,`stdidcd`,`stdcp`,`stdrlta`,`stdrltanm`,`stdrltaocpt`,`stdrltacp`,`stdrltb`,`stdrltbnm`,`stdrltbocpt`,`stdrltbcp`,`stdhb`,`f_std_statid`,`stdpst`,`stdads`,`stdmdftm`,`stdaddtm`,`stdtlp`,`stdpertm`,`stdertm`,`stdicbc`,`stdrcmdnm`,`stdrcmdcp`,`stdpnttm`) VALUES (1,4,'J20150361','','','彭雅君','1bbd886460827015e5d605ed44252251','/xx/Public/IMG/default.jpg',2,1,2,'中国','1996-03-02','文科','348','','844622740',1,'420521199603020042','13588789750','父女','彭克兵','个体','13886672570','母女','卢群','个体','15871559798','',1,'','浙江省杭州市江干区白杨街道下沙文泽路99号福雷德广场3-2-1901','2015-09-15 15:04:52','2015-09-15 15:04:52','','','','','','','') [ RunTime:0.016605s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdidcd='420521199603020042' ) LIMIT 1   [ RunTime:0.002100s ]
+SQL: SHOW COLUMNS FROM `tb_2015_stdxqcls` [ RunTime:0.002371s ]
+SQL: INSERT INTO `tb_2015_stdxqcls` (`f_stdxqcls_stdid`,`f_stdxqcls_xqid`,`f_stdxqcls_clsid`) VALUES (363,3,0) [ RunTime:0.012421s ]
+SQL: SHOW COLUMNS FROM `tb_2015_stdxqmj` [ RunTime:0.002216s ]
+SQL: INSERT INTO `tb_2015_stdxqmj` (`f_stdxqmj_stdid`,`f_stdxqmj_xqid`,`f_stdxqmj_mjid`) VALUES (363,3,7) [ RunTime:0.021134s ]
+SQL: SHOW COLUMNS FROM `tb_2015_stdxqdm` [ RunTime:0.002199s ]
+SQL: INSERT INTO `tb_2015_stdxqdm` (`f_stdxqdm_stdid`,`f_stdxqdm_xqid`,`f_stdxqdm_dmid`) VALUES (363,3,3) [ RunTime:0.015245s ]
+SQL: SHOW COLUMNS FROM `tb_2015_mj` [ RunTime:0.002568s ]
+SQL: SELECT * FROM `tb_2015_mj` WHERE ( mjid=7 ) LIMIT 1   [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `tb_2015_xf` [ RunTime:0.002772s ]
+SQL: SELECT * FROM `tb_2015_xf` WHERE ( f_xf_sttid=1 AND f_xf_bxxsid=4 AND f_xf_ccid=3 AND f_xf_klid=2 ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tb_2015_zsf` [ RunTime:0.002480s ]
+SQL: SELECT * FROM `tb_2015_zsf` WHERE ( f_zsf_dmid=3 ) LIMIT 1   [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cw` [ RunTime:0.002750s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002468s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid=3 ) LIMIT 1   [ RunTime:0.000517s ]
+NOTIC: [8] Use of undefined constant xqnm - assumed 'xqnm' D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 978 行.
+SQL: SHOW COLUMNS FROM `tb_xn` [ RunTime:0.002421s ]
+SQL: SELECT * FROM `tb_xn` WHERE ( xnnm='2015' ) LIMIT 1   [ RunTime:0.000547s ]
+SQL: INSERT INTO `tb_2015_cw` (`f_cw_grdid`,`f_cw_xnid`,`cwzcxqid`,`f_cw_stdid`,`cwyjxfsm`,`cwyjjckwfsm`,`cwyjzsfsm`,`cwsjxfsm`,`cwsjjckwfsm`,`cwsjzsfsm`) VALUES (4,2,3,363,13900,1000,0,0,0,0) [ RunTime:0.013881s ]
+
+[ 2015-09-15T15:04:52+08:00 ] 122.233.202.8 /xx/zspt.php/Std/gtxpg/x/vw/stdid/363/bmcg/y
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008044s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007468s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002498s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002035s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003754s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000193s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000134s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SELECT * FROM `tb_2015_std` inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid=363 ) LIMIT 1   [ RunTime:0.002152s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002257s ]
+SQL: SHOW COLUMNS FROM `tb_2015_sttintxq` [ RunTime:0.002640s ]
+SQL: SELECT * FROM `tb_2015_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000507s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=3 ) ORDER BY xqid ASC LIMIT 0,10   [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `tb_2015_tsqk` [ RunTime:0.002578s ]
+SQL: SELECT * FROM `tb_2015_tsqk` WHERE ( f_tsqk_stdid=363 ) ORDER BY tsqktm DESC  [ RunTime:0.000947s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: dmls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\48449d0f0d4b67d562a44de0bb93b3b1.php 第 264 行.
+NOTIC: [8] Undefined variable: aths D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\48449d0f0d4b67d562a44de0bb93b3b1.php 第 280 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.080657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007194s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007675s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006871s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029353s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007545s ]
+
+[ 2015-09-15T15:05:03+08:00 ] 122.233.202.8 /xx/zspt.php/Cw/gtxpg/x/vw/stdid/363
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008043s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007462s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002467s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002002s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.004830s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000193s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002147s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid=3 ) LIMIT 1   [ RunTime:0.000539s ]
+NOTIC: [8] Use of undefined constant xqnm - assumed 'xqnm' D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\CwAction.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tb_xn` [ RunTime:0.002032s ]
+SQL: SELECT * FROM `tb_xn` WHERE ( xnnm='2015' ) LIMIT 1   [ RunTime:0.000545s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cw` [ RunTime:0.002408s ]
+SQL: SELECT * FROM `tb_2015_cw` WHERE ( f_cw_stdid=363 AND f_cw_xnid=2 ) LIMIT 1   [ RunTime:0.001687s ]
+SQL: SELECT * FROM `tb_2015_cw` LEFT JOIN tb_2015_std ON f_cw_stdid=stdid inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_xn ON f_cw_xnid=xnid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND cwid=361 ) LIMIT 1   [ RunTime:0.002238s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `tb_2015_sttintxq` [ RunTime:0.002322s ]
+SQL: SELECT * FROM `tb_2015_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=3 ) ORDER BY xqid ASC LIMIT 0,10   [ RunTime:0.000135s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066249s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007121s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007089s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006863s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007578s ]
+
+[ 2015-09-15T15:05:18+08:00 ] 122.233.202.8 /xx/zspt.php/Std/gtxpg/x/vw/stdid/363
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008032s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007468s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002488s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002147s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003522s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000192s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+NOTIC: [8] Undefined index:  bmcg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\StdAction.class.php 第 69 行.
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT * FROM `tb_2015_std` inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid=363 ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002122s ]
+SQL: SHOW COLUMNS FROM `tb_2015_sttintxq` [ RunTime:0.002651s ]
+SQL: SELECT * FROM `tb_2015_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=3 ) ORDER BY xqid ASC LIMIT 0,10   [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `tb_2015_tsqk` [ RunTime:0.002171s ]
+SQL: SELECT * FROM `tb_2015_tsqk` WHERE ( f_tsqk_stdid=363 ) ORDER BY tsqktm DESC  [ RunTime:0.000517s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bmcg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\48449d0f0d4b67d562a44de0bb93b3b1.php 第 121 行.
+NOTIC: [8] Undefined variable: dmls D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\48449d0f0d4b67d562a44de0bb93b3b1.php 第 264 行.
+NOTIC: [8] Undefined variable: aths D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Runtime\Cache\48449d0f0d4b67d562a44de0bb93b3b1.php 第 280 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.081482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081627s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007174s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007628s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006862s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029538s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007671s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007833s ]
+
+[ 2015-09-15T15:05:21+08:00 ] 122.233.202.8 /xx/zspt.php/Cw/gtxpg/x/vw/stdid/363
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007849s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008027s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007446s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002520s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002035s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003538s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000187s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002089s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid=3 ) LIMIT 1   [ RunTime:0.000548s ]
+NOTIC: [8] Use of undefined constant xqnm - assumed 'xqnm' D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zspt\Lib\Action\CwAction.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tb_xn` [ RunTime:0.002007s ]
+SQL: SELECT * FROM `tb_xn` WHERE ( xnnm='2015' ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cw` [ RunTime:0.002636s ]
+SQL: SELECT * FROM `tb_2015_cw` WHERE ( f_cw_stdid=363 AND f_cw_xnid=2 ) LIMIT 1   [ RunTime:0.000467s ]
+SQL: SELECT * FROM `tb_2015_cw` LEFT JOIN tb_2015_std ON f_cw_stdid=stdid inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_xn ON f_cw_xnid=xnid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND cwid=361 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `tb_2015_sttintxq` [ RunTime:0.002226s ]
+SQL: SELECT * FROM `tb_2015_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000548s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=3 ) ORDER BY xqid ASC LIMIT 0,10   [ RunTime:0.000129s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064489s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007116s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007182s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006835s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028696s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007424s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007539s ]
+
+[ 2015-09-15T21:18:16+08:00 ] 68.180.228.176 /xx/zspt.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004433s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002641s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002097s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003522s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000185s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003262s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047717s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004022s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003981s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003897s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016322s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004394s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004506s ]
+

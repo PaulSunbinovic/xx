@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+
+
+.mingxi table{margin-left:50px;border-spacing:0;padding:0;background-color:#d9edf7;margin-top:20px;margin-bottom:20px;}
+.mingxi table td{border:1px #bce8f1 solid; padding:2px 5px;}
+.mingxi input{border:1px solid #ccc}
+.mingxi select{border:1px solid #ccc}

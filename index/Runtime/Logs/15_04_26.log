@@ -1,0 +1,149 @@
+[ 2015-04-26T22:17:31+08:00 ] 127.0.0.1 /xx/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.024408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024659s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.031166s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000251s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.004450s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.018419s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004026s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.010049s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000365s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000281s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.005962s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000418s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000406s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000300s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000301s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000357s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.009761s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\xx\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.101386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101536s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.012514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008929s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000889s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032745s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007006s ]
+
+[ 2015-04-26T23:02:26+08:00 ] 127.0.0.1 /xx/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.023766s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000265s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003789s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003810s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000607s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000300s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000301s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000391s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000312s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000327s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000312s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000348s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.004042s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\xx\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057189s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000937s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000637s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003490s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2015-04-26T23:23:07+08:00 ] 127.0.0.1 /xx/index.php/Atc/view/atcid/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019172s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004286s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000209s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003847s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004180s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcid=3 ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000362s ]
+SQL: UPDATE `tb_atc` SET `atccnt`=997 WHERE ( atcid=3 ) [ RunTime:0.113349s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003568s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `tb_cstmatcclct` [ RunTime:0.016561s ]
+SQL: SHOW COLUMNS FROM `tb_cstmcmt` [ RunTime:0.004800s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=3 ) ORDER BY cstmcmttm DESC LIMIT 0,5   [ RunTime:0.016338s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=3 ) ORDER BY cstmcmttm DESC LIMIT 1   [ RunTime:0.000405s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid WHERE ( f_cstmcmt_atcid=3 ) ORDER BY cstmcmttm ASC LIMIT 5,1   [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 92 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.101298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.012660s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008794s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000943s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032892s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006760s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006922s ]
+
+[ 2015-04-26T23:23:47+08:00 ] 127.0.0.1 /xx/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.065705s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000195s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003448s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004917s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000694s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000317s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000289s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000326s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000381s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000307s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000320s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000324s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000392s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003676s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\xx\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.125324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125474s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000631s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000504s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001153s ]
+

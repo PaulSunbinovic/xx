@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/zsptwap/cm.js'></script>
+<link href="__PUBLIC__/CSS/zsptwap/cm.css" rel="stylesheet">
+<!-- 移动设备 -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+
+<script type='text/javascript' src='__PUBLIC__/JS/zsptwap/std.js'></script>
+<script type='text/javascript'>
+url_path='__URL__';
+</script>
+
+
+
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/CSS/zsptwap/demo.css" />
+
+<!--必要样式-->
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/CSS/zsptwap/jquery.mmenu.css" />
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/CSS/zsptwap/jquery.mmenu.dragopen.css" />
+
+
+<script type="text/javascript" src="__PUBLIC__/JS/zsptwap/jquery.mmenu.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/JS/zsptwap/jquery.mmenu.dragopen.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/JS/zsptwap/jquery.mmenu.fixedelements.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/JS/zsptwap/mn.js"></script>
+</head>
+<body>
+<div id="page">
+	<include file='Pblc:head'/>
+	<div class="content" id="content" style='margin-top:20px'>
+		
+		<div class="col-md-12" >
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class='pull-left'><i class='glyphicon glyphicon-volume-up'></i> 相关文件</h4>
+                    <a class='pull-right' href="__APP__/Atc/query/atcanc/1" style='margin:10px 0px;color:#aaa'>更多</a>
+	                <div class='clearfix'></div>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-unstyled">
+					<volist name="atcls" id='vo'>
+					<li><span><a href="__APP__/Atc/view/atcid/{$vo['atcid']}" class='pull-left' style="color:#000; {$vo['atcstyle']}"><i class="{$vo['atcflag']}"></i> {$vo['atctpc']}</a></span><span class='tag pull-right' style='color:#ccc'>{$vo['atcmdftmst']}</span></li>
+					<li class='clearfix' style='border-bottom:1px dashed #eee;margin:20px 0px;'></li>
+					</volist>
+					</ul>
+                </div>
+            </div>
+            
+			<?php if($stdoss){ ?>
+			<div class='col-md-12' style='margin-top:20px'>
+            <input type='button' onclick="javascript:window.location.href='__APP__/Std/gtxpg/x/center'" class='btn btn-primary btn-lg btn-block' value='点击查看报名信息'/>
+	 		</div>
+	 		<div class='col-md-12' style='margin-top:20px'>
+            <input type='button' onclick="javascript:window.location.href='__APP__/Std/gtxpg/x/ylqtz'" class='btn btn-warning btn-lg btn-block' value='点击查看预录取通知电子版'/>
+	 		</div>
+	 		<div class='col-md-12' style='margin-top:20px'>
+            <input type='button' onclick="javascript:window.location.href='__APP__/Cw/gtxpg/x/center'" class='btn btn-success btn-lg btn-block' value='点击查看缴费信息'/>
+	 		</div>
+	 		
+			<?php }else{ ?>
+            <div class='col-md-12' style='margin-top:20px'>
+            <input type='button' onclick="javascript:window.location.href='__APP__/Std/gtxpg/x/updt/stdid/0'" class='btn btn-primary btn-lg btn-block' value='点击进入报名页面'/>
+	 		</div>
+	 		<div class='col-md-12' style='margin-top:20px'>
+	 		<a href='#' data-toggle='modal' data-target='#myModal' class='btn btn-success btn-lg btn-block' role='button'>已报名学生登录</a>
+			</div>
+			<?php } ?>
+        </div>
+       
+	</div>
+	
+	
+	<include file='Pblc:foot'/>
+	 <include file='Pblc:side'/>
+	 
+	
+	 
+	 
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: $('#slg').height()+$('header').height(),//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+
+</script>
+</div>
+</body>
+</html>

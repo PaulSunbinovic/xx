@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/wap/cm.js'></script>
+<link href="__PUBLIC__/CSS/wap/cm.css" rel="stylesheet">
+<!-- 移动设备 -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+
+<script type='text/javascript' src='__PUBLIC__/JS/wap/cstmusr.js'></script>
+<script type='text/javascript'>
+var app_path='__APP__';
+</script>
+
+
+
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/CSS/wap/demo.css" />
+
+<!--必要样式-->
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/CSS/wap/jquery.mmenu.css" />
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/CSS/wap/jquery.mmenu.dragopen.css" />
+
+
+<script type="text/javascript" src="__PUBLIC__/JS/wap/jquery.mmenu.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/JS/wap/jquery.mmenu.dragopen.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/JS/wap/jquery.mmenu.fixedelements.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/JS/wap/mn.js"></script>
+</head>
+<body>
+<div id="page">
+	<include file='Pblc:head'/>
+	
+	
+	<div class="content" id="content">
+		
+		<script type="text/javascript" src="__PUBLIC__/JS/wap/iscroll.js"></script>
+		<link rel="stylesheet" href="__PUBLIC__/CSS/wap/iscroll.css"/>
+		<div style='height:40px;' id='zld' >
+		<div class="plist" id="plist" style='z-index:1000;background-color:#337AB7' >
+			<ul class="bul" style='left:-40px'>
+				<li class="bull">
+					
+					<div class="btn-group btn-group-justified" role="group" aria-label="Justified button group">
+				      <volist name='bdlsxd' id='vo'>
+				      	<a href="__APP__/Atc/query/bdid/{$vo['bdid']}" class="btn btn-primary {$vo['actvcls']}" role="button" style='width:100px'>{$vo['bdnm']}</a>
+				      </volist>
+				     
+				    </div>
+					
+				</li>
+				
+			</ul>
+		</div>
+		</div>
+		<script type="text/javascript">
+		var phoneScroll;
+		function liresize(){
+			var w = $(".plist").width();
+			$(".bull").width(w);
+			//phoneScroll.refresh();//启动的话会滑动后回到左边顶部
+		}
+		$(function(){
+			phoneScroll = new iScroll("plist",{
+					snap: true,
+					momentum: false,
+					vScroll:false,
+					hScroll:true,
+					hScrollbar:false,
+				});
+			$(window).load(function(e) {
+				liresize();
+		    });
+			
+			$(window).resize(function(e) {
+		        liresize();
+		    });
+			
+		});
+		
+		</script>
+		<script type="text/javascript">$("#plist").smartFloatBD();</script>
+		
+		<div>
+		    {$bdo['bdnm']}
+		</div>
+		
+		<div id='mainarea'>
+		<volist name="atcls" id='vo'>
+			<div class="panel panel-default" onclick="javascript:top.location='__APP__/Atc/view/atcid/{$vo['atcid']}';">
+				<div>
+				  <div class="panel-body">
+				  	
+				    <div class='pull-left col-xs-5'  style='padding-left:0px'>
+				    	<img src="{$vo['atccv']}" style='width:120px;height:90px' />
+				    </div>
+				    <div class='pull-left col-xs-7' style='padding-right:0px'>
+				    	<div>
+				    		<span><a href="__APP__/Atc/view/atcid/{$vo['atcid']}" class='pull-left' style="color:#000; {$vo['atcstyle']}"><i class="{$vo['atcflag']}"></i> {$vo['atctpcsrk']}</a></span>
+				    	</div>
+				    	<div>
+				    		<span class='tag' style='color:#ccc'><i class='glyphicon glyphicon-comment'></i> {$vo['cstmcmtcnt']}&nbsp;&nbsp;<i class='glyphicon glyphicon-thumbs-up'></i> {$vo['atczn']}&nbsp;&nbsp;<i class='glyphicon glyphicon-thumbs-down'></i> {$vo['atctc']}&nbsp;&nbsp;<i class='glyphicon glyphicon-eye-open'></i> {$vo['atccnt']}</span>
+				    	</div>
+				    	<div>
+				    		<span class='tag' style='color:#ccc'>{$vo['atcmdftm']}</span>
+				    	</div>
+				    </div>
+				  </div>
+			  </div>
+			</div>
+		</volist>
+		</div>
+		
+		<!-- 下拉加载评论模块 -->
+        <script>var hdlpldnld="{$hdlpldnld}";</script>
+		<!-- AUTOCOMPLETE 保证了刷新后，原来的数据不会留下，那么query来的数据就不会被清洗，而js中的executing保证了不会在各种情况下不会触发js中的if -->
+		<input type='hidden' id='executing' value='{$executing}' AUTOCOMPLETE="off" />
+		<input type='hidden' id='hsnxt' value='{$hsnxt}' AUTOCOMPLETE="off" />
+		<input type='hidden' id='pg' value='{$pg}' AUTOCOMPLETE="off" />
+		<script src="__PUBLIC__/JS/wap/pldnld.js"></script>
+		<div class='clearfix'></div>
+		<div id='loading'><img src="__PUBLIC__/IMG/loading.gif" /></div>
+		
+       	
+       	<div class='clearfix'></div>
+         	
+     </div>
+	 <include file='Pblc:foot'/>
+	 <include file='Pblc:side'/>
+	
+</div>
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: $('#slg').height()+$('header').height(),//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+
+</script>
+
+</body>
+</html>

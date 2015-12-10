@@ -1,0 +1,841 @@
+[ 2015-02-05T20:46:24+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.050663s ]
+INFO: [ route_check ] --END-- [ RunTime:0.099382s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.014925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015082s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.505186s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.100698s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 96 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 102 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 108 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 130 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 143 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 145 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 162 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 166 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.256908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.257120s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.013910s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.020458s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006918s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.016029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.057798s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.019994s ]
+INFO: [ view_end ] --END-- [ RunTime:0.020162s ]
+
+[ 2015-02-05T20:49:14+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001251s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003568s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000140s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 96 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 102 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 108 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 130 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 143 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 145 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 162 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 166 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014539s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001025s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000833s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003607s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001028s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2015-02-05T20:49:52+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003598s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000231s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 96 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 102 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 108 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 130 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 143 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 145 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 162 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 166 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012657s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000586s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000538s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002474s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-02-05T20:50:04+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001067s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003339s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000136s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 96 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 102 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 108 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 130 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 143 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 145 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 162 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 166 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013087s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000657s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002890s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000858s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2015-02-05T20:52:24+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001828s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003611s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000265s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 97 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 103 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 109 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 131 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 144 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 148 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 163 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 167 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013400s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000776s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001022s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004257s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2015-02-05T21:01:39+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001026s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003580s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000166s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 97 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 103 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 109 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 131 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 144 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 148 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 163 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 167 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012873s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000707s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000619s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002856s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2015-02-05T23:04:54+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.039789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.062928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.014928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015087s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.512164s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.096563s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 97 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 103 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 109 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 131 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 144 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 148 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 163 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 167 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.244012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.244207s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.024771s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006948s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.046492s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.014151s ]
+INFO: [ view_end ] --END-- [ RunTime:0.014315s ]
+
+[ 2015-02-05T23:26:07+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003842s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000201s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 97 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 103 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 109 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 131 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 144 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 148 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 163 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 167 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013391s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000655s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000618s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002854s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000951s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2015-02-05T23:30:28+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003465s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000143s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 97 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 103 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 109 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 131 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 144 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 148 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 163 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 167 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013702s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000720s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002837s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000756s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2015-02-05T23:32:36+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001504s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001695s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003619s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000296s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 97 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 103 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 109 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 131 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 144 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 148 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 163 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 167 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012497s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000639s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000604s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002734s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000746s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2015-02-05T23:32:39+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000828s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003902s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000203s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 97 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 103 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 109 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 131 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 144 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 148 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 163 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 167 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000789s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000552s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000386s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002710s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000683s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2015-02-05T23:33:13+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000868s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.004220s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000279s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 96 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 102 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 108 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 130 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 143 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 145 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 162 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 166 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012329s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000573s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000538s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002457s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-02-05T23:33:30+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000849s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003486s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 97 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 103 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 109 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 131 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 144 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 147 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 148 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 163 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 167 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013038s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000562s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000532s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002436s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2015-02-05T23:34:41+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001657s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001899s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003908s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000172s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 95 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 101 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 107 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 129 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 142 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 144 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 145 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 161 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 165 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012809s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000644s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000607s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002746s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2015-02-05T23:34:52+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000857s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003655s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000237s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 95 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 101 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 107 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 129 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 142 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 144 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 145 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 161 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 165 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011936s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000556s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000726s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002873s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000709s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2015-02-05T23:36:19+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.055357s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000244s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 95 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 101 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 107 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 129 行.
+NOTIC: [8] Undefined index: uid C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 142 行.
+NOTIC: [8] Undefined index: unm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 144 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 145 行.
+NOTIC: [8] Undefined index: upw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 146 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 161 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 165 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015905s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000640s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000597s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002828s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2015-02-05T23:37:41+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.024640s ]
+INFO: [ route_check ] --END-- [ RunTime:0.024838s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.027392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027540s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003691s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000204s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 95 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 101 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 107 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.068347s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009583s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006876s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.090137s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008931s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009065s ]
+
+[ 2015-02-05T23:39:37+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003584s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000257s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 95 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 101 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 107 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011020s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000559s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000537s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002450s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2015-02-05T23:40:11+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001027s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003883s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000334s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 95 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 101 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 107 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013763s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000659s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000663s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002833s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000785s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2015-02-05T23:41:44+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003444s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000141s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 95 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 101 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 107 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010626s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000621s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002509s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000685s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2015-02-05T23:42:09+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003471s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000138s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 95 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 101 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 107 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011394s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000562s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000547s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002469s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2015-02-05T23:43:15+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003593s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000169s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 95 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 101 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 107 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011309s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000641s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000630s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002785s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2015-02-05T23:43:18+08:00 ] 127.0.0.1 /geek/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032514s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000594s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000559s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002550s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2015-02-05T23:45:49+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003368s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000143s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 96 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 102 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 108 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 130 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012968s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000634s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000617s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002785s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000777s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2015-02-05T23:47:08+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003602s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000198s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 96 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 102 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 108 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 130 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010592s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000558s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000544s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002456s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000699s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2015-02-05T23:48:24+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003737s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000204s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 96 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 102 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 108 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 130 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011508s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000638s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000606s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002764s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000774s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2015-02-05T23:50:24+08:00 ] 127.0.0.1 /geek/admin.php/Usr/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000851s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003608s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1   [ RunTime:0.000206s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_usr` WHERE ( usrid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: usrnm C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 96 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 102 行.
+NOTIC: [8] Undefined index: usrpw C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 108 行.
+NOTIC: [8] Undefined index: upt C:\wamp\www\geek\admin\Runtime\Cache\4fb80627e037ce6a7f4df42e3ba5bcc4.php 第 130 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010623s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000553s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000539s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002465s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000826s ]
+

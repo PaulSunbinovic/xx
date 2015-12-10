@@ -1,0 +1,385 @@
+[ 2015-10-22T08:50:46+08:00 ] 207.46.13.179 /xx/index.php/Atc/query/atcanc/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017257s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017449s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007661s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003259s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000420s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002782s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0  AND (atcanc=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (atcanc=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000158s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\fcd7ec07ca93d24740240bc6bdf08acd.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068221s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007213s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007193s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006909s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029192s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007651s ]
+
+[ 2015-10-22T14:45:08+08:00 ] 10.50.10.29 /xx/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008562s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003247s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000362s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002635s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002862s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000669s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000134s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000127s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=15) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000304s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=16) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000261s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=17) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000255s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=18) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000253s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=19) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000257s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=20) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000277s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=21) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000253s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=22) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000259s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000269s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.004117s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.001926s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.085288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085461s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007324s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007250s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006923s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029455s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007636s ]
+
+[ 2015-10-22T14:45:08+08:00 ] 10.50.10.29 /xx/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008799s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002769s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000420s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002287s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002724s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000369s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000146s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000132s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=15) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000408s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=16) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000130s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=17) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000125s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=18) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000125s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=19) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000123s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=20) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000124s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=21) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000123s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=22) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000124s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000124s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002466s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 93 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.084799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084970s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007146s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006879s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028960s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007511s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007622s ]
+
+[ 2015-10-22T14:45:15+08:00 ] 10.50.10.29 /xx/index.php/Atc/query/bdid/18
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008623s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007734s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002867s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000423s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002286s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002696s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 157 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 161 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 165 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=18 ) LIMIT 1   [ RunTime:0.000166s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0  AND (f_atc_bdid=18) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=18) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\fcd7ec07ca93d24740240bc6bdf08acd.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064077s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007193s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007101s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007004s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028942s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008241s ]
+
+[ 2015-10-22T15:36:33+08:00 ] 180.153.236.110 /xx/index.php/Atc/view/atcid/20
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010556s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008672s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003232s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000427s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002778s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003221s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcid=20 ) LIMIT 1   [ RunTime:0.001384s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000138s ]
+SQL: UPDATE `tb_atc` SET `atccnt`=375 WHERE ( atcid=20 ) [ RunTime:0.021366s ]
+NOTIC: [8] Undefined variable: alt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002629s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `tb_cstmatcclct` [ RunTime:0.002807s ]
+SQL: SHOW COLUMNS FROM `tb_cstmcmt` [ RunTime:0.003096s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=20 ) ORDER BY cstmcmttm DESC LIMIT 0,5   [ RunTime:0.000805s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=20 ) ORDER BY cstmcmttm DESC LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid WHERE ( f_cstmcmt_atcid=20 ) ORDER BY cstmcmttm ASC LIMIT 5,1   [ RunTime:0.000149s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 92 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.079077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079226s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007760s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007176s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006885s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029950s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007511s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007627s ]
+
+[ 2015-10-22T17:31:24+08:00 ] 123.125.71.111 /xx/index.php/Atc/view/atcid/holder.js/300x200
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008090s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007483s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003252s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000421s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002769s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003294s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcid=holder.js ) LIMIT 1   [ RunTime:0.000550s ]
+ERR: 1054:Unknown column 'holder.js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcid=holder.js ) LIMIT 1  
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000137s ]
+SQL: UPDATE `tb_atc` SET `atccnt`=1 WHERE ( atcid= ) [ RunTime:0.000135s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `tb_atc` SET `atccnt`=1 WHERE ( atcid= )
+NOTIC: [8] Undefined index:  atccv D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 59 行.
+NOTIC: [8] Undefined index:  atccv D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 60 行.
+NOTIC: [8] Undefined index:  atccv D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002543s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `tb_cstmatcclct` [ RunTime:0.002826s ]
+SQL: SHOW COLUMNS FROM `tb_cstmcmt` [ RunTime:0.003117s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=holder.js ) ORDER BY cstmcmttm DESC LIMIT 0,5   [ RunTime:0.000586s ]
+ERR: 1054:Unknown column 'holder.js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=holder.js ) ORDER BY cstmcmttm DESC LIMIT 0,5  
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=holder.js ) ORDER BY cstmcmttm DESC LIMIT 1   [ RunTime:0.001601s ]
+ERR: 1054:Unknown column 'holder.js' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=holder.js ) ORDER BY cstmcmttm DESC LIMIT 1  
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid WHERE ( f_cstmcmt_atcid=holder.js ) ORDER BY cstmcmttm ASC LIMIT 5,1   [ RunTime:0.000329s ]
+ERR: 1054:Unknown column 'holder.js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid WHERE ( f_cstmcmt_atcid=holder.js ) ORDER BY cstmcmttm ASC LIMIT 5,1  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 92 行.
+NOTIC: [8] Undefined index:  atctpc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 167 行.
+NOTIC: [8] Undefined index:  atcsmr D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 168 行.
+NOTIC: [8] Undefined index:  atcath D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 172 行.
+NOTIC: [8] Undefined index:  atcmdftm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 173 行.
+NOTIC: [8] Undefined index:  atccv D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 179 行.
+NOTIC: [8] Undefined index:  atcctt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 185 行.
+NOTIC: [8] Undefined index:  atcid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 199 行.
+NOTIC: [8] Undefined index:  atcid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 200 行.
+NOTIC: [8] Undefined index:  atczn D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 200 行.
+NOTIC: [8] Undefined index:  atcid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 201 行.
+NOTIC: [8] Undefined index:  atctc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 201 行.
+NOTIC: [8] Undefined index:  atctpc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 205 行.
+NOTIC: [8] Undefined index:  atcid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 221 行.
+NOTIC: [8] Undefined index:  atcid D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 239 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074178s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007268s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007113s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006880s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028945s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007484s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007597s ]
+
+[ 2015-10-22T18:51:20+08:00 ] 42.156.136.66 /xx/index.php/Atc/query/bdid/22
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008125s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010779s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003245s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000407s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002820s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003487s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 157 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 161 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 165 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=22 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0  AND (f_atc_bdid=22) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 1   [ RunTime:0.000353s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=22) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000326s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\fcd7ec07ca93d24740240bc6bdf08acd.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064540s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007210s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007324s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006936s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029337s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007527s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007660s ]
+
+[ 2015-10-22T18:51:22+08:00 ] 42.120.160.66 /xx/index.php/Atc/query/bdid/15
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008099s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007559s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002816s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000425s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002623s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002824s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 157 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 161 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 165 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=15 ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0  AND (f_atc_bdid=15) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=15) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000399s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\fcd7ec07ca93d24740240bc6bdf08acd.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064294s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007178s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007155s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006894s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029107s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007496s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007629s ]
+
+[ 2015-10-22T18:52:19+08:00 ] 42.120.161.66 /xx/index.php/Atc/query/bdid/17
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007924s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008090s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007507s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002874s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000301s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002324s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002792s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 157 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 161 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 165 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=17 ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0  AND (f_atc_bdid=17) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 1   [ RunTime:0.000325s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=17) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\fcd7ec07ca93d24740240bc6bdf08acd.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064203s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007084s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007336s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029327s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008077s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008216s ]
+
+[ 2015-10-22T18:52:25+08:00 ] 42.156.139.66 /xx/index.php/Atc/query/atcdnmc/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004792s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004562s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002801s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000302s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002323s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002808s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Lib\Action\AtcAction.class.php 第 157 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0  AND (atcdnmc=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 1   [ RunTime:0.000560s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (atcdnmc=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\index\Runtime\Cache\fcd7ec07ca93d24740240bc6bdf08acd.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051294s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007222s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007084s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007049s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029009s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007527s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007666s ]
+

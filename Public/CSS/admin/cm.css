@@ -1,0 +1,75 @@
+body{padding-top:70px;}
+
+.section{margin-top:15px;margin-bottom:15px}
+.mgrgt{margin-right:15px;}
+.mglft{margin-left:15px;}
+
+.sw{display:block;}
+.hd{display:none;}
+
+.tb tr td{padding:5px 0;}
+
+.share-group{
+	padding-top:20px;padding-bottom:20px;background-color:#fff;
+}
+.share-group .share {
+	display: block;
+	height: 40px;
+	width: 40px;
+	background: url('/xx/Public/IMG/share.png') no-repeat;
+	cursor: pointer;
+}
+.share-group .share-weibo {
+	background-position: 0 0;
+}
+.share-group .share-weibo:hover {
+	background-position: -40px 0;
+}
+.share-group .share-wechat {
+	background-position: 0 -40px;
+}
+.share-group .share-wechat:hover {
+	background-position: -40px -40px;
+}
+.share-group .share-qq {
+	background-position: 0 -80px;
+}
+.share-group .share-qq:hover {
+	background-position: -40px -80px;
+}
+.share-group .hearting {
+    width: 25px;
+    height: 25px;
+    margin: 9px 0px 0px 6px;
+    background: url("/xx/Public/IMG/heart.png") repeat scroll 0px -25px transparent;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.share-group .hearted {
+    width: 25px;
+    height: 25px;
+    margin: 9px 0px 0px 6px;
+    background: url("/geek/Public/IMG/heart.png") repeat scroll 0px 0px transparent;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.share-group .collecting{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    border: 1px solid #34B0DF;
+    background: none repeat scroll 0% 0% #FFF;
+    color: #FFF;
+    cursor: pointer;
+}
+.share-group .collected{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: none repeat scroll 0% 0% #ccc;
+    color: #FFF;
+    cursor: pointer;
+}

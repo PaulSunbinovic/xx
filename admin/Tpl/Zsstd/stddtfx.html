@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/admin/cm.js'></script>
+<link href="__PUBLIC__/CSS/admin/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+<link rel="stylesheet" href="__PUBLIC__/CSS/admin/std.css"/>
+<script type='text/javascript' src='__PUBLIC__/JS/admin/zsstd.js'></script>
+<script type='text/javascript'>
+url_path='__URL__';
+</script>
+</head>
+
+
+<body style='padding-top:70px;background-color:#eee;'>
+
+<include file='Pblc:head'/>
+<div class='container' >
+	<div class='col-md-2' id='lft' class='pull-left' style='display:{$lftcls}'>
+			<script>
+			var hdlbtn='__APP__/Btn/update';
+			</script>
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <div class='pull-left'><i class="glyphicon glyphicon-cog"></i> 控制面板</div>
+			    <div class='pull-right'><a href="javascript:leftright()"><i class="glyphicon glyphicon-triangle-left"></i></a></div>
+			    <div class='clearfix'></div>
+			  </div>
+			  <div class="panel-body">
+			  
+		  	<volist name='lblskzmb' id='vo'>  
+			  	<div class="panel panel-info">
+				  <!-- Default panel contents -->
+				  <div class="panel-heading">
+				  	<div class='pull-left'><i class="glyphicon glyphicon-signal"></i> {$vo['lbnm']}</div>
+					<div class='pull-right'><a href="javascript:updown('bs{$vo[lbid]}')"><i class="{$vo['bscls']}" id="bs{$vo['lbid']}"></i></a></div>
+					<div class='clearfix'></div>
+				  </div>
+				<!-- List group -->
+				  <ul class="nav nav-pills nav-stacked" style="display:{$vo['bsbdcls']}" id="bs{$vo['lbid']}bd">
+				    <volist name="vo['mdlskzmb']" id='voII'>
+						<li class="{$voII['actvcls']}"><a href="__APP__/{$voII['mdmk']}/query">{$voII['mdnm']}</a></li>
+					</volist>
+				  </ul>
+				</div>
+			</volist>
+		    </div>
+			</div>
+		</div>
+		<div class='{$rgtcls}' id='rgt'>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				  <a href='javascript:leftright()' id='btn-lft' style='display:{$lftbtncls}'><i class="glyphicon glyphicon-triangle-right"></i></a><i class="glyphicon glyphicon-th-list"></i> {$theme}
+				</div>
+				<div class="panel-body">
+				
+					<ul id="myTab" class="nav nav-tabs" role="tablist">
+				      <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">图表模式</a></li>
+				      <li class="" role="presentation"><a aria-expanded="false" href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">表格模式</a></li>
+				    </ul>
+				    <div id="myTabContent" class="tab-content">
+				      	<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
+				        	<script type="text/javascript" src="__PUBLIC__/pblc/PIE/jsapi.js"></script>
+							<script type="text/javascript" src="__PUBLIC__/pblc/PIE/corechart.js"></script>		
+							<script type="text/javascript" src="__PUBLIC__/pblc/PIE/jquery.gvChart-1.0.1.min.js"></script>
+							<script type="text/javascript" src="__PUBLIC__/pblc/PIE/jquery.ba-resize.min.js"></script>	
+							
+							<volist name='grdls' id='grdv'>
+								<div class="page-header">
+								  <h1>{$grdv['grdnm']}级 <small>共{$grdv['zl']['zongnb']}人（已去除不来的学生）</small></h1>
+								</div>
+								<script type="text/javascript">
+								gvChartInit();
+								$(document).ready(function(){
+									$("#zongsm{$grdv['grdnm']}").gvChart({
+										chartType: 'PieChart',
+										/*gvSettings: {
+											vAxis: {title: 'No of players'},
+											hAxis: {title: 'Month'},
+											width: 400,
+											height: 350
+										}*/
+									});
+								});
+								</script>
+								<div class='col-md-6'>
+								<table id="zongsm{$grdv['grdnm']}">
+									<caption>全部学生（包括不来的学生）</caption>
+									<thead>
+										<tr>
+											<th></th>
+											<th>其他</th>
+											<th>不来</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>{$grdv['zl']['zongsm']}</th>
+											<td>{$grdv['zl']['kenenglaism']}</td>
+											<td>{$grdv['zl']['bulaism']}</td>
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								<script type="text/javascript">
+								gvChartInit();
+								$(document).ready(function(){
+									$("#sex{$grdv['grdnm']}").gvChart({
+										chartType: 'PieChart',
+										/*gvSettings: {
+											vAxis: {title: 'No of players'},
+											hAxis: {title: 'Month'},
+											width: 400,
+											height: 350
+										}*/
+									});
+								});
+								</script>
+								<div class='col-md-6'>
+								<table id="sex{$grdv['grdnm']}">
+									<caption>性别分布（已去除不来的学生）</caption>
+									<thead>
+										<tr>
+											<th></th>
+											<th>男</th>
+											<th>女</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>{$grdv['zl']['zongnb']}</th>
+											<td>{$grdv['zl']['bynb']}</td>
+											<td>{$grdv['zl']['glnb']}</td>
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								<script type="text/javascript">
+								gvChartInit();
+								$(document).ready(function(){
+									$("#bxxs{$grdv['grdnm']}").gvChart({
+										chartType: 'PieChart',
+										/*gvSettings: {
+											vAxis: {title: 'No of players'},
+											hAxis: {title: 'Month'},
+											width: 400,
+											height: 350
+										}*/
+									});
+								});
+								</script>
+								<div class='col-md-6'>
+								<table id="bxxs{$grdv['grdnm']}">
+									<caption>办学形式分布（已去除不来的学生）</caption>
+									<thead>
+										<tr>
+											<th></th>
+											<volist name="grdv['zl']['bxxs']" id='bxxsv'>
+											<th>{$bxxsv['bxxsnm']}</th>
+											</volist>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>{$grdv['zl']['zongnb']}</th>
+											<volist name="grdv['zl']['bxxs']" id='bxxsv'>
+											<td>{$bxxsv['bxxscnt']}</td>
+											</volist>
+											
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								<script type="text/javascript">
+								gvChartInit();
+								$(document).ready(function(){
+									$("#dm{$grdv['grdnm']}").gvChart({
+										chartType: 'PieChart',
+										/*gvSettings: {
+											vAxis: {title: 'No of players'},
+											hAxis: {title: 'Month'},
+											width: 400,
+											height: 350
+										}*/
+									});
+								});
+								</script>
+								<div class='col-md-6'>
+								<table id="dm{$grdv['grdnm']}">
+									<caption>住宿分布（已去除不来的学生）</caption>
+									<thead>
+										<tr>
+											<th></th>
+											<volist name="grdv['zl']['dm']" id='dmv'>
+											<th>{$dmv['dmnm']}</th>
+											</volist>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>{$grdv['zl']['zongnb']}</th>
+											<volist name="grdv['zl']['dm']" id='dmv'>
+											<td>{$dmv['dmcnt']}</td>
+											</volist>
+											
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								<script type="text/javascript">
+								gvChartInit();
+								$(document).ready(function(){
+									$("#gatxo{$grdv['grdnm']}").gvChart({
+										chartType: 'PieChart',
+										/*gvSettings: {
+											vAxis: {title: 'No of players'},
+											hAxis: {title: 'Month'},
+											width: 400,
+											height: 350
+										}*/
+									});
+								});
+								</script>
+								<div class='col-md-6'>
+								<table id="gatxo{$grdv['grdnm']}">
+									<caption>港澳台西藏及其他学生分布（已去除不来的学生）</caption>
+									<thead>
+										<tr>
+											<th></th>
+											<th>香港</th>
+											<th>澳门</th>
+											<th>台湾</th>
+											<th>西藏</th>
+											<th>其他</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>{$grdv['zl']['zongnb']}</th>
+											<td>{$grdv['zl']['hknb']}</td>
+											<td>{$grdv['zl']['mcnb']}</td>
+											<td>{$grdv['zl']['twnb']}</td>
+											<td>{$grdv['zl']['tbnb']}</td>
+											<td>{$grdv['zl']['otnb']}</td>
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								
+								<script type="text/javascript">
+								gvChartInit();
+								$(document).ready(function(){
+									$("#cls{$grdv['grdnm']}").gvChart({
+										chartType: 'PieChart',
+										/*gvSettings: {
+											vAxis: {title: 'No of players'},
+											hAxis: {title: 'Month'},
+											width: 400,
+											height: 350
+										}*/
+									});
+								});
+								</script>
+								<div class='col-md-6'>
+								<table id="cls{$grdv['grdnm']}">
+									<caption>班级分布</caption>
+									<thead>
+										<tr>
+											<th></th>
+											<volist name="grdv['zl']['cls']" id='clsv'>
+											<th>{$clsv['clsnm']}</th>
+											</volist>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>{$grdv['zl']['zongnb']}</th>
+											<volist name="grdv['zl']['cls']" id='clsv'>
+											<td>{$clsv['clscnt']}</td>
+											</volist>
+											
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								
+								<script type="text/javascript">
+								gvChartInit();
+								$(document).ready(function(){
+									$("#mj{$grdv['grdnm']}").gvChart({
+										chartType: 'PieChart',
+										/*gvSettings: {
+											vAxis: {title: 'No of players'},
+											hAxis: {title: 'Month'},
+											width: 400,
+											height: 350
+										}*/
+									});
+								});
+								</script>
+								<div class='col-md-6'>
+								<table id="mj{$grdv['grdnm']}">
+									<caption>专业分布（已去除不来的学生）</caption>
+									<thead>
+										<tr>
+											<th></th>
+											<volist name="grdv['zl']['mj']" id='mjv'>
+											<th>{$mjv['mjnm']}</th>
+											</volist>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>{$grdv['zl']['zongnb']}</th>
+											<volist name="grdv['zl']['mj']" id='mjv'>
+											<td>{$mjv['mjcnt']}</td>
+											</volist>
+											
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								<div class='clearfix'></div>
+							</volist>
+							
+							<script type="text/javascript" src="__PUBLIC__/pblc/CHART/highcharts.js"></script>
+							<!--[if IE]>
+								<script type="text/javascript" src="__PUBLIC__/pblc/CHART/excanvas.compiled.js"></script>
+							<![endif]-->
+							
+					
+							<script type="text/javascript">
+							var chart;
+							$(document).ready(function() {
+								chart = new Highcharts.Chart({
+									chart: {
+										renderTo: 'container',
+										defaultSeriesType: 'line',
+										margin: [50, 150, 60, 80]
+									},
+									title: {
+										text: '招生每日报名统计表',
+										style: {
+											margin: '10px 100px 0 0' // center it
+										}
+									},
+									subtitle: {
+										text: '来源: 招生系统',
+										style: {
+											margin: '0 100px 0 0' // center it
+										}
+									},
+									xAxis: {
+										categories: [
+											<volist name='dtls' id='dtv'>
+												"{$dtv['rq']}",
+											</volist>
+										],
+										title: {
+											text: '日期'
+										}
+									},
+									yAxis: {
+										title: {
+											text: '人数 (人次)'
+										},
+										plotLines: [{
+											value: 0,
+											width: 1,
+											color: '#808080'
+										}]
+									},
+									tooltip: {
+										formatter: function() {
+								                return '<b>'+ this.series.name +'</b><br/>'+
+												this.x +': '+ this.y +'人次';
+										}
+									},
+									legend: {
+										layout: 'vertical',
+										style: {
+											left: 'auto',
+											bottom: 'auto',
+											right: '10px',
+											top: '100px'
+										}
+									},
+									series: [{
+										name: '报名人数',
+										data: [
+											<volist name='rsls' id='rsv'>
+												{$rsv['rs']},
+											</volist>
+										]
+									}, ]
+								});
+								
+								
+							});
+							</script>
+							<div id="container" style="width: 800px; height: 400px; margin: 0 auto"></div>
+							
+				      	</div>
+				      	<div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
+					        <volist name='grdls' id='grdv'>
+								<div class="page-header">
+								  <h1>{$grdv['grdnm']}级 <small>共{$grdv['zl']['zongnb']}人（已去除不来的学生）</small></h1>
+								</div>
+								
+								<div class='col-md-12'>
+								<table class='table table-striped table-bordered table-hover'>
+									<caption>全部学生分布（包括不来）</caption>
+									<thead>
+										<tr>
+											<th>总数</th>
+											<th>其他</th>
+											<th>不来</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>{$grdv['zl']['zongsm']}</td>
+											<td>{$grdv['zl']['kenenglaism']}</td>
+											<td>{$grdv['zl']['bulaism']}</td>
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								
+								<div class='col-md-12'>
+								<table class='table table-striped table-bordered table-hover'>
+									<caption>性别分布（已去除不来的学生）</caption>
+									<thead>
+										<tr>
+											<th>总数</th>
+											<th>男</th>
+											<th>女</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>{$grdv['zl']['zongnb']}</td>
+											<td>{$grdv['zl']['bynb']}</td>
+											<td>{$grdv['zl']['glnb']}</td>
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								
+								<div class='col-md-12'>
+								<table class='table table-striped table-bordered table-hover'>
+									<caption>办学形式分布（已去除不来的学生）</caption>
+									<thead>
+										<tr>
+											<th>总数</th>
+											<volist name="grdv['zl']['bxxs']" id='bxxsv'>
+											<th>{$bxxsv['bxxsnm']}</th>
+											</volist>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>{$grdv['zl']['zongnb']}</td>
+											<volist name="grdv['zl']['bxxs']" id='bxxsv'>
+											<td>{$bxxsv['bxxscnt']}</td>
+											</volist>
+											
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								
+								<div class='col-md-12'>
+								<table class='table table-striped table-bordered table-hover'>
+									<caption>住宿分布（已去除不来的学生）</caption>
+									<thead>
+										<tr>
+											<th>总数</th>
+											<volist name="grdv['zl']['dm']" id='dmv'>
+											<th>{$dmv['dmnm']}</th>
+											</volist>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>{$grdv['zl']['zongnb']}</td>
+											<volist name="grdv['zl']['dm']" id='dmv'>
+											<td>{$dmv['dmcnt']}</td>
+											</volist>
+											
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								
+								<div class='col-md-12'>
+								<table class='table table-striped table-bordered table-hover'>
+									<caption>港澳台西藏及其他学生分布（已去除不来的学生）</caption>
+									<thead>
+										<tr>
+											<th>总数</th>
+											<th>香港</th>
+											<th>澳门</th>
+											<th>台湾</th>
+											<th>西藏</th>
+											<th>其他</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>{$grdv['zl']['zongnb']}</td>
+											<td>{$grdv['zl']['hknb']}</td>
+											<td>{$grdv['zl']['mcnb']}</td>
+											<td>{$grdv['zl']['twnb']}</td>
+											<td>{$grdv['zl']['tbnb']}</td>
+											<td>{$grdv['zl']['otnb']}</td>
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								
+								<div class='col-md-12'>
+								<table class='table table-striped table-bordered table-hover'>
+									<caption>班级分布（已去除不来的学生）</caption>
+									<thead>
+										<tr>
+											<th>总数</th>
+											<volist name="grdv['zl']['cls']" id='clsv'>
+											<th>{$clsv['clsnm']}</th>
+											</volist>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>{$grdv['zl']['zongnb']}</td>
+											<volist name="grdv['zl']['cls']" id='clsv'>
+											<td>{$clsv['clscnt']}</td>
+											</volist>
+											
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								 
+								<div class='col-md-12'>
+								<table class='table table-striped table-bordered table-hover'>
+									<caption>专业分布（已去除不来的学生）</caption>
+									<thead>
+										<tr>
+											<th>总数</th>
+											<volist name="grdv['zl']['mj']" id='mjv'>
+											<th>{$mjv['mjnm']}</th>
+											</volist>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>{$grdv['zl']['zongnb']}</td>
+											<volist name="grdv['zl']['mj']" id='mjv'>
+											<td>{$mjv['mjcnt']}</td>
+											</volist>
+											
+										</tr>
+									</tbody>
+								</table>
+								</div>
+								<div class='clearfix'></div>
+							</volist>
+							
+							<style>
+			        			#bmtj th  
+						        {  
+						            white-space: nowrap;  
+						        }  
+						        table td  
+						        {  
+						            white-space: nowrap;  
+						        }  
+						    </style>  
+							<div class='table-responsive'>
+							<table class='table table-striped table-bordered table-hover' id='bmtj'>
+								<caption>学生每日报名情况表</caption>
+								<thead>
+									<tr>
+										<volist name="dtls" id='dtv'>
+										<th>{$dtv['rq']}</th>
+										</volist>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<volist name="rsls" id='rsv'>
+										<th>{$rsv['rs']}</th>
+										</volist>
+										
+									</tr>
+								</tbody>
+							</table>
+							</div>
+							
+				     	</div>
+				      	
+				     </div>
+				  	</div>
+					
+					
+					
+					
+					
+				
+				</div>
+		</div>
+	</div>
+	<div class='clearfix'></div>
+	
+	<include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: 100,//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,922 @@
+[ 2015-03-17T10:18:23+08:00 ] 127.0.0.1 /geek/index.php/Atc/view/atcid/9
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.005276s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000282s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.004440s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004960s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcid=9 ) LIMIT 1   [ RunTime:0.000494s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000378s ]
+SQL: UPDATE `tb_atc` SET `atccnt`=995 WHERE ( atcid=9 ) [ RunTime:0.104385s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.011493s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `tb_cstmatcclct` [ RunTime:0.004790s ]
+SQL: SHOW COLUMNS FROM `tb_cstmcmt` [ RunTime:0.003655s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=9 ) ORDER BY cstmcmttm DESC LIMIT 0,5   [ RunTime:0.000541s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=9 ) ORDER BY cstmcmttm DESC LIMIT 1   [ RunTime:0.000373s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid WHERE ( f_cstmcmt_atcid=9 ) ORDER BY cstmcmttm ASC LIMIT 5,1   [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 89 行.
+NOTIC: [8] Undefined variable: schzysc C:\wamp\www\geek\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 195 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065279s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000619s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002485s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2015-03-17T10:18:32+08:00 ] 127.0.0.1 /geek/index.php/Atc/view/atcid/19
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004078s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000301s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003580s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003785s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcid=19 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000226s ]
+SQL: UPDATE `tb_atc` SET `atccnt`=995 WHERE ( atcid=19 ) [ RunTime:0.137027s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003641s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `tb_cstmatcclct` [ RunTime:0.004068s ]
+SQL: SHOW COLUMNS FROM `tb_cstmcmt` [ RunTime:0.003745s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=19 ) ORDER BY cstmcmttm DESC LIMIT 0,5   [ RunTime:0.000612s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=19 ) ORDER BY cstmcmttm DESC LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid WHERE ( f_cstmcmt_atcid=19 ) ORDER BY cstmcmttm ASC LIMIT 5,1   [ RunTime:0.000423s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 89 行.
+NOTIC: [8] Undefined variable: schzysc C:\wamp\www\geek\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 195 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020036s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000589s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000483s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002396s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2015-03-17T10:18:38+08:00 ] 127.0.0.1 /geek/index.php/Atc/query/atcanc/1/p/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000935s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004117s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000308s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003656s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0  AND (atcanc=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (atcanc=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\fcd7ec07ca93d24740240bc6bdf08acd.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019837s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000596s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000495s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002391s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2015-03-17T10:18:42+08:00 ] 127.0.0.1 /geek/index.php/Atc/view/atcid/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004375s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000219s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003640s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003739s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcid=1 ) LIMIT 1   [ RunTime:0.000386s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000288s ]
+SQL: UPDATE `tb_atc` SET `atccnt`=997 WHERE ( atcid=1 ) [ RunTime:0.116122s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.004673s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `tb_cstmatcclct` [ RunTime:0.003801s ]
+SQL: SHOW COLUMNS FROM `tb_cstmcmt` [ RunTime:0.003748s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=1 ) ORDER BY cstmcmttm DESC LIMIT 0,5   [ RunTime:0.000843s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=1 ) ORDER BY cstmcmttm DESC LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid WHERE ( f_cstmcmt_atcid=1 ) ORDER BY cstmcmttm ASC LIMIT 5,1   [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 89 行.
+NOTIC: [8] Undefined variable: schzysc C:\wamp\www\geek\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 195 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019278s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000593s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000488s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002369s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2015-03-17T10:18:49+08:00 ] 127.0.0.1 /geek/index.php/Atc/append/atcid/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000791s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `tb_cstmcmt` [ RunTime:0.003769s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid WHERE ( f_cstmcmt_atcid=1 ) ORDER BY cstmcmttm DESC LIMIT 5,5   [ RunTime:0.000410s ]
+SQL: SELECT * FROM `tb_cstmcmt` WHERE ( f_cstmcmt_atcid=1 ) ORDER BY cstmcmttm DESC LIMIT 10,1   [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: htmltxt C:\wamp\www\geek\index\Lib\Action\AtcAction.class.php 第 530 行.
+NOTIC: [8] Undefined index: col-md C:\wamp\www\geek\index\Lib\Action\AtcAction.class.php 第 530 行.
+
+[ 2015-03-17T10:23:07+08:00 ] 127.0.0.1 /geek/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.010264s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000272s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.004180s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003765s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000685s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000360s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000356s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000321s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000357s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000290s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000286s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000284s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000429s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.004086s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000271s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.055426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055617s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000581s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000512s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003225s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001157s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2015-03-17T10:23:10+08:00 ] 127.0.0.1 /geek/index.php/Atc/query/atcanc/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002372s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.005086s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000320s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003696s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.005226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0  AND (atcanc=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 1   [ RunTime:0.000372s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (atcanc=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\fcd7ec07ca93d24740240bc6bdf08acd.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014444s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000481s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002279s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2015-03-17T10:23:18+08:00 ] 127.0.0.1 /geek/index.php/Atc/view/atcid/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003657s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000134s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003602s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003687s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcid=1 ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000326s ]
+SQL: UPDATE `tb_atc` SET `atccnt`=998 WHERE ( atcid=1 ) [ RunTime:0.100694s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.004112s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `tb_cstmatcclct` [ RunTime:0.004538s ]
+SQL: SHOW COLUMNS FROM `tb_cstmcmt` [ RunTime:0.003594s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=1 ) ORDER BY cstmcmttm DESC LIMIT 0,5   [ RunTime:0.000682s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid LEFT JOIN tb_atc ON f_cstmcmt_atcid=atcid WHERE ( atcid=1 ) ORDER BY cstmcmttm DESC LIMIT 1   [ RunTime:0.000387s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid WHERE ( f_cstmcmt_atcid=1 ) ORDER BY cstmcmttm ASC LIMIT 5,1   [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 89 行.
+NOTIC: [8] Undefined variable: schzysc C:\wamp\www\geek\index\Runtime\Cache\e1f176339d87a8d3780543272ba5120d.php 第 195 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018256s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001017s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000743s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003560s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000645s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2015-03-17T10:23:23+08:00 ] 127.0.0.1 /geek/index.php/Atc/append/atcid/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `tb_cstmcmt` [ RunTime:0.004454s ]
+SQL: SELECT * FROM `tb_cstmcmt` LEFT JOIN tb_cstmusr ON f_cstmcmt_cstmusrid=cstmusrid WHERE ( f_cstmcmt_atcid=1 ) ORDER BY cstmcmttm DESC LIMIT 5,5   [ RunTime:0.000554s ]
+SQL: SELECT * FROM `tb_cstmcmt` WHERE ( f_cstmcmt_atcid=1 ) ORDER BY cstmcmttm DESC LIMIT 10,1   [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: htmltxt C:\wamp\www\geek\index\Lib\Action\AtcAction.class.php 第 530 行.
+NOTIC: [8] Undefined index: col-md C:\wamp\www\geek\index\Lib\Action\AtcAction.class.php 第 530 行.
+
+[ 2015-03-17T10:26:22+08:00 ] 127.0.0.1 /geek/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004217s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000234s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.004250s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004595s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000612s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000295s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000282s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000320s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000357s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000284s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000280s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000309s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000376s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.004870s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000659s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000515s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002454s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000951s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2015-03-17T13:11:20+08:00 ] 127.0.0.1 /geek/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004721s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003660s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000419s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004050s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000776s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000307s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000296s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000358s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000332s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000260s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000292s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000283s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000318s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003431s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000252s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066413s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001031s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000846s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000411s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003390s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2015-03-17T13:23:30+08:00 ] 127.0.0.1 /geek/index.php/Atc/collect
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013575s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013741s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.014896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015070s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003952s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.026053s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Atc' ) LIMIT 1   [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066999s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008195s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009634s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006890s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029929s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009104s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009244s ]
+
+[ 2015-03-17T13:23:41+08:00 ] 127.0.0.1 /geek/index.php/Atc/collect
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001318s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003668s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003889s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Atc' ) LIMIT 1   [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007898s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000435s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000469s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002166s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2015-03-17T15:56:45+08:00 ] 127.0.0.1 /geek/index.php/Atc/collect
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.066680s ]
+INFO: [ route_check ] --END-- [ RunTime:0.126115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.025905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035841s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.125693s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.013373s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000394s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `tb_atcclct` [ RunTime:0.003830s ]
+SQL: SHOW COLUMNS FROM `tb_cstmatcclct` [ RunTime:0.003540s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003692s ]
+NOTIC: [2] Missing argument 8 for NBAction::NB(), called in C:\wamp\www\geek\index\Lib\Action\AtcAction.class.php on line 456 and defined C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index: fld C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 139 行.
+NOTIC: [8] Undefined index: fld C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: cdt C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 144 行.
+NOTIC: [8] Undefined index: cdt C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 146 行.
+NOTIC: [8] Undefined index: spccdt C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 149 行.
+NOTIC: [8] Undefined index: spccdt C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 151 行.
+NOTIC: [8] Undefined index: odr C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 154 行.
+NOTIC: [8] Undefined index: odr C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: lmt C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 159 行.
+NOTIC: [8] Undefined index: lmt C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 161 行.
+NOTIC: [8] Undefined variable: odrpcd C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 35 行.
+NOTIC: [8] Undefined variable: lsyon C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 182 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmatcclct` LEFT JOIN tb_atc ON f_cstmatcclct_atcid=atcid LEFT JOIN tb_cstmusr ON f_cstmatcclct_cstmusrid=cstmusrid LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( 1=1 AND atcps=1 AND atcvw=1 AND cstmusrid=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 1   [ RunTime:0.000620s ]
+NOTIC: [8] Undefined variable: sqlstc C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 201 行.
+SQL: SELECT `atcid`,`bdnm`,`atctpc`,`atcath`,`atcmdftm`,`atccnt`,`atczn`,`atctc` FROM `tb_cstmatcclct` LEFT JOIN tb_atc ON f_cstmatcclct_atcid=atcid LEFT JOIN tb_cstmusr ON f_cstmatcclct_cstmusrid=cstmusrid LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( 1=1 AND atcps=1 AND atcvw=1 AND cstmusrid=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,20   [ RunTime:0.000679s ]
+NOTIC: [8] Undefined variable: sqlstc C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 258 行.
+NOTIC: [8] Undefined variable: mlsforcount C:\wamp\www\geek\index\Lib\NB\NBAction.class.php 第 267 行.
+NOTIC: [8] Undefined index: atctp C:\wamp\www\geek\index\Lib\Action\AtcAction.class.php 第 479 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\fcd7ec07ca93d24740240bc6bdf08acd.php 第 87 行.
+NOTIC: [8] Undefined index: atcstyle C:\wamp\www\geek\index\Runtime\Cache\fcd7ec07ca93d24740240bc6bdf08acd.php 第 160 行.
+NOTIC: [8] Undefined index: atcflag C:\wamp\www\geek\index\Runtime\Cache\fcd7ec07ca93d24740240bc6bdf08acd.php 第 160 行.
+NOTIC: [8] Undefined variable: show C:\wamp\www\geek\index\Runtime\Cache\fcd7ec07ca93d24740240bc6bdf08acd.php 第 167 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.334884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.335090s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.023587s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009324s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006920s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.045183s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009079s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009262s ]
+
+[ 2015-03-17T20:01:15+08:00 ] 127.0.0.1 /geek/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004003s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003517s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000396s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004099s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000579s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000282s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000245s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000331s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000355s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000310s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000298s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000287s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000313s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.003552s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.084589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084784s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000700s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000521s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000339s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002514s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2015-03-17T22:13:34+08:00 ] 127.0.0.1 /geek/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.043289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.096961s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:4.030841s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:1.108510s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.143948s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.228957s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.215885s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.752413s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.011765s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000363s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.088817s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000466s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.019412s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000397s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000312s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.006571s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.068133s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.034461s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.529577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.529779s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.018055s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009387s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006934s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.016100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.050911s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009080s ]
+
+[ 2015-03-17T22:49:47+08:00 ] 127.0.0.1 /geek/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.037061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.053366s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002912s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000150s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002858s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.191636s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000725s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000349s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000362s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000343s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000412s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000349s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000309s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000290s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000328s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002519s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000203s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.202548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202723s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015361s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.042602s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.029069s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.027272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.114828s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.019659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.019854s ]
+
+[ 2015-03-17T23:17:55+08:00 ] 127.0.0.1 /geek/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002830s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002369s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000425s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002757s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000632s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000349s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000352s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000386s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000370s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000282s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000290s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000280s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000313s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002418s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023979s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000786s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000637s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002973s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2015-03-17T23:18:15+08:00 ] 127.0.0.1 /geek/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003059s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002559s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000411s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002745s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000651s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000370s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000345s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000329s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000357s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000294s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000290s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000265s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000310s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002409s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023532s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000700s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000567s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000378s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002639s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000748s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2015-03-17T23:18:28+08:00 ] 127.0.0.1 /geek/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002556s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002336s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000289s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002806s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000638s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000370s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000321s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000325s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000362s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000289s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000297s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000281s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000316s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002389s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025795s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000992s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000610s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003101s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-03-17T23:21:31+08:00 ] 127.0.0.1 /geek/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002745s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002341s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000436s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002720s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000594s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000298s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000270s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000323s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000365s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000289s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000293s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000283s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000316s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002224s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020493s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000676s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000553s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002671s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000701s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2015-03-17T23:22:56+08:00 ] 127.0.0.1 /geek/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.055973s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002483s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000306s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002635s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000542s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000233s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000220s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000319s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000334s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000266s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000259s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000250s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000284s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002440s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024693s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000771s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000631s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000466s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002951s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2015-03-17T23:23:14+08:00 ] 127.0.0.1 /geek/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002731s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002228s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002428s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000528s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000230s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000206s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000255s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000291s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000226s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000283s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000346s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000358s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002386s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023743s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000701s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000555s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002652s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000936s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2015-03-17T23:23:19+08:00 ] 127.0.0.1 /geek/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002586s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002379s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002621s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000541s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000245s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000257s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000301s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000430s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000397s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000404s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000358s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000379s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002397s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025392s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000725s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000562s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002658s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2015-03-17T23:26:23+08:00 ] 127.0.0.1 /geek/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002989s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002642s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000442s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002619s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000746s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000297s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000369s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000402s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000319s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000939s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000327s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000335s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002435s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024809s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000825s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000669s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003131s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-03-17T23:26:35+08:00 ] 127.0.0.1 /geek/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002901s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002571s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000420s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002843s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000661s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000361s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000364s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000357s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000363s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000288s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000296s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000280s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000313s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002303s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025629s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000944s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000705s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003386s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2015-03-17T23:27:21+08:00 ] 127.0.0.1 /geek/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003614s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003215s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000441s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid=1 ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003766s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 AND atccv<>'dflt' ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,5   [ RunTime:0.000699s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000372s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000266s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=12 OR f_atc_bdid=3 OR f_atc_bdid=4) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000412s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=6 OR f_atc_bdid=8 OR f_atc_bdid=7 OR f_atc_bdid=10 OR f_atc_bdid=9 OR f_atc_bdid=11 OR f_atc_bdid=2 OR f_atc_bdid=1) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000436s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=14) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000352s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=13) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000361s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw='n' AND (f_atc_bdid=5) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000363s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcanc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000351s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND atcdnmc=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,6   [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002365s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000193s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfa C:\wamp\www\geek\index\Runtime\Cache\851d53d04e85c43d57b9cb88584499a7.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026112s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000840s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000627s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002975s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000865s ]
+

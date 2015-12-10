@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/zspt/cm.js'></script>
+<link href="__PUBLIC__/CSS/zspt/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+<link rel="stylesheet" href="__PUBLIC__/CSS/zspt/atc.css"/>
+<script type='text/javascript' src='__PUBLIC__/JS/zspt/atc.js'></script>
+<script type='text/javascript'>
+</script>
+</head>
+
+
+<body style='padding-top:70px;background-color:#eee;'>
+
+<include file='Pblc:head'/>
+<div class='container' >
+	
+		<div class='col-md-12' id='rgt'>
+			<div class="panel panel-success">
+				<div class="panel-heading">
+				  <i class="glyphicon glyphicon-th-list"></i> {$theme}
+				</div>
+				<div class="panel-body">
+				<ol class="breadcrumb">
+		        <li><a href="#">首页</a> </li>
+		        {$tree}
+		        </ol>		
+				<div class='detail'>
+					<h1>{$mo['atctpc']}</h1>
+					<div class="intro">{$mo['atcsmr']}</div>
+					<div class="info">
+                    
+                   		 <div class="tag pull-right">
+	                        <span>{$mo['atcath']}</span>
+	                        <span>{$mo['atcmdftm']}</span>
+	                        <span><i class="glyphicon glyphicon-eye-open"></i> {$mo['atccnt']}</span>
+	                    </div>
+	                </div>
+					<div class='clearfix'></div>
+					<hr style='margin-top:0px'></hr>
+					<div class='front-cover'><img src="{$mo['atccv']}"  data-src="holder.js/300x200" alt="{$alt}" class='img-rounded'/></div>
+					
+					
+					<link rel="stylesheet" href="__PUBLIC__/pblc/baguettebox/baguettebox.min.css">
+					<script src="__PUBLIC__/pblc/baguettebox/baguettebox.min.js"></script>
+					<div class="baguetteBoxOne gallery">
+					{$mo['atcctt']}
+					</div>
+					<script type="text/javascript">
+					baguetteBox.run('.baguetteBoxOne', {
+					    animation: 'fadeIn',
+					});
+					</script>
+					<div id='zld'>
+					
+						<div class='share-group'>
+							<div class='pull-left'>
+								<!-- 
+								<div class='pull-left' style='margin-left:30px;padding-top:10px' id='schzysc'>{$schzysc}</div>
+								<div class='pull-left {$clctcss}'  style='margin-left:5px;' id='clctdv'><a href="javascript:clct({$mo['atcid']})" class="share {$heartcss}" id='clcta'></a></div>
+								
+								<div class='btn btn-success btn-lg pull-left' style='margin-left:30px' onclick="zn({$mo['atcid']})" id='dvzn'><i class='glyphicon glyphicon-thumbs-up'></i> <a style='color:#fff' id='zn'>{$mo['atczn']}</a></div>
+								<div  class='btn btn-warning btn-lg pull-left' style='margin-left:30px'  onclick="tc({$mo['atcid']})" id='dvtc'><i class='glyphicon glyphicon-thumbs-down'></i> <a style='color:#fff' id='tc'>{$mo['atctc']}</a></div>
+					        	 -->
+					        </div>
+					        <div class='pull-right'>
+					        	<div class='pull-left' style='margin-right:30px;padding-top:10px'>本文分享到：</div>
+					        	<div class='pull-left'  style='margin-right:30px'><a href="http://v.t.sina.com.cn/share/share.php?title={$mo['atctpc']}&amp;url={$url}" class="share share-weibo" target="_blank"></a></div>
+					        	<div class='pull-left'  style='margin-right:30px'><a href="#" class="share share-wechat" target="_blank" id='ppov' data-container="body" data-toggle="popover" data-placement="top" data-content="<img src='{$qr}' />"></a></div>
+					        </div>
+					       
+					        <div class='clearfix'></div>
+					    </div>
+				   </div>
+				   <script type="text/javascript">$(".share-group").width($('#rgt').width()-30);$(".share-group").smartFloatSR();</script>
+					
+					
+				</div>
+				<div class='clearfix'></div>
+				</div>
+			</div>
+		</div>	
+	<div class='clearfix'></div>
+	
+
+	
+	
+	
+	<include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: 100,//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+</script>
+<!-- popover -->
+<script>
+$(function(){
+	$('#ppov').mouseenter(function(){
+		$('#ppov').popover('show');
+	})
+	$('#ppov').mouseleave(function(){
+		$('#ppov').popover('hide');
+	})
+})
+</script>
+
+
+<!-- share -->
+
+</body>
+</html>

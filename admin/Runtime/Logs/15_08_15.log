@@ -1,0 +1,241 @@
+[ 2015-08-15T09:27:58+08:00 ] 127.0.0.1 /xx/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002550s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041006s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002422s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002714s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002654s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012181s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004366s ]
+
+[ 2015-08-15T09:28:08+08:00 ] 127.0.0.1 /xx/admin.php/Usr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004150s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004519s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.017056s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrnm='admin' ) LIMIT 1   [ RunTime:0.001120s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrnm='admin' AND usrpw='c2e365e0e16fa4d21a0fdb01cc51af19' ) LIMIT 1   [ RunTime:0.000888s ]
+
+[ 2015-08-15T09:28:15+08:00 ] 127.0.0.1 /xx/admin.php/Usr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002790s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.010905s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrnm='admin' ) LIMIT 1   [ RunTime:0.000746s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrnm='admin' AND usrpw='18a19d42a1c5b6e784765e8bba18a2f3' ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrnm='admin' AND usrpw='18a19d42a1c5b6e784765e8bba18a2f3' ) LIMIT 1   [ RunTime:0.000645s ]
+
+[ 2015-08-15T09:28:16+08:00 ] 127.0.0.1 /xx/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.012815s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `tb_usrrl` [ RunTime:0.011244s ]
+SQL: SELECT * FROM `tb_usrrl` LEFT JOIN tb_usr ON f_usrrl_usrid=usrid LEFT JOIN tb_rl ON f_usrrl_rlid=rlid WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.001315s ]
+NOTIC: [8] Undefined variable: runmu C:\wamp\www\xx\admin\Lib\SS\SSAction.class.php 第 18 行.
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.010625s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Usr' ) LIMIT 1   [ RunTime:0.000683s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000947s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.015088s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.003039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_usr` WHERE ( usrvw=0 ) LIMIT 1   [ RunTime:0.000865s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000828s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000979s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000846s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.003702s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.014558s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmusr` WHERE ( cstmusrvw=0 ) LIMIT 1   [ RunTime:0.000756s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Atc' ) LIMIT 1   [ RunTime:0.000788s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000775s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000608s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.002454s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.011197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcvw=0 ) LIMIT 1   [ RunTime:0.001081s ]
+NOTIC: [8] Undefined variable: ntfstrusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 57 行.
+NOTIC: [8] Undefined variable: ntfstratc C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 57 行.
+NOTIC: [8] Undefined variable: ntfstrcstmusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 57 行.
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in C:\wamp\www\xx\admin\Lib\Action\IndexAction.class.php on line 43 and defined C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.009975s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000975s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.001257s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `tb_lb` [ RunTime:0.012766s ]
+SQL: SHOW COLUMNS FROM `tb_lbmd` [ RunTime:0.011217s ]
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.051120s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=1 )  [ RunTime:0.001005s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=1) )  [ RunTime:0.001886s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.002196s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=3 AND (f_ath_rlid=1) )  [ RunTime:0.001959s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=4 AND (f_ath_rlid=1) )  [ RunTime:0.002815s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=5 AND (f_ath_rlid=1) )  [ RunTime:0.003947s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.003369s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=7 AND (f_ath_rlid=1) )  [ RunTime:0.003331s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=8 AND (f_ath_rlid=1) )  [ RunTime:0.002853s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=9 AND (f_ath_rlid=1) )  [ RunTime:0.002539s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=11 AND (f_ath_rlid=1) )  [ RunTime:0.001931s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=12 AND (f_ath_rlid=1) )  [ RunTime:0.001784s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=13 AND (f_ath_rlid=1) )  [ RunTime:0.001800s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=14 AND (f_ath_rlid=1) )  [ RunTime:0.001839s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=1) )  [ RunTime:0.001899s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=24 AND (f_ath_rlid=1) )  [ RunTime:0.001843s ]
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000627s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000520s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=2 )  [ RunTime:0.000746s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.001932s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=17 AND (f_ath_rlid=1) )  [ RunTime:0.002242s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=18 AND (f_ath_rlid=1) )  [ RunTime:0.002096s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=19 AND (f_ath_rlid=1) )  [ RunTime:0.003166s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=20 AND (f_ath_rlid=1) )  [ RunTime:0.002022s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=21 AND (f_ath_rlid=1) )  [ RunTime:0.003039s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=22 AND (f_ath_rlid=1) )  [ RunTime:0.002314s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=23 AND (f_ath_rlid=1) )  [ RunTime:0.002098s ]
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000661s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000764s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=3 )  [ RunTime:0.001040s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=25 AND (f_ath_rlid=1) )  [ RunTime:0.002692s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=26 AND (f_ath_rlid=1) )  [ RunTime:0.002793s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=27 AND (f_ath_rlid=1) )  [ RunTime:0.002387s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=28 AND (f_ath_rlid=1) )  [ RunTime:0.002259s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=29 AND (f_ath_rlid=1) )  [ RunTime:0.002001s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=30 AND (f_ath_rlid=1) )  [ RunTime:0.002421s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=31 AND (f_ath_rlid=1) )  [ RunTime:0.002880s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=32 AND (f_ath_rlid=1) )  [ RunTime:0.002952s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=33 AND (f_ath_rlid=1) )  [ RunTime:0.002096s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=34 AND (f_ath_rlid=1) )  [ RunTime:0.002315s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=35 AND (f_ath_rlid=1) )  [ RunTime:0.003124s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=36 AND (f_ath_rlid=1) )  [ RunTime:0.002534s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=37 AND (f_ath_rlid=1) )  [ RunTime:0.002644s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=38 AND (f_ath_rlid=1) )  [ RunTime:0.002058s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=39 AND (f_ath_rlid=1) )  [ RunTime:0.003377s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=40 AND (f_ath_rlid=1) )  [ RunTime:0.002639s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=41 AND (f_ath_rlid=1) )  [ RunTime:0.001846s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=42 AND (f_ath_rlid=1) )  [ RunTime:0.002285s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=43 AND (f_ath_rlid=1) )  [ RunTime:0.001811s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=44 AND (f_ath_rlid=1) )  [ RunTime:0.002758s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=49 AND (f_ath_rlid=1) )  [ RunTime:0.003033s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=61 AND (f_ath_rlid=1) )  [ RunTime:0.002483s ]
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.001442s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000672s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=4 )  [ RunTime:0.001016s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=45 AND (f_ath_rlid=1) )  [ RunTime:0.003159s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=50 AND (f_ath_rlid=1) )  [ RunTime:0.002011s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=51 AND (f_ath_rlid=1) )  [ RunTime:0.003209s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=62 AND (f_ath_rlid=1) )  [ RunTime:0.003123s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=63 AND (f_ath_rlid=1) )  [ RunTime:0.002488s ]
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000741s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000695s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=5 )  [ RunTime:0.000838s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=46 AND (f_ath_rlid=1) )  [ RunTime:0.001966s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=47 AND (f_ath_rlid=1) )  [ RunTime:0.003154s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=48 AND (f_ath_rlid=1) )  [ RunTime:0.002952s ]
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.001048s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000906s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=6 )  [ RunTime:0.179523s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=52 AND (f_ath_rlid=1) )  [ RunTime:0.002108s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=53 AND (f_ath_rlid=1) )  [ RunTime:0.001733s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=54 AND (f_ath_rlid=1) )  [ RunTime:0.003266s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=55 AND (f_ath_rlid=1) )  [ RunTime:0.003270s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=56 AND (f_ath_rlid=1) )  [ RunTime:0.002433s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=57 AND (f_ath_rlid=1) )  [ RunTime:0.002996s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=58 AND (f_ath_rlid=1) )  [ RunTime:0.003234s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=59 AND (f_ath_rlid=1) )  [ RunTime:0.002929s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=60 AND (f_ath_rlid=1) )  [ RunTime:0.002284s ]
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+NOTIC: [8] Undefined variable: mdidactv C:\wamp\www\xx\admin\Lib\KZMB\KZMBAction.class.php 第 95 行.
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs6' ) LIMIT 1   [ RunTime:0.000647s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs6' ) LIMIT 1   [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 146 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 146 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 146 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 146 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 146 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 146 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041836s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001712s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001203s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001067s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006247s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002210s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002505s ]
+

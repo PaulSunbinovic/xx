@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/admin/cm.js'></script>
+<link href="__PUBLIC__/CSS/admin/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+<link rel="stylesheet" href="__PUBLIC__/CSS/admin/std.css"/>
+<script type='text/javascript' src='__PUBLIC__/JS/admin/cw.js'></script>
+<script type='text/javascript'>
+var hdlurl='__URL__/update';
+var hdlcrtu='__URL__/createAlways';
+</script>
+</head>
+
+
+<body style='padding-top:70px;background-color:#eee;'>
+
+<include file='Pblc:head'/>
+<div class='container' >
+	<div class='col-md-2' id='lft' class='pull-left' style='display:{$lftcls}'>
+			<script>
+			var hdlbtn='__APP__/Btn/update';
+			</script>
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <div class='pull-left'><i class="glyphicon glyphicon-cog"></i> 控制面板</div>
+			    <div class='pull-right'><a href="javascript:leftright()"><i class="glyphicon glyphicon-triangle-left"></i></a></div>
+			    <div class='clearfix'></div>
+			  </div>
+			  <div class="panel-body">
+			  
+		  	<volist name='lblskzmb' id='vo'>  
+			  	<div class="panel panel-info">
+				  <!-- Default panel contents -->
+				  <div class="panel-heading">
+				  	<div class='pull-left'><i class="glyphicon glyphicon-signal"></i> {$vo['lbnm']}</div>
+					<div class='pull-right'><a href="javascript:updown('bs{$vo[lbid]}')"><i class="{$vo['bscls']}" id="bs{$vo['lbid']}"></i></a></div>
+					<div class='clearfix'></div>
+				  </div>
+				<!-- List group -->
+				  <ul class="nav nav-pills nav-stacked" style="display:{$vo['bsbdcls']}" id="bs{$vo['lbid']}bd">
+				    <volist name="vo['mdlskzmb']" id='voII'>
+						<li class="{$voII['actvcls']}"><a href="__APP__/{$voII['mdmk']}/query">{$voII['mdnm']}</a></li>
+					</volist>
+				  </ul>
+				</div>
+			</volist>
+		    </div>
+			</div>
+		</div>
+		<div class='{$rgtcls}' id='rgt'>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				  <a href='javascript:leftright()' id='btn-lft' style='display:{$lftbtncls}'><i class="glyphicon glyphicon-triangle-right"></i></a><i class="glyphicon glyphicon-th-list"></i> {$theme}
+				</div>
+				<div class="panel-body">
+					<form>
+						<input type='hidden' name='cwid' id='cwid' value="{$mo['cwid']}" />
+						<div><span class='pull-left' style='margin-left:50px'><img src="{$mo['stdpt']}"  class='img-circle' style='height:80px;width:80px'/></span><span class='pull-left' style='line-height:80px'>&nbsp;&nbsp;&nbsp;{$mo['stdnm']}&nbsp;&nbsp;&nbsp;{$mo['stdno']}&nbsp;&nbsp;&nbsp;{$mo['xnnm']}学年</div>
+						<div class='clearfix'></div>
+						<div class='mingxi'>
+						学籍信息：
+						<table>
+						<tr>
+						<td>
+						
+						办学形式：
+						</td>
+						<td colspan=3>
+						{$mo['bxxsnm']}
+						</td>
+						<td>
+						站点：
+						</td>
+						<td>
+						{$mo['sttnm']}
+						</td>
+						<td>
+						年级：
+						</td>
+						<td>
+						{$mo['grdnm']}
+						</td>
+						<td>
+						学期：
+						</td>
+						<td>
+						{$mo['xqnm']}
+						</td>
+						</tr>
+						<tr>
+						<td>
+						层次：
+						</td>
+						<td>
+						{$mo['ccnm']}
+						</td>
+						<td>
+						科类：
+						</td>
+						<td>
+						{$mo['klnm']}
+						</td>
+						<td>
+						学习形式：
+						</td>
+						<td>
+						{$mo['xxxsnm']}
+						</td>
+						<td>
+						招生范围：
+						</td>
+						<td>
+						{$mo['zsfwnm']}
+						</td>
+						<td>
+						注册学制：
+						</td>
+						<td>
+						{$mo['xznm']}
+						</td>
+						</tr>
+						<tr>
+						<td>班级：</td>
+						<td colspan=9>
+						{$mo['clsnm']}
+						</td>
+						</tr>
+						<tr>
+						<td>专业：</td>
+						<td colspan=9>
+						[{$mo['bxxsnmst']}]{$mo['mjdm']}{$mo['mjnm']}
+						</td>
+						</tr>
+						</table>
+						</div>
+						<div class='mingxi'>
+						基本信息：
+						<table>
+						
+						<tr>
+						<td>姓名</td><td>{$mo['stdnm']}</td>
+						<td>报名号</td><td>{$mo['stdaplno']}</td>
+						<td>学号</td><td>{$mo['stdno']}</td>
+						<td>
+						性别
+						</td>
+						<td>
+						{$mo['sexnm']}
+						</td>
+						<td>
+						寝室
+						</td>
+						<td>
+						{$mo['dmnm']}
+						</td>
+						</tr>
+						
+						</table>
+						
+						</div>
+						
+						
+						<div class='mingxi'>
+						<input type='hidden' name='cwid' value="{$mo['cwid']}" />
+						<input type='hidden' name='f_std_grdid' value="{$mo['f_std_grdid']}" />
+						缴费情况：
+						<table>
+						
+						<tr>
+						<td>应缴学费：</td><td><input name='cwyjxfsm' value="{$mo['cwyjxfsm']}" alt="{$mo['cwyjxfsm']}" /></td><td>实缴学费：</td><td><input name='cwsjxfsm' value="{$mo['cwsjxfsm']}" alt="{$mo['cwsjxfsm']}" /></td>
+						</tr>
+						<tr>
+						<td>应缴教材考务费：</td><td><input name='cwyjjckwfsm' value="{$mo['cwyjjckwfsm']}" alt="{$mo['cwyjjckwfsm']}" /></td><td>实缴教材考务费：</td><td><input name='cwsjjckwfsm' value="{$mo['cwsjjckwfsm']}" alt="{$mo['cwsjjckwfsm']}" /></td>
+						</tr>
+						<tr>
+						<td>应缴住宿费：</td><td><input name='cwyjzsfsm' value="{$mo['cwyjzsfsm']}" alt="{$mo['cwyjzsfsm']}" /></td><td>实缴住宿费：</td><td><input name='cwsjzsfsm' value="{$mo['cwsjzsfsm']}" alt="{$mo['cwsjzsfsm']}" /></td>
+						</tr>
+						<tr>
+						<td>应缴总额：</td><td><input name='cwyjze' value="{$mo['cwyjze']}" alt="{$mo['cwyjze']}" readonly /></td><td>实缴总额：</td><td><input name='cwsjze' value="{$mo['cwsjze']}" alt="{$mo['cwsjze']}" readonly /></td>
+						</tr>
+						
+						</table>
+						
+						</div>
+						<!-- <?php if($mo['stdid']!=0&&$aths==1){ ?><input type='button' id='updtjb' value='改基本信息' class='btn btn-success' /><?php } ?> -->
+						<div class='clearfix'></div>
+						<input type='button' id='updt' value={$btnvl} class='btn btn-primary' />
+						<div class='clearfix'></div>
+						<br/>
+						<?php if($mo['stdid']!=0){  ?>
+						注册情况:
+						<div class='clearfix'></div>
+						<div class="list-group col-md-8">
+							<volist name='zcls' id='vo'>
+								<a href="#" class="list-group-item {$vo['zcf']}">{$vo['xqnm']}&nbsp;&nbsp;&nbsp;[{$vo['zczt']}]&nbsp;&nbsp;&nbsp;{$vo['clsnm']}&nbsp;&nbsp;&nbsp;{$vo['mjnm']}</a>
+							</volist>
+						</div>
+						<div class='clearfix'></div>
+						<a href="#"  class='btn btn-success'>前往注册中心</a>
+						<div class='clearfix'></div>
+						特殊情况:
+						<div class='clearfix'></div>
+						<table class="table table-striped">
+							<tr><th>时间</th><th>具体情况</th></tr>
+							<volist name='tsqkls' id='vo'>
+							<tr><td>{$vo['tsqktm']}</td><td>{$vo['tsqknr']}</td></tr>
+							</volist>
+						</table>
+						<a href="#"  class='btn btn-success'>前往特殊情况中心</a>
+						<div class='clearfix'></div>
+						<?php }  ?>
+					</form>
+				</div>
+			</div>
+		</div>	
+	<div class='clearfix'></div>
+	
+	<include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: 100,//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+</script>
+
+
+</body>
+</html>

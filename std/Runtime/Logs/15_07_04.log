@@ -1,0 +1,154 @@
+[ 2015-07-04T10:45:33+08:00 ] 127.0.0.1 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.010872s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `tb_2014_std` [ RunTime:0.004020s ]
+SQL: SELECT * FROM `tb_2014_std` WHERE ( stdid=2 ) LIMIT 1   [ RunTime:0.000569s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002844s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT * FROM `tb_2014_std` inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_std_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND stdid=2 ) LIMIT 1   [ RunTime:0.014297s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in C:\wamp\www\xx\std\Lib\Action\IndexAction.class.php on line 23 and defined C:\wamp\www\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `tb_stdbtn` [ RunTime:0.002885s ]
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid=2 AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `tb_stdbtn` WHERE ( f_stdbtn_stdid=2 AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 61 行.
+NOTIC: [8] Undefined index: stdnn C:\wamp\www\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 84 行.
+NOTIC: [8] Undefined variable: cxcjcls C:\wamp\www\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 156 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052344s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000586s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002601s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2015-07-04T10:53:38+08:00 ] 127.0.0.1 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.053292s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `tb_2014_std` [ RunTime:0.003876s ]
+SQL: SELECT * FROM `tb_2014_std` WHERE ( stdid=2 ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002848s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `tb_2014_std` inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_std_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND stdid=2 ) LIMIT 1   [ RunTime:0.001732s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in C:\wamp\www\xx\std\Lib\Action\IndexAction.class.php on line 23 and defined C:\wamp\www\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdbtn` [ RunTime:0.004551s ]
+SQL: SELECT * FROM `tb_2014_stdbtn` WHERE ( f_stdbtn_stdid=2 AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT * FROM `tb_2014_stdbtn` WHERE ( f_stdbtn_stdid=2 AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 61 行.
+NOTIC: [8] Undefined index: stdnn C:\wamp\www\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 84 行.
+NOTIC: [8] Undefined variable: cxcjcls C:\wamp\www\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 156 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016929s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000707s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000650s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002921s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000796s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2015-07-04T10:53:40+08:00 ] 127.0.0.1 /xx/std.php/Stdbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010192s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.003655s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdbtn` [ RunTime:0.003458s ]
+SQL: SELECT * FROM `tb_2014_stdbtn` WHERE ( f_stdbtn_grdid=3 AND f_stdbtn_stdid=2 AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: INSERT INTO `tb_2014_stdbtn` (`f_stdbtn_grdid`,`f_stdbtn_stdid`,`stdbtnnm`,`stdbtnvl`) VALUES (3,2,'lft','none') [ RunTime:0.086964s ]
+
+[ 2015-07-04T10:53:48+08:00 ] 127.0.0.1 /xx/std.php/Stdbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001280s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.003520s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdbtn` [ RunTime:0.002847s ]
+SQL: SELECT * FROM `tb_2014_stdbtn` WHERE ( f_stdbtn_grdid=3 AND f_stdbtn_stdid=2 AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT * FROM `tb_2014_stdbtn` WHERE ( f_stdbtn_grdid=3 AND f_stdbtn_stdid=2 AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: UPDATE `tb_2014_stdbtn` SET `stdbtnvl`='block' WHERE ( stdbtnid=1 ) [ RunTime:0.137575s ]
+
+[ 2015-07-04T10:53:53+08:00 ] 127.0.0.1 /xx/std.php/Stdbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.003087s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdbtn` [ RunTime:0.002886s ]
+SQL: SELECT * FROM `tb_2014_stdbtn` WHERE ( f_stdbtn_grdid=3 AND f_stdbtn_stdid=2 AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: INSERT INTO `tb_2014_stdbtn` (`f_stdbtn_grdid`,`f_stdbtn_stdid`,`stdbtnnm`,`stdbtnvl`) VALUES (3,2,'bs','glyphicon glyphicon-triangle-bottom') [ RunTime:0.174762s ]
+
+[ 2015-07-04T10:53:59+08:00 ] 127.0.0.1 /xx/std.php/Stdbtn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001310s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.003171s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdbtn` [ RunTime:0.002998s ]
+SQL: SELECT * FROM `tb_2014_stdbtn` WHERE ( f_stdbtn_grdid=3 AND f_stdbtn_stdid=2 AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT * FROM `tb_2014_stdbtn` WHERE ( f_stdbtn_grdid=3 AND f_stdbtn_stdid=2 AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: UPDATE `tb_2014_stdbtn` SET `stdbtnvl`='glyphicon glyphicon-triangle-top' WHERE ( stdbtnid=2 ) [ RunTime:0.149774s ]
+
+[ 2015-07-04T19:41:11+08:00 ] 127.0.0.1 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.123323s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `tb_2014_std` [ RunTime:0.017720s ]
+SQL: SELECT * FROM `tb_2014_std` WHERE ( stdid=2 ) LIMIT 1   [ RunTime:0.013758s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.015903s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqdq=1 ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT * FROM `tb_2014_std` inner join tb_2014_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2014_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2014_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2014_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_std_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=2 AND f_stdxqmj_xqid=2 AND stdid=2 ) LIMIT 1   [ RunTime:0.042749s ]
+NOTIC: [2] Missing argument 1 for KZMBAction::setkzmb(), called in C:\wamp\www\xx\std\Lib\Action\IndexAction.class.php on line 23 and defined C:\wamp\www\xx\std\Lib\KZMB\KZMBAction.class.php 第 3 行.
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=3 ) LIMIT 1   [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `tb_2014_stdbtn` [ RunTime:0.034927s ]
+SQL: SELECT * FROM `tb_2014_stdbtn` WHERE ( f_stdbtn_stdid=2 AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.018869s ]
+SQL: SELECT * FROM `tb_2014_stdbtn` WHERE ( f_stdbtn_stdid=2 AND stdbtnnm='lft' ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT * FROM `tb_2014_stdbtn` WHERE ( f_stdbtn_stdid=2 AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT * FROM `tb_2014_stdbtn` WHERE ( f_stdbtn_stdid=2 AND stdbtnnm='bs' ) LIMIT 1   [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ntfstr C:\wamp\www\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 61 行.
+NOTIC: [8] Undefined index: stdnn C:\wamp\www\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 84 行.
+NOTIC: [8] Undefined variable: cxcjcls C:\wamp\www\xx\std\Runtime\Cache\9c288f5594010517c700781ca130ef0a.php 第 156 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046867s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001348s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002138s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001032s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006518s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001495s ]
+

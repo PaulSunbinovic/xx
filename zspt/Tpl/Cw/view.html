@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/zspt/cm.js'></script>
+<link href="__PUBLIC__/CSS/zspt/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+<link rel="stylesheet" href="__PUBLIC__/CSS/zspt/std.css"/>
+<script type='text/javascript' src='__PUBLIC__/JS/zspt/cw.js'></script>
+<script type='text/javascript'>
+url_path='__URL__';
+</script>
+</head>
+
+
+<body style='padding-top:70px;background-color:#eee;'>
+
+<include file='Pblc:head'/>
+<div class='container' >
+	
+		<div class='col-md-12'>
+			<div class="panel panel-success">
+				<div class="panel-heading">
+				  <i class="glyphicon glyphicon-th-list"></i> {$theme}
+				</div>
+				<div class="panel-body">
+					<div><span class='pull-left' style='margin-left:50px'><img src="{$mo['stdpt']}"  class='img-circle' style='height:80px;width:80px'/></span><span class='pull-left' style='line-height:80px'>&nbsp;&nbsp;&nbsp;{$mo['stdnm']}&nbsp;&nbsp;&nbsp;{$mo['stdno']}&nbsp;&nbsp;&nbsp;{$mo['xnnm']}学年</div>
+					<div class='clearfix'></div>
+					<div class='mingxi'>
+					基本信息
+					<table>
+					<tr>
+					<td>
+					<input type='hidden' name='stdid' value="{$mo['stdid']}" />
+					办学形式：
+					</td>
+					<td>
+					{$mo['bxxsnm']}
+					</td>
+					<td>
+					年级：
+					</td>
+					<td>
+					{$mo['grdnm']}级
+					</td>
+					<td>专业：</td>
+					<td>
+					{$mo['mjnm']}（{$mo['mjdsc']}）
+					</td>
+					</tr>
+					<tr>
+					<td>姓名</td><td>{$mo['stdnm']}</td>
+					<td>报名号</td><td>{$mo['stdaplno']}</td>
+					<td>
+					性别
+					</td>
+					<td>
+					{$mo['sexnm']}
+					</td>
+					</tr>
+					
+					</table>
+					</div>
+					
+					
+					
+					<div class='mingxi'>
+					缴费情况（单位：元）
+					<table>
+					
+					<tr>
+					<td>应缴学费（含报名费）：</td><td>{$mo['cwyjxfsm']}</td><td>实缴学费（含报名费）：</td><td>{$mo['cwsjxfsm']}</td>
+					</tr>
+					<tr>
+					<td>应缴教材考务费：</td><td>{$mo['cwyjjckwfsm']}</td><td>实缴教材考务费：</td><td>{$mo['cwsjjckwfsm']}</td>
+					</tr>
+					<?php if($mo['bxxsnmst']=='自考'){ ?>
+					<tr>
+					<td>应缴住宿费：</td><td>{$mo['cwyjzsfsm']}</td><td>实缴住宿费：</td><td>{$mo['cwsjzsfsm']}</td>
+					</tr>
+					<?php } ?>
+					<tr>
+					<td>应缴总额：</td><td>{$mo['cwyjze']}</td><td>实缴总额：</td><td>{$mo['cwsjze']}</td>
+					</tr>
+					
+					</table>
+					<?php if($mo['bxxsnmst']=='技能'){ ?>
+					<p style='color:#44B549'>住宿费在开学报到时缴费</p>
+					<?php } ?>
+					</div>
+					
+					<a href="__APP__/Std/gtxpg/x/vw/stdid/{$mo['stdid']}" class='btn btn-primary btn-lg' role='button'>查看报名信息</a>
+					
+					
+					
+					
+				
+			</div>
+		</div>
+	</div>
+	<div class='clearfix'></div>
+	
+	<include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: 100,//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/std/cm.js'></script>
+<link href="__PUBLIC__/CSS/std/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+<link rel="stylesheet" href="__PUBLIC__/CSS/std/std.css"/> 
+<script type='text/javascript' src='__PUBLIC__/JS/std/std.js'></script>
+<script type='text/javascript'>
+var app_path='__APP__';
+</script>
+</head>
+
+<body>
+
+<include file='Pblc:head'/>
+<div class='container' >
+	<div class='col-md-2' id='lft' class='pull-left' style='display:{$lftcls}'>
+		<script>
+		var hdlstdbtn='__APP__/Tcrbtn/update';
+		</script>
+		<div class="panel panel-info">
+			  <div class="panel-heading">
+				    <div class='pull-left'><i class="glyphicon glyphicon-cog"></i> 控制面板</div>
+				    <div class='pull-right'><a href="javascript:leftright()"><i class="glyphicon glyphicon-triangle-left"></i></a></div>
+				    <div class='clearfix'></div>
+			  </div>
+			 <div class="panel-body"'>
+			 
+			 <div class="panel panel-info">
+				  <!-- Default panel contents -->
+				  <div class="panel-heading">
+				  	<div class='pull-left'><i class="glyphicon glyphicon-signal"></i> 后台管理</div>
+					<div class='pull-right'><a href="javascript:updown('bs')"><i class="{$bscls}" id="bs"></i></a></div>
+					<div class='clearfix'></div>
+				  </div>
+				<!-- List group -->
+				  <ul class="nav nav-pills nav-stacked" style="display:{$bsbdcls}" id="bsbd">
+				    
+						
+						<li class=""><a href="__APP__/Cjzx/cxcj" class='{$cxcjcls}'>查询成绩</a></li>
+					
+				  </ul>
+				</div>
+			  
+			  
+		    </div>
+		</div>
+	</div>
+	<div class='{$rgtcls}' id='rgt' >
+		<div class="panel panel-info">
+		  <div class="panel-heading">
+		    <a href='javascript:leftright()' id='stdbtn-lft' style='display:{$lftstdbtncls}'><i class="glyphicon glyphicon-triangle-right"></i></a><i class="glyphicon glyphicon-th-list"></i> {$theme}
+		  </div>
+		  <div class="panel-body" style='min-height:500px'>				
+				<div class='mingxi'>
+				班级信息：
+				<table>
+				<tr>
+				<td>学号：</td><td>{$mo['stdno']}</td>
+				<td>班级：</td><td>{$mo['clsnm']}</td>
+				</tr>
+				</table>
+				</div>
+				
+				
+				<div class='mingxi'>
+				专业信息：
+				<table>
+				<tr>
+				<td>
+				<input type='hidden' name='stdid' value="{$mo['stdid']}" />
+				办学形式：
+				</td>
+				<td>
+				{$mo['bxxsnm']}
+				</td>
+				<!-- 
+				<td>班级：</td>
+				<td colspan=9>
+				{$mo['clsnm']}</td>
+				 -->
+				<td><p style='color:#3c763d'>*专业：</p></td>
+				<td colspan=9>
+				{$mo['mjnm']}</td>
+				</tr>
+				</table>
+				</div>
+				
+				<div class='mingxi'>
+				基本信息：
+				<table>
+				<tr>
+				<td><p style='color:#3c763d'>*姓名：</p></td><td>{$mo['stdnm']}</td>
+				<td>
+				<p style='color:#3c763d'>*性别：</p>
+				</td>
+				<td>
+				{$mo['sexnm']}</td>
+				<td>
+				<p style='color:#3c763d'>*民族</p>
+				</td>
+				<td>
+				{$mo['rcnm']}</td>
+				<td>
+				<p style='color:#3c763d'>*政治面貌</p>
+				</td>
+				<td>
+				{$mo['zzmmnm']}</td>
+				<td rowspan=4>
+				<div>
+				<div>
+				<img src="{$mo['stdpt']}" alt=""  class='img-thumbnail'  style="width:100px;"  id='imgg'/>
+				</div>
+				</div>
+				</td>
+				</tr>
+				<tr>
+				<td><p style='color:#3c763d'>*籍贯：</p></td><td>{$mo['stdnp']}</td>
+				<td>文理科：</td>
+				<td>
+				{$mo['stdsol']}
+				</td>
+				<td>
+				学历
+				</td>
+				<td>
+				{$mo['xlnm']}
+				</td>
+				<td>高考成绩：</td><td>{$mo['stdcee']}</td>
+				</tr>
+				<tr>
+				<td>毕业学校：</td><td colspan=3>{$mo['stdsog']}</td>
+				<td><p style='color:#3c763d'>*手机号码：</p></td><td colspan=3>{$mo['stdcp']}</td>
+				</tr>
+				<tr>
+				<td><p style='color:#3c763d'>*身份证号码：</p></td><td>{$mo['stdidcd']}</td>
+				<td>固话：</td><td>{$mo['stdtlp']}</td>
+				<td><p style='color:#3c763d'>*出生日期：</p></td><td>{$mo['stdbtd']}</td>
+				<td>QQ：</td><td>{$mo['stdqq']}</td>
+				</tr>
+				<tr>
+				<td><p style='color:#3c763d'>*家长一关系：</p></td><td>{$mo['stdrlta']}</td>
+				<td><p style='color:#3c763d'>*家长一姓名：</p></td><td>{$mo['stdrltanm']}</td>
+				<td><p style='color:#3c763d'>*家长一单位：</p></td><td>{$mo['stdrltaocpt']}</td>
+				<td><p style='color:#3c763d'>*家长一手机号：</p></td><td colspan=2>{$mo['stdrltacp']}</td>
+				</tr>
+				<tr>
+				<td>家长二关系：</td><td>{$mo['stdrltb']}</td>
+				<td>家长二姓名：</td><td>{$mo['stdrltbnm']}</td>
+				<td>家长二单位：</td><td>{$mo['stdrltbocpt']}</td>
+				<td>家长二手机号：</td><td colspan=2>{$mo['stdrltbcp']}</td>
+				</tr>
+				<tr>
+				<td>爱好：</td><td>{$mo['stdhb']}</td>
+				<td>家庭地址：</td><td colspan=3>{$mo['stdads']}</td>
+				<td>邮件：</td><td colspan=2>{$mo['stdpst']}</td>
+				</tr>
+				<!-- 
+				<tr>
+				<td>是否有推荐人：</td>
+				<td>
+				{$ifrcmd}
+				</td>
+				<td>推荐人姓名：</td><td colspan=2>{$mo['stdrcmdnm']}</td>
+				<td>推荐人手机号：</td><td colspan=3>{$mo['stdrcmdcp']}</td>
+				</tr>
+				 -->
+				<tr>
+				<td>状态：</td>
+				<td colspan=8>
+				{$mo['statnm']}
+				</td>
+				</tr>
+				</table>
+				</div>
+				
+				
+				<div class='clearfix'></div>
+		  </div>
+		</div>
+	</div>
+	
+	<div class='clearfix'></div>
+	<include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: 100,//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+</script>
+
+</body>
+</html>

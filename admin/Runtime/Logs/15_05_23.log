@@ -1,0 +1,1014 @@
+[ 2015-05-23T10:40:26+08:00 ] 127.0.0.1 /xx/admin.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.004681s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000412s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: UPDATE `tb_btn` SET `btnvl`='glyphicon glyphicon-triangle-bottom' WHERE ( btnid=23 ) [ RunTime:0.117210s ]
+
+[ 2015-05-23T10:40:28+08:00 ] 127.0.0.1 /xx/admin.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000791s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003355s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: UPDATE `tb_btn` SET `btnvl`='glyphicon glyphicon-triangle-top' WHERE ( btnid=22 ) [ RunTime:0.213116s ]
+
+[ 2015-05-23T10:41:02+08:00 ] 127.0.0.1 /xx/admin.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001198s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.004141s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: UPDATE `tb_btn` SET `btnvl`='glyphicon glyphicon-triangle-bottom' WHERE ( btnid=22 ) [ RunTime:0.121275s ]
+
+[ 2015-05-23T10:41:02+08:00 ] 127.0.0.1 /xx/admin.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003427s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: UPDATE `tb_btn` SET `btnvl`='glyphicon glyphicon-triangle-top' WHERE ( btnid=22 ) [ RunTime:0.113866s ]
+
+[ 2015-05-23T10:41:03+08:00 ] 127.0.0.1 /xx/admin.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003439s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: UPDATE `tb_btn` SET `btnvl`='glyphicon glyphicon-triangle-bottom' WHERE ( btnid=22 ) [ RunTime:0.105959s ]
+
+[ 2015-05-23T10:41:04+08:00 ] 127.0.0.1 /xx/admin.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000815s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.004975s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000479s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: UPDATE `tb_btn` SET `btnvl`='glyphicon glyphicon-triangle-top' WHERE ( btnid=22 ) [ RunTime:0.110789s ]
+
+[ 2015-05-23T10:46:26+08:00 ] 127.0.0.1 /xx/admin.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001527s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003528s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: UPDATE `tb_btn` SET `btnvl`='glyphicon glyphicon-triangle-top' WHERE ( btnid=18 ) [ RunTime:0.139617s ]
+
+[ 2015-05-23T10:46:27+08:00 ] 127.0.0.1 /xx/admin.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.004171s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000486s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: UPDATE `tb_btn` SET `btnvl`='glyphicon glyphicon-triangle-bottom' WHERE ( btnid=18 ) [ RunTime:0.158527s ]
+
+[ 2015-05-23T10:46:38+08:00 ] 127.0.0.1 /xx/admin.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000797s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.004899s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: UPDATE `tb_btn` SET `btnvl`='glyphicon glyphicon-triangle-top' WHERE ( btnid=10 ) [ RunTime:0.180401s ]
+
+[ 2015-05-23T10:46:40+08:00 ] 127.0.0.1 /xx/admin.php/Md/query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003719s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003596s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Md' ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `tb_usrrl` [ RunTime:0.003425s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.003328s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=1) )  [ RunTime:0.000691s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdid=1 ) LIMIT 1   [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: mdid C:\wamp\www\xx\admin\Lib\IDTATH\IdtathAction.class.php 第 91 行.
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Usr' ) LIMIT 1   [ RunTime:0.000469s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000416s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000841s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_usr` WHERE ( usrvw=0 ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003858s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmusr` WHERE ( cstmusrvw=0 ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Atc' ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000256s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003651s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcvw=0 ) LIMIT 1   [ RunTime:0.000283s ]
+NOTIC: [8] Undefined variable: ntfstrusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: ntfstratc C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: ntfstrcstmusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003511s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `tb_lb` [ RunTime:0.004538s ]
+SQL: SHOW COLUMNS FROM `tb_lbmd` [ RunTime:0.004632s ]
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.000310s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=1 )  [ RunTime:0.000475s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=1) )  [ RunTime:0.001063s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000713s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=3 AND (f_ath_rlid=1) )  [ RunTime:0.001089s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=4 AND (f_ath_rlid=1) )  [ RunTime:0.001208s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=5 AND (f_ath_rlid=1) )  [ RunTime:0.000840s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000780s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=7 AND (f_ath_rlid=1) )  [ RunTime:0.000759s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=8 AND (f_ath_rlid=1) )  [ RunTime:0.000748s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=9 AND (f_ath_rlid=1) )  [ RunTime:0.000703s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=11 AND (f_ath_rlid=1) )  [ RunTime:0.000706s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=12 AND (f_ath_rlid=1) )  [ RunTime:0.000701s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=13 AND (f_ath_rlid=1) )  [ RunTime:0.000706s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=14 AND (f_ath_rlid=1) )  [ RunTime:0.000706s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=1) )  [ RunTime:0.000694s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=24 AND (f_ath_rlid=1) )  [ RunTime:0.000699s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=2 )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000790s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=17 AND (f_ath_rlid=1) )  [ RunTime:0.000708s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=18 AND (f_ath_rlid=1) )  [ RunTime:0.000707s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=19 AND (f_ath_rlid=1) )  [ RunTime:0.000704s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=20 AND (f_ath_rlid=1) )  [ RunTime:0.000691s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=21 AND (f_ath_rlid=1) )  [ RunTime:0.000694s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=22 AND (f_ath_rlid=1) )  [ RunTime:0.000691s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=23 AND (f_ath_rlid=1) )  [ RunTime:0.000697s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=3 )  [ RunTime:0.000365s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=25 AND (f_ath_rlid=1) )  [ RunTime:0.000699s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=26 AND (f_ath_rlid=1) )  [ RunTime:0.000695s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=27 AND (f_ath_rlid=1) )  [ RunTime:0.000692s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=28 AND (f_ath_rlid=1) )  [ RunTime:0.000702s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=29 AND (f_ath_rlid=1) )  [ RunTime:0.000697s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=30 AND (f_ath_rlid=1) )  [ RunTime:0.000948s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=31 AND (f_ath_rlid=1) )  [ RunTime:0.000734s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=32 AND (f_ath_rlid=1) )  [ RunTime:0.000702s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=33 AND (f_ath_rlid=1) )  [ RunTime:0.000703s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=34 AND (f_ath_rlid=1) )  [ RunTime:0.000694s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=35 AND (f_ath_rlid=1) )  [ RunTime:0.000728s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=36 AND (f_ath_rlid=1) )  [ RunTime:0.000708s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=37 AND (f_ath_rlid=1) )  [ RunTime:0.000701s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=38 AND (f_ath_rlid=1) )  [ RunTime:0.000701s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=39 AND (f_ath_rlid=1) )  [ RunTime:0.000693s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=40 AND (f_ath_rlid=1) )  [ RunTime:0.000699s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=41 AND (f_ath_rlid=1) )  [ RunTime:0.000701s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=42 AND (f_ath_rlid=1) )  [ RunTime:0.000695s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=43 AND (f_ath_rlid=1) )  [ RunTime:0.001003s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=44 AND (f_ath_rlid=1) )  [ RunTime:0.000739s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=49 AND (f_ath_rlid=1) )  [ RunTime:0.000712s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=4 )  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=45 AND (f_ath_rlid=1) )  [ RunTime:0.000706s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=5 )  [ RunTime:0.000299s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=46 AND (f_ath_rlid=1) )  [ RunTime:0.000705s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=47 AND (f_ath_rlid=1) )  [ RunTime:0.000735s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=48 AND (f_ath_rlid=1) )  [ RunTime:0.000698s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000262s ]
+NOTIC: [2] Missing argument 8 for NBAction::NB(), called in C:\wamp\www\xx\admin\Lib\Action\MdAction.class.php on line 92 and defined C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index: fld C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 139 行.
+NOTIC: [8] Undefined index: fld C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: cdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 144 行.
+NOTIC: [8] Undefined index: cdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 146 行.
+NOTIC: [8] Undefined index: spccdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 149 行.
+NOTIC: [8] Undefined index: spccdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 151 行.
+NOTIC: [8] Undefined index: odr C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 154 行.
+NOTIC: [8] Undefined index: odr C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: lmt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 159 行.
+NOTIC: [8] Undefined index: lmt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 161 行.
+NOTIC: [8] Undefined variable: odrpcd C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 33 行.
+NOTIC: [8] Undefined variable: lsyon C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 182 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_md` WHERE ( 1=1 ) ORDER BY mdid ASC LIMIT 1   [ RunTime:0.000409s ]
+NOTIC: [8] Undefined variable: sqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 201 行.
+SQL: SELECT `mdid`,`mdmk`,`mdnm` FROM `tb_md` WHERE ( 1=1 ) ORDER BY mdid ASC LIMIT 0,20   [ RunTime:0.000532s ]
+NOTIC: [8] Undefined variable: sqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 258 行.
+NOTIC: [8] Undefined variable: mlsforcount C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 267 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b84f5e3fea2b03d28212a1fe20cfd5c7.php 第 145 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b84f5e3fea2b03d28212a1fe20cfd5c7.php 第 145 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b84f5e3fea2b03d28212a1fe20cfd5c7.php 第 145 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b84f5e3fea2b03d28212a1fe20cfd5c7.php 第 145 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b84f5e3fea2b03d28212a1fe20cfd5c7.php 第 145 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065722s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000692s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000594s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002687s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000717s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2015-05-23T10:46:42+08:00 ] 127.0.0.1 /xx/admin.php/Md/gtxpg/x/updt/mdid/0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000770s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.005271s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003455s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Md' ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `tb_usrrl` [ RunTime:0.003719s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.003532s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=1) )  [ RunTime:0.000785s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdid=1 ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Usr' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000252s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000724s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_usr` WHERE ( usrvw=0 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000244s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.004731s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmusr` WHERE ( cstmusrvw=0 ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Atc' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000256s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003647s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcvw=0 ) LIMIT 1   [ RunTime:0.000275s ]
+NOTIC: [8] Undefined variable: ntfstrusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: ntfstratc C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: ntfstrcstmusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003588s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `tb_lb` [ RunTime:0.003304s ]
+SQL: SHOW COLUMNS FROM `tb_lbmd` [ RunTime:0.003239s ]
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.000265s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=1 )  [ RunTime:0.000368s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=1) )  [ RunTime:0.001197s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000788s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=3 AND (f_ath_rlid=1) )  [ RunTime:0.000889s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=4 AND (f_ath_rlid=1) )  [ RunTime:0.000863s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=5 AND (f_ath_rlid=1) )  [ RunTime:0.000729s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000721s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=7 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=8 AND (f_ath_rlid=1) )  [ RunTime:0.000721s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=9 AND (f_ath_rlid=1) )  [ RunTime:0.000716s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=11 AND (f_ath_rlid=1) )  [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=12 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=13 AND (f_ath_rlid=1) )  [ RunTime:0.000723s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=14 AND (f_ath_rlid=1) )  [ RunTime:0.000721s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=1) )  [ RunTime:0.001203s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=24 AND (f_ath_rlid=1) )  [ RunTime:0.000806s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=2 )  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000718s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=17 AND (f_ath_rlid=1) )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=18 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=19 AND (f_ath_rlid=1) )  [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=20 AND (f_ath_rlid=1) )  [ RunTime:0.000715s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=21 AND (f_ath_rlid=1) )  [ RunTime:0.000721s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=22 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=23 AND (f_ath_rlid=1) )  [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000532s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=3 )  [ RunTime:0.000379s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=25 AND (f_ath_rlid=1) )  [ RunTime:0.000834s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=26 AND (f_ath_rlid=1) )  [ RunTime:0.000728s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=27 AND (f_ath_rlid=1) )  [ RunTime:0.000718s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=28 AND (f_ath_rlid=1) )  [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=29 AND (f_ath_rlid=1) )  [ RunTime:0.000718s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=30 AND (f_ath_rlid=1) )  [ RunTime:0.000732s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=31 AND (f_ath_rlid=1) )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=32 AND (f_ath_rlid=1) )  [ RunTime:0.000720s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=33 AND (f_ath_rlid=1) )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=34 AND (f_ath_rlid=1) )  [ RunTime:0.000718s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=35 AND (f_ath_rlid=1) )  [ RunTime:0.000723s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=36 AND (f_ath_rlid=1) )  [ RunTime:0.000723s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=37 AND (f_ath_rlid=1) )  [ RunTime:0.000831s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=38 AND (f_ath_rlid=1) )  [ RunTime:0.000730s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=39 AND (f_ath_rlid=1) )  [ RunTime:0.000860s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=40 AND (f_ath_rlid=1) )  [ RunTime:0.000725s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=41 AND (f_ath_rlid=1) )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=42 AND (f_ath_rlid=1) )  [ RunTime:0.000735s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=43 AND (f_ath_rlid=1) )  [ RunTime:0.000729s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=44 AND (f_ath_rlid=1) )  [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=49 AND (f_ath_rlid=1) )  [ RunTime:0.000726s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=4 )  [ RunTime:0.000301s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=45 AND (f_ath_rlid=1) )  [ RunTime:0.000727s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=5 )  [ RunTime:0.000297s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=46 AND (f_ath_rlid=1) )  [ RunTime:0.000725s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=47 AND (f_ath_rlid=1) )  [ RunTime:0.000802s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=48 AND (f_ath_rlid=1) )  [ RunTime:0.001075s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b6c4d276a86b499514dd248e605ec306.php 第 147 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b6c4d276a86b499514dd248e605ec306.php 第 147 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b6c4d276a86b499514dd248e605ec306.php 第 147 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b6c4d276a86b499514dd248e605ec306.php 第 147 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b6c4d276a86b499514dd248e605ec306.php 第 147 行.
+NOTIC: [8] Undefined index: mdmk C:\wamp\www\xx\admin\Runtime\Cache\b6c4d276a86b499514dd248e605ec306.php 第 168 行.
+NOTIC: [8] Undefined index: mdnm C:\wamp\www\xx\admin\Runtime\Cache\b6c4d276a86b499514dd248e605ec306.php 第 169 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037217s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000567s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000549s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002425s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2015-05-23T10:47:17+08:00 ] 127.0.0.1 /xx/admin.php/Md/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001204s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003765s ]
+SQL: INSERT INTO `tb_md` (`mdmk`,`mdnm`) VALUES ('Zsstd','招生学生') [ RunTime:0.143857s ]
+SQL: SELECT * FROM `tb_md` ORDER BY mdid DESC LIMIT 1   [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `tb_rl` [ RunTime:0.003435s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.003268s ]
+SQL: SELECT * FROM `tb_rl`  [ RunTime:0.000295s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (1,50,1,1,1,1,1) [ RunTime:0.112251s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (2,50,0,0,0,0,0) [ RunTime:0.209708s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (3,50,0,0,0,0,0) [ RunTime:0.076868s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (4,50,0,0,0,0,0) [ RunTime:0.087898s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (5,50,0,0,0,0,0) [ RunTime:0.087527s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (6,50,0,0,0,0,0) [ RunTime:0.098903s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (7,50,0,0,0,0,0) [ RunTime:0.087562s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (8,50,0,0,0,0,0) [ RunTime:0.088082s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (9,50,0,0,0,0,0) [ RunTime:0.098968s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (10,50,0,0,0,0,0) [ RunTime:0.087943s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (11,50,0,0,0,0,0) [ RunTime:0.110033s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (12,50,0,0,0,0,0) [ RunTime:0.246167s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (13,50,0,0,0,0,0) [ RunTime:0.209720s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (14,50,0,0,0,0,0) [ RunTime:0.213325s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (15,50,0,0,0,0,0) [ RunTime:0.091912s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (16,50,0,0,0,0,0) [ RunTime:0.098951s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (17,50,0,0,0,0,0) [ RunTime:0.087926s ]
+SQL: INSERT INTO `tb_ath` (`f_ath_rlid`,`f_ath_mdid`,`atha`,`athd`,`athm`,`athv`,`aths`) VALUES (18,50,0,0,0,0,0) [ RunTime:0.131866s ]
+
+[ 2015-05-23T10:47:18+08:00 ] 127.0.0.1 /xx/admin.php/Md/query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001438s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003960s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000462s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.004395s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Md' ) LIMIT 1   [ RunTime:0.000416s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `tb_usrrl` [ RunTime:0.003622s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.003607s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=1) )  [ RunTime:0.000852s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdid=1 ) LIMIT 1   [ RunTime:0.000312s ]
+NOTIC: [8] Undefined index: mdid C:\wamp\www\xx\admin\Lib\IDTATH\IdtathAction.class.php 第 91 行.
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Usr' ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000294s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000745s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_usr` WHERE ( usrvw=0 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000244s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003763s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmusr` WHERE ( cstmusrvw=0 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Atc' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000260s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003783s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcvw=0 ) LIMIT 1   [ RunTime:0.000271s ]
+NOTIC: [8] Undefined variable: ntfstrusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: ntfstratc C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: ntfstrcstmusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003386s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `tb_lb` [ RunTime:0.003321s ]
+SQL: SHOW COLUMNS FROM `tb_lbmd` [ RunTime:0.003223s ]
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.000247s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=1 )  [ RunTime:0.000389s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=1) )  [ RunTime:0.000748s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000757s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=3 AND (f_ath_rlid=1) )  [ RunTime:0.000820s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=4 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=5 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=7 AND (f_ath_rlid=1) )  [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=8 AND (f_ath_rlid=1) )  [ RunTime:0.000720s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=9 AND (f_ath_rlid=1) )  [ RunTime:0.000706s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=11 AND (f_ath_rlid=1) )  [ RunTime:0.000923s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=12 AND (f_ath_rlid=1) )  [ RunTime:0.000743s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=13 AND (f_ath_rlid=1) )  [ RunTime:0.000702s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=14 AND (f_ath_rlid=1) )  [ RunTime:0.000726s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=24 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=2 )  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=17 AND (f_ath_rlid=1) )  [ RunTime:0.000690s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=18 AND (f_ath_rlid=1) )  [ RunTime:0.000708s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=19 AND (f_ath_rlid=1) )  [ RunTime:0.000721s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=20 AND (f_ath_rlid=1) )  [ RunTime:0.000708s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=21 AND (f_ath_rlid=1) )  [ RunTime:0.000692s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=22 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=23 AND (f_ath_rlid=1) )  [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=3 )  [ RunTime:0.000383s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=25 AND (f_ath_rlid=1) )  [ RunTime:0.000859s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=26 AND (f_ath_rlid=1) )  [ RunTime:0.000713s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=27 AND (f_ath_rlid=1) )  [ RunTime:0.000701s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=28 AND (f_ath_rlid=1) )  [ RunTime:0.000711s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=29 AND (f_ath_rlid=1) )  [ RunTime:0.000727s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=30 AND (f_ath_rlid=1) )  [ RunTime:0.000716s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=31 AND (f_ath_rlid=1) )  [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=32 AND (f_ath_rlid=1) )  [ RunTime:0.000708s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=33 AND (f_ath_rlid=1) )  [ RunTime:0.000713s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=34 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=35 AND (f_ath_rlid=1) )  [ RunTime:0.000696s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=36 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=37 AND (f_ath_rlid=1) )  [ RunTime:0.000705s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=38 AND (f_ath_rlid=1) )  [ RunTime:0.000713s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=39 AND (f_ath_rlid=1) )  [ RunTime:0.000726s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=40 AND (f_ath_rlid=1) )  [ RunTime:0.000790s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=41 AND (f_ath_rlid=1) )  [ RunTime:0.000709s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=42 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=43 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=44 AND (f_ath_rlid=1) )  [ RunTime:0.000707s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=49 AND (f_ath_rlid=1) )  [ RunTime:0.000710s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=4 )  [ RunTime:0.000304s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=45 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=5 )  [ RunTime:0.000296s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=46 AND (f_ath_rlid=1) )  [ RunTime:0.000726s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=47 AND (f_ath_rlid=1) )  [ RunTime:0.000711s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=48 AND (f_ath_rlid=1) )  [ RunTime:0.000682s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000257s ]
+NOTIC: [2] Missing argument 8 for NBAction::NB(), called in C:\wamp\www\xx\admin\Lib\Action\MdAction.class.php on line 92 and defined C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index: fld C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 139 行.
+NOTIC: [8] Undefined index: fld C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: cdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 144 行.
+NOTIC: [8] Undefined index: cdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 146 行.
+NOTIC: [8] Undefined index: spccdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 149 行.
+NOTIC: [8] Undefined index: spccdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 151 行.
+NOTIC: [8] Undefined index: odr C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 154 行.
+NOTIC: [8] Undefined index: odr C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: lmt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 159 行.
+NOTIC: [8] Undefined index: lmt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 161 行.
+NOTIC: [8] Undefined variable: odrpcd C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 33 行.
+NOTIC: [8] Undefined variable: lsyon C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 182 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_md` WHERE ( 1=1 ) ORDER BY mdid ASC LIMIT 1   [ RunTime:0.000269s ]
+NOTIC: [8] Undefined variable: sqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 201 行.
+SQL: SELECT `mdid`,`mdmk`,`mdnm` FROM `tb_md` WHERE ( 1=1 ) ORDER BY mdid ASC LIMIT 0,20   [ RunTime:0.000360s ]
+NOTIC: [8] Undefined variable: sqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 258 行.
+NOTIC: [8] Undefined variable: mlsforcount C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 267 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b84f5e3fea2b03d28212a1fe20cfd5c7.php 第 145 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b84f5e3fea2b03d28212a1fe20cfd5c7.php 第 145 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b84f5e3fea2b03d28212a1fe20cfd5c7.php 第 145 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b84f5e3fea2b03d28212a1fe20cfd5c7.php 第 145 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\b84f5e3fea2b03d28212a1fe20cfd5c7.php 第 145 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019410s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000618s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000556s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002653s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000651s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2015-05-23T10:47:24+08:00 ] 127.0.0.1 /xx/admin.php/Lbmd/query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003600s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000359s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.004674s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Lbmd' ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `tb_usrrl` [ RunTime:0.004523s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.003577s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=1) )  [ RunTime:0.000782s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdid=15 ) LIMIT 1   [ RunTime:0.000258s ]
+NOTIC: [8] Undefined index: lbmdid C:\wamp\www\xx\admin\Lib\IDTATH\IdtathAction.class.php 第 91 行.
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Usr' ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000253s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000724s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_usr` WHERE ( usrvw=0 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000236s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003565s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmusr` WHERE ( cstmusrvw=0 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Atc' ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000262s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003634s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcvw=0 ) LIMIT 1   [ RunTime:0.000285s ]
+NOTIC: [8] Undefined variable: ntfstrusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: ntfstratc C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: ntfstrcstmusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003434s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `tb_lb` [ RunTime:0.003333s ]
+SQL: SHOW COLUMNS FROM `tb_lbmd` [ RunTime:0.003643s ]
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.000302s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=1 )  [ RunTime:0.000450s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=1) )  [ RunTime:0.000963s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.001120s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=3 AND (f_ath_rlid=1) )  [ RunTime:0.001118s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=4 AND (f_ath_rlid=1) )  [ RunTime:0.000774s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=5 AND (f_ath_rlid=1) )  [ RunTime:0.000972s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.001109s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=7 AND (f_ath_rlid=1) )  [ RunTime:0.000742s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=8 AND (f_ath_rlid=1) )  [ RunTime:0.000757s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=9 AND (f_ath_rlid=1) )  [ RunTime:0.001103s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=11 AND (f_ath_rlid=1) )  [ RunTime:0.000762s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=12 AND (f_ath_rlid=1) )  [ RunTime:0.000728s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=13 AND (f_ath_rlid=1) )  [ RunTime:0.000736s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=14 AND (f_ath_rlid=1) )  [ RunTime:0.000743s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=1) )  [ RunTime:0.000705s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=24 AND (f_ath_rlid=1) )  [ RunTime:0.000713s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=2 )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=17 AND (f_ath_rlid=1) )  [ RunTime:0.000711s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=18 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=19 AND (f_ath_rlid=1) )  [ RunTime:0.001116s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=20 AND (f_ath_rlid=1) )  [ RunTime:0.000763s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=21 AND (f_ath_rlid=1) )  [ RunTime:0.000774s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=22 AND (f_ath_rlid=1) )  [ RunTime:0.000725s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=23 AND (f_ath_rlid=1) )  [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=3 )  [ RunTime:0.000384s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=25 AND (f_ath_rlid=1) )  [ RunTime:0.000707s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=26 AND (f_ath_rlid=1) )  [ RunTime:0.000721s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=27 AND (f_ath_rlid=1) )  [ RunTime:0.000716s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=28 AND (f_ath_rlid=1) )  [ RunTime:0.000716s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=29 AND (f_ath_rlid=1) )  [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=30 AND (f_ath_rlid=1) )  [ RunTime:0.000710s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=31 AND (f_ath_rlid=1) )  [ RunTime:0.000713s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=32 AND (f_ath_rlid=1) )  [ RunTime:0.001069s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=33 AND (f_ath_rlid=1) )  [ RunTime:0.000805s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=34 AND (f_ath_rlid=1) )  [ RunTime:0.000723s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=35 AND (f_ath_rlid=1) )  [ RunTime:0.000751s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=36 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=37 AND (f_ath_rlid=1) )  [ RunTime:0.000713s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=38 AND (f_ath_rlid=1) )  [ RunTime:0.000690s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=39 AND (f_ath_rlid=1) )  [ RunTime:0.000709s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=40 AND (f_ath_rlid=1) )  [ RunTime:0.000710s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=41 AND (f_ath_rlid=1) )  [ RunTime:0.000852s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=42 AND (f_ath_rlid=1) )  [ RunTime:0.000757s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=43 AND (f_ath_rlid=1) )  [ RunTime:0.000744s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=44 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=49 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=4 )  [ RunTime:0.000296s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=45 AND (f_ath_rlid=1) )  [ RunTime:0.000715s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=5 )  [ RunTime:0.000293s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=46 AND (f_ath_rlid=1) )  [ RunTime:0.001148s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=47 AND (f_ath_rlid=1) )  [ RunTime:0.000745s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=48 AND (f_ath_rlid=1) )  [ RunTime:0.001580s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000299s ]
+NOTIC: [2] Missing argument 8 for NBAction::NB(), called in C:\wamp\www\xx\admin\Lib\Action\LbmdAction.class.php on line 107 and defined C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index: fld C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 139 行.
+NOTIC: [8] Undefined index: fld C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: cdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 144 行.
+NOTIC: [8] Undefined index: cdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 146 行.
+NOTIC: [8] Undefined index: spccdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 149 行.
+NOTIC: [8] Undefined index: spccdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 151 行.
+NOTIC: [8] Undefined index: odr C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 154 行.
+NOTIC: [8] Undefined index: odr C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: lmt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 159 行.
+NOTIC: [8] Undefined index: lmt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 161 行.
+NOTIC: [8] Undefined variable: odrpcd C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 41 行.
+NOTIC: [8] Undefined variable: lsyon C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 182 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_lbmd` LEFT JOIN tb_lb ON f_lbmd_lbid=lbid LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.000470s ]
+NOTIC: [8] Undefined variable: sqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 201 行.
+SQL: SELECT `lbmdid`,`lbnm`,`mdnm` FROM `tb_lbmd` LEFT JOIN tb_lb ON f_lbmd_lbid=lbid LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( 1=1 ) LIMIT 0,20   [ RunTime:0.000447s ]
+NOTIC: [8] Undefined variable: sqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 258 行.
+NOTIC: [8] Undefined variable: mlsforcount C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 267 行.
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.000240s ]
+SQL: SELECT * FROM `tb_md`  [ RunTime:0.000368s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\14fee5d10fc185aed197731dee2c6e3e.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\14fee5d10fc185aed197731dee2c6e3e.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\14fee5d10fc185aed197731dee2c6e3e.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\14fee5d10fc185aed197731dee2c6e3e.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\14fee5d10fc185aed197731dee2c6e3e.php 第 144 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048760s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000661s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000541s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002895s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000770s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2015-05-23T10:47:27+08:00 ] 127.0.0.1 /xx/admin.php/Lbmd/gtxpg/x/updt/lbmdid/0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003744s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003222s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Lbmd' ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `tb_usrrl` [ RunTime:0.003265s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.003419s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=1) )  [ RunTime:0.000835s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdid=15 ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Usr' ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000383s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000303s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000784s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_usr` WHERE ( usrvw=0 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000254s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003914s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmusr` WHERE ( cstmusrvw=0 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Atc' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000259s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcvw=0 ) LIMIT 1   [ RunTime:0.000282s ]
+NOTIC: [8] Undefined variable: ntfstrusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: ntfstratc C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: ntfstrcstmusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003454s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `tb_lb` [ RunTime:0.003587s ]
+SQL: SHOW COLUMNS FROM `tb_lbmd` [ RunTime:0.003530s ]
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.000256s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=1 )  [ RunTime:0.000388s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=1) )  [ RunTime:0.000729s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=3 AND (f_ath_rlid=1) )  [ RunTime:0.000685s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=4 AND (f_ath_rlid=1) )  [ RunTime:0.000789s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=5 AND (f_ath_rlid=1) )  [ RunTime:0.000828s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=7 AND (f_ath_rlid=1) )  [ RunTime:0.000707s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=8 AND (f_ath_rlid=1) )  [ RunTime:0.000709s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=9 AND (f_ath_rlid=1) )  [ RunTime:0.000706s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=11 AND (f_ath_rlid=1) )  [ RunTime:0.000715s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=12 AND (f_ath_rlid=1) )  [ RunTime:0.000925s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=13 AND (f_ath_rlid=1) )  [ RunTime:0.000781s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=14 AND (f_ath_rlid=1) )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=1) )  [ RunTime:0.000703s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=24 AND (f_ath_rlid=1) )  [ RunTime:0.000708s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=2 )  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000704s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=17 AND (f_ath_rlid=1) )  [ RunTime:0.000744s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=18 AND (f_ath_rlid=1) )  [ RunTime:0.000751s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=19 AND (f_ath_rlid=1) )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=20 AND (f_ath_rlid=1) )  [ RunTime:0.000806s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=21 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=22 AND (f_ath_rlid=1) )  [ RunTime:0.000708s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=23 AND (f_ath_rlid=1) )  [ RunTime:0.000720s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=3 )  [ RunTime:0.000381s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=25 AND (f_ath_rlid=1) )  [ RunTime:0.000716s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=26 AND (f_ath_rlid=1) )  [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=27 AND (f_ath_rlid=1) )  [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=28 AND (f_ath_rlid=1) )  [ RunTime:0.000928s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=29 AND (f_ath_rlid=1) )  [ RunTime:0.000738s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=30 AND (f_ath_rlid=1) )  [ RunTime:0.000718s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=31 AND (f_ath_rlid=1) )  [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=32 AND (f_ath_rlid=1) )  [ RunTime:0.000711s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=33 AND (f_ath_rlid=1) )  [ RunTime:0.000770s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=34 AND (f_ath_rlid=1) )  [ RunTime:0.000721s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=35 AND (f_ath_rlid=1) )  [ RunTime:0.000743s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=36 AND (f_ath_rlid=1) )  [ RunTime:0.000946s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=37 AND (f_ath_rlid=1) )  [ RunTime:0.000740s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=38 AND (f_ath_rlid=1) )  [ RunTime:0.000745s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=39 AND (f_ath_rlid=1) )  [ RunTime:0.000802s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=40 AND (f_ath_rlid=1) )  [ RunTime:0.000721s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=41 AND (f_ath_rlid=1) )  [ RunTime:0.000711s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=42 AND (f_ath_rlid=1) )  [ RunTime:0.000909s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=43 AND (f_ath_rlid=1) )  [ RunTime:0.000733s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=44 AND (f_ath_rlid=1) )  [ RunTime:0.000712s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=49 AND (f_ath_rlid=1) )  [ RunTime:0.000716s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=4 )  [ RunTime:0.000293s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=45 AND (f_ath_rlid=1) )  [ RunTime:0.000715s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=5 )  [ RunTime:0.000299s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=46 AND (f_ath_rlid=1) )  [ RunTime:0.000712s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=47 AND (f_ath_rlid=1) )  [ RunTime:0.000708s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=48 AND (f_ath_rlid=1) )  [ RunTime:0.000700s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT * FROM `tb_md` LEFT JOIN tb_lbmd ON f_lbmd_mdid=mdid WHERE ( lbmdid IS NULL )  [ RunTime:0.000906s ]
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\4b2e4afd5d7fb3d446af1a6f244a3eb0.php 第 147 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\4b2e4afd5d7fb3d446af1a6f244a3eb0.php 第 147 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\4b2e4afd5d7fb3d446af1a6f244a3eb0.php 第 147 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\4b2e4afd5d7fb3d446af1a6f244a3eb0.php 第 147 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\4b2e4afd5d7fb3d446af1a6f244a3eb0.php 第 147 行.
+NOTIC: [8] Undefined index: f_lbmd_lbid C:\wamp\www\xx\admin\Runtime\Cache\4b2e4afd5d7fb3d446af1a6f244a3eb0.php 第 174 行.
+NOTIC: [8] Undefined index: f_lbmd_mdid C:\wamp\www\xx\admin\Runtime\Cache\4b2e4afd5d7fb3d446af1a6f244a3eb0.php 第 184 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022863s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000706s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002672s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000646s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2015-05-23T10:47:31+08:00 ] 127.0.0.1 /xx/admin.php/Lbmd/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000815s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `tb_lbmd` [ RunTime:0.003826s ]
+SQL: SELECT * FROM `tb_lbmd` WHERE ( f_lbmd_lbid=4 AND f_lbmd_mdid=50 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: INSERT INTO `tb_lbmd` (`f_lbmd_lbid`,`f_lbmd_mdid`) VALUES (4,50) [ RunTime:0.108953s ]
+
+[ 2015-05-23T10:47:32+08:00 ] 127.0.0.1 /xx/admin.php/Lbmd/query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `tb_usr` [ RunTime:0.003825s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000412s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.003514s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Lbmd' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `tb_usrrl` [ RunTime:0.003871s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.003970s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=1) )  [ RunTime:0.000803s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdid=15 ) LIMIT 1   [ RunTime:0.000272s ]
+NOTIC: [8] Undefined index: lbmdid C:\wamp\www\xx\admin\Lib\IDTATH\IdtathAction.class.php 第 91 行.
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Usr' ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000248s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000713s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_usr` WHERE ( usrvw=0 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000243s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003766s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmusr` WHERE ( cstmusrvw=0 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Atc' ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT * FROM `tb_usr` WHERE ( usrid=1 AND usrps=1 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000252s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003754s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_atc` WHERE ( atcvw=0 ) LIMIT 1   [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: ntfstrusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: ntfstratc C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: ntfstrcstmusr C:\wamp\www\xx\admin\Lib\NTF\NTFAction.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003412s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='lft' ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT * FROM `tb_usrrl` WHERE ( f_usrrl_usrid=1 )  [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `tb_lb` [ RunTime:0.003638s ]
+SQL: SHOW COLUMNS FROM `tb_lbmd` [ RunTime:0.003287s ]
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=1 )  [ RunTime:0.000367s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=1 AND (f_ath_rlid=1) )  [ RunTime:0.000745s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=2 AND (f_ath_rlid=1) )  [ RunTime:0.000734s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=3 AND (f_ath_rlid=1) )  [ RunTime:0.000716s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=4 AND (f_ath_rlid=1) )  [ RunTime:0.000730s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=5 AND (f_ath_rlid=1) )  [ RunTime:0.000718s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=6 AND (f_ath_rlid=1) )  [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=7 AND (f_ath_rlid=1) )  [ RunTime:0.000706s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=8 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=9 AND (f_ath_rlid=1) )  [ RunTime:0.000707s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=11 AND (f_ath_rlid=1) )  [ RunTime:0.000731s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=12 AND (f_ath_rlid=1) )  [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=13 AND (f_ath_rlid=1) )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=14 AND (f_ath_rlid=1) )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=15 AND (f_ath_rlid=1) )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=24 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=2 )  [ RunTime:0.000322s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=16 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=17 AND (f_ath_rlid=1) )  [ RunTime:0.000708s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=18 AND (f_ath_rlid=1) )  [ RunTime:0.000721s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=19 AND (f_ath_rlid=1) )  [ RunTime:0.000715s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=20 AND (f_ath_rlid=1) )  [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=21 AND (f_ath_rlid=1) )  [ RunTime:0.000729s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=22 AND (f_ath_rlid=1) )  [ RunTime:0.000739s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=23 AND (f_ath_rlid=1) )  [ RunTime:0.000771s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs2' ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=3 )  [ RunTime:0.000374s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=25 AND (f_ath_rlid=1) )  [ RunTime:0.000712s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=26 AND (f_ath_rlid=1) )  [ RunTime:0.000726s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=27 AND (f_ath_rlid=1) )  [ RunTime:0.000713s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=28 AND (f_ath_rlid=1) )  [ RunTime:0.000746s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=29 AND (f_ath_rlid=1) )  [ RunTime:0.000718s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=30 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=31 AND (f_ath_rlid=1) )  [ RunTime:0.000732s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=32 AND (f_ath_rlid=1) )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=33 AND (f_ath_rlid=1) )  [ RunTime:0.000715s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=34 AND (f_ath_rlid=1) )  [ RunTime:0.000685s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=35 AND (f_ath_rlid=1) )  [ RunTime:0.000706s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=36 AND (f_ath_rlid=1) )  [ RunTime:0.001091s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=37 AND (f_ath_rlid=1) )  [ RunTime:0.000745s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=38 AND (f_ath_rlid=1) )  [ RunTime:0.000720s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=39 AND (f_ath_rlid=1) )  [ RunTime:0.000717s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=40 AND (f_ath_rlid=1) )  [ RunTime:0.000708s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=41 AND (f_ath_rlid=1) )  [ RunTime:0.000715s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=42 AND (f_ath_rlid=1) )  [ RunTime:0.000710s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=43 AND (f_ath_rlid=1) )  [ RunTime:0.000711s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=44 AND (f_ath_rlid=1) )  [ RunTime:0.000705s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=49 AND (f_ath_rlid=1) )  [ RunTime:0.000718s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs3' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=4 )  [ RunTime:0.000289s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=45 AND (f_ath_rlid=1) )  [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=50 AND (f_ath_rlid=1) )  [ RunTime:0.000718s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs4' ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT * FROM `tb_lbmd` LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( f_lbmd_lbid=5 )  [ RunTime:0.000299s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=46 AND (f_ath_rlid=1) )  [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=47 AND (f_ath_rlid=1) )  [ RunTime:0.000709s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( f_ath_mdid=48 AND (f_ath_rlid=1) )  [ RunTime:0.000710s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs5' ) LIMIT 1   [ RunTime:0.000259s ]
+NOTIC: [2] Missing argument 8 for NBAction::NB(), called in C:\wamp\www\xx\admin\Lib\Action\LbmdAction.class.php on line 107 and defined C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 49 行.
+NOTIC: [8] Undefined index: fld C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 139 行.
+NOTIC: [8] Undefined index: fld C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: cdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 144 行.
+NOTIC: [8] Undefined index: cdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 146 行.
+NOTIC: [8] Undefined index: spccdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 149 行.
+NOTIC: [8] Undefined index: spccdt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 151 行.
+NOTIC: [8] Undefined index: odr C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 154 行.
+NOTIC: [8] Undefined index: odr C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 156 行.
+NOTIC: [8] Undefined index: lmt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 159 行.
+NOTIC: [8] Undefined index: lmt C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 161 行.
+NOTIC: [8] Undefined variable: odrpcd C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 41 行.
+NOTIC: [8] Undefined variable: lsyon C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 182 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_lbmd` LEFT JOIN tb_lb ON f_lbmd_lbid=lbid LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.000413s ]
+NOTIC: [8] Undefined variable: sqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 201 行.
+SQL: SELECT `lbmdid`,`lbnm`,`mdnm` FROM `tb_lbmd` LEFT JOIN tb_lb ON f_lbmd_lbid=lbid LEFT JOIN tb_md ON f_lbmd_mdid=mdid WHERE ( 1=1 ) LIMIT 0,20   [ RunTime:0.000385s ]
+NOTIC: [8] Undefined variable: sqlstc C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 258 行.
+NOTIC: [8] Undefined variable: mlsforcount C:\wamp\www\xx\admin\Lib\NB\NBAction.class.php 第 267 行.
+SQL: SELECT * FROM `tb_lb`  [ RunTime:0.000246s ]
+SQL: SELECT * FROM `tb_md`  [ RunTime:0.000361s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\14fee5d10fc185aed197731dee2c6e3e.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\14fee5d10fc185aed197731dee2c6e3e.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\14fee5d10fc185aed197731dee2c6e3e.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\14fee5d10fc185aed197731dee2c6e3e.php 第 144 行.
+NOTIC: [8] Use of undefined constant lbid - assumed 'lbid' C:\wamp\www\xx\admin\Runtime\Cache\14fee5d10fc185aed197731dee2c6e3e.php 第 144 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026285s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000672s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000557s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002551s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000622s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2015-05-23T10:47:41+08:00 ] 127.0.0.1 /xx/admin.php/Btn/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000892s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `tb_btn` [ RunTime:0.003958s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: SELECT * FROM `tb_btn` WHERE ( f_btn_usrid=1 AND btnnm='bs1' ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: UPDATE `tb_btn` SET `btnvl`='glyphicon glyphicon-triangle-bottom' WHERE ( btnid=10 ) [ RunTime:0.108285s ]
+

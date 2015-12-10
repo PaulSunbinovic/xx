@@ -1,0 +1,33 @@
+[ 2015-11-06T18:51:53+08:00 ] 42.156.138.79 /xx/cstm.php/Cstmusr/gtxpg/x/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008014s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008204s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007519s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.002771s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1   [ RunTime:0.000446s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmusr` WHERE ( cstmusrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.002091s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Cstmusr' ) LIMIT 1   [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tb_cstmbtn` [ RunTime:0.002681s ]
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid= AND cstmbtnnm='lft' ) LIMIT 1   [ RunTime:0.000527s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cstmbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid= AND cstmbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid= AND cstmbtnnm='bs' ) LIMIT 1   [ RunTime:0.000136s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND cstmbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_cstmbtn` WHERE ( f_cstmbtn_cstmusrid= AND cstmbtnnm='bs' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063507s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007225s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007128s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006858s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028851s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007567s ]
+

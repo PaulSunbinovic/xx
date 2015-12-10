@@ -1,0 +1,3741 @@
+[ 2014-09-24T06:48:02+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+
+[ 2014-09-24T06:48:03+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000779s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: unm C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 38 行.
+NOTIC: [8] Undefined variable: upw C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 39 行.
+NOTIC: [8] Undefined variable: upwag C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 40 行.
+NOTIC: [8] Undefined variable: athid C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008528s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000469s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000468s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001980s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2014-09-24T06:48:10+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007204s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000371s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000393s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001664s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000589s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2014-09-24T07:14:04+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: theme C:\AppServ\www\base\admin\Runtime\Cache\4c18d5952d0dbf1eedb8a1ec796fa788.php 第 14 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007650s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000462s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000464s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001987s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000675s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2014-09-24T07:14:07+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001240s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: theme C:\AppServ\www\base\admin\Runtime\Cache\4c18d5952d0dbf1eedb8a1ec796fa788.php 第 14 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006884s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000373s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000383s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001647s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000583s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2014-09-24T07:14:46+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: theme C:\AppServ\www\base\admin\Runtime\Cache\4c18d5952d0dbf1eedb8a1ec796fa788.php 第 14 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007329s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000496s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000578s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002104s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2014-09-24T07:16:57+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007524s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000441s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000467s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000407s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002013s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2014-09-24T07:22:51+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000974s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007068s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001912s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000701s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-09-24T07:23:47+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009050s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000388s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000393s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000277s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2014-09-24T07:24:18+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000796s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006859s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000369s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000388s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001655s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000589s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2014-09-24T07:29:43+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007493s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000507s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002150s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2014-09-24T07:30:21+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000883s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006855s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000383s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000402s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001689s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2014-09-24T07:30:26+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001591s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='ad1' ) LIMIT 1   [ RunTime:0.000435s ]
+
+[ 2014-09-24T07:30:43+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001702s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000380s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='222' ) LIMIT 1   [ RunTime:0.000182s ]
+
+[ 2014-09-24T07:30:47+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000768s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001532s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000145s ]
+
+[ 2014-09-24T07:30:47+08:00 ] 127.0.0.1 /base/admin.php/Index/gtadmpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008057s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000439s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000452s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001914s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2014-09-24T07:36:28+08:00 ] 127.0.0.1 /base/admin.php/Index/gtadmpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000606s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000472s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002163s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2014-09-24T07:36:29+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+
+[ 2014-09-24T07:36:30+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007834s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000660s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000486s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002416s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000814s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2014-09-24T08:53:53+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003516s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003611s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007220s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000528s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001998s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2014-09-24T08:54:01+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000856s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.017289s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.001013s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000168s ]
+
+[ 2014-09-24T08:54:01+08:00 ] 127.0.0.1 /base/admin.php/Index/gtadmpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036116s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000447s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000446s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001920s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2014-09-24T08:54:03+08:00 ] 127.0.0.1 /base/admin.php/Index/gtcenterpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002557s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002673s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+ERR: 非法操作:gtcenterpg
+
+[ 2014-09-24T08:54:59+08:00 ] 127.0.0.1 /base/admin.php/Index/gtcenterpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+ERR: 非法操作:gtcenterpg
+
+[ 2014-09-24T08:55:02+08:00 ] 127.0.0.1 /base/admin.php/Index/gtadmpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000904s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007724s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000432s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000442s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001886s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2014-09-24T08:55:03+08:00 ] 127.0.0.1 /base/admin.php/U/gtcenterpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined index: athid=0 C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.066726s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( athid=1 ) LIMIT 1   [ RunTime:0.000449s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 5 行.
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008335s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000447s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000444s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001981s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2014-09-24T08:55:09+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: unm C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 38 行.
+NOTIC: [8] Undefined variable: upw C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 39 行.
+NOTIC: [8] Undefined variable: upwag C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 40 行.
+NOTIC: [8] Undefined variable: athid C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008648s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000462s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001927s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2014-09-24T08:56:09+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: unm C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 38 行.
+NOTIC: [8] Undefined variable: upw C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 39 行.
+NOTIC: [8] Undefined variable: upwag C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 40 行.
+NOTIC: [8] Undefined variable: athid C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009159s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000522s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000726s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2014-09-24T08:56:47+08:00 ] 127.0.0.1 /base/admin.php/U/gtcenterpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8] Undefined index: athid=0 C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.001567s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( athid=1 ) LIMIT 1   [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 5 行.
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009468s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000461s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000446s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001945s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2014-09-24T08:56:48+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000867s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: unm C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 38 行.
+NOTIC: [8] Undefined variable: upw C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 39 行.
+NOTIC: [8] Undefined variable: upwag C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 40 行.
+NOTIC: [8] Undefined variable: athid C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008543s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000449s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001923s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\AppServ\www\base\ThinkPHP\Common\functions.php:97) C:\AppServ\www\base\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\AppServ\www\base\ThinkPHP\Common\functions.php:97) C:\AppServ\www\base\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\AppServ\www\base\ThinkPHP\Common\functions.php:97) C:\AppServ\www\base\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2014-09-24T08:57:00+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: unm C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 38 行.
+NOTIC: [8] Undefined variable: upw C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 39 行.
+NOTIC: [8] Undefined variable: upwag C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 40 行.
+NOTIC: [8] Undefined variable: athid C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008151s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000445s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000443s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\AppServ\www\base\ThinkPHP\Common\functions.php:97) C:\AppServ\www\base\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\AppServ\www\base\ThinkPHP\Common\functions.php:97) C:\AppServ\www\base\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\AppServ\www\base\ThinkPHP\Common\functions.php:97) C:\AppServ\www\base\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2014-09-24T08:57:15+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 39 行.
+
+[ 2014-09-24T08:57:39+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: unm C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 38 行.
+NOTIC: [8] Undefined variable: upw C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 39 行.
+NOTIC: [8] Undefined variable: upwag C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 40 行.
+NOTIC: [8] Undefined variable: athid C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008397s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000453s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001985s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2014-09-24T08:57:43+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: unm C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 38 行.
+NOTIC: [8] Undefined variable: upw C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 39 行.
+NOTIC: [8] Undefined variable: upwag C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 40 行.
+NOTIC: [8] Undefined variable: athid C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008486s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000441s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000486s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002176s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2014-09-24T10:28:41+08:00 ] 127.0.0.1 /base/admin.php/U/gtcenterpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001231s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] Undefined index: athid=0 C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.050345s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( athid=1 ) LIMIT 1   [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 5 行.
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008722s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000515s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000551s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002239s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000854s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2014-09-24T10:28:42+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uid/m
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001066s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] Undefined index: uwt C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: upwag C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017223s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000620s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000585s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002661s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2014-09-24T10:29:09+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+
+[ 2014-09-24T10:29:10+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007489s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000429s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2014-09-24T10:29:12+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uwt/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [8] Undefined index: uwt C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000473s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001959s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2014-09-24T10:33:51+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uwt/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Undefined index: uwt C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008827s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000517s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000517s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000597s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002815s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000914s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2014-09-24T10:34:43+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uwt/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+NOTIC: [8] Undefined index: uwt C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008560s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000496s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000463s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001986s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2014-09-24T10:34:46+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uwt/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8] Undefined index: uwt C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008622s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000444s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001932s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000639s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2014-09-24T10:35:37+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000897s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008635s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000809s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000737s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002780s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002023s ]
+
+[ 2014-09-24T10:35:38+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uwt/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Undefined index: uwt C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008699s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000490s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000462s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002008s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2014-09-24T10:36:04+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uwt/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001520s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+
+[ 2014-09-24T10:37:31+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uwt/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 39 行.
+NOTIC: [8] Undefined index: upwag C:\AppServ\www\base\admin\Runtime\Cache\0ba55c18692198d8a00b9c8b8757b7a3.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010375s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000529s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000409s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002237s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2014-09-24T10:59:54+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uwt/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\b3ba487f45446628a2fd90bd8ed1d234.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\b3ba487f45446628a2fd90bd8ed1d234.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\b3ba487f45446628a2fd90bd8ed1d234.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009968s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000529s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002202s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2014-09-24T11:00:36+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001619s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sb' ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sb' AND upw='111' ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sb' AND upw='111' ) LIMIT 1   [ RunTime:0.000140s ]
+
+[ 2014-09-24T11:00:37+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uwt/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000898s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\b3ba487f45446628a2fd90bd8ed1d234.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\b3ba487f45446628a2fd90bd8ed1d234.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\b3ba487f45446628a2fd90bd8ed1d234.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009556s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000474s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001943s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2014-09-24T11:00:39+08:00 ] 127.0.0.1 /base/admin.php/U/gtcenterpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] Undefined index: athid=0 C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.002734s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( athid=0 ) LIMIT 1   [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 5 行.
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010912s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000591s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000531s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001656s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003539s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000691s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2014-09-24T11:00:47+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uid/m
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] Undefined index: uwt C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009009s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000466s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000439s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001934s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2014-09-24T11:01:30+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uid/m
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000837s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Undefined index: uwt C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008770s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000462s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000453s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001955s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2014-09-24T11:01:32+08:00 ] 127.0.0.1 /base/admin.php/U/gtcenterpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000852s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8] Undefined index: athid=0 C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.002522s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( athid=0 ) LIMIT 1   [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 5 行.
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008419s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000464s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001942s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2014-09-24T11:01:34+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uwt/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008297s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000470s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001955s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2014-09-24T11:09:10+08:00 ] 127.0.0.1 /base/admin.php/U/gtcenterpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [8] Undefined index: athid=0 C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 107 行.
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.023943s ]
+SQL: SELECT * FROM `tb_ath` WHERE ( athid=0 ) LIMIT 1   [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 5 行.
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008938s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002166s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000737s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2014-09-24T11:15:05+08:00 ] 127.0.0.1 /base/admin.php/U/gtupdatepg/uwt/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014428s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000654s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000559s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002432s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2014-09-24T13:09:41+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009251s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000453s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000477s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2014-09-24T13:16:08+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001031s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009321s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000517s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000523s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002206s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000726s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2014-09-24T13:16:11+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000888s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+
+[ 2014-09-24T13:16:12+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007541s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000463s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000451s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000668s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2014-09-24T13:16:18+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007035s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000449s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001983s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2014-09-24T14:05:13+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001701s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000145s ]
+
+[ 2014-09-24T14:05:13+08:00 ] 127.0.0.1 /base/admin.php/Index/gtadmpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+ERR: 非法操作:gtadmpg
+
+[ 2014-09-24T14:06:55+08:00 ] 127.0.0.1 /base/admin.php/Index/gtadmpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+ERR: 非法操作:gtadmpg
+
+[ 2014-09-24T14:06:58+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008368s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000545s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002341s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000836s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2014-09-24T14:07:03+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000860s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+
+[ 2014-09-24T14:07:04+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007548s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000474s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000473s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002077s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2014-09-24T14:07:30+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007401s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000454s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000440s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001976s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000655s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2014-09-24T14:07:55+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008720s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000472s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000473s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002065s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2014-09-24T14:07:57+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001696s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000135s ]
+
+[ 2014-09-24T14:07:57+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000892s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008186s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000598s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000709s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000503s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002935s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000957s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2014-09-24T14:08:01+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000867s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+
+[ 2014-09-24T14:08:02+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008474s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000554s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000333s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002279s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2014-09-24T14:15:16+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001031s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001703s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000155s ]
+
+[ 2014-09-24T14:15:16+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000856s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009032s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000520s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000528s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002227s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000729s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2014-09-24T14:15:18+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+
+[ 2014-09-24T14:15:19+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006988s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000444s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001942s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2014-09-24T14:21:02+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001037s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002072s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000138s ]
+
+[ 2014-09-24T14:21:02+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008533s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000517s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002193s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000726s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2014-09-24T14:21:08+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+
+[ 2014-09-24T14:21:09+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007067s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002153s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000682s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2014-09-24T14:30:03+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/uwt/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+NOTIC: [8] Undefined index: x C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 40 行.
+NOTIC: [8] Undefined variable: uwt C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 51 行.
+NOTIC: [8] Undefined variable: uwt C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 58 行.
+
+[ 2014-09-24T14:30:10+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008080s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000688s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000555s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000407s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002476s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2014-09-24T14:30:11+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009011s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000474s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001972s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2014-09-24T14:39:53+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011954s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000490s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001637s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003432s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000728s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2014-09-24T14:39:54+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000793s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006782s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000396s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000393s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000275s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001719s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-09-24T14:40:27+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008307s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001826s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2014-09-24T14:40:27+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010103s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000429s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000398s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000309s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001771s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000607s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2014-09-24T14:40:31+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008648s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000397s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000471s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002239s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000903s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2014-09-24T14:44:58+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011654s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001783s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000483s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003466s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2014-09-24T14:46:31+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014987s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000499s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002261s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2014-09-24T14:46:36+08:00 ] 127.0.0.1 /base/admin.php/U/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002258s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000194s ]
+
+[ 2014-09-24T14:46:45+08:00 ] 127.0.0.1 /base/admin.php/U/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000798s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001577s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbb' ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: INSERT INTO `tb_u` (`unm`,`upw`,`upt`,`athid`,`uaddtm`,`umdftm`) VALUES ('sbb','111','/base/Public/IMG/default.jpg',0,'2014-09-24 14:46:45','2014-09-24 14:46:45') [ RunTime:0.070139s ]
+
+[ 2014-09-24T15:03:40+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008889s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000461s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000586s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000506s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002607s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2014-09-24T15:03:44+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001528s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbb' ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbb' AND upw='111' ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbb' AND upw='111' ) LIMIT 1   [ RunTime:0.000169s ]
+
+[ 2014-09-24T15:03:45+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009298s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000528s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000634s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002322s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000736s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2014-09-24T15:03:47+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001637s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.000679s ]
+
+[ 2014-09-24T15:04:46+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001639s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.000308s ]
+
+[ 2014-09-24T15:07:12+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002003s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 5 行.
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008662s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000470s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000474s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002015s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000663s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2014-09-24T15:08:27+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000806s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+
+[ 2014-09-24T15:08:28+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008707s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000388s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000395s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2014-09-24T15:08:32+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002039s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.001439s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000234s ]
+
+[ 2014-09-24T15:08:32+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000823s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000606s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001811s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004021s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000785s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2014-09-24T15:08:34+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002011s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.011863s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 5 行.
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008405s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000392s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000391s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001714s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2014-09-24T15:28:09+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001752s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 5 行.
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010383s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000465s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001975s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000943s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2014-09-24T15:28:11+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008586s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000398s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000387s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001695s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2014-09-24T15:28:15+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007514s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000375s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000380s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001655s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000581s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2014-09-24T15:28:17+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000770s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007772s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000400s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000385s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000307s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001727s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000638s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2014-09-24T15:28:22+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+
+[ 2014-09-24T15:28:23+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000437s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001844s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2014-09-24T15:28:29+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000864s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001674s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbb' ) LIMIT 1   [ RunTime:0.000460s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbb' AND upw='111' ) LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbb' AND upw='111' ) LIMIT 1   [ RunTime:0.000182s ]
+
+[ 2014-09-24T15:28:29+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008983s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000457s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000406s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001805s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000622s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2014-09-24T15:28:31+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001538s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 5 行.
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008217s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000386s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001686s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000616s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2014-09-24T15:28:32+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000788s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008231s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000432s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000391s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001770s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000853s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2014-09-24T16:03:02+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009267s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000518s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002468s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000998s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2014-09-24T16:04:45+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009106s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000491s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000464s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000361s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002029s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2014-09-24T16:04:46+08:00 ] 127.0.0.1 /base/admin.php/U/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000798s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001585s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbs' ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: UPDATE `tb_u` SET `unm`='sbs',`athid`=0,`umdftm`='2014-09-24 16:04:46' WHERE ( uid= ) [ RunTime:0.000126s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `tb_u` SET `unm`='sbs',`athid`=0,`umdftm`='2014-09-24 16:04:46' WHERE ( uid= )
+
+[ 2014-09-24T16:05:47+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008128s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000398s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000395s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000286s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001733s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2014-09-24T16:05:48+08:00 ] 127.0.0.1 /base/admin.php/U/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002883s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbs' ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: UPDATE `tb_u` SET `unm`='sbs',`athid`=0,`umdftm`='2014-09-24 16:05:48' WHERE ( uid= ) [ RunTime:0.000328s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `tb_u` SET `unm`='sbs',`athid`=0,`umdftm`='2014-09-24 16:05:48' WHERE ( uid= )
+
+[ 2014-09-24T16:11:16+08:00 ] 127.0.0.1 /base/admin.php/U/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002905s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbb' ) LIMIT 1   [ RunTime:0.000361s ]
+
+[ 2014-09-24T16:11:21+08:00 ] 127.0.0.1 /base/admin.php/U/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000895s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001528s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbs' ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: UPDATE `tb_u` SET `unm`='sbs',`athid`=0,`umdftm`='2014-09-24 16:11:21' WHERE ( uid= ) [ RunTime:0.000117s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `tb_u` SET `unm`='sbs',`athid`=0,`umdftm`='2014-09-24 16:11:21' WHERE ( uid= )
+
+[ 2014-09-24T20:25:20+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.024074s ]
+INFO: [ route_check ] --END-- [ RunTime:0.024181s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077028s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000487s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001962s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2014-09-24T20:26:15+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000837s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.039754s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbs' ) LIMIT 1   [ RunTime:0.001084s ]
+
+[ 2014-09-24T20:26:19+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000828s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001906s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbb' ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbb' AND upw='111' ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbb' AND upw='111' ) LIMIT 1   [ RunTime:0.000151s ]
+
+[ 2014-09-24T20:26:19+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000878s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.126954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127044s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000457s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000449s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2014-09-24T20:26:28+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001701s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.082795s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 5 行.
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018520s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000452s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001925s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2014-09-24T20:26:31+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042386s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000680s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000695s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002532s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2014-09-24T20:26:35+08:00 ] 127.0.0.1 /base/admin.php/U/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001833s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbs' ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: UPDATE `tb_u` SET `unm`='sbs',`athid`=0,`umdftm`='2014-09-24 20:26:35' WHERE ( uid= ) [ RunTime:0.000184s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `tb_u` SET `unm`='sbs',`athid`=0,`umdftm`='2014-09-24 20:26:35' WHERE ( uid= )
+
+[ 2014-09-24T20:27:13+08:00 ] 127.0.0.1 /base/admin.php/U/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001621s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbs' ) LIMIT 1   [ RunTime:0.000223s ]
+
+[ 2014-09-24T20:27:20+08:00 ] 127.0.0.1 /base/admin.php/U/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000840s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] Undefined index: uid C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001553s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbs' ) LIMIT 1   [ RunTime:0.000298s ]
+
+[ 2014-09-24T20:30:59+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009373s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000740s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000768s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003274s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2014-09-24T20:34:22+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013653s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000518s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002200s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-09-24T20:34:44+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000837s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009777s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000475s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001952s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2014-09-24T20:34:45+08:00 ] 127.0.0.1 /base/admin.php/U/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002341s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbs' ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: UPDATE `tb_u` SET `unm`='sbs',`athid`=0,`umdftm`='2014-09-24 20:34:45' WHERE ( uid=6 ) [ RunTime:0.213565s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.000302s ]
+
+[ 2014-09-24T20:34:46+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008590s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001102s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000452s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002583s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001306s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2014-09-24T20:34:56+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001037s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001676s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 5 行.
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008837s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000518s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000520s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002188s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-09-24T20:40:33+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.045242s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008909s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000630s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000547s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002369s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-09-24T20:40:36+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063265s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000461s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000333s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001940s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2014-09-24T21:45:23+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001803s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010578s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000528s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000562s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002266s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000721s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2014-09-24T21:49:14+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001035s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010089s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000527s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002230s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2014-09-24T21:49:21+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001125s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009521s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000536s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000542s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002263s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000756s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2014-09-24T21:49:47+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008386s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000454s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000453s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000333s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001931s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000651s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2014-09-24T21:50:09+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008501s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000447s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000458s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002590s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2014-09-24T21:50:12+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.016567s ]
+SQL: SELECT * FROM `tb_u` WHERE ( upw='1' ) LIMIT 1   [ RunTime:0.000400s ]
+
+[ 2014-09-24T22:04:57+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001029s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008543s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000522s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000692s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002670s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2014-09-24T22:05:02+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001054s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.036116s ]
+SQL: SELECT * FROM `tb_u` WHERE ( upw='111' ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: UPDATE `tb_u` SET `upw`='222' WHERE ( uid=6 ) [ RunTime:0.063757s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.000261s ]
+
+[ 2014-09-24T22:05:02+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008286s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000509s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002188s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000727s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2014-09-24T22:05:10+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000851s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001558s ]
+SQL: SELECT * FROM `tb_u` WHERE ( upw='111' ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: UPDATE `tb_u` SET `upw`='222' WHERE ( uid=6 ) [ RunTime:0.000143s ]
+
+[ 2014-09-24T22:05:16+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002123s ]
+SQL: SELECT * FROM `tb_u` WHERE ( upw='111' ) LIMIT 1   [ RunTime:0.000139s ]
+SQL: UPDATE `tb_u` SET `upw`='222' WHERE ( uid=6 ) [ RunTime:0.000159s ]
+
+[ 2014-09-24T22:06:50+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010334s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000449s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000449s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001932s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-09-24T22:06:53+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001823s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 AND upw='111' ) LIMIT 1   [ RunTime:0.000430s ]
+
+[ 2014-09-24T22:06:57+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001658s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 AND upw='222' ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: UPDATE `tb_u` SET `upw`='222' WHERE ( uid=6 ) [ RunTime:0.000142s ]
+
+[ 2014-09-24T22:08:47+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.049040s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 AND upw='111' ) LIMIT 1   [ RunTime:0.000283s ]
+
+[ 2014-09-24T22:08:50+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000864s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001770s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 AND upw='222' ) LIMIT 1   [ RunTime:0.000479s ]
+SQL: UPDATE `tb_u` SET `upw`='222' WHERE ( uid=6 ) [ RunTime:0.000215s ]
+
+[ 2014-09-24T22:14:37+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001572s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 AND upw='222' ) LIMIT 1   [ RunTime:0.000494s ]
+SQL: UPDATE `tb_u` SET `upw`='111' WHERE ( uid=6 ) [ RunTime:0.078648s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.000395s ]
+
+[ 2014-09-24T22:14:42+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008729s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000522s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000517s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002193s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2014-09-24T22:14:51+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.003141s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 AND upw='111' ) LIMIT 1   [ RunTime:0.000512s ]
+SQL: UPDATE `tb_u` SET `upw`='222' WHERE ( uid=6 ) [ RunTime:0.042242s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.000326s ]
+
+[ 2014-09-24T22:14:52+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008685s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000628s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002324s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2014-09-24T22:16:43+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.013874s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 AND upw='222' ) LIMIT 1   [ RunTime:0.000477s ]
+SQL: UPDATE `tb_u` SET `upw`='333' WHERE ( uid=6 ) [ RunTime:0.048799s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.000354s ]
+
+[ 2014-09-24T22:16:44+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008807s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000450s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000442s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001932s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2014-09-24T22:16:56+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001573s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 AND upw='111' ) LIMIT 1   [ RunTime:0.000505s ]
+
+[ 2014-09-24T22:17:00+08:00 ] 127.0.0.1 /base/admin.php/U/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001669s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 AND upw='333' ) LIMIT 1   [ RunTime:0.000458s ]
+SQL: UPDATE `tb_u` SET `upw`='111' WHERE ( uid=6 ) [ RunTime:0.053404s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.000313s ]
+
+[ 2014-09-24T22:17:01+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008453s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000512s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002172s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-09-24T22:19:50+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/modifypw
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009174s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000554s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000520s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002284s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2014-09-24T22:19:51+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020176s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000442s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000438s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001896s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000647s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2014-09-24T22:19:54+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008469s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000456s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000451s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001947s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2014-09-24T22:19:56+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+
+[ 2014-09-24T22:19:57+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000456s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000513s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002089s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2014-09-24T22:19:59+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000515s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000485s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002085s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000674s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2014-09-24T22:20:00+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007542s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000808s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000727s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000729s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2014-09-24T22:20:02+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009411s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000521s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000478s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2014-09-24T22:20:59+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000907s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.051037s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000168s ]
+
+[ 2014-09-24T22:21:00+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/regist
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' C:\AppServ\www\base\admin\Lib\Action\UAction.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: unm C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 38 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 39 行.
+NOTIC: [8] Undefined index: upw C:\AppServ\www\base\admin\Runtime\Cache\2f3fae263a23e9b4828626ce4c1279f1.php 第 40 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009326s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000467s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000449s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001996s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2014-09-24T22:21:04+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001544s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.016833s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008505s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000469s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000446s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001978s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2014-09-24T22:21:09+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008373s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000632s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000609s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002419s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000674s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2014-09-24T22:21:47+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008819s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000451s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000339s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002035s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2014-09-24T22:21:48+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008726s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000435s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000455s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001937s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2014-09-24T22:29:22+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: athid C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009743s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000505s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002224s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001099s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2014-09-24T22:29:40+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001617s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001739s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000182s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014041s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000532s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002207s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-09-24T22:29:43+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: athid C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009851s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000454s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000339s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001959s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2014-09-24T22:32:19+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009019s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000504s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000506s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002175s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2014-09-24T22:32:24+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001143s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+
+[ 2014-09-24T22:32:25+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007666s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002268s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001487s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2014-09-24T22:32:31+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001835s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbs' ) LIMIT 1   [ RunTime:0.000487s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbs' AND upw='111' ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='sbs' AND upw='111' ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2014-09-24T22:32:31+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+NOTIC: [8] Undefined variable: theme C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 12 行.
+NOTIC: [8] Undefined variable: uss C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008495s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000440s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000446s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001910s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000874s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2014-09-24T22:32:34+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+
+[ 2014-09-24T22:32:34+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007096s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000439s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001938s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2014-09-24T22:32:40+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001049s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001939s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000151s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000173s ]
+
+[ 2014-09-24T22:32:40+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+NOTIC: [8] Undefined variable: theme C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 12 行.
+NOTIC: [8] Undefined variable: uss C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008519s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000447s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000453s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002458s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2014-09-24T22:32:57+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+NOTIC: [8] Undefined variable: theme C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 12 行.
+NOTIC: [8] Undefined variable: uss C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007914s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000474s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001940s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000833s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2014-09-24T22:33:35+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010244s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000699s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000677s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003247s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001047s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2014-09-24T22:33:40+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000484s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000482s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002039s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2014-09-24T22:33:45+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001219s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+
+[ 2014-09-24T22:33:47+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007659s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000427s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001933s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2014-09-24T22:33:51+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002640s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000233s ]
+
+[ 2014-09-24T22:33:51+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 5 行.
+NOTIC: [8] Undefined variable: theme C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 12 行.
+NOTIC: [8] Undefined variable: uss C:\AppServ\www\base\admin\Runtime\Cache\95ce6485eccf9f806ee32535db24cf7f.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008482s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000385s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000385s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001673s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000830s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2014-09-24T22:34:27+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011174s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000497s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000520s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002163s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000727s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2014-09-24T22:34:31+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009018s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000401s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000282s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001847s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000590s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2014-09-24T22:34:34+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002232s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009977s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000587s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000599s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002401s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000683s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2014-09-24T22:34:35+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007938s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000399s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000390s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001706s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2014-09-24T22:37:17+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008127s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000461s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001975s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2014-09-24T22:37:21+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000852s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001895s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008007s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000436s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000422s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002007s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2014-09-24T22:37:25+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007382s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000461s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000579s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002328s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000748s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2014-09-24T22:40:29+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001024s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+
+[ 2014-09-24T22:40:29+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007172s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000436s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000339s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001994s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2014-09-24T22:40:35+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000791s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.051644s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.001037s ]
+
+[ 2014-09-24T22:40:35+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008357s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000401s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000400s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000279s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001719s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000590s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2014-09-24T22:40:43+08:00 ] 127.0.0.1 /base/admin.php/Index/gtxpg/x/adm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000809s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008009s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000539s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000494s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000281s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001976s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2014-09-24T22:40:44+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000896s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+
+[ 2014-09-24T22:40:45+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007404s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000592s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000610s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002722s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2014-09-24T22:40:50+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000769s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001546s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000135s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000126s ]
+
+[ 2014-09-24T22:40:50+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007986s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000396s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000386s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000308s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001746s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000599s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2014-09-24T22:41:11+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.001655s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON tb_u.athid=tb_ath.athid WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000304s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: uid C:\AppServ\www\base\admin\Runtime\Cache\3a1d77a67cb5378d4679c016bb298b41.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008121s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000631s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000619s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002702s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000972s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2014-09-24T22:41:13+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007754s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000465s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000394s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000280s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001799s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000860s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000942s ]
+

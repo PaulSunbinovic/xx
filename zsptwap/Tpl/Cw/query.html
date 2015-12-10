@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/admin/cm.js'></script>
+<link href="__PUBLIC__/CSS/admin/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+ 
+<script type='text/javascript' src='__PUBLIC__/JS/admin/cw.js'></script>
+<script type='text/javascript'>
+var app_path='__APP__';
+var hdlcrtu='__URL__/createAlways';
+var hdlcrtxq='__URL__/createXq'
+</script>
+</head>
+
+<body style='padding-top:70px;background-color:#eee;'>
+<include file='Pblc:head'/>
+<div class='container' >
+	<div class='col-md-2' id='lft' class='pull-left' style='display:{$lftcls}'>
+			<script>
+			var hdlbtn='__APP__/Btn/update';
+			</script>
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <div class='pull-left'><i class="glyphicon glyphicon-cog"></i> 控制面板</div>
+			    <div class='pull-right'><a href="javascript:leftright()"><i class="glyphicon glyphicon-triangle-left"></i></a></div>
+			    <div class='clearfix'></div>
+			  </div>
+			  <div class="panel-body">
+			  
+		  	<volist name='lblskzmb' id='vo'>  
+			  	<div class="panel panel-info">
+				  <!-- Default panel contents -->
+				  <div class="panel-heading">
+				  	<div class='pull-left'><i class="glyphicon glyphicon-signal"></i> {$vo['lbnm']}</div>
+					<div class='pull-right'><a href="javascript:updown('bs{$vo[lbid]}')"><i class="{$vo['bscls']}" id="bs{$vo['lbid']}"></i></a></div>
+					<div class='clearfix'></div>
+				  </div>
+				<!-- List group -->
+				  <ul class="nav nav-pills nav-stacked" style="display:{$vo['bsbdcls']}" id="bs{$vo['lbid']}bd">
+				    <volist name="vo['mdlskzmb']" id='voII'>
+						<li class="{$voII['actvcls']}"><a href="__APP__/{$voII['mdmk']}/query">{$voII['mdnm']}</a></li>
+					</volist>
+				  </ul>
+				</div>
+			</volist>
+		    </div>
+			</div>
+		</div>
+		<div class='{$rgtcls}' id='rgt'>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				   <a href='javascript:leftright()' id='btn-lft' style='display:{$lftbtncls}'><i class="glyphicon glyphicon-triangle-right"></i></a><i class="glyphicon glyphicon-th-list"></i> {$theme}
+				</div>
+				<div class="panel-body">
+
+				<!-- NB 开始 -->
+					<script type="text/javascript">var hdlNB='__URL__/query'</script>
+					
+					
+					<div id='NBsrcUpart'>
+					<!-- 起始 -->
+					<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingOne">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+				          条件筛选
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+				      <div class="panel-body">
+				      		<?php 
+								if($spadm==1){
+	 						?>
+							<div id='NBsrcMpart'>
+								<form>
+								SELECT * FROM tb_u LEFT JOIN tb_ath ON f_u_athid=athid WHERE unm LIKE '%sb%' AND f_u_athid=1 ORDER BY uaddtm DESC LIMIT 0,10
+								<br/>SELECT * FROM tb_u LEFT JOIN tb_ath ON f_u_athid=athid WHERE f_u_athid<>1 ORDER BY uaddtm DESC LIMIT 0,10
+									<input id='NBsqlstc' name='NBsqlstc' style='width:700px' value="{$sqlstc}"/>
+									<br/><input type='button' id='NBsrcM' value='管理员查询' class='btn btn-primary btn-sm' />
+								</form>
+							</div>
+							<?php } ?>
+				      <!-- 暂时结束 -->
+						<div id='flddv'>
+							<div role="tabpanel">
+							<!-- Nav tabs -->
+							  <ul class="nav nav-tabs" role="tablist">
+							    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">字段</a></li>
+							    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">条件</a></li>
+							    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">顺序</a></li>
+							  </ul>
+							<!-- Tab panes -->
+							  <div class="tab-content">
+							    <div role="tabpanel" class="tab-pane active" id="home">
+							    	<div id='flddv'>
+							    		<input type="checkbox" id='cwidfld' value='cwid' style='display:none' checked=checked/>
+										<input type="checkbox" id='stdidfld' value='stdid' style='display:none' checked=checked/>
+										<input type="checkbox" id='bxxsnmfld' value='bxxsnm'/>办学形式&nbsp;&nbsp;
+										<input type="checkbox" id='sttnmfld' value='sttnm'/>站点名称&nbsp;&nbsp;
+										<input type="checkbox" id='f_std_grdidfld' value='f_std_grdid' style='display:none' checked=checked/>
+										<input type="checkbox" id='grdnmfld' value='grdnm'/>年级&nbsp;&nbsp;
+										<input type="checkbox" id='xnnmfld' value='xnnm'/>学年&nbsp;&nbsp;
+										<input type="checkbox" id='f_stdxqcls_xqidfld' value='f_stdxqcls_xqid' style='display:none' checked=checked/>
+										<input type="checkbox" id='stdnofld' value='stdno'/>学号&nbsp;&nbsp;<br/>
+										<input type="checkbox" id='stdnmfld' value='stdnm'/>姓名&nbsp;&nbsp;
+										<input type="checkbox" id='sexnmfld' value='sexnm'/>性别&nbsp;&nbsp;
+										<input type="checkbox" id='stdidcdfld' value='stdidcd'/>身份证号码&nbsp;&nbsp;
+										<input type="checkbox" id='dmnmfld' value='dmnm'/>寝室&nbsp;&nbsp;
+										<input type="checkbox" id='f_stdxqcls_clsidfld' value='f_stdxqcls_clsid' style='display:none' checked=checked/>
+										<input type="checkbox" id='clsnmfld' value='clsnm'/>班级&nbsp;&nbsp;
+										<input type="checkbox" id='mjnmfld' value='mjnm'/>专业&nbsp;&nbsp;
+										<input type="checkbox" id='statnmfld' value='statnm'/>状态&nbsp;&nbsp;
+										<input type="checkbox" id='cwyjxfsmfld' value='cwyjxfsm'/>应缴学费&nbsp;&nbsp;
+										<input type="checkbox" id='cwyjjckwfsmfld' value='cwyjjckwfsm'/>应缴教材考务费&nbsp;&nbsp;
+										<input type="checkbox" id='cwyjzsfsmfld' value='cwyjzsfsm'/>应缴住宿费&nbsp;&nbsp;
+										<input type="checkbox" id='cwsjxfsmfld' value='cwsjxfsm'/>实缴学费&nbsp;&nbsp;
+										<input type="checkbox" id='cwsjjckwfsmfld' value='cwsjjckwfsm'/>实缴教材考务费&nbsp;&nbsp;
+										<input type="checkbox" id='cwsjzsfsmfld' value='cwsjzsfsm'/>实缴住宿费&nbsp;&nbsp;
+									</div>
+								</div>
+							    <div role="tabpanel" class="tab-pane" id="profile">
+									<div id='cdtdv'>
+										学籍信息：<br/>
+										办学形式
+										<select name='f_mj_bxxsid' id='f_mj_bxxsidcdt'>
+										<option value=''>无</option>
+										<volist name="bxxsls" id='vol'>
+										<option value="{$vol['bxxsid']}">{$vol['bxxsnm']}</option>
+										</volist>
+										</select>
+										站点
+										<select name='f_std_sttid' id='f_std_sttidcdt'>
+										<volist name="sttls" id='vol'>
+										<option value="{$vol['sttid']}">{$vol['sttnm']}</option>
+										</volist>
+										</select>
+										
+										年级
+										<select name='f_std_grdid' id='f_std_grdidcdt'>
+										<volist name="grdls" id='vol'>
+										<option value="{$vol['grdid']}">{$vol['grdnm']}</option>
+										</volist>
+										</select>
+										
+										学年
+										<select name='f_cw_xnid' id='f_cw_xnidcdt'>
+										<volist name="xnls" id='vol'>
+										<option value="{$vol['xnid']}">{$vol['xnnm']}</option>
+										</volist>
+										</select>
+										
+										
+										<select name='f_stdxqcls_xqid' id='f_stdxqcls_xqidcdt' style='display:none'>
+										<volist name="xqls" id='vol'>
+										<option value="{$vol['xqid']}">{$vol['xqnm']}</option>
+										</volist>
+										</select>
+										<select name='f_stdxqmj_xqid' id='f_stdxqmj_xqidcdt' style='display:none'>
+										<volist name="xqls" id='vol'>
+										<option value="{$vol['xqid']}">{$vol['xqnm']}</option>
+										</volist>
+										</select>
+										<br/>
+										层次
+										<select name='f_mj_ccid' id='f_mj_ccidcdt'>
+										<option value=''>无</option>
+										<volist name="ccls" id='vol'>
+										<option value="{$vol['ccid']}">{$vol['ccnm']}</option>
+										</volist>
+										</select>
+										科类
+										<select name='f_mj_klid' id='f_mj_klidcdt'>
+										<option value=''>无</option>
+										<volist name="klls" id='vol'>
+										<option value="{$vol['klid']}">{$vol['klnm']}</option>
+										</volist>
+										</select>
+										学习形式
+										<select name='f_mj_xxxsid' id='f_mj_xxxsidcdt'>
+										<option value=''>无</option>
+										<volist name="xxxsls" id='vol'>
+										<option value="{$vol['xxxsid']}">{$vol['xxxsnm']}</option>
+										</volist>
+										</select>
+										招生范围
+										<select name='f_mj_zsfwid' id='f_mj_zsfwidcdt'>
+										<option value=''>无</option>
+										<volist name="zsfwls" id='vol'>
+										<option value="{$vol['zsfwid']}">{$vol['zsfwnm']}</option>
+										</volist>
+										</select>
+										学制
+										<select name='f_mj_xzid' id='f_mj_xzidcdt'>
+										<option value=''>无</option>
+										<volist name="xzls" id='vol'>
+										<option value="{$vol['xzid']}">{$vol['xznm']}</option>
+										</volist>
+										</select>
+										<br/>
+										班级
+										<select name='f_stdxqcls_clsid' id='f_stdxqcls_clsidcdt'>
+										<option value=''>无</option>
+										<volist name="clsls" id='vol'>
+										<option value="{$vol['clsid']}">[{$vol['sttnm']}]{$vol['clsnm']}</option>
+										</volist>
+										</select>
+										
+										专业
+										<select name='f_stdxqmj_mjid' id='f_stdxqmj_mjidcdt'>
+										<option value=''>无</option>
+										<volist name="mjls" id='vol'>
+										<option value="{$vol['mjid']}">[{$vol['bxxsnm']}]{$vol['mjdm']}{$vol['mjnm']}</option>
+										</volist>
+										</select>
+										<hr></hr>
+										基本信息（重点部分）：<br/>
+										报名号<input type="text" name='stdaplno' id='stdaplnocdt'/>&nbsp;&nbsp;
+										学号<input type="text" name='stdno' id='stdnocdt'/>&nbsp;&nbsp;
+										<script language="javascript" type="text/javascript" src="__PUBLIC__/pblc/DatePicker/My97DatePicker/WdatePicker.js"></script>
+										姓名<input type="text" name='stdnm' id='stdnmcdt'/>&nbsp;&nbsp;
+										寝室
+										<select name='f_stdxqdm_dmid' id='f_stdxqdm_dmidcdt'>
+										<option value=''>无</option>
+										<volist name="dmls" id='vol'>
+										<option value="{$vol['dmid']}">{$vol['dmnm']}</option>
+										</volist>
+										</select>
+										性别
+										<select name='f_std_sexid' id='f_std_sexidcdt'>
+										<option value=''>无</option>
+										<volist name="sexls" id='vol'>
+										<option value="{$vol['sexid']}">{$vol['sexnm']}</option>
+										</volist>
+										</select>
+										<br/>
+										身份证号码<input type="text" name='stdidcd' id='stdidcdcdt'/>&nbsp;&nbsp;
+										状态
+										<select name='f_std_statid' id='f_std_statidcdt'>
+										<option value=''>无</option>
+										<volist name="statls" id='vol'>
+										<option value="{$vol['statid']}">{$vol['statnm']}</option>
+										</volist>
+										</select>
+										<!-- 上传财务时间<input type="text" name='stdupfnctm' id='stdupfnctmcdt' onclick="WdatePicker()"/>&nbsp;&nbsp; -->
+										<hr></hr>
+										
+										
+									</div>
+									<div id='spccdtdv' style='display:none'>
+									特殊条件：
+									<a class='spccdtoff' href='#' rel='(usraddtm<NOW())'>添加日期小于当前时间</a>
+									</div>
+								</div>
+							    <div role="tabpanel" class="tab-pane" id="messages">
+									<div id='odrdv'>
+										顺序：
+										<select  class='input-small' >
+										<option value=''>无</option>
+										<option value='f_mj_bxxsid DESC'>办学形式降序</option>
+										<option value='f_mj_bxxsid ASC'>办学形式升序</option>
+										<option value='clsid DESC'>班级降序</option>
+										<option value='clsid ASC'>班级升序</option>
+										<option value='mjid DESC'>专业降序</option>
+										<option value='mjid ASC'>专业升序</option>
+										<option value='stdno DESC'>学号降序</option>
+										<option value='stdno ASC'>学号升序</option>
+										</select>
+										<select  class='input-small' >
+										<option value=''>无</option>
+										<option value='f_mj_bxxsid DESC'>办学形式降序</option>
+										<option value='f_mj_bxxsid ASC'>办学形式升序</option>
+										<option value='clsid DESC'>班级降序</option>
+										<option value='clsid ASC'>班级升序</option>
+										<option value='mjid DESC'>专业降序</option>
+										<option value='mjid ASC'>专业升序</option>
+										<option value='stdno DESC'>学号降序</option>
+										<option value='stdno ASC'>学号升序</option>
+										</select>
+										<select  class='input-small' >
+										<option value=''>无</option>
+										<option value='f_mj_bxxsid DESC'>办学形式降序</option>
+										<option value='f_mj_bxxsid ASC'>办学形式升序</option>
+										<option value='clsid DESC'>班级降序</option>
+										<option value='clsid ASC'>班级升序</option>
+										<option value='mjid DESC'>专业降序</option>
+										<option value='mjid ASC'>专业升序</option>
+										<option value='stdno DESC'>学号降序</option>
+										<option value='stdno ASC'>学号升序</option>
+										</select>
+										<select  class='input-small' >
+										<option value=''>无</option>
+										<option value='f_mj_bxxsid DESC'>办学形式降序</option>
+										<option value='f_mj_bxxsid ASC'>办学形式升序</option>
+										<option value='clsid DESC'>班级降序</option>
+										<option value='clsid ASC'>班级升序</option>
+										<option value='mjid DESC'>专业降序</option>
+										<option value='mjid ASC'>专业升序</option>
+										<option value='stdno DESC'>学号降序</option>
+										<option value='stdno ASC'>学号升序</option>
+										</select>
+									</div>
+								</div>
+							  </div>
+							</div>
+							
+						</div>
+						
+						
+						
+						<div>
+							<form>
+							<input type='hidden' name='fld' id='fld' value='{$fld}'/>
+							<input type='hidden' name='cdt' value='{$cdt}'/>
+							<input type='hidden' name='spccdt' value='{$spccdt}'/>
+							<input type='hidden' name='odr' value='{$odr}'/>
+							<!-- 每页：<input type='text' name='lmt' value='{$lmt}'/>  -->
+							每页：<select id='lmt' name='lmt'  class='input-mini' >
+								<option value='10'>10</option><option value='20'>20</option><option value='30'>30</option><option value='40'>40</option><option value='50'>50</option>
+								</select>
+								<script>$('#lmt').val('{$lmt}')</script>
+							<input type='button' value='查询' id='NBsrcU' class='btn btn-primary btn-sm'/>
+							</form>
+						</div>
+						
+						<!-- 暂时开启 -->
+				       </div>
+				    </div>
+				  </div>
+					<!-- 完全结束 -->	
+						
+					</div>
+				
+				<!-- NB 结束-->
+				
+				<!-- 注意NB 的class 都要设置  开始-->
+				<script type="text/javascript">var hdldlt='__URL__/delete';var hdlstvw='__URL__/setview';var hdlstps='__URL__/setpass'</script>
+				<div>
+				
+				<style>
+        			#NBtb th  
+			        {  
+			            white-space: nowrap;  
+			        }  
+			        table td  
+			        {  
+			            white-space: nowrap;  
+			        }  
+			    </style>  
+				 
+				<div class="table-responsive">
+					<table id='NBtb'  class='table table-striped table-bordered table-hover' >
+					<thead>
+					  <tr class='info'>
+					    <th class='odr'>序号</th>
+					    <th class='bxxsnm'>办学形式</th>
+					    <th class='sttnm'>站点</th>
+					    <th class='ccnm'>层次</th>
+					    <th class='klnm'>科类</th>
+					    <th class='xxxsnm'>学习形式</th>
+					    <th class='zsfwnm'>招生范围</th>
+					    <th class='xznm'>学制</th>
+					    <th class='grdnm'>年级</th>
+					    <th class='xqnm'>学期</th>
+					    <th class='stdaplno'>报名号</th>
+					    <th class='stdno'>学号</th>
+					    <th class='stdupfnctm'>上传财务时间</th>
+					    <th class='stdnm'>姓名</th>
+					    <th class='clsnm'>班级</th>
+					    <th class='dmnm'>寝室</th>
+					    <th class='sexnm'>性别</th>
+					    
+					    <th class='stdidcd'>身份证号码</th>
+					    
+					    <th class='mjnm'>专业</th>
+					    <th class='statnm'>状态</th>
+					    
+					    <th class='cwyjxfsm'>应缴学费</th>
+					    <th class='cwyjjckwfsm'>应缴教材考务费</th>
+					    <th class='cwyjzsfsm'>应缴住宿费</th>
+					    <th class='oprt'>应缴总额</th>
+					    <th class='cwsjxfsm'>实缴学费</th>
+					    <th class='cwsjjckwfsm'>实缴教材考务费</th>
+					    <th class='cwsjzsfsm'>实缴住宿费</th>
+					    <th class='oprt'>实缴总额</th>
+					    <th class='oprt'>操作</th>
+					  </tr>
+					</thead>
+					
+					<tbody>
+					  <volist name="mls" id="vo">
+					  	<tr>
+					    	<td class='odr'>{$fstrw+$i}</td>
+						    <td class='bxxsnm'>{$vo['bxxsnm']}</td>
+						    <td class='sttnm'>{$vo['sttnm']}</td>
+						    <td class='ccnm'>{$vo['ccnm']}</td>
+						    <td class='klnm'>{$vo['klnm']}</td>
+						    <td class='xxxsnm'>{$vo['xxxsnm']}</td>
+						    <td class='zsfwnm'>{$vo['zsfwnm']}</td>
+						    <td class='xznm'>{$vo['xznm']}</td>
+						    <td class='grdnm'>{$vo['grdnm']}</td>
+						    <td class='xqnm'>{$vo['xqnm']}</td>
+						    <td class='stdaplno'>{$vo['stdaplno']}</td>
+						    <td class='stdno'>{$vo['stdno']}</td>
+						    <td class='stdupfnctm'>{$vo['stdupfnctm']}</td>
+						    <td class='stdnm'>{$vo['stdnm']}</td>
+						    <td class='clsnm'>{$vo['clsnm']}</td>
+						    <td class='dmnm'>{$vo['dmnm']}</td>
+						    <td class='sexnm'>{$vo['sexnm']}</td>
+						   
+						    <td class='stdidcd'>{$vo['stdidcd']}</td>
+						    
+						    <td class='mjnm'>{$vo['mjnm']}</td>
+						    <td class='statnm'>{$vo['statnm']}</td>
+						   
+						    <td class='cwyjxfsm'>{$vo['cwyjxfsm']}</td>
+						    <td class='cwyjjckwfsm'>{$vo['cwyjjckwfsm']}</td>
+						    <td class='cwyjzsfsm'>{$vo['cwyjzsfsm']}</td>
+						    <td class='oprt'>{$vo['cwyjze']}</td>
+						    <td class='cwsjxfsm'>{$vo['cwsjxfsm']}</td>
+						    <td class='cwsjjckwfsm'>{$vo['cwsjjckwfsm']}</td>
+						    <td class='cwsjzsfsm'>{$vo['cwsjzsfsm']}</td>
+						    <td class='oprt'>{$vo['cwsjze']}</td>
+						    <td class='oprt'>
+						      <!-- Icons -->
+						      <?php if($athv==1){ ?><a href="__URL__/gtxpg/x/vw/grdid/{$vo['f_std_grdid']}/cwid/{$vo['cwid']}">查看</a><?php } ?>
+						      <?php if($athm==1){ ?><a href="__URL__/gtxpg/x/updt/grdid/{$vo['f_std_grdid']}/cwid/{$vo['cwid']}">修改</a><?php } ?> 
+						      <?php if($athd==1){ ?><a href="javascript:dlt({$vo['cwid']},{$vo['f_std_grdid']})">删除</a><?php } ?>
+						     	
+						    </td>
+					  </tr>  
+					  </volist>                        
+					</tbody>
+					</table>
+				</div>
+				<script type="text/javascript">//$("#NBtb thead").smartFloatTB();</script>
+				<!-- 注意NB 的class 都要设置  结束-->
+				{$page_method}&nbsp;&nbsp;
+				<!-- 
+				<?php if($atha==1){ ?><p><a href="__URL__/gtxpg/x/updt/grdid/0/xqid/0/stdid/0" class='btn btn-primary'>添加</a></p><?php } ?>
+				 -->
+				<!--EXCEL开始-->
+				<script type="text/javascript" src='__PUBLIC__/pblc/XLS/xls.js'></script>
+				<form action='__APP__/Xls/output' method='post'>
+				<input type='hidden' name='mk' value='{$grdnm}_std'/>
+				<input type='hidden' name='fld' id='fld' value='{$fld}'/>
+				<input type='hidden' name='cdt' value='{$cdt}'/>
+				<input type='hidden' name='spccdt' value='{$spccdt}'/>
+				<input type='hidden' name='odr' value='{$odr}'/>
+				<input type='hidden' name='NBsqlstc' value="{$sqlstc}"/>
+				请命名表的名称:<input type='text' name='xlsnm' value='XX表' class='form-control input-sm' style='width:200px;display:inline'/>
+				<br/><input type='button' id='export' value='导出数据' class='btn btn-primary'/><input type='submit' id='exporttrue' style='display:none' value='导出数据' />
+				</form>
+				
+				<?php if($athm==1){ ?>
+				<!-- xls file start -->
+				<a href='__ROOT__/XFile/usr.xls' class='btn btn-warning'>模版</a><input type='hidden' id='mk' value='usr'/>
+				 <link rel="stylesheet" href="__PUBLIC__/pblc/XlsUpload/uploadify/uploadify.css"/>
+				 <script type="text/javascript" src='__PUBLIC__/pblc/XlsUpload/uploadify/uploadify.js'></script>
+				 <link rel="stylesheet" type="text/css"  href="__PUBLIC__/pblc/XlsUpload/uploadify/uploadify.css" />
+				<script type="text/javascript" src="__PUBLIC__/pblc/XlsUpload/uploadify/swfobject.js"></script>
+				<script type="text/javascript">
+				var file_path='__PUBLIC__/pblc/XlsUpload';
+				var hdlupload='__APP__/XlsUpload/upload';
+				var upload_path='__ROOT__/XlsUploads';
+				var hdlxlstosql='__APP__/Xls/import'
+				</script>
+				<script type="text/javascript" src='__PUBLIC__/pblc/XlsUpload/int.js'></script>
+				<div id="status"></div>
+				<div style="width:80px; height:26px; overflow:hidden; " id='cf'><input  type="file"  name="xls1" id="uploadify"/></div>
+				<!-- xls file over -->
+				<?php } ?>
+				<!--EXCEL结束-->
+				
+				<!-- NBjs 初始化 -->
+				<script type="text/javascript">
+				var fld="{$fld}";var cdt="{$cdt}";var spccdt="{$spccdt}";var odr="{$odr}";
+				</script>
+				<link rel="stylesheet" type="text/css" href="__PUBLIC__/pblc/NB/NBSearch.css" media="all"/>
+				<script type='text/javascript' src='__PUBLIC__/pblc/NB/NBSearch.js'></script>
+				
+				<!-- NBjs 结束 -->
+				
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class='clearfix'></div>
+	
+	<include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: 100,//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+</script>
+
+</body>
+</html>

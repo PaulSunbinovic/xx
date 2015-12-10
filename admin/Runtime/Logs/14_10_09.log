@@ -1,0 +1,393 @@
+[ 2014-10-09T08:19:09+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001293s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.073369s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.000748s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.002793s ]
+SQL: SELECT * FROM `tb_athmd` LEFT JOIN tb_md ON f_mdid=mdid WHERE ( f_athid=0 AND q='y' )  [ RunTime:0.000998s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012581s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000717s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000723s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001056s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2014-10-09T08:19:12+08:00 ] 127.0.0.1 /base/admin.php/U/loginout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+
+[ 2014-10-09T08:19:13+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015239s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000518s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002160s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000723s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2014-10-09T08:19:18+08:00 ] 127.0.0.1 /base/admin.php/U/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001041s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002876s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' ) LIMIT 1   [ RunTime:0.000916s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='admin' AND upw='111' ) LIMIT 1   [ RunTime:0.000205s ]
+
+[ 2014-10-09T08:19:19+08:00 ] 127.0.0.1 /base/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002959s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000985s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.002753s ]
+SQL: SELECT * FROM `tb_athmd` LEFT JOIN tb_md ON f_mdid=mdid WHERE ( f_athid=1 AND q='y' )  [ RunTime:0.001103s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009895s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000515s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000513s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002140s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-10-09T08:19:51+08:00 ] 127.0.0.1 /base/admin.php/U/query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000801s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002348s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.002128s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='U' ) LIMIT 1   [ RunTime:0.000815s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.002654s ]
+SQL: SELECT * FROM `tb_athmd` WHERE ( f_athid=1 AND f_mdid=2 ) LIMIT 1   [ RunTime:0.000740s ]
+NOTIC: [8] Undefined index: NBsqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fld C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 118 行.
+NOTIC: [8] Undefined index: fld C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 120 行.
+NOTIC: [8] Undefined index: cdt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: cdt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 125 行.
+NOTIC: [8] Undefined index: odr C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: odr C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 130 行.
+NOTIC: [8] Undefined index: lmt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 133 行.
+NOTIC: [8] Undefined index: lmt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 135 行.
+NOTIC: [8] Undefined variable: odrpcd C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 29 行.
+SQL: SELECT `uid`,`unm`,`athnm`,`uaddtm`,`umdftm` FROM `tb_u` LEFT JOIN tb_ath ON f_athid=athid WHERE ( 1=1 ) ORDER BY uaddtm DESC  [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: sqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 168 行.
+SQL: SELECT `uid`,`unm`,`athnm`,`uaddtm`,`umdftm` FROM `tb_u` LEFT JOIN tb_ath ON f_athid=athid WHERE ( 1=1 ) ORDER BY uaddtm DESC LIMIT 0,20   [ RunTime:0.000277s ]
+NOTIC: [8] Undefined variable: sqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.002703s ]
+SQL: SELECT * FROM `tb_ath`  [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014072s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000639s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000527s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002255s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001122s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2014-10-09T08:19:54+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/updt/uid/49
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.003016s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.001961s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='U' ) LIMIT 1   [ RunTime:0.001158s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.002013s ]
+SQL: SELECT * FROM `tb_athmd` WHERE ( f_athid=1 AND f_mdid=2 ) LIMIT 1   [ RunTime:0.001173s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON f_athid=athid WHERE ( uid=49 ) LIMIT 1   [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.002136s ]
+SQL: SELECT * FROM `tb_ath`  [ RunTime:0.000852s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010661s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000528s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000512s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002114s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000833s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2014-10-09T08:20:02+08:00 ] 127.0.0.1 /base/admin.php/U/gtxpg/x/updt/uid/49
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000863s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002847s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.002737s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='U' ) LIMIT 1   [ RunTime:0.002388s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.002497s ]
+SQL: SELECT * FROM `tb_athmd` WHERE ( f_athid=1 AND f_mdid=2 ) LIMIT 1   [ RunTime:0.000753s ]
+SQL: SELECT * FROM `tb_u` LEFT JOIN tb_ath ON f_athid=athid WHERE ( uid=49 ) LIMIT 1   [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.002674s ]
+SQL: SELECT * FROM `tb_ath`  [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016048s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000680s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000532s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000411s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002314s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2014-10-09T08:20:09+08:00 ] 127.0.0.1 /base/admin.php/U/update
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002164s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=49 ) LIMIT 1   [ RunTime:0.001234s ]
+SQL: SELECT * FROM `tb_u` WHERE ( unm='我是傻逼222' AND unm <>'我是傻逼4' ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: UPDATE `tb_u` SET `unm`='我是傻�\�222',`upw`='111',`upt`='/base/Public/IMG/default.jpg',`f_athid`=1,`umdftm`='2014-10-09 08:20:09' WHERE ( uid=49 ) [ RunTime:0.085186s ]
+
+[ 2014-10-09T08:20:10+08:00 ] 127.0.0.1 /base/admin.php/U/query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002942s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.001489s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.002609s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='U' ) LIMIT 1   [ RunTime:0.001665s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.002883s ]
+SQL: SELECT * FROM `tb_athmd` WHERE ( f_athid=1 AND f_mdid=2 ) LIMIT 1   [ RunTime:0.026118s ]
+NOTIC: [8] Undefined index: NBsqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fld C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 118 行.
+NOTIC: [8] Undefined index: fld C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 120 行.
+NOTIC: [8] Undefined index: cdt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: cdt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 125 行.
+NOTIC: [8] Undefined index: odr C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: odr C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 130 行.
+NOTIC: [8] Undefined index: lmt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 133 行.
+NOTIC: [8] Undefined index: lmt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 135 行.
+NOTIC: [8] Undefined variable: odrpcd C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 29 行.
+SQL: SELECT `uid`,`unm`,`athnm`,`uaddtm`,`umdftm` FROM `tb_u` LEFT JOIN tb_ath ON f_athid=athid WHERE ( 1=1 ) ORDER BY uaddtm DESC  [ RunTime:0.000713s ]
+NOTIC: [8] Undefined variable: sqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 168 行.
+SQL: SELECT `uid`,`unm`,`athnm`,`uaddtm`,`umdftm` FROM `tb_u` LEFT JOIN tb_ath ON f_athid=athid WHERE ( 1=1 ) ORDER BY uaddtm DESC LIMIT 0,20   [ RunTime:0.000646s ]
+NOTIC: [8] Undefined variable: sqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.002519s ]
+SQL: SELECT * FROM `tb_ath`  [ RunTime:0.001090s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018122s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000642s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000528s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000407s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002262s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2014-10-09T09:58:07+08:00 ] 127.0.0.1 /base/admin.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011069s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.043481s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000952s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.035842s ]
+SQL: SELECT * FROM `tb_athmd` LEFT JOIN tb_md ON f_mdid=mdid WHERE ( f_athid=1 AND q='y' )  [ RunTime:0.000767s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074931s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000566s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000497s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002058s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000616s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2014-10-09T09:58:09+08:00 ] 127.0.0.1 /base/admin.php/U/query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002777s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.026913s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='U' ) LIMIT 1   [ RunTime:0.000901s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.002691s ]
+SQL: SELECT * FROM `tb_athmd` WHERE ( f_athid=1 AND f_mdid=2 ) LIMIT 1   [ RunTime:0.000821s ]
+NOTIC: [8] Undefined index: NBsqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fld C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 118 行.
+NOTIC: [8] Undefined index: fld C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 120 行.
+NOTIC: [8] Undefined index: cdt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: cdt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 125 行.
+NOTIC: [8] Undefined index: odr C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: odr C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 130 行.
+NOTIC: [8] Undefined index: lmt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 133 行.
+NOTIC: [8] Undefined index: lmt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 135 行.
+NOTIC: [8] Undefined variable: odrpcd C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 29 行.
+SQL: SELECT `uid`,`unm`,`athnm`,`uaddtm`,`umdftm` FROM `tb_u` LEFT JOIN tb_ath ON f_athid=athid WHERE ( 1=1 ) ORDER BY uaddtm DESC  [ RunTime:0.000254s ]
+NOTIC: [8] Undefined variable: sqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 168 行.
+SQL: SELECT `uid`,`unm`,`athnm`,`uaddtm`,`umdftm` FROM `tb_u` LEFT JOIN tb_ath ON f_athid=athid WHERE ( 1=1 ) ORDER BY uaddtm DESC LIMIT 0,20   [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: sqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.019914s ]
+SQL: SELECT * FROM `tb_ath`  [ RunTime:0.000805s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013284s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000403s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000280s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001844s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000980s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2014-10-09T09:58:14+08:00 ] 127.0.0.1 /base/admin.php/U/query/fld/-uid-unm-athnm-uaddtm-umdftm-/cdt/-sp-/odr/-uaddtm%20DESC-/lmt/10
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002219s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.001807s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='U' ) LIMIT 1   [ RunTime:0.000781s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.002411s ]
+SQL: SELECT * FROM `tb_athmd` WHERE ( f_athid=1 AND f_mdid=2 ) LIMIT 1   [ RunTime:0.000669s ]
+NOTIC: [8] Undefined index: NBsqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fld C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 118 行.
+NOTIC: [8] Undefined index: cdt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: odr C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: lmt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: odrpcd C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 29 行.
+SQL: SELECT `uid`,`unm`,`athnm`,`uaddtm`,`umdftm` FROM `tb_u` LEFT JOIN tb_ath ON f_athid=athid WHERE ( 1=1 ) ORDER BY uaddtm DESC  [ RunTime:0.000255s ]
+NOTIC: [8] Undefined variable: sqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 168 行.
+SQL: SELECT `uid`,`unm`,`athnm`,`uaddtm`,`umdftm` FROM `tb_u` LEFT JOIN tb_ath ON f_athid=athid WHERE ( 1=1 ) ORDER BY uaddtm DESC LIMIT 0,10   [ RunTime:0.000527s ]
+NOTIC: [8] Undefined variable: sqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.002544s ]
+SQL: SELECT * FROM `tb_ath`  [ RunTime:0.001136s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013522s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000495s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000402s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000279s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-10-09T09:58:16+08:00 ] 127.0.0.1 /base/admin.php/U/query/fld/-uid-unm-athnm-uaddtm-umdftm-/cdt/-sp-/odr/-uaddtm%20DESC-/lmt/10/p/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000898s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `tb_u` [ RunTime:0.002058s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.002424s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='U' ) LIMIT 1   [ RunTime:0.000821s ]
+SQL: SELECT * FROM `tb_u` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `tb_athmd` [ RunTime:0.002571s ]
+SQL: SELECT * FROM `tb_athmd` WHERE ( f_athid=1 AND f_mdid=2 ) LIMIT 1   [ RunTime:0.000931s ]
+NOTIC: [8] Undefined index: NBsqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: NBsqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fld C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 118 行.
+NOTIC: [8] Undefined index: cdt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: odr C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 128 行.
+NOTIC: [8] Undefined index: lmt C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 133 行.
+NOTIC: [8] Undefined variable: odrpcd C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 29 行.
+SQL: SELECT `uid`,`unm`,`athnm`,`uaddtm`,`umdftm` FROM `tb_u` LEFT JOIN tb_ath ON f_athid=athid WHERE ( 1=1 ) ORDER BY uaddtm DESC  [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: sqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 168 行.
+SQL: SELECT `uid`,`unm`,`athnm`,`uaddtm`,`umdftm` FROM `tb_u` LEFT JOIN tb_ath ON f_athid=athid WHERE ( 1=1 ) ORDER BY uaddtm DESC LIMIT 10,10   [ RunTime:0.000380s ]
+NOTIC: [8] Undefined variable: sqlstc C:\AppServ\www\base\admin\Lib\NB\NBAction.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `tb_ath` [ RunTime:0.001860s ]
+SQL: SELECT * FROM `tb_ath`  [ RunTime:0.001214s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016862s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000695s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000571s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000996s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001089s ]
+

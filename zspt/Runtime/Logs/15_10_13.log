@@ -1,0 +1,27 @@
+[ 2015-10-13T00:33:50+08:00 ] 66.249.74.38 /xx/zspt.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007719s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002991s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002509s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003929s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000182s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003140s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067244s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007174s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008103s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006884s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030092s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007505s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007618s ]
+

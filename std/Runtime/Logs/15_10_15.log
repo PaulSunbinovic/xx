@@ -1,0 +1,34 @@
+[ 2015-10-15T05:18:06+08:00 ] 101.226.168.206 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005359s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054027s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004035s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003991s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006881s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022443s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007762s ]
+
+[ 2015-10-15T14:47:54+08:00 ] 211.89.227.36 /xx/std.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007551s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060560s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007096s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007634s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006863s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029379s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007424s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007540s ]
+

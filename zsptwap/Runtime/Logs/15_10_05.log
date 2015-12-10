@@ -1,0 +1,275 @@
+[ 2015-10-05T08:08:20+08:00 ] 122.243.253.250 /xx/zsptwap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008604s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.003101s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002595s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003813s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000192s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003354s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.001919s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  atcstyle D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\63c9a5657c8ac6a347716cbeadc80c3c.php 第 70 行.
+NOTIC: [8] Undefined index:  atcflag D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\63c9a5657c8ac6a347716cbeadc80c3c.php 第 70 行.
+NOTIC: [8] Undefined variable: wxusross D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\63c9a5657c8ac6a347716cbeadc80c3c.php 第 118 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065681s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007267s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007101s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006863s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028904s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007590s ]
+
+[ 2015-10-05T08:09:05+08:00 ] 122.243.253.250 /xx/zsptwap.php/Std/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007914s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008073s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007440s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002488s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002011s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003281s ]
+NOTIC: [8] Undefined index:  rmb D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\StdAction.class.php 第 16 行.
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='孔奕' ) LIMIT 1   [ RunTime:0.001306s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='孔奕' AND stdidcd='330722199607072128' ) LIMIT 1   [ RunTime:0.001707s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdnm='孔奕' AND stdidcd='330722199607072128' ) LIMIT 1   [ RunTime:0.000185s ]
+
+[ 2015-10-05T08:09:07+08:00 ] 122.243.253.250 /xx/zsptwap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007624s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002458s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.003543s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003470s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid=169 ) LIMIT 1   [ RunTime:0.000451s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid=169 ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002868s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  atcstyle D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\63c9a5657c8ac6a347716cbeadc80c3c.php 第 70 行.
+NOTIC: [8] Undefined index:  atcflag D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\63c9a5657c8ac6a347716cbeadc80c3c.php 第 70 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068465s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007135s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007158s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006850s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028708s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007462s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007576s ]
+
+[ 2015-10-05T08:09:10+08:00 ] 122.243.253.250 /xx/zsptwap.php/Std/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008737s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008974s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007511s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002525s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002075s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003422s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid=169 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid=169 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000143s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT * FROM `tb_2015_std` inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid=169 ) LIMIT 1   [ RunTime:0.009493s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bmcg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\f273eedd42fb58e94910b4eeb6de1773.php 第 63 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.112210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112381s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007184s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007041s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006924s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028664s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008585s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008720s ]
+
+[ 2015-10-05T08:09:24+08:00 ] 122.243.253.250 /xx/zsptwap.php/Cw/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008111s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007591s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002509s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002030s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003368s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid=169 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid=169 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `tb_xq` [ RunTime:0.002120s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid=3 ) LIMIT 1   [ RunTime:0.000542s ]
+NOTIC: [8] Use of undefined constant xqnm - assumed 'xqnm' D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\CwAction.class.php 第 257 行.
+SQL: SHOW COLUMNS FROM `tb_xn` [ RunTime:0.002457s ]
+SQL: SELECT * FROM `tb_xn` WHERE ( xnnm='2015' ) LIMIT 1   [ RunTime:0.000601s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `tb_2015_cw` [ RunTime:0.002834s ]
+SQL: SELECT * FROM `tb_2015_cw` WHERE ( f_cw_stdid=169 AND f_cw_xnid=2 ) LIMIT 1   [ RunTime:0.000948s ]
+SQL: SELECT * FROM `tb_2015_cw` LEFT JOIN tb_2015_std ON f_cw_stdid=stdid inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_xn ON f_cw_xnid=xnid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND cwid=167 ) LIMIT 1   [ RunTime:0.002221s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `tb_2015_sttintxq` [ RunTime:0.002683s ]
+SQL: SELECT * FROM `tb_2015_sttintxq` WHERE ( f_sttintxq_sttid=1 ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SELECT * FROM `tb_xq` WHERE ( xqid>=3 ) ORDER BY xqid ASC LIMIT 0,10   [ RunTime:0.000143s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076763s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007284s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007188s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006864s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028935s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007472s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007585s ]
+
+[ 2015-10-05T08:09:40+08:00 ] 122.243.253.250 /xx/zsptwap.php/Std/gtxpg/x/center
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008109s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009731s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002476s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002027s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003725s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid=169 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid=169 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT * FROM `tb_2015_std` inner join tb_2015_stdxqdm ON stdid=f_stdxqdm_stdid inner join tb_2015_stdxqcls ON stdid=f_stdxqcls_stdid inner join tb_2015_stdxqmj ON stdid=f_stdxqmj_stdid LEFT JOIN tb_stt ON f_std_sttid=sttid LEFT JOIN tb_grd ON f_std_grdid=grdid LEFT JOIN tb_2015_mj ON f_stdxqmj_mjid=mjid LEFT JOIN tb_bxxs ON f_mj_bxxsid=bxxsid LEFT JOIN tb_cc ON f_mj_ccid=ccid LEFT JOIN tb_kl ON f_mj_klid=klid LEFT JOIN tb_xxxs ON f_mj_xxxsid=xxxsid LEFT JOIN tb_zsfw ON f_mj_zsfwid=zsfwid LEFT JOIN tb_xz ON f_mj_xzid=xzid LEFT JOIN tb_2015_cls ON f_stdxqcls_clsid=clsid LEFT JOIN tb_dm ON f_stdxqdm_dmid=dmid LEFT JOIN tb_sex ON f_std_sexid=sexid LEFT JOIN tb_rc ON f_std_rcid=rcid LEFT JOIN tb_zzmm ON f_std_zzmmid=zzmmid LEFT JOIN tb_xl ON f_std_xlid=xlid LEFT JOIN tb_stat ON f_std_statid=statid LEFT JOIN tb_xq ON f_stdxqcls_xqid=xqid WHERE ( f_stdxqcls_xqid=3 AND f_stdxqmj_xqid=3 AND f_stdxqdm_xqid=3 AND stdid=169 ) LIMIT 1   [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bmcg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\f273eedd42fb58e94910b4eeb6de1773.php 第 63 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072840s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007199s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007062s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006847s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028992s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007472s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007587s ]
+
+[ 2015-10-05T08:09:47+08:00 ] 122.243.253.250 /xx/zsptwap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004481s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002468s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002025s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003340s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid=169 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid=169 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  atcstyle D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\63c9a5657c8ac6a347716cbeadc80c3c.php 第 70 行.
+NOTIC: [8] Undefined index:  atcflag D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\63c9a5657c8ac6a347716cbeadc80c3c.php 第 70 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062499s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007867s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025052s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008305s ]
+
+[ 2015-10-05T08:09:47+08:00 ] 101.226.66.174 /xx/zsptwap.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004939s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.002497s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002024s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003602s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000179s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.002922s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcps=1 AND atcvw=1 AND atczs=1 ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000559s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  atcstyle D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\63c9a5657c8ac6a347716cbeadc80c3c.php 第 70 行.
+NOTIC: [8] Undefined index:  atcflag D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\63c9a5657c8ac6a347716cbeadc80c3c.php 第 70 行.
+NOTIC: [8] Undefined variable: wxusross D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\63c9a5657c8ac6a347716cbeadc80c3c.php 第 118 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060505s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007154s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004118s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003743s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022537s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008072s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008195s ]
+
+[ 2015-10-05T09:21:38+08:00 ] 68.180.228.176 /xx/zsptwap.php/Atc/view/atcid/20
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007922s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004391s ]
+SQL: SHOW COLUMNS FROM `tb_zssz` [ RunTime:0.003118s ]
+SQL: SELECT * FROM `tb_zssz` LIMIT 1   [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `tb_grd` [ RunTime:0.002456s ]
+SQL: SELECT * FROM `tb_grd` WHERE ( grdid=4 ) LIMIT 1   [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `tb_2015_std` [ RunTime:0.003826s ]
+SQL: SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1   [ RunTime:0.000189s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_2015_std` WHERE ( stdid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003214s ]
+SQL: SELECT * FROM `tb_atc` LEFT JOIN tb_bd ON f_atc_bdid=bdid WHERE ( atcid=20 ) LIMIT 1   [ RunTime:0.001804s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002214s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000552s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=15 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT * FROM `tb_bd` WHERE ( bdpid=0 ) ORDER BY bdodr ASC  [ RunTime:0.000127s ]
+SQL: UPDATE `tb_atc` SET `atccnt`=356 WHERE ( atcid=20 ) [ RunTime:0.021896s ]
+NOTIC: [8] Undefined variable: alt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Lib\Action\AtcAction.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `tb_sys` [ RunTime:0.002670s ]
+SQL: SELECT * FROM `tb_sys` LIMIT 1   [ RunTime:0.000728s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: wxusross D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\zsptwap\Runtime\Cache\02fafcbe42b282f8510b74ffa14f39eb.php 第 120 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059831s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004034s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007019s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023140s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007761s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007881s ]
+

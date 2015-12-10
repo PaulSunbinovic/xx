@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{$title}</title>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/jquery-migrate-1.1.0.min.js"></script>
+<script type='text/javascript' src='__PUBLIC__/JS/index/cm.js'></script>
+<link href="__PUBLIC__/CSS/index/cm.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="__PUBLIC__/pblc/btstp3/css/bootstrap.css" rel="stylesheet">
+<link href="data:text/css;charset=utf-8," data-href="__PUBLIC__/pblc/btstp3/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/patch.css" rel="stylesheet">
+<link href="__PUBLIC__/pblc/btstp3/css/docs.css" rel="stylesheet">
+<script src="__PUBLIC__/pblc/btstp3/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="__PUBLIC__/ICON/apple-touch-icon.png">
+<link rel="icon" href="__PUBLIC__/ICON/favicon.ico">
+
+<script type='text/javascript' src='__PUBLIC__/JS/index/cstmusr.js'></script>
+<script type='text/javascript'>
+var app_path='__APP__';
+</script>
+</head>
+
+<body>
+<include file='Pblc:head'/>
+
+
+    <!-- Docs page layout -->
+    
+    <div class="container bs-docs-container">
+		
+    
+    
+      <div>
+      	
+        <div class="col-md-8" role="main">
+	        <div>
+			    <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
+			      <ol class="carousel-indicators">
+			      	<volist name="atcfcsls" id="vo">
+			      		<li class="{$vo['class']}" data-target="#carousel-example-captions" data-slide-to="{$i-1}"></li>
+			      	</volist>
+			      </ol>
+			      <div class="carousel-inner" role="listbox">
+			      	<volist name="atcfcsls" id="vo">
+				      	<div class="item {$vo['class']}">
+					        <a href="__APP__/Atc/view/atcid/{$vo['atcid']}"><img  src="{$vo['atccv']}" style='width:100%' data-src="holder.js/900x500/auto/#777:#777" alt="{$vo['atctpc']}"></a>
+					        <div class="carousel-caption">
+						        <h3></h3>
+						        <p><a href="__APP__/Atc/view/atcid/{$vo['atcid']}" style='font-size:18px;color:#fff;text-decoration:none'>{$vo['atctpc']}</a></p>
+					        </div>
+				        </div>
+			      	</volist>
+			      </div>
+			      <a class="left carousel-control" href="#carousel-example-captions" role="button" data-slide="prev">
+			        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			        <span class="sr-only">Previous</span>
+			      </a>
+			      <a class="right carousel-control" href="#carousel-example-captions" role="button" data-slide="next">
+			        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			        <span class="sr-only">Next</span>
+			      </a>
+				</div>
+			</div>
+			
+			<div>
+				<div class="col-lg-12">
+		            <h1 class="page-header">
+		                	文章
+		            </h1>
+		        </div>
+		        
+		        <volist name='bdlsnog' id='vo'>
+				<div class="col-md-12">
+		            <div class="panel panel-default">
+		                <div class="panel-heading">
+		                    <h4 class='pull-left'>{$vo['bdnm']}</h4>
+		                    <a class='tag pull-right' href="__APP__/Atc/query/bdid/{$vo['bdid']}" style='margin:10px 0px;color:#aaa'>更多</a>
+		                    <div class='clearfix'></div>
+		                </div>
+		                <div class="panel-body" style='height:300px'>
+		                    <ul class="list-unstyled">
+							<volist name="vo['atcls']" id='voII'>
+							<li><span><a href="__APP__/Atc/view/atcid/{$voII['atcid']}" class='pull-left' style="color:#000; {$voII['atcstyle']}"><i class="{$voII['atcflag']}"></i> {$voII['atctpcsrk']}</a></span><span class='tag pull-right' style='color:#ccc'>{$voII['atcmdftm']}</span></li>
+							<li class='clearfix' style='border-bottom:1px dashed #eee;margin:20px 0px;'></li>
+							</volist>
+							</ul>
+		                </div>
+		            </div>
+		        </div>
+		        </volist> 
+	         
+	        </div>
+        	
+          
+        </div>
+        
+        <div class='col-md-4'>
+        	<div class="col-md-12">
+	            <div class="panel panel-default">
+	                <div class="panel-heading">
+	                    <h4 class='pull-left'><i class='glyphicon glyphicon-volume-up'></i> 通知公告</h4>
+	                    <a class='pull-right' href="__APP__/Atc/query/atcanc/1" style='margin:10px 0px;color:#aaa'>更多</a>
+		                <div class='clearfix'></div>
+	                </div>
+	                <div class="panel-body">
+	                    <ul class="list-unstyled">
+						<volist name="atclsanc" id='vo'>
+						<li><span><a href="__APP__/Atc/view/atcid/{$vo['atcid']}" class='pull-left' style="color:#000; {$vo['atcstyle']}"><i class="{$vo['atcflag']}"></i> {$vo['atctpc']}</a></span><span class='tag pull-right' style='color:#ccc'>{$vo['atcmdftm']}</span></li>
+						<li class='clearfix' style='border-bottom:1px dashed #eee;margin:20px 0px;'></li>
+						</volist>
+						</ul>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="col-md-12">
+	            <div class="panel panel-default">
+	                <div class="panel-heading">
+	                    <h4 class='pull-left'><i class='glyphicon glyphicon-align-left'></i> 动态</h4>
+	                    <a class='pull-right' href="__APP__/Atc/query/atcdnmc/1" style='margin:10px 0px;color:#aaa'>更多</a>
+		                <div class='clearfix'></div>
+	                </div>
+	                <div class="panel-body">
+	                    <ul class="list-unstyled">
+						<volist name="atclsdnmc" id='vo'>
+						<li><span><a href="__APP__/Atc/view/atcid/{$vo['atcid']}" class='pull-left' style="color:#000; {$vo['atcstyle']}"><i class="{$vo['atcflag']}"></i> {$vo['atctpc']}</a></span><span class='tag pull-right' style='color:#ccc'>{$vo['atcmdftm']}</span></li>
+						<li class='clearfix' style='border-bottom:1px dashed #eee;margin:20px 0px;'></li>
+						</volist>
+						</ul>
+	                </div>
+	            </div>
+	        </div>
+	       
+	       <!-- 自留地 -->
+			<div id='zld' class='col-md-12'>
+	        <div  id='QR'>
+	            <h1 class='page-header' style='font-size:20px;'>
+	                	扫描二维码查看手机版
+	            </h1>
+	            
+	            <div><img src='{$qr}' /></div>
+	            
+		        
+	        </div>
+	        </div>
+	       <script type="text/javascript">$("#QR").smartFloatQR();</script>
+	        
+        </div>
+     </div>
+	<div class='clearfix'></div>
+    <include file='Pblc:foot'/>
+</div>
+
+<!-- bootstrap -->
+<script src="__PUBLIC__/pblc/btstp3/js/bootstrap.js"></script>
+<script src="__PUBLIC__/pblc/btstp3/js/docs.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="__PUBLIC__/pblc/btstp3/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myAffix').affix({
+  offset: {
+    top: $('#slg').height()+$('header').height(),//数字自定义
+    bottom: function () {
+		$('#myAffix').css('top','0');//自定义
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})
+/*
+var pos=$('#sideAffix').offset().top;
+$('#sideAffix').affix({
+  offset: {
+    top: pos+$('#sideAffix').height(),//数字自定义//起始
+   	bottom: function () {
+		$('#sideAffix').css('top',$('header').height());//自定义
+		
+	    return (this.bottom = $('footer').outerHeight(true)+300)//终止，比如 this.bottom='600' $('footer').outerHeight(true)
+    }
+
+  }
+})
+*/
+</script>
+
+<!-- share -->
+<div id='bds'></div>
+<script>
+/*$('#zld').height(500);//测出来的--!
+$('#bds').parent().append("<style>.bs-docs-sidebar.affix {position: fixed;top:"+$('header').height()+"px;}</style>");//重写样式//日后维持的高度
+*/
+</script>
+<script>/*
+$('#sideAffix').width($('#sideAffix').width());
+$('#sideAffix').css('background-color','#fff');
+$('#sideAffix').affix({
+  offset: {
+    top: $('#sideAffix').offset().top+$('#sideAffix').height(),//数字自定义
+    bottom: function () {
+    	$('#sideAffix').css('top',$('header').height());//自定义//最后一个减多少是个补差，具体是一次次实验出来的--!//一开始下来时的高度
+        return (this.bottom = $('footer').outerHeight(true)+300 )//哪儿松开算哪儿了//如果还有内容可以早点松，具体怎么松要计算下下面的高度
+    }
+  }
+})*/
+</script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+[ 2015-11-11T04:55:23+08:00 ] 66.249.79.99 /xx/wap.php/Cstmusr/loginin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008685s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008881s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007648s ]
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003205s ]
+NOTIC: [8] Undefined index:  cstmusrnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 82 行.
+NOTIC: [8] Undefined index:  cstmusrpw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 83 行.
+NOTIC: [8] Undefined index:  rmb D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 84 行.
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='' ) LIMIT 1   [ RunTime:0.000354s ]
+
+[ 2015-11-11T07:11:38+08:00 ] 66.249.74.68 /xx/wap.php/Atc/appendatc/bdid/20
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008106s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008266s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007465s ]
+NOTIC: [8] Undefined index:  pg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\AtcAction.class.php 第 577 行.
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003680s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.002627s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\AtcAction.class.php 第 588 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\AtcAction.class.php 第 593 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\AtcAction.class.php 第 598 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=20 ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000139s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp`,`atccv`,`atczn`,`atctc`,`atccnt` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=20) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000132s ]
+SQL: SELECT * FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=20) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 10,1   [ RunTime:0.000438s ]
+NOTIC: [8] Undefined variable: htmltxt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\AtcAction.class.php 第 699 行.
+
+[ 2015-11-11T07:15:24+08:00 ] 66.249.79.101 /xx/wap.php/Atc/appendatc/bdid/15
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008194s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+NOTIC: [8] Undefined index:  pg D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\AtcAction.class.php 第 577 行.
+SQL: SHOW COLUMNS FROM `tb_atc` [ RunTime:0.003034s ]
+SQL: SHOW COLUMNS FROM `tb_bd` [ RunTime:0.003097s ]
+NOTIC: [8] Undefined index:  atcanc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\AtcAction.class.php 第 588 行.
+NOTIC: [8] Undefined index:  atcdnmc D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\AtcAction.class.php 第 593 行.
+NOTIC: [8] Undefined index:  atckw D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\AtcAction.class.php 第 598 行.
+SQL: SELECT * FROM `tb_bd` WHERE ( bdid=15 ) LIMIT 1   [ RunTime:0.000383s ]
+SQL: SELECT * FROM `tb_bd` ORDER BY bdodr ASC  [ RunTime:0.000134s ]
+SQL: SELECT `atcid`,`atctpc`,`atcmdftm`,`atctp`,`atccv`,`atczn`,`atctc`,`atccnt` FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=15) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 0,10   [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `tb_cstmcmt` [ RunTime:0.002759s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_cstmcmt` WHERE ( f_cstmcmt_atcid=20 ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SELECT * FROM `tb_atc` WHERE ( atcps=1 AND atcvw=1 AND atcnw=0 AND (f_atc_bdid=15) ) ORDER BY atctp DESC,atcmdftm DESC LIMIT 10,1   [ RunTime:0.000406s ]
+NOTIC: [8] Undefined variable: htmltxt D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\AtcAction.class.php 第 675 行.
+
+[ 2015-11-11T21:52:12+08:00 ] 66.249.74.72 /xx/wap.php/Cstmusr/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008101s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007516s ]
+NOTIC: [8] Undefined index:  cstmusrnm D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 254 行.
+NOTIC: [8] Undefined index:  cstmusrml D:\Program Files\Apache Software Foundation\Apache2.2\htdocs\xx\wap\Lib\Action\CstmusrAction.class.php 第 255 行.
+SQL: SHOW COLUMNS FROM `tb_cstmusr` [ RunTime:0.003247s ]
+SQL: SELECT * FROM `tb_cstmusr` WHERE ( cstmusrnm='' ) LIMIT 1   [ RunTime:0.000596s ]
+

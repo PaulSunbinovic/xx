@@ -1,0 +1,50 @@
+[ 2015-10-21T12:18:23+08:00 ] 10.50.10.149 /xx/tcr.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007627s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066044s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007128s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007209s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006905s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028936s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007480s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007596s ]
+
+[ 2015-10-21T18:54:18+08:00 ] 42.156.137.66 /xx/tcr.php/Tcr/gtxpg/x/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008145s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007485s ]
+SQL: SHOW COLUMNS FROM `tb_tcr` [ RunTime:0.003342s ]
+SQL: SELECT * FROM `tb_tcr` WHERE ( tcrid= ) LIMIT 1   [ RunTime:0.000409s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_tcr` WHERE ( tcrid= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tb_md` [ RunTime:0.002157s ]
+SQL: SELECT * FROM `tb_md` WHERE ( mdmk='Tcr' ) LIMIT 1   [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `tb_tcrbtn` [ RunTime:0.002701s ]
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='lft' ) LIMIT 1   [ RunTime:0.000580s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND tcrbtnnm='lft' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='lft' ) LIMIT 1  
+SQL: SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='bs' ) LIMIT 1   [ RunTime:0.000150s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND tcrbtnnm='bs' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_tcrbtn` WHERE ( f_tcrbtn_tcrid= AND tcrbtnnm='bs' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061311s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008072s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008184s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007823s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032867s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007816s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007941s ]
+
