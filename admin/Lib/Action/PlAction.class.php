@@ -435,7 +435,7 @@ class PlAction extends Action{
 			$wherecls=$wherecls.' AND f_cls_grdid='.$_POST['f_std_grdid'];
 			
 		}
-		$clsls=$cls->join('tb_stt ON f_cls_sttid=sttid')->where($wherecls)->order('clsnm ASC')->select();
+		$clsls=$cls->join('tb_stt ON f_cls_sttid=sttid')->where($wherecls.' AND clsactvt=1')->order('clsnm ASC')->select();
 		$clsoptu="<option value=''>无</option>";
 		foreach ($clsls as $v){
 			$clsoptu=$clsoptu."<option value='".$v['clsid']."'>[".$v['sttnm'].']'.$v['clsnm']."</option>";

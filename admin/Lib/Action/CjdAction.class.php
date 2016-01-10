@@ -358,7 +358,7 @@ class CjdAction extends Action{
     		
     	}else if(preg_match('/自考/', $stdo['bxxsnm'])){
     		//期末成绩
-    		$qsh=8;$hg=19;$zh=12;$bthg=18;$btzh=12;$zdhs=6;//最大行数
+    		$qsh=8;$hg=19;$zh=12;$bthg=18;$btzh=12;if(count($cjzxlszk)){$zdhs=6;}else{$zdhs=9;}//最大行数
     		if($zdhs<count($cjzxlsfzk)){
     			$zdhs=count($cjzxlsfzk);
     		}
@@ -521,179 +521,228 @@ class CjdAction extends Action{
     			$objActSheet->getRowDimension(''.$qsh+$i+2)->setRowHeight($hg);
     			 
     		}
-    		//参加国家统考
-    		$qsh=8+$zdhs+3;$hg=19;$zh=12;$bthg=18;$btzh=12;$zdhs=5;//最大行数
-    		if($zdhs<count($cjzxlszk)){
-    			$zdhs=count($cjzxlszk);
-    		}
-    		
-    		$sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
-    		$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,'本学期参加国家统考情况');
-    		$objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
-    		$objActSheet->getStyle('B'.$qsh)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-    		$objFont = $objActSheet->getStyle('B'.$qsh)->getFont();
-    		$objFont->setBold(true);
-    		$objFont->setName('楷体_GB2312');
-    		$objFont->setSize($btzh);
-    		$objFont->getColor()->setARGB('FF000000');
-    		$objActSheet->getRowDimension(''.$qsh)->setRowHeight($bthg);
-    		
-    		$sheet->setCellValueByColumnAndRow(1,($qsh+1),'序号');
-    		$objActSheet->getStyle('B'.($qsh+1))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-    		$objActSheet->getStyle('B'.($qsh+1))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-    		$objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.($qsh+1))->getBorders();
-    		$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-    		$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    		$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-    		$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    		$objFont = $objActSheet->getStyle('B'.($qsh+1))->getFont();
-    		$objFont->setName('楷体_GB2312');
-    		$objFont->setSize($zh);
-    		$objFont->getColor()->setARGB('FF000000');
-    		
-    		$sheet->setCellValueByColumnAndRow(2,($qsh+1),'课程名称');
-    		$objActSheet->getStyle('C'.($qsh+1))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-    		$objActSheet->getStyle('C'.($qsh+1))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-    		$objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.($qsh+1))->getBorders();
-    		$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-    		$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    		$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    		$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    		$objFont = $objActSheet->getStyle('C'.($qsh+1))->getFont();
-    		$objFont->setName('楷体_GB2312');
-    		$objFont->setSize($zh);
-    		$objFont->getColor()->setARGB('FF000000');
-    		
-    		$sheet->setCellValueByColumnAndRow(3,($qsh+1),'考试成绩');
-    		$objActSheet->getStyle('D'.($qsh+1))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-    		$objActSheet->getStyle('D'.($qsh+1))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-    		$objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.($qsh+1))->getBorders();
-    		$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-    		$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    		$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    		$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-    		$objFont = $objActSheet->getStyle('D'.($qsh+1))->getFont();
-    		$objFont->setName('楷体_GB2312');
-    		$objFont->setSize($zh);
-    		$objFont->getColor()->setARGB('FF000000');
-    		
-    		$objActSheet->getRowDimension(''.($qsh+1))->setRowHeight($hg);
-    		
-    		
-    		
-    		for($i=0;$i<count($cjzxlszk);$i++){
-    			 
-    			$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh+$i+2,$i+1);
-    			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-    			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.($qsh+$i+2))->getBorders();
-    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objFont = $objActSheet->getStyle('B'.($qsh+$i+2))->getFont();
-    			$objFont->setName('楷体_GB2312');
-    			$objFont->setSize($zh);
-    			$objFont->getColor()->setARGB('FF000000');
-    			 
-    			$sheet=$sheet->setCellValueByColumnAndRow(2,$qsh+$i+2,$cjzxlszk[$i]['kcnm']);
-    			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-    			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.($qsh+$i+2))->getBorders();
-    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objFont = $objActSheet->getStyle('C'.($qsh+$i+2))->getFont();
-    			$objFont->setName('楷体_GB2312');
-    			if(mb_strlen($cjzxlszk[$i]['kcnm'],'utf-8')<11){
-    				$objFont->setSize($zh);
-    			}else{
-    				$objFont->setSize('10');
-    			}
-    			$objFont->getColor()->setARGB('FF000000');
-    			 
-    			if(is_numeric($cjzxlszk[$i]['cjzxzf'])&&$cjzxlszk[$i]['cjzxzf']<60){
-    				$cjzxlszk[$i]['cjzxzf']='未通过';
-    			}
-    			$sheet=$sheet->setCellValueByColumnAndRow(3,$qsh+$i+2,$cjzxlszk[$i]['cjzxzf']);
-    			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-    			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.($qsh+$i+2))->getBorders();
-    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-    			$objFont = $objActSheet->getStyle('D'.($qsh+$i+2))->getFont();
-    			$objFont->setName('楷体_GB2312');
-    			$objFont->setSize($zh);
-    			$objFont->getColor()->setARGB('FF000000');
-    			 
-    			$objActSheet->getRowDimension(''.$qsh+$i+2)->setRowHeight($hg);
-    			 
-    		}
-    		$k=$i;
-    		for($i=$k;$i<$zdhs;$i++){
-    			 
-    			$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh+$i+2,$i+1);
-    			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-    			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.($qsh+$i+2))->getBorders();
-    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			if($i==$zdhs-1){
-    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-    			}else{
-    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			}
-    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objFont = $objActSheet->getStyle('B'.($qsh+$i+2))->getFont();
-    			$objFont->setName('楷体_GB2312');
-    			$objFont->setSize($zh);
-    			$objFont->getColor()->setARGB('FF000000');
-    			 
-    			$sheet=$sheet->setCellValueByColumnAndRow(2,$qsh+$i+2,'');
-    			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-    			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.($qsh+$i+2))->getBorders();
-    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			if($i==$zdhs-1){
-    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-    			}else{
-    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			}
-    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objFont = $objActSheet->getStyle('C'.($qsh+$i+2))->getFont();
-    			$objFont->setName('楷体_GB2312');
-    			$objFont->setSize($zh);
-    			$objFont->getColor()->setARGB('FF000000');
-    			 
-    			$sheet=$sheet->setCellValueByColumnAndRow(3,$qsh+$i+2,'');
-    			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-    			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.($qsh+$i+2))->getBorders();
-    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			if($i==$zdhs-1){
-    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-    			}else{
-    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			}
-    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-    			$objFont = $objActSheet->getStyle('D'.($qsh+$i+2))->getFont();
-    			$objFont->setName('楷体_GB2312');
-    			$objFont->setSize($zh);
-    			$objFont->getColor()->setARGB('FF000000');
-    			 
-    			$objActSheet->getRowDimension(''.$qsh+$i+2)->setRowHeight($hg);
-    			 
-    		}
+            if(count($cjzxlszk)){
+        		//参加国家统考
+        		$qsh=8+$zdhs+3;$hg=19;$zh=12;$bthg=18;$btzh=12;$zdhs=4;//最大行数
+        		if($zdhs<count($cjzxlszk)){
+        			$zdhs=count($cjzxlszk);
+        		}
+        		
+        		$sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
+        		$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,'本学期参加国家统考情况');
+        		$objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
+        		$objActSheet->getStyle('B'.$qsh)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+        		$objFont = $objActSheet->getStyle('B'.$qsh)->getFont();
+        		$objFont->setBold(true);
+        		$objFont->setName('楷体_GB2312');
+        		$objFont->setSize($btzh);
+        		$objFont->getColor()->setARGB('FF000000');
+        		$objActSheet->getRowDimension(''.$qsh)->setRowHeight($bthg);
+        		
+        		$sheet->setCellValueByColumnAndRow(1,($qsh+1),'序号');
+        		$objActSheet->getStyle('B'.($qsh+1))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+        		$objActSheet->getStyle('B'.($qsh+1))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+        		$objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.($qsh+1))->getBorders();
+        		$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        		$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        		$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        		$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        		$objFont = $objActSheet->getStyle('B'.($qsh+1))->getFont();
+        		$objFont->setName('楷体_GB2312');
+        		$objFont->setSize($zh);
+        		$objFont->getColor()->setARGB('FF000000');
+        		
+        		$sheet->setCellValueByColumnAndRow(2,($qsh+1),'课程名称');
+        		$objActSheet->getStyle('C'.($qsh+1))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+        		$objActSheet->getStyle('C'.($qsh+1))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+        		$objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.($qsh+1))->getBorders();
+        		$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        		$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        		$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        		$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        		$objFont = $objActSheet->getStyle('C'.($qsh+1))->getFont();
+        		$objFont->setName('楷体_GB2312');
+        		$objFont->setSize($zh);
+        		$objFont->getColor()->setARGB('FF000000');
+        		
+        		$sheet->setCellValueByColumnAndRow(3,($qsh+1),'考试成绩');
+        		$objActSheet->getStyle('D'.($qsh+1))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+        		$objActSheet->getStyle('D'.($qsh+1))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+        		$objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.($qsh+1))->getBorders();
+        		$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        		$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        		$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        		$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        		$objFont = $objActSheet->getStyle('D'.($qsh+1))->getFont();
+        		$objFont->setName('楷体_GB2312');
+        		$objFont->setSize($zh);
+        		$objFont->getColor()->setARGB('FF000000');
+        		
+        		$objActSheet->getRowDimension(''.($qsh+1))->setRowHeight($hg);
+        		
+        		
+        		
+        		for($i=0;$i<count($cjzxlszk);$i++){
+        			 
+        			$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh+$i+2,$i+1);
+        			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+        			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+        			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.($qsh+$i+2))->getBorders();
+        			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objFont = $objActSheet->getStyle('B'.($qsh+$i+2))->getFont();
+        			$objFont->setName('楷体_GB2312');
+        			$objFont->setSize($zh);
+        			$objFont->getColor()->setARGB('FF000000');
+        			 
+        			$sheet=$sheet->setCellValueByColumnAndRow(2,$qsh+$i+2,$cjzxlszk[$i]['kcnm']);
+        			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+        			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+        			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.($qsh+$i+2))->getBorders();
+        			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objFont = $objActSheet->getStyle('C'.($qsh+$i+2))->getFont();
+        			$objFont->setName('楷体_GB2312');
+        			if(mb_strlen($cjzxlszk[$i]['kcnm'],'utf-8')<11){
+        				$objFont->setSize($zh);
+        			}else{
+        				$objFont->setSize('10');
+        			}
+        			$objFont->getColor()->setARGB('FF000000');
+        			 
+        			if(is_numeric($cjzxlszk[$i]['cjzxzf'])&&$cjzxlszk[$i]['cjzxzf']<60){
+        				$cjzxlszk[$i]['cjzxzf']='未通过';
+        			}
+        			$sheet=$sheet->setCellValueByColumnAndRow(3,$qsh+$i+2,$cjzxlszk[$i]['cjzxzf']);
+        			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+        			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+        			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.($qsh+$i+2))->getBorders();
+        			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        			$objFont = $objActSheet->getStyle('D'.($qsh+$i+2))->getFont();
+        			$objFont->setName('楷体_GB2312');
+        			$objFont->setSize($zh);
+        			$objFont->getColor()->setARGB('FF000000');
+        			 
+        			$objActSheet->getRowDimension(''.$qsh+$i+2)->setRowHeight($hg);
+        			 
+        		}
+        		$k=$i;
+        		for($i=$k;$i<$zdhs;$i++){
+        			 
+        			$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh+$i+2,$i+1);
+        			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+        			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+        			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.($qsh+$i+2))->getBorders();
+        			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			if($i==$zdhs-1){
+        				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        			}else{
+        				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			}
+        			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objFont = $objActSheet->getStyle('B'.($qsh+$i+2))->getFont();
+        			$objFont->setName('楷体_GB2312');
+        			$objFont->setSize($zh);
+        			$objFont->getColor()->setARGB('FF000000');
+        			 
+        			$sheet=$sheet->setCellValueByColumnAndRow(2,$qsh+$i+2,'');
+        			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+        			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+        			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.($qsh+$i+2))->getBorders();
+        			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			if($i==$zdhs-1){
+        				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        			}else{
+        				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			}
+        			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objFont = $objActSheet->getStyle('C'.($qsh+$i+2))->getFont();
+        			$objFont->setName('楷体_GB2312');
+        			$objFont->setSize($zh);
+        			$objFont->getColor()->setARGB('FF000000');
+        			 
+        			$sheet=$sheet->setCellValueByColumnAndRow(3,$qsh+$i+2,'');
+        			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+        			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+        			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.($qsh+$i+2))->getBorders();
+        			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			if($i==$zdhs-1){
+        				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        			}else{
+        				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			}
+        			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+        			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        			$objFont = $objActSheet->getStyle('D'.($qsh+$i+2))->getFont();
+        			$objFont->setName('楷体_GB2312');
+        			$objFont->setSize($zh);
+        			$objFont->getColor()->setARGB('FF000000');
+        			 
+        			$objActSheet->getRowDimension(''.$qsh+$i+2)->setRowHeight($hg);
+        			 
+        		}
+            }
     	}
+    	#################查看成考成绩有就显示，没有就不显示
+        $ck=D('Ck');
+        $cj=$ck->getckcj($stdid,$grdo['grdnm'],'2015');
+        if($cj!='notkaoshi'){
+            //---------标题
+            $qsh=$qsh+$i+3;$hg=19;$zh=12;$bthg=20;$btzh=12;
+            // $sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
+            // $sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,'成考成绩');
+            // $objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
+            // $objActSheet->getStyle('B'.$qsh)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+            // $objFont = $objActSheet->getStyle('B'.$qsh)->getFont();
+            // $objFont->setBold(true);
+            // $objFont->setName('楷体_GB2312');
+            // $objFont->setSize($btzh);
+            // $objFont->getColor()->setARGB('FF000000');
+            // $objActSheet->getRowDimension(''.$qsh)->setRowHeight($bthg);
+            //--------正文
+            $qsh=$qsh++;
+            $sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
+            $sheet->setCellValueByColumnAndRow(1,$qsh,'成考成绩：'.$cj);
+            $objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
+            $objActSheet->getStyle('B'.$qsh)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+            $objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.$qsh)->getBorders();
+            $objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+            //$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+            $objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+            $objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+            $objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+            $objFont = $objActSheet->getStyle('B'.$qsh)->getFont();
+            $objFont->setBold(true);
+            $objFont->setName('楷体_GB2312');
+            $objFont->setSize($zh);
+            $objFont->getColor()->setARGB('FF000000');
+            $objActSheet->getRowDimension(''.$qsh)->setRowHeight($hg);
+            //B1 D1
+            $objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.$qsh)->getBorders();
+            $objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+            $objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+            $objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.$qsh)->getBorders();
+            $objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+            $objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+            $objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.$qsh)->getBorders();
+            $objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+            $objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+            $objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+        }else{
+            $qsh=$qsh+$i+1;
+        }
     	
     	
-    	
-		$qsh=$qsh+$i+3;$hg=19;$zh=12;$bthg=20;$btzh=12;
+		$qsh=$qsh+2;$hg=19;$zh=12;$bthg=20;$btzh=12;
     	$sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
     	$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,$smj.'时间：');
     	$objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
@@ -1452,7 +1501,7 @@ class CjdAction extends Action{
 	    		
 	    	}else if(preg_match('/自考/', $stdo['bxxsnm'])){
 	    		//期末成绩
-	    		$qsh=28*$iforcnt+8;$hg=19;$zh=12;$bthg=18;$btzh=12;$zdhs=6;//最大行数
+	    		$qsh=28*$iforcnt+8;$hg=19;$zh=12;$bthg=18;$btzh=12;if(count($cjzxlszk)){$zdhs=6;}else{$zdhs=9;}//最大行数
 	    		if($zdhs<count($cjzxlsfzk)){
 	    			$zdhs=count($cjzxlsfzk);
 	    		}
@@ -1615,179 +1664,228 @@ class CjdAction extends Action{
 	    			$objActSheet->getRowDimension(''.$qsh+$i+2)->setRowHeight($hg);
 	    			 
 	    		}
+                if(count($cjzxlszk)){
 	    		//参加国家统考
-	    		$qsh=28*$iforcnt+8+$zdhs+3;$hg=19;$zh=12;$bthg=18;$btzh=12;$zdhs=5;//最大行数
-	    		if($zdhs<count($cjzxlszk)){
-	    			$zdhs=count($cjzxlszk);
-	    		}
-	    		
-	    		$sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
-	    		$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,'本学期参加国家统考情况');
-	    		$objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
-	    		$objActSheet->getStyle('B'.$qsh)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-	    		$objFont = $objActSheet->getStyle('B'.$qsh)->getFont();
-	    		$objFont->setBold(true);
-	    		$objFont->setName('楷体_GB2312');
-	    		$objFont->setSize($btzh);
-	    		$objFont->getColor()->setARGB('FF000000');
-	    		$objActSheet->getRowDimension(''.$qsh)->setRowHeight($bthg);
-	    		
-	    		$sheet->setCellValueByColumnAndRow(1,($qsh+1),'序号');
-	    		$objActSheet->getStyle('B'.($qsh+1))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-	    		$objActSheet->getStyle('B'.($qsh+1))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-	    		$objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.($qsh+1))->getBorders();
-	    		$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-	    		$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    		$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-	    		$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    		$objFont = $objActSheet->getStyle('B'.($qsh+1))->getFont();
-	    		$objFont->setName('楷体_GB2312');
-	    		$objFont->setSize($zh);
-	    		$objFont->getColor()->setARGB('FF000000');
-	    		
-	    		$sheet->setCellValueByColumnAndRow(2,($qsh+1),'课程名称');
-	    		$objActSheet->getStyle('C'.($qsh+1))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-	    		$objActSheet->getStyle('C'.($qsh+1))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-	    		$objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.($qsh+1))->getBorders();
-	    		$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-	    		$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    		$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    		$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    		$objFont = $objActSheet->getStyle('C'.($qsh+1))->getFont();
-	    		$objFont->setName('楷体_GB2312');
-	    		$objFont->setSize($zh);
-	    		$objFont->getColor()->setARGB('FF000000');
-	    		
-	    		$sheet->setCellValueByColumnAndRow(3,($qsh+1),'考试成绩');
-	    		$objActSheet->getStyle('D'.($qsh+1))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-	    		$objActSheet->getStyle('D'.($qsh+1))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-	    		$objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.($qsh+1))->getBorders();
-	    		$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-	    		$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    		$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    		$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-	    		$objFont = $objActSheet->getStyle('D'.($qsh+1))->getFont();
-	    		$objFont->setName('楷体_GB2312');
-	    		$objFont->setSize($zh);
-	    		$objFont->getColor()->setARGB('FF000000');
-	    		
-	    		$objActSheet->getRowDimension(''.($qsh+1))->setRowHeight($hg);
-	    		
-	    		
-	    		
-	    		for($i=0;$i<count($cjzxlszk);$i++){
-	    			 
-	    			$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh+$i+2,$i+1);
-	    			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-	    			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-	    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.($qsh+$i+2))->getBorders();
-	    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-	    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objFont = $objActSheet->getStyle('B'.($qsh+$i+2))->getFont();
-	    			$objFont->setName('楷体_GB2312');
-	    			$objFont->setSize($zh);
-	    			$objFont->getColor()->setARGB('FF000000');
-	    			 
-	    			$sheet=$sheet->setCellValueByColumnAndRow(2,$qsh+$i+2,$cjzxlszk[$i]['kcnm']);
-	    			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-	    			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-	    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.($qsh+$i+2))->getBorders();
-	    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objFont = $objActSheet->getStyle('C'.($qsh+$i+2))->getFont();
-	    			$objFont->setName('楷体_GB2312');
-	    			if(mb_strlen($cjzxlszk[$i]['kcnm'],'utf-8')<11){
-	    				$objFont->setSize($zh);
-	    			}else{
-	    				$objFont->setSize('10');
-	    			}
-	    			$objFont->getColor()->setARGB('FF000000');
-	    			 
-	    			if(is_numeric($cjzxlszk[$i]['cjzxzf'])&&$cjzxlszk[$i]['cjzxzf']<60){
-	    				$cjzxlszk[$i]['cjzxzf']='未通过';
-	    			}
-	    			$sheet=$sheet->setCellValueByColumnAndRow(3,$qsh+$i+2,$cjzxlszk[$i]['cjzxzf']);
-	    			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-	    			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-	    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.($qsh+$i+2))->getBorders();
-	    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-	    			$objFont = $objActSheet->getStyle('D'.($qsh+$i+2))->getFont();
-	    			$objFont->setName('楷体_GB2312');
-	    			$objFont->setSize($zh);
-	    			$objFont->getColor()->setARGB('FF000000');
-	    			 
-	    			$objActSheet->getRowDimension(''.$qsh+$i+2)->setRowHeight($hg);
-	    			 
-	    		}
-	    		$k=$i;
-	    		for($i=$k;$i<$zdhs;$i++){
-	    			 
-	    			$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh+$i+2,$i+1);
-	    			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-	    			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-	    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.($qsh+$i+2))->getBorders();
-	    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			if($i==$zdhs-1){
-	    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-	    			}else{
-	    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			}
-	    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-	    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objFont = $objActSheet->getStyle('B'.($qsh+$i+2))->getFont();
-	    			$objFont->setName('楷体_GB2312');
-	    			$objFont->setSize($zh);
-	    			$objFont->getColor()->setARGB('FF000000');
-	    			 
-	    			$sheet=$sheet->setCellValueByColumnAndRow(2,$qsh+$i+2,'');
-	    			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-	    			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-	    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.($qsh+$i+2))->getBorders();
-	    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			if($i==$zdhs-1){
-	    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-	    			}else{
-	    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			}
-	    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objFont = $objActSheet->getStyle('C'.($qsh+$i+2))->getFont();
-	    			$objFont->setName('楷体_GB2312');
-	    			$objFont->setSize($zh);
-	    			$objFont->getColor()->setARGB('FF000000');
-	    			 
-	    			$sheet=$sheet->setCellValueByColumnAndRow(3,$qsh+$i+2,'');
-	    			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-	    			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
-	    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.($qsh+$i+2))->getBorders();
-	    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			if($i==$zdhs-1){
-	    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-	    			}else{
-	    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			}
-	    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
-	    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
-	    			$objFont = $objActSheet->getStyle('D'.($qsh+$i+2))->getFont();
-	    			$objFont->setName('楷体_GB2312');
-	    			$objFont->setSize($zh);
-	    			$objFont->getColor()->setARGB('FF000000');
-	    			 
-	    			$objActSheet->getRowDimension(''.$qsh+$i+2)->setRowHeight($hg);
-	    			 
-	    		}
+    	    		$qsh=28*$iforcnt+8+$zdhs+3;$hg=19;$zh=12;$bthg=18;$btzh=12;$zdhs=5;//最大行数
+    	    		if($zdhs<count($cjzxlszk)){
+    	    			$zdhs=count($cjzxlszk);
+    	    		}
+    	    		
+    	    		$sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
+    	    		$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,'本学期参加国家统考情况');
+    	    		$objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
+    	    		$objActSheet->getStyle('B'.$qsh)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+    	    		$objFont = $objActSheet->getStyle('B'.$qsh)->getFont();
+    	    		$objFont->setBold(true);
+    	    		$objFont->setName('楷体_GB2312');
+    	    		$objFont->setSize($btzh);
+    	    		$objFont->getColor()->setARGB('FF000000');
+    	    		$objActSheet->getRowDimension(''.$qsh)->setRowHeight($bthg);
+    	    		
+    	    		$sheet->setCellValueByColumnAndRow(1,($qsh+1),'序号');
+    	    		$objActSheet->getStyle('B'.($qsh+1))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+    	    		$objActSheet->getStyle('B'.($qsh+1))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+    	    		$objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.($qsh+1))->getBorders();
+    	    		$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+    	    		$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    		$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+    	    		$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    		$objFont = $objActSheet->getStyle('B'.($qsh+1))->getFont();
+    	    		$objFont->setName('楷体_GB2312');
+    	    		$objFont->setSize($zh);
+    	    		$objFont->getColor()->setARGB('FF000000');
+    	    		
+    	    		$sheet->setCellValueByColumnAndRow(2,($qsh+1),'课程名称');
+    	    		$objActSheet->getStyle('C'.($qsh+1))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+    	    		$objActSheet->getStyle('C'.($qsh+1))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+    	    		$objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.($qsh+1))->getBorders();
+    	    		$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+    	    		$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    		$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    		$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    		$objFont = $objActSheet->getStyle('C'.($qsh+1))->getFont();
+    	    		$objFont->setName('楷体_GB2312');
+    	    		$objFont->setSize($zh);
+    	    		$objFont->getColor()->setARGB('FF000000');
+    	    		
+    	    		$sheet->setCellValueByColumnAndRow(3,($qsh+1),'考试成绩');
+    	    		$objActSheet->getStyle('D'.($qsh+1))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+    	    		$objActSheet->getStyle('D'.($qsh+1))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+    	    		$objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.($qsh+1))->getBorders();
+    	    		$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+    	    		$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    		$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    		$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+    	    		$objFont = $objActSheet->getStyle('D'.($qsh+1))->getFont();
+    	    		$objFont->setName('楷体_GB2312');
+    	    		$objFont->setSize($zh);
+    	    		$objFont->getColor()->setARGB('FF000000');
+    	    		
+    	    		$objActSheet->getRowDimension(''.($qsh+1))->setRowHeight($hg);
+    	    		
+    	    		
+    	    		
+    	    		for($i=0;$i<count($cjzxlszk);$i++){
+    	    			 
+    	    			$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh+$i+2,$i+1);
+    	    			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+    	    			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+    	    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.($qsh+$i+2))->getBorders();
+    	    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+    	    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objFont = $objActSheet->getStyle('B'.($qsh+$i+2))->getFont();
+    	    			$objFont->setName('楷体_GB2312');
+    	    			$objFont->setSize($zh);
+    	    			$objFont->getColor()->setARGB('FF000000');
+    	    			 
+    	    			$sheet=$sheet->setCellValueByColumnAndRow(2,$qsh+$i+2,$cjzxlszk[$i]['kcnm']);
+    	    			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+    	    			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+    	    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.($qsh+$i+2))->getBorders();
+    	    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objFont = $objActSheet->getStyle('C'.($qsh+$i+2))->getFont();
+    	    			$objFont->setName('楷体_GB2312');
+    	    			if(mb_strlen($cjzxlszk[$i]['kcnm'],'utf-8')<11){
+    	    				$objFont->setSize($zh);
+    	    			}else{
+    	    				$objFont->setSize('10');
+    	    			}
+    	    			$objFont->getColor()->setARGB('FF000000');
+    	    			 
+    	    			if(is_numeric($cjzxlszk[$i]['cjzxzf'])&&$cjzxlszk[$i]['cjzxzf']<60){
+    	    				$cjzxlszk[$i]['cjzxzf']='未通过';
+    	    			}
+    	    			$sheet=$sheet->setCellValueByColumnAndRow(3,$qsh+$i+2,$cjzxlszk[$i]['cjzxzf']);
+    	    			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+    	    			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+    	    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.($qsh+$i+2))->getBorders();
+    	    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+    	    			$objFont = $objActSheet->getStyle('D'.($qsh+$i+2))->getFont();
+    	    			$objFont->setName('楷体_GB2312');
+    	    			$objFont->setSize($zh);
+    	    			$objFont->getColor()->setARGB('FF000000');
+    	    			 
+    	    			$objActSheet->getRowDimension(''.$qsh+$i+2)->setRowHeight($hg);
+    	    			 
+    	    		}
+    	    		$k=$i;
+    	    		for($i=$k;$i<$zdhs;$i++){
+    	    			 
+    	    			$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh+$i+2,$i+1);
+    	    			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+    	    			$objActSheet->getStyle('B'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+    	    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.($qsh+$i+2))->getBorders();
+    	    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			if($i==$zdhs-1){
+    	    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+    	    			}else{
+    	    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			}
+    	    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+    	    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objFont = $objActSheet->getStyle('B'.($qsh+$i+2))->getFont();
+    	    			$objFont->setName('楷体_GB2312');
+    	    			$objFont->setSize($zh);
+    	    			$objFont->getColor()->setARGB('FF000000');
+    	    			 
+    	    			$sheet=$sheet->setCellValueByColumnAndRow(2,$qsh+$i+2,'');
+    	    			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+    	    			$objActSheet->getStyle('C'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+    	    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.($qsh+$i+2))->getBorders();
+    	    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			if($i==$zdhs-1){
+    	    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+    	    			}else{
+    	    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			}
+    	    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objFont = $objActSheet->getStyle('C'.($qsh+$i+2))->getFont();
+    	    			$objFont->setName('楷体_GB2312');
+    	    			$objFont->setSize($zh);
+    	    			$objFont->getColor()->setARGB('FF000000');
+    	    			 
+    	    			$sheet=$sheet->setCellValueByColumnAndRow(3,$qsh+$i+2,'');
+    	    			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+    	    			$objActSheet->getStyle('D'.($qsh+$i+2))->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+    	    			$objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.($qsh+$i+2))->getBorders();
+    	    			$objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			if($i==$zdhs-1){
+    	    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+    	    			}else{
+    	    				$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			}
+    	    			$objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+    	    			$objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+    	    			$objFont = $objActSheet->getStyle('D'.($qsh+$i+2))->getFont();
+    	    			$objFont->setName('楷体_GB2312');
+    	    			$objFont->setSize($zh);
+    	    			$objFont->getColor()->setARGB('FF000000');
+    	    			 
+    	    			$objActSheet->getRowDimension(''.$qsh+$i+2)->setRowHeight($hg);
+    	    			 
+    	    		}
+                }
 	    	}
 	    	
+	    	#################查看成考成绩有就显示，没有就不显示
+            $ck=D('Ck');
+            $cj=$ck->getckcj($stdo['stdid'],$grdo['grdnm'],'2015');
+            if($cj!='notkaoshi'){
+                //---------标题
+                $qsh=$qsh+$i+3;$hg=19;$zh=12;$bthg=20;$btzh=12;
+                // $sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
+                // $sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,'成考成绩');
+                // $objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
+                // $objActSheet->getStyle('B'.$qsh)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+                // $objFont = $objActSheet->getStyle('B'.$qsh)->getFont();
+                // $objFont->setBold(true);
+                // $objFont->setName('楷体_GB2312');
+                // $objFont->setSize($btzh);
+                // $objFont->getColor()->setARGB('FF000000');
+                // $objActSheet->getRowDimension(''.$qsh)->setRowHeight($bthg);
+                //--------正文
+                $qsh=$qsh++;
+                $sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
+                $sheet->setCellValueByColumnAndRow(1,$qsh,'成考成绩：'.$cj);
+                $objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
+                $objActSheet->getStyle('B'.$qsh)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+                $objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.$qsh)->getBorders();
+                $objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+                //$objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THIN);
+                $objBorder->getLeft()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+                $objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+                $objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+                $objFont = $objActSheet->getStyle('B'.$qsh)->getFont();
+                $objFont->setBold(true);
+                $objFont->setName('楷体_GB2312');
+                $objFont->setSize($zh);
+                $objFont->getColor()->setARGB('FF000000');
+                $objActSheet->getRowDimension(''.$qsh)->setRowHeight($hg);
+                //B1 D1
+                $objBorder=$objPHPExcel->getActiveSheet()->getStyle('B'.$qsh)->getBorders();
+                $objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+                $objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+                $objBorder=$objPHPExcel->getActiveSheet()->getStyle('C'.$qsh)->getBorders();
+                $objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+                $objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+                $objBorder=$objPHPExcel->getActiveSheet()->getStyle('D'.$qsh)->getBorders();
+                $objBorder->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+                $objBorder->getRight()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+                $objBorder->getBottom()->setBorderStyle(PHPExcel_Style_Border::BORDER_THICK);
+            }else{
+                $qsh=$qsh+$i+1;
+            }
 	    	
-	    	
-			$qsh=$qsh+$i+3;$hg=19;$zh=12;$bthg=20;$btzh=12;
+			$qsh=$qsh+2;$hg=19;$zh=12;$bthg=20;$btzh=12;
 	    	$sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
 	    	$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,$smj.'时间：');
 	    	$objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);

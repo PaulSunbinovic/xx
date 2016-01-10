@@ -196,5 +196,58 @@ class DealXLSAction extends Action {
     	$objWriter->save('php://output');
 
     }
+    ####
+    function importck(){
+        //显示为utf8
+        header("Content-Type: text/html;charset=utf-8");
+
+        $std=D('Std');
+        
+        import('@.ORG.PHPExcel');
+        //设定缓存模式为经gzip压缩后存入cache（PHPExcel导入导出及大量数据导入缓存方式的修改 ）
+        $cacheMethod = PHPExcel_CachedObjectStorageFactory::cache_in_memory_gzip;
+        $cacheSettings = array();
+        PHPExcel_Settings::setCacheStorageMethod($cacheMethod,$cacheSettings);
+        
+        $objPHPExcel = new PHPExcel();
+
+        #####################################
+         //读入上传文件
+        $inputXLS='XFile/kszmd.xls';
+        
+        //$objPHPExcel = PHPExcel_IOFactory::load($_FILES["inputExcel"]["tmp_name"]);
+        $objPHPExcel = PHPExcel_IOFactory::load($inputXLS);
+//          $reader = PHPExcel_IOFactory::createReader('Excel2007'); // 读取 excel 文件
+        
+//          $PHPExcel = PHPExcel_IOFactory::load("test.xls");
+        //内容转换为数组
+        $indata = $objPHPExcel->getSheet(0)->toArray();
+       //处理数据
+        for($i=1;$i<count($indata);$i++){
+            $bmo=$indata[$i];
+            $std->adddbtbck($bmo);
+           
+        }
+        #######################
+        p('#########################');
+        ###########################################
+        //读入上传文件
+        $inputXLS='XFile/zhishuban.xls';
+        
+        //$objPHPExcel = PHPExcel_IOFactory::load($_FILES["inputExcel"]["tmp_name"]);
+        $objPHPExcel = PHPExcel_IOFactory::load($inputXLS);
+//          $reader = PHPExcel_IOFactory::createReader('Excel2007'); // 读取 excel 文件
+        
+//          $PHPExcel = PHPExcel_IOFactory::load("test.xls");
+        //内容转换为数组
+        $indata = $objPHPExcel->getSheet(0)->toArray();
+        //处理数据
+        for($i=1;$i<count($indata);$i++){
+            $ckcjo=$indata[$i];
+            $std->mdfdbtbck($ckcjo);
+           
+        }
+    }
    
+
 }
