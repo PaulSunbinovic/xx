@@ -343,7 +343,7 @@ class PlAction extends Action{
 			}
 		}
 		//之前已经确定过到底是看哪个年级
-		$where=$where.' AND f_cls_grdid='.$grdid;
+		$where=$where.' AND f_cls_grdid='.$grdid.' AND clsactvt=1';
 		$cls=M($grdo['grdnm'].'_cls');
 		$clsls=$cls->join('tb_stt ON f_cls_sttid=sttid')->where($where)->order('clsnm ASC')->select();
 		$this->assign('clsls',$clsls);

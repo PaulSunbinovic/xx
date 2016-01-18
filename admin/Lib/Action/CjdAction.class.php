@@ -770,7 +770,7 @@ class CjdAction extends Action{
     	
     	$qsh=$qsh+1;$hg=19;$zh=12;$bthg=20;$btzh=12;
     	$sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
-    	$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,$jqo['jqljc'].'报到注册，领教材、课表');
+    	$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,$jqo['jqljc'].'报到注册，领教材、课表。');
     	$objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
     	$objActSheet->getStyle('B'.$qsh)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
     	$objFont = $objActSheet->getStyle('B'.$qsh)->getFont();
@@ -779,6 +779,18 @@ class CjdAction extends Action{
     	$objFont->setSize($btzh);
     	$objFont->getColor()->setARGB('FF000000');
     	$objActSheet->getRowDimension(''.$qsh)->setRowHeight($hg);
+
+        $qsh=$qsh+1;$hg=19;$zh=12;$bthg=20;$btzh=12;
+        $sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
+        $sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,'3月7日正式上课。');
+        $objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
+        $objActSheet->getStyle('B'.$qsh)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+        $objFont = $objActSheet->getStyle('B'.$qsh)->getFont();
+        //$objFont->setBold(true);
+        $objFont->setName('楷体_GB2312');
+        $objFont->setSize($btzh);
+        $objFont->getColor()->setARGB('FF000000');
+        $objActSheet->getRowDimension(''.$qsh)->setRowHeight($hg);
     	
 		//右半边
     	
@@ -1913,7 +1925,7 @@ class CjdAction extends Action{
 	    	
 	    	$qsh=$qsh+1;$hg=19;$zh=12;$bthg=20;$btzh=12;
 	    	$sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
-	    	$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,$jqo['jqljc'].'报到注册，领教材、课表');
+	    	$sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,$jqo['jqljc'].'报到注册，领教材、课表。');
 	    	$objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
 	    	$objActSheet->getStyle('B'.$qsh)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
 	    	$objFont = $objActSheet->getStyle('B'.$qsh)->getFont();
@@ -1922,6 +1934,18 @@ class CjdAction extends Action{
 	    	$objFont->setSize($btzh);
 	    	$objFont->getColor()->setARGB('FF000000');
 	    	$objActSheet->getRowDimension(''.$qsh)->setRowHeight($hg);
+
+            $qsh=$qsh+1;$hg=19;$zh=12;$bthg=20;$btzh=12;
+            $sheet->mergeCells("B".$qsh.':'.'D'.$qsh);
+            $sheet=$sheet->setCellValueByColumnAndRow(1,$qsh,'3月7日正式上课。');
+            $objActSheet->getStyle('B'.$qsh)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_LEFT);
+            $objActSheet->getStyle('B'.$qsh)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+            $objFont = $objActSheet->getStyle('B'.$qsh)->getFont();
+            //$objFont->setBold(true);
+            $objFont->setName('楷体_GB2312');
+            $objFont->setSize($btzh);
+            $objFont->getColor()->setARGB('FF000000');
+            $objActSheet->getRowDimension(''.$qsh)->setRowHeight($hg);
 	    	
 			//右半边
 	    	
