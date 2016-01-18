@@ -6,7 +6,7 @@ class CjzxAction extends Action{
 	
 	
 	function gtxpg(){
-		
+		header("Content-Type:text/html; charset=utf-8");
 
 		//先给hd设置好些东西，他自身是无法提取的
 		import('@.SS.SSAction');
@@ -192,7 +192,7 @@ class CjzxAction extends Action{
 				
 				$pk=M($v['grdnm'].'_pk');
 				$pkls=$pk->join('tb_'.$v['grdnm'].'_kc ON f_pk_kcid=kcid')->where('f_pk_grdid='.$v['grdid'].' AND f_pk_sttid='.$tcro['f_tcr_sttid'].' AND f_pk_xqid='.$xqo['xqid'].' AND f_pk_tcrid='.$tcro['tcrid'])->select();
-				
+				p($pkls);die;
 				if(!$pkls){continue;}
 				$pklsfn=array();
 				foreach($pkls as $u){

@@ -588,7 +588,7 @@ class CjzxAction extends Action{
 						'cjzxbkf'=>$_POST['cjzxbkf-'.$rfru[$i]],
 						'cjzxsftj'=>1,
 				);
-			}else if(trim($_POST['cjzxqmf-'.$rfru[$i]])==''||$_POST['cjzxqmf-'.$rfru[$i]]=='0'||$_POST['cjzxqmf-'.$rfru[$i]]=='缺考'){
+			}else if(trim($_POST['cjzxqmf-'.$rfru[$i]])==''||$_POST['cjzxqmf-'.$rfru[$i]]=='缺考'){
 				$data=array(
 						'cjzxqmf'=>$_POST['cjzxqmf-'.$rfru[$i]],
 						'cjzxpsf'=>$_POST['cjzxpsf-'.$rfru[$i]],
