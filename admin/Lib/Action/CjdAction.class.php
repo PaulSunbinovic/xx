@@ -1668,7 +1668,7 @@ class CjdAction extends Action{
 	    		}
                 if(count($cjzxlszk)){
 	    		//参加国家统考
-    	    		$qsh=28*$iforcnt+8+$zdhs+3;$hg=19;$zh=12;$bthg=18;$btzh=12;$zdhs=5;//最大行数
+    	    		$qsh=28*$iforcnt+8+$zdhs+3;$hg=19;$zh=12;$bthg=18;$btzh=12;$zdhs=4;//最大行数
     	    		if($zdhs<count($cjzxlszk)){
     	    			$zdhs=count($cjzxlszk);
     	    		}
