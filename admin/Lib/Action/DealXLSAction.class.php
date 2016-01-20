@@ -248,6 +248,142 @@ class DealXLSAction extends Action {
            
         }
     }
-   
+    ####
+    function importtest(){
+        //显示为utf8
+        header("Content-Type: text/html;charset=utf-8");
+        //品德成绩
+        $pdmap=array('2015'=>'6','2014'=>'55','2013'=>'58');
+
+        $std=D('Std');
+        
+        import('@.ORG.PHPExcel');
+        //设定缓存模式为经gzip压缩后存入cache（PHPExcel导入导出及大量数据导入缓存方式的修改 ）
+        $cacheMethod = PHPExcel_CachedObjectStorageFactory::cache_in_memory_gzip;
+        $cacheSettings = array();
+        PHPExcel_Settings::setCacheStorageMethod($cacheMethod,$cacheSettings);
+        
+        $objPHPExcel = new PHPExcel();
+
+        #####################################
+         //读入上传文件
+        $inputXLS='XFile/pdcj.xls';
+        
+        //$objPHPExcel = PHPExcel_IOFactory::load($_FILES["inputExcel"]["tmp_name"]);
+        $objPHPExcel = PHPExcel_IOFactory::load($inputXLS);
+//          $reader = PHPExcel_IOFactory::createReader('Excel2007'); // 读取 excel 文件
+        
+//          $PHPExcel = PHPExcel_IOFactory::load("test.xls");
+        //内容转换为数组
+        $indata = $objPHPExcel->getSheet(0)->toArray();
+       //处理数据
+        for($i=1;$i<count($indata);$i++){
+            $pdcjo=$indata[$i];
+            $stdno=trim($pdcjo[0]);$stdnm=trim($pdcjo[1]);
+            $rlst=0;
+            for($j=0;$j<3;$j++){
+                $yr=2013+$j;
+                $std=M($yr.'_std');
+                $stdo=$std->where("stdno='".$stdno."'")->find();//p(json_encode($stdo,JSON_UNESCAPED_UNICODE));
+                if($stdo){//p($stdo);p($stdnm);die;
+                    if($stdo['stdnm']==$stdnm){
+                        //有没有选上课//如果选上//应该就是这门课程了
+                        $kcid=$pdmap[$yr];$pk=M($yr.'_pk');$pko=$pk->where('f_pk_kcid='.$kcid)->find();
+                        $pkid=$pko['pkid'];
+                        $cjzx=M($yr.'_cjzx');
+                        $cjzxo=$cjzx->where('f_cjzx_pkid='.$pkid.' AND f_cjzx_stdid='.$stdo['stdid'])->find();
+                        if($cjzxo){$rslt=1;}else{$rslt=3;}
+                       
+                    }else{
+                        $rslt=2;
+                    }
+                    break;
+                }else{
+                    continue;
+                }
+
+            }
+            if($rslt==0){$str='查无此人：'.json_encode($pdcjo,JSON_UNESCAPED_UNICODE);}
+            if($rslt==2){$str='姓名对不上：'.json_encode($pdcjo,JSON_UNESCAPED_UNICODE);}
+            if($rslt==3){$str='没选上课：'.json_encode($pdcjo,JSON_UNESCAPED_UNICODE);}
+            if($rslt!=1){p('---------------------------');p($str);}
+           
+        }
+        #######################
+        
+        ###########################################
+        
+    }
+
+    ####
+    function importpush(){
+        //显示为utf8
+        header("Content-Type: text/html;charset=utf-8");
+        //品德成绩
+        $pdmap=array('2015'=>'6','2014'=>'55','2013'=>'58');
+
+        $std=D('Std');
+        
+        import('@.ORG.PHPExcel');
+        //设定缓存模式为经gzip压缩后存入cache（PHPExcel导入导出及大量数据导入缓存方式的修改 ）
+        $cacheMethod = PHPExcel_CachedObjectStorageFactory::cache_in_memory_gzip;
+        $cacheSettings = array();
+        PHPExcel_Settings::setCacheStorageMethod($cacheMethod,$cacheSettings);
+        
+        $objPHPExcel = new PHPExcel();
+
+        #####################################
+         //读入上传文件
+        $inputXLS='XFile/pdcj.xls';
+        
+        //$objPHPExcel = PHPExcel_IOFactory::load($_FILES["inputExcel"]["tmp_name"]);
+        $objPHPExcel = PHPExcel_IOFactory::load($inputXLS);
+//          $reader = PHPExcel_IOFactory::createReader('Excel2007'); // 读取 excel 文件
+        
+//          $PHPExcel = PHPExcel_IOFactory::load("test.xls");
+        //内容转换为数组
+        $indata = $objPHPExcel->getSheet(0)->toArray();
+       //处理数据
+        for($i=1;$i<count($indata);$i++){
+            $pdcjo=$indata[$i];
+            $stdno=trim($pdcjo[0]);$stdnm=trim($pdcjo[1]);$cj=trim($pdcjo[2]);
+            $rlst=0;
+            for($j=0;$j<3;$j++){
+                $yr=2013+$j;
+                $std=M($yr.'_std');
+                $stdo=$std->where("stdno='".$stdno."'")->find();//p(json_encode($stdo,JSON_UNESCAPED_UNICODE));
+                if($stdo){//p($stdo);p($stdnm);die;
+                    if($stdo['stdnm']==$stdnm){
+                        //有没有选上课//如果选上//应该就是这门课程了
+                        $kcid=$pdmap[$yr];$pk=M($yr.'_pk');$pko=$pk->where('f_pk_kcid='.$kcid)->find();
+                        $pkid=$pko['pkid'];
+                        $cjzx=M($yr.'_cjzx');
+                        $cjzxo=$cjzx->where('f_cjzx_pkid='.$pkid.' AND f_cjzx_stdid='.$stdo['stdid'])->find();
+                        if($cjzxo){
+                            $rslt=1;
+                            $data=array('cjzxzf'=>$cj,'cjzxsftj'=>1);
+                            $cjzx->where('cjzxid='.$cjzxo['cjzxid'])->setField($data);
+                        }else{$rslt=3;}
+                       
+                    }else{
+                        $rslt=2;
+                    }
+                    break;
+                }else{
+                    continue;
+                }
+
+            }
+            if($rslt==0){$str='查无此人：'.json_encode($pdcjo,JSON_UNESCAPED_UNICODE);}
+            if($rslt==2){$str='姓名对不上：'.json_encode($pdcjo,JSON_UNESCAPED_UNICODE);}
+            if($rslt==3){$str='没选上课：'.json_encode($pdcjo,JSON_UNESCAPED_UNICODE);}
+            if($rslt!=1){p('---------------------------');p($str);}
+           
+        }
+        #######################
+        
+        ###########################################
+        
+    }
 
 }
